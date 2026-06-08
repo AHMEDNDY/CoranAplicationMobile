@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuranApp.Views.QuranPage"
+             BackgroundColor="#FFFCE7">
+
+    <VerticalStackLayout Padding="10">
+
+        <SearchBar x:Name="SearchBar"
+                   Placeholder="searchQuran"
+                   />
+
+        <CollectionView x:Name="SurahListView"
+                ItemsSource="{Binding SurahJsonData}"
+                SelectionMode="Single"
+               >
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="5" BackgroundColor="White" CornerRadius="8">
+
+                        <VerticalStackLayout>
+
+                            <Label Text="{Binding EnglishName}"
+                                   FontSize="18"
+                                   FontAttributes="Bold"/>
+
+                            <Label Text="{Binding EnglishNameTranslation}"
+                                   FontSize="14"
+                                   TextColor="Gray"/>
+
+                            <HorizontalStackLayout Spacing="10">
+                                <Label Text="{Binding NumberOfAyahs}"
+                                       FontSize="14"
+                                       TextColor="DarkGreen"/>
+
+                                <Label Text="{Binding Name}"
+                                       FontSize="18"
+                                       HorizontalOptions="EndAndExpand"
+                                       FontFamily="UthmanicWarsh" />
+                            </HorizontalStackLayout>
+
+                        </VerticalStackLayout>
+
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+        </CollectionView>
+
+    </VerticalStackLayout>
+
+</ContentPage>

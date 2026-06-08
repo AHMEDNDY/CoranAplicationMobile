@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CoranWarshSynchroniser.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CoranWarshSynchroniser.Views"
+    Title="CoranWarshSynchroniser">
+
+    <!--<ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:SouratesPage}"
+        Route="MainPage" />
+    <ShellContent
+    Route="QuranReaderPage"
+    ContentTemplate="{DataTemplate local:QuranReaderPage}" />-->
+    <TabBar >
+        <!--<ShellContent
+  Title="الملف الشخصي"
+  Icon="users.png"
+  ContentTemplate="{DataTemplate views:ProfilePage}"
+  Route="ProfilPage"
+  />-->
+        <ShellContent
+       Title="القرآن"
+       Icon="kaaba.png"
+       ContentTemplate="{DataTemplate local:SouratesPage}"
+       Route="SouratesPage"
+       />
+        <ShellContent
+   Title="الفئات"
+   Icon="category.png"
+   ContentTemplate="{DataTemplate local:QuranPage}"
+   Route="CategoryPage" />
+        <ShellContent
+        Title="المساهمين"
+        Icon="contributor.png"
+        ContentTemplate="{DataTemplate local:QuranReaderPage}"
+        Route="QuranReaderPage" />
+
+    </TabBar>
+
+
+</Shell>

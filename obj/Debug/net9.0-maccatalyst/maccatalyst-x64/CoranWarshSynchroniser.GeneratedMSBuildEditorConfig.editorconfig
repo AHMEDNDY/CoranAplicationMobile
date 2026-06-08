@@ -1,0 +1,85 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net9.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CoranWarshSynchroniser
+build_property.ProjectDir = C:\Users\AHMED\Desktop\MushavWarsh\CoranWarshSynchroniser\Coran\CoranWarshSynchroniser\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/Resources/Styles/MushafTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.Resources.Styles.MushafTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\MushafTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\MushafTheme.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/Views/MyHomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.Views.MyHomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MyHomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MyHomePage.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/Views/QuranPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.Views.QuranPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\QuranPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\QuranPage.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/Views/QuranReaderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.Views.QuranReaderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\QuranReaderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\QuranReaderPage.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/Views/QuranViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.Views.QuranViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\QuranViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\QuranViewPage.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/Views/ReaderSourat.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.Views.ReaderSourat.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ReaderSourat.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ReaderSourat.xaml
+
+[C:/Users/AHMED/Desktop/MushavWarsh/CoranWarshSynchroniser/Coran/CoranWarshSynchroniser/Views/SouratesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CoranWarshSynchroniser.Views.SouratesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SouratesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SouratesPage.xaml
