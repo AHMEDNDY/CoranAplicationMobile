@@ -1,0 +1,8 @@
+# Build outputs
+bin/
+obj/
+
+# Gros fichiers audio/PDF
+Resources/Raw/Audio/*.mp3
+*.pdf
+*.apk
