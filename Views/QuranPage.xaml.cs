@@ -11,19 +11,6 @@ public partial class QuranPage : ContentPage
     { 
         SurahJsonData = suraJsonData; 
         Content = new VerticalStackLayout { Children = { new Label { Text = "Quran Page", FontSize = 24 } } }; }
-
-    //private void OnSearchTextChanged(object sender, TextChangedEventArgs e)
-    //{
-    //    string keyword = e.NewTextValue?.ToLower() ?? "";
-
-    //    SurahListView.ItemsSource = _originalList
-    //        .Where(s =>
-    //            s.EnglishName.ToLower().Contains(keyword) ||
-    //            s.EnglishNameTranslation.ToLower().Contains(keyword) ||
-    //            s.Name.Contains(keyword))
-    //        .ToList();
-    //}
-
     private async void OnSurahSelected(object sender, SelectionChangedEventArgs e)
     {
         if (e.CurrentSelection.FirstOrDefault() is Surah selected)

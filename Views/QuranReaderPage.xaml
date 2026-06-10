@@ -14,9 +14,10 @@
         <ResourceDictionary>
             <local:BoolToColorConverter x:Key="BoolToColorConverter" />
             <local:IconConverter x:Key="IconConverter" />
+            <local:BoolToOpacityConverter x:Key="BoolToOpacityConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
-
+   
     <Grid RowDefinitions="Auto, *, Auto" Padding="20">
 
         <!-- ══════════════════════════════════════════ -->
@@ -258,7 +259,9 @@
                 Grid.Column="1"
                 Command="{Binding NextSurahCommand}"
                 ImageSource="next.png"
-                BackgroundColor="Transparent" />
+                BackgroundColor="Transparent"
+                IsEnabled="{Binding CanGoNext}"
+                Opacity="{Binding CanGoNext, Converter={StaticResource BoolToOpacityConverter}}" /> 
             <Button
               Grid.Column="0"
               Command="{Binding NextSurahCommand}"

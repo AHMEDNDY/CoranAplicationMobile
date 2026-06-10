@@ -1,4 +1,5 @@
 using CoranWarshSynchroniser.Models;
+using CoranWarshSynchroniser.Services;
 using CoranWarshSynchroniser.ViewModels;
 
 namespace CoranWarshSynchroniser.Views;
@@ -8,14 +9,8 @@ public partial class SouratesPage : ContentPage
 	public SouratesPage()
 	{
 		InitializeComponent();
-        BindingContext = new SouratesViewModel();
+        BindingContext = new SouratesViewModel(new SurahService());
     }
-    private void OnSearchTextChanged(object sender, TextChangedEventArgs e)
-    {
-        if (BindingContext is SouratesViewModel viewModel)
-        {
-            viewModel.FilterSourates(e.NewTextValue);
-        }
-    }
+    
     
 }

@@ -1,98 +1,230 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:CoranWarshSynchroniser.ViewModels"
              xmlns:local="clr-namespace:CoranWarshSynchroniser.Converters"
-             xmlns:viewmodel="clr-namespace:CoranWarshSynchroniser.ViewModels"
+             xmlns:models="clr-namespace:CoranWarshSynchroniser.Models"
              x:Class="CoranWarshSynchroniser.Views.SouratesPage"
+             Shell.NavBarIsVisible="False"
              FlowDirection="RightToLeft"
-             BackgroundColor="#F7F7F7"
-             Title="SouratesPageffff">
+             BackgroundColor="#F5F3FF">
 
     <ContentPage.Resources>
         <ResourceDictionary>
             <local:IconConverter x:Key="IconConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
+    <ContentPage.BindingContext>
+        <vm:SouratesViewModel />
+    </ContentPage.BindingContext>
 
-    <CollectionView 
-        ItemsSource="{Binding FilteredSourates}"
-        SelectionMode="None">
+    <Grid RowDefinitions="Auto,*">
 
-        <!--SearchBar en header-->
-        <CollectionView.Header>
-            <SearchBar Placeholder="ابحث عن السورة"
-                       FontSize="16"
-                       FlowDirection="RightToLeft"
-                       TextColor="#1E1E1E"
-                       PlaceholderColor="#7A5A2E"
-                       BackgroundColor="White"
-                       SearchCommand="{Binding SearchCommand}"
-                       SearchCommandParameter="{Binding Text, Source={x:Reference SearchBarRef}}"
-                       x:Name="SearchBarRef"
-                       Margin="10,10,10,0"/>
-        </CollectionView.Header>
+        <!-- ══════════════ HEADER ══════════════ -->
+        <Grid Grid.Row="0"
+              RowDefinitions="Auto,Auto,Auto"
+              Padding="0,0,0,24">
+            <Grid.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#5B21B6" Offset="0.0"/>
+                    <GradientStop Color="#7C3AED" Offset="0.6"/>
+                    <GradientStop Color="#6D28D9" Offset="1.0"/>
+                </LinearGradientBrush>
+            </Grid.Background>
 
-        <CollectionView.ItemTemplate>
-            <DataTemplate>
-                <Frame CornerRadius="20"
-                       Padding="12"
-                       Margin="0,6"
-                       BorderColor="#7A5A2E"
-                       HasShadow="False"
-                       BackgroundColor="White">
+            <!-- Lune + titres -->
+            <VerticalStackLayout Grid.Row="0"
+                                 HorizontalOptions="Center"
+                                 Padding="0,44,0,0"
+                                 Spacing="4">
+                <Label Text="☽"
+                       FontSize="36"
+                       HorizontalOptions="Center"
+                       TextColor="White"/>
+                <Label Text="القرآن الكريم"
+                       FontSize="13"
+                       TextColor="#FFFFFFB2"
+                       HorizontalOptions="Center"
+                       CharacterSpacing="3"
+                       FontAttributes="Bold"/>
+                <Label Text="Le Saint Quran"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
 
-                    <Grid ColumnDefinitions="40,*,70"
-                          VerticalOptions="Center">
+            <!-- Barre de recherche -->
+            <Border Grid.Row="1"
+                    Margin="20,18,20,0"
+                    StrokeThickness="0"
+                    BackgroundColor="#26FFFFFF"
+                    StrokeShape="RoundRectangle 14">
+                <Grid ColumnDefinitions="*,Auto" Padding="16,0">
+                    <Entry Grid.Column="0"
+                           Placeholder="Rechercher une sourate..."
+                           PlaceholderColor="#FFFFFFA0"
+                           TextColor="White"
+                           BackgroundColor="Transparent"
+                           Text="{Binding SearchText}"
+                           FontSize="14"
+                           HeightRequest="48"
+                           VerticalOptions="Center"/>
+                    <Label Grid.Column="1"
+                           Text="🔍"
+                           FontSize="16"
+                           VerticalOptions="Center"
+                           TextColor="#FFFFFFA0"/>
+                </Grid>
+            </Border>
 
-                        <Grid.GestureRecognizers>
-                            <TapGestureRecognizer 
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:SouratesViewModel}}, Path=SelectSourateCommand}"
-                                CommandParameter="{Binding .}" />
-                        </Grid.GestureRecognizers>
+            <!-- Compteur de résultats -->
+            <Label Grid.Row="2"
+                   Margin="24,10,0,0"
+                   TextColor="#FFFFFFB2"
+                   FontSize="12">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="{Binding Surahs.Count}"
+                              FontAttributes="Bold"
+                              TextColor="White"/>
+                        <Span Text=" sourates"/>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
 
-                        <!--Icône-->
-                        <Image Grid.Column="2"
+        <!-- ══════════════ LISTE ══════════════ -->
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Surahs}"
+                        Margin="0,4,0,0"
+                        SelectionMode="None">
+
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical" ItemSpacing="0"/>
+            </CollectionView.ItemsLayout>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Sourate">
+                    <Grid Padding="16,6">
+
+                        <!-- Carte -->
+                        <Border BackgroundColor="White"
+                                StrokeThickness="1.5"
+                                Stroke="#EDE9FE"
+                                StrokeShape="RoundRectangle 16"
+                                Padding="0">
+                            <Border.Shadow>
+                                <Shadow Brush="#5A3CA0"
+                                        Offset="0,3"
+                                        Radius="8"
+                                        Opacity="0.08"/>
+                            </Border.Shadow>
+
+                            <Grid ColumnDefinitions="4,64,*,Auto"
+                                  Padding="0,14,16,14">
+
+                                <!-- Barre accent gauche -->
+                                <BoxView Grid.Column="0"
+                                         CornerRadius="4,0,0,4">
+                                    <BoxView.Background>
+                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                                            <GradientStop Color="#7C3AED" Offset="0"/>
+                                            <GradientStop Color="#A78BFA" Offset="1"/>
+                                        </LinearGradientBrush>
+                                    </BoxView.Background>
+                                </BoxView>
+
+                                <!-- Badge numéro -->
+                                <Border Grid.Column="1"
+                                        Margin="10,0"
+                                        BackgroundColor="#F5F3FF"
+                                        Stroke="#7C3AED"
+                                        StrokeThickness="2"
+                                        StrokeShape="RoundRectangle 10"
+                                        WidthRequest="46"
+                                        HeightRequest="46"
+                                        HorizontalOptions="Center"
+                                        VerticalOptions="Center">
+                                    <Label Text="{Binding Id}"
+                                           FontSize="15"
+                                           FontAttributes="Bold"
+                                           TextColor="#5B21B6"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+                                </Border>
+
+                                <!-- Nom + badges -->
+                                <VerticalStackLayout Grid.Column="2"
+                                                     VerticalOptions="Center"
+                                                     Spacing="5">
+                                    <Label Text="{Binding Name}"
+                                           FontSize="22"
+                                           FontAttributes="Bold"
+                                           FontFamily="UthmanicWarsh"
+                                           TextColor="#1E1033"/>
+                                    <HorizontalStackLayout Spacing="6">
+                                        <!-- Badge Makkah / Madinah -->
+                                        
+                                        <Label Text="•"
+                                               TextColor="#9CA3AF"
+                                               FontSize="12"
+                                               VerticalOptions="Center"/>
+                                        <!-- Nombre de versets -->
+                                        <Label FontSize="12"
+                                               TextColor="#6B7280"
+                                               VerticalOptions="Center">
+                                            <Label.FormattedText>
+                                                <FormattedString>
+                                                    <Span Text=" عدد آياتها"/>
+                                                    <Span Text="{Binding TotalVerses}"/>
+                                                    
+                                                </FormattedString>
+                                            </Label.FormattedText>
+                                        </Label>
+                                    </HorizontalStackLayout>
+                                </VerticalStackLayout>
+
+                                <!-- Nom arabe -->
+                                <!--<Label Grid.Column="3"
+                                       Text="{Binding Name}"
+                                       FontSize="22"
+                                       FontAttributes="Bold"
+                                       TextColor="#5B21B6"
+                                       VerticalOptions="Center"
+                                       HorizontalTextAlignment="End"
+                                       FlowDirection="RightToLeft"/>-->
+                                <Image Grid.Column="3"
                                HeightRequest="40"
                                WidthRequest="40"
                                Source="{Binding IsMecca, Converter={StaticResource IconConverter}}" />
+                            </Grid>
+                        </Border>
 
-                        <!--Texte-->
-                        <VerticalStackLayout Grid.Column="1"
-                                             Spacing="4">
-                            <Label Text="{Binding Name}"
-                                   FontSize="28"
-                                   FontAttributes="Bold"
-                                   FontFamily="UthmanicWarsh"
-                                   TextColor="#1E1E1E" />
-
-                            <Label Text="{Binding TotalVerses, StringFormat='عدد آياتها {0}'}"
-                                   FontSize="16"
-                                   FontAttributes="Bold"
-                                   FontFamily="UthmanicWarsh"
-                                   TextColor="#7A5A2E" />
-                        </VerticalStackLayout>
-
-                        <!--Numéro-->
-                        <Frame Grid.Column="0"
-                               HeightRequest="40"
-                               WidthRequest="40"
-                               CornerRadius="20"
-                               Padding="0"
-                               BackgroundColor="#099ffc"
-                               HorizontalOptions="Center"
-                               VerticalOptions="Center">
-
-                            <Label Text="{Binding Id}"
-                                   TextColor="Black"
-                                   FontAttributes="Bold"
-                                   FontSize="14"
-                                   HorizontalTextAlignment="Center"
-                                   VerticalTextAlignment="Center" />
-                        </Frame>
-
+                        <!-- Geste tap sur la carte -->
+                        <Grid.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SouratesViewModel}},
+                                                  Path=SurahTappedCommand}"
+                                CommandParameter="{Binding .}"/>
+                        </Grid.GestureRecognizers>
                     </Grid>
-                </Frame>
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-    </CollectionView>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+
+            <!-- Vue vide -->
+            <CollectionView.EmptyView>
+                <VerticalStackLayout HorizontalOptions="Center"
+                                     VerticalOptions="Center"
+                                     Padding="0,60"
+                                     Spacing="12">
+                    <Label Text="🔍" FontSize="40" HorizontalOptions="Center"/>
+                    <Label Text="Aucune sourate trouvée"
+                           FontSize="16"
+                           TextColor="#9CA3AF"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </CollectionView.EmptyView>
+        </CollectionView>
+    </Grid>
 </ContentPage>

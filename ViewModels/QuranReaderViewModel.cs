@@ -18,6 +18,7 @@ namespace CoranWarshSynchroniser.ViewModels
 
         #region Attributes
 
+        public bool CanGoNext => _currentSurahNumber < 114;
 
         private string _name;
         private string _name_english;
@@ -154,9 +155,64 @@ namespace CoranWarshSynchroniser.ViewModels
             }
         }
 
+        public async Task LoadSurah()
+        {
+            using var stream = await FileSystem.OpenAppPackageFileAsync("surahs.json");
+            using var reader = new StreamReader(stream);
+            var json = await reader.ReadToEndAsync();
+            SurahJsonData = new ObservableCollection<Surah>(
+                    JsonConvert.DeserializeObject<List<Surah>>(json)
+                    .Where(a => a.SuraNo == CurrentSurahNumber)
+                    .OrderBy(a => a.AyaNo)
+                    .ToList()
+                );
+
+            _currentAyah = SurahJsonData.First();
+            Name = _currentAyah.SuraNameAr;
+            NameEnglish = _currentAyah.SuraNameEn;
+            Totalverse = _currentAyah.TotalVerses;
+            IsMecca = _currentAyah.IsMecca;
 
 
-     
+
+            foreach (var ayah in SurahJsonData)
+            {
+                ayah.ShowTranslation = true;
+                var span = new Span
+                {
+                    Text = ayah.AyaText,
+                    FontFamily = "UthmanicWarsh",
+                    FontSize = 20,
+                    TextColor = Colors.Black
+                };
+                var tap = new TapGestureRecognizer()
+                {
+                    Command = TapCommand,
+                    CommandParameter = ayah.AyaNo
+                };
+
+                span.GestureRecognizers.Add(tap);
+
+                ayah.Translation = ayah.Translation ?? "";
+
+            }
+
+
+        }
+
+        public async Task LoadSurahAsync(int surahNumber)
+        {
+
+            string audioFile = $"Audio/{surahNumber:D3}.mp3";
+
+            await _audioService.LoadSurahAudioAsync(audioFile);
+        }
+
+
+        #endregion Public Methods
+
+        #region Private Methods
+
         private void HighlightAyah(int index)
         {
             MainThread.BeginInvokeOnMainThread(() =>
@@ -190,10 +246,6 @@ namespace CoranWarshSynchroniser.ViewModels
                 _indexCurrentColoredAyah = index;
             });
         }
-
-        #endregion // end Public Methods
-
-        #region Commands Handlers
 
         private async Task PlayCommandHandler()
         {
@@ -236,16 +288,12 @@ namespace CoranWarshSynchroniser.ViewModels
 
         }
 
-   
-
         private async Task PreviousSurahCommandHandler()
         {
             if (_audioService.IsPlaying())
                 _audioService.Stop();
 
-            if (_currentSurahNumber == 1)
-                _currentSurahNumber = 144;
-            else
+            if (_currentSurahNumber > 1)
                 _currentSurahNumber--;
 
             await LoadSurah();
@@ -259,19 +307,20 @@ namespace CoranWarshSynchroniser.ViewModels
         }
         private async Task NextSurahCommandHandler()
         {
-            // Arrêter l'audio en cours
             if (_audioService.IsPlaying())
                 _audioService.Stop();
 
-            if (_currentSurahNumber == 144)
-                _currentSurahNumber = 1;
-            else
-                _currentSurahNumber++;
+            if (_currentSurahNumber >= 114) // sécurité
+                return;
+
+            _currentSurahNumber++;
 
             await LoadSurah();
             LoadSurahAsync(CurrentSurahNumber);
 
-            // Remettre l'UI en état "arrêté"
+            // Notifier le changement des boutons
+            OnPropertyChanged(nameof(CanGoNext));
+
             MainThread.BeginInvokeOnMainThread(() =>
             {
                 IsPlayVisible = true;
@@ -315,56 +364,6 @@ namespace CoranWarshSynchroniser.ViewModels
             });
         }
 
-        #endregion
-
-
-        #region Private Methods
-
-        public async Task LoadSurah()
-        {
-            using var stream = await FileSystem.OpenAppPackageFileAsync("surahs.json");
-            using var reader = new StreamReader(stream);
-            var json = await reader.ReadToEndAsync();
-            SurahJsonData = new ObservableCollection<Surah>(
-                    JsonConvert.DeserializeObject<List<Surah>>(json)
-                    .Where(a => a.SuraNo == CurrentSurahNumber)
-                    .OrderBy(a => a.AyaNo)
-                    .ToList()
-                );
-
-            _currentAyah = SurahJsonData.First();
-            Name = _currentAyah.SuraNameAr;
-            NameEnglish = _currentAyah.SuraNameEn;
-            Totalverse = _currentAyah.TotalVerses;
-            IsMecca = _currentAyah.IsMecca;
-
-         
-
-            foreach (var ayah in SurahJsonData)
-            {
-                ayah.ShowTranslation = true;
-                var span = new Span
-                {
-                    Text = ayah.AyaText,
-                    FontFamily = "UthmanicWarsh",
-                    FontSize = 20,
-                    TextColor = Colors.Black
-                };
-                var tap = new TapGestureRecognizer()
-                {
-                    Command = TapCommand,
-                    CommandParameter = ayah.AyaNo
-                };
-
-                span.GestureRecognizers.Add(tap);
-                
-                ayah.Translation = ayah.Translation ?? "";
-
-            }
-
-    
-        }
-
         private void OnAyahChanged(int index)
         {
             MainThread.BeginInvokeOnMainThread(async () =>
@@ -394,14 +393,6 @@ namespace CoranWarshSynchroniser.ViewModels
                 ScrollToSpanRequested?.Invoke(index - 1);
             });
         }
-        public async Task LoadSurahAsync(int surahNumber)
-        {
-
-            string audioFile = $"Audio/{surahNumber:D3}.mp3";
-           
-            await _audioService.LoadSurahAudioAsync(audioFile);
-        }
-
 
         #endregion // end Private Methods
     }

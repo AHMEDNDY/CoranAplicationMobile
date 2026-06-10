@@ -22,7 +22,7 @@
   />-->
         <ShellContent
        Title="القرآن"
-       Icon="kaaba.png"
+       Icon="quranapp.png"
        ContentTemplate="{DataTemplate local:SouratesPage}"
        Route="SouratesPage"
        />
@@ -33,7 +33,7 @@
    Route="CategoryPage" />
         <ShellContent
         Title="المساهمين"
-        Icon="contributor.png"
+        Icon="tasbih.png"
         ContentTemplate="{DataTemplate local:QuranReaderPage}"
         Route="QuranReaderPage" />
 

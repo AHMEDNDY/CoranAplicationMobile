@@ -53,6 +53,8 @@ namespace CoranWarshSynchroniser.Models
             }
         }
 
+        public string OriginIcon => IsMecca ? "mecca.png" : "medina.png";
+
         public string NumberBackgroundColor => IsMecca ? "#000000" : "#228B22";
         [JsonProperty("verses")]
         public List<Verse> Verses { get; set; }
