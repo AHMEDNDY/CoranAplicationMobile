@@ -19,6 +19,7 @@ namespace CoranWarshSynchroniser.ViewModels
         #region Attributes
 
         public bool CanGoNext => _currentSurahNumber < 114;
+        public bool IsLoading { get; set; }
 
         private string _name;
         private string _name_english;
@@ -157,6 +158,8 @@ namespace CoranWarshSynchroniser.ViewModels
 
         public async Task LoadSurah()
         {
+            IsLoading = true;
+            OnPropertyChanged(nameof(IsLoading));
             using var stream = await FileSystem.OpenAppPackageFileAsync("surahs.json");
             using var reader = new StreamReader(stream);
             var json = await reader.ReadToEndAsync();
@@ -197,7 +200,8 @@ namespace CoranWarshSynchroniser.ViewModels
 
             }
 
-
+            IsLoading = false;
+            OnPropertyChanged(nameof(IsLoading));
         }
 
         public async Task LoadSurahAsync(int surahNumber)

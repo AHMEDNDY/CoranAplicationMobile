@@ -1,6 +1,7 @@
 ﻿using CoranWarshSynchroniser.Models;
 using CoranWarshSynchroniser.Services;
 using MvvmHelpers;
+using Newtonsoft.Json;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Input;
@@ -79,12 +80,16 @@ namespace CoranWarshSynchroniser.ViewModels
             }
         }
 
+       
+
         public SouratesViewModel()
         {
 
         }
         public SouratesViewModel(SurahService service)
         {
+            
+
             _service = service;
             _surahs = new ObservableCollection<Sourate>(_service.GetAll());
             SurahTappedCommand = new Command<Sourate>(OnSurahTapped);
@@ -111,6 +116,7 @@ namespace CoranWarshSynchroniser.ViewModels
         {
             if (surah is null)
                 return;
+
             await Shell.Current.GoToAsync(
                 nameof(Views.QuranReaderPage),
                 new Dictionary<string, object>

@@ -37,21 +37,10 @@
                                  HorizontalOptions="Center"
                                  Padding="0,44,0,0"
                                  Spacing="4">
-                <Label Text="☽"
-                       FontSize="36"
-                       HorizontalOptions="Center"
-                       TextColor="White"/>
-                <Label Text="القرآن الكريم"
-                       FontSize="13"
-                       TextColor="#FFFFFFB2"
-                       HorizontalOptions="Center"
-                       CharacterSpacing="3"
-                       FontAttributes="Bold"/>
-                <Label Text="Le Saint Quran"
-                       FontSize="24"
-                       FontAttributes="Bold"
-                       TextColor="White"
-                       HorizontalOptions="Center"/>
+                <Image Source="corantete.png"
+                       MaximumHeightRequest="100"
+                       />
+               
             </VerticalStackLayout>
 
             <!-- Barre de recherche -->
@@ -129,8 +118,8 @@
                                          CornerRadius="4,0,0,4">
                                     <BoxView.Background>
                                         <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                                            <GradientStop Color="#7C3AED" Offset="0"/>
-                                            <GradientStop Color="#A78BFA" Offset="1"/>
+                                            <GradientStop Color="{Binding NumberBackgroundColor}" Offset="0"/>
+                                            <GradientStop Color="{Binding NumberBackgroundColor}" Offset="1"/>
                                         </LinearGradientBrush>
                                     </BoxView.Background>
                                 </BoxView>
