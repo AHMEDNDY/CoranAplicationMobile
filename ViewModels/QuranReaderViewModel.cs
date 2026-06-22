@@ -359,7 +359,7 @@ namespace CoranWarshSynchroniser.ViewModels
 
             // Highlight + scroll
             HighlightAyah(ayaNo);
-            ScrollToSpanRequested?.Invoke(ayaNo - 1);
+            ScrollToSpanRequested?.Invoke(ayaNo+1);
 
             MainThread.BeginInvokeOnMainThread(() =>
             {
@@ -377,8 +377,8 @@ namespace CoranWarshSynchroniser.ViewModels
 
                 if (index > SurahJsonData.Count)
                 {
-                    await NextSurahCommandHandler();
-                    index = 1;
+                    IsPauseVisible = false;
+                    IsPlayVisible = true;
                 }
 
                 var ayah = SurahJsonData.FirstOrDefault(a => a.AyaNo == index);

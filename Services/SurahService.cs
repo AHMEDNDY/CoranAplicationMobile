@@ -1,6 +1,7 @@
 ﻿using CoranWarshSynchroniser.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -129,14 +130,43 @@ namespace CoranWarshSynchroniser.Services
             };
         public List<Sourate> GetAll() => _surahs;
 
+        //public List<Sourate> Search(string query)
+        //{
+        //    if (string.IsNullOrWhiteSpace(query))
+        //        return _surahs;
+
+        //    query = query.ToLowerInvariant();
+        //    return _surahs.Where(s =>
+        //        s.Name.ToLower().Contains(query)
+        //        ||
+        //        s.Id.ToString().Contains(query)).ToList();
+        //}
+
+        private static string RemoveDiacritics(string text)
+        {
+            if (string.IsNullOrEmpty(text)) return text;
+            var normalized = text.Normalize(NormalizationForm.FormD);
+            var sb = new StringBuilder();
+            foreach (var c in normalized)
+            {
+                var uc = CharUnicodeInfo.GetUnicodeCategory(c);
+                if (uc != UnicodeCategory.NonSpacingMark)
+                    sb.Append(c);
+            }
+            return sb.ToString().Normalize(NormalizationForm.FormC);
+        }
+
         public List<Sourate> Search(string query)
         {
             if (string.IsNullOrWhiteSpace(query))
                 return _surahs;
 
-            query = query.ToLowerInvariant();
+            var normalizedQuery = RemoveDiacritics(query.Trim().ToLowerInvariant());
+
             return _surahs.Where(s =>
-                s.Name.ToLower().Contains(query)).ToList();
+                RemoveDiacritics(s.Name.ToLowerInvariant()).Contains(normalizedQuery)
+                || s.Id.ToString().Contains(normalizedQuery)
+            ).ToList();
         }
     }
 }

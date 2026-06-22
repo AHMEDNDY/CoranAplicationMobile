@@ -10,8 +10,6 @@ namespace CoranWarshSynchroniser.ViewModels
 {
    public class SouratesViewModel : BaseViewModel
     {
-        private  ObservableCollection<Sourate> _allSourates;
-        private ObservableCollection<Sourate> _filteredSourates;
         private Sourate _selectedSourate;
         private string _searchText = string.Empty;
         private readonly SurahService _service;
@@ -70,22 +68,21 @@ namespace CoranWarshSynchroniser.ViewModels
         public ICommand SurahTappedCommand { get; }
         //public ICommand ActionCommand { get; }
         public ObservableCollection<Sourate> Sourates { get; set; }
-        public ObservableCollection<Sourate> FilteredSourates
+        //public ObservableCollection<Sourate> FilteredSourates
+        //{
+        //    get => _filteredSourates;
+        //    set
+        //    {
+        //        _filteredSourates = value;
+        //        OnPropertyChanged();
+        ////    }
+        //}
+
+        public SouratesViewModel() : this(new SurahService())
         {
-            get => _filteredSourates;
-            set
-            {
-                _filteredSourates = value;
-                OnPropertyChanged();
-            }
         }
 
        
-
-        public SouratesViewModel()
-        {
-
-        }
         public SouratesViewModel(SurahService service)
         {
             
@@ -107,7 +104,9 @@ namespace CoranWarshSynchroniser.ViewModels
         public ObservableCollection<Sourate> Surahs
         {
             get => _surahs;
-            set { _surahs = value; OnPropertyChanged(); }
+            set { _surahs = value; 
+                OnPropertyChanged();
+            }
         }
 
 

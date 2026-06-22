@@ -30,7 +30,7 @@ public partial class QuranReaderPage : ContentPage
 
             QuranCollection.ScrollTo(
                 index,
-                position: ScrollToPosition.Center,
+                position: ScrollToPosition.Start,
                 animate: true);
         });
     }

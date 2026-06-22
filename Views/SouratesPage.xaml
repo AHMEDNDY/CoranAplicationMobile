@@ -8,15 +8,15 @@
              Shell.NavBarIsVisible="False"
              FlowDirection="RightToLeft"
              BackgroundColor="#F5F3FF">
-
+    <ContentPage.BindingContext>
+        <vm:SouratesViewModel />
+    </ContentPage.BindingContext>
     <ContentPage.Resources>
         <ResourceDictionary>
             <local:IconConverter x:Key="IconConverter" />
         </ResourceDictionary>
     </ContentPage.Resources>
-    <ContentPage.BindingContext>
-        <vm:SouratesViewModel />
-    </ContentPage.BindingContext>
+
 
     <Grid RowDefinitions="Auto,*">
 
