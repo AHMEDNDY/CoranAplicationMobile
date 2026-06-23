@@ -10,6 +10,7 @@ namespace CoranWarshSynchroniser
         {
             InitializeComponent();
             Routing.RegisterRoute("QuranReaderPage", typeof(QuranReaderPage));
+            Routing.RegisterRoute("SouratesPage", typeof(SouratesPage));
         }
     }
 }

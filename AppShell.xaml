@@ -4,39 +4,35 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:CoranWarshSynchroniser.Views"
-    Title="CoranWarshSynchroniser">
+    Title="Liste Sourates"
+>
+    <Shell.Resources>
+        <ResourceDictionary>
+            <!-- Couleur des titres de la TabBar -->
+            <Style TargetType="ShellContent">
+                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="red"/>
+                <Setter Property="Shell.TabBarBackgroundColor" Value="#099ffc"/>
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
 
-    <!--<ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:SouratesPage}"
-        Route="MainPage" />
-    <ShellContent
-    Route="QuranReaderPage"
-    ContentTemplate="{DataTemplate local:QuranReaderPage}" />-->
-    <TabBar >
-        <!--<ShellContent
-  Title="الملف الشخصي"
-  Icon="users.png"
-  ContentTemplate="{DataTemplate views:ProfilePage}"
-  Route="ProfilPage"
-  />-->
+    <TabBar>
         <ShellContent
-       Title="القرآن"
-       Icon="quranapp.png"
-       ContentTemplate="{DataTemplate local:SouratesPage}"
-       Route="SouratesPage"
-       />
+            Title="القرآن"
+            Icon="quranapp.png"
+            ContentTemplate="{DataTemplate local:SouratesPage}"
+            Route="SouratesPage"/>
         <ShellContent
-   Title="الفئات"
-   Icon="category.png"
-   ContentTemplate="{DataTemplate local:QuranPage}"
-   Route="CategoryPage" />
+            Title="الفئات"
+            Icon="category.png"
+            ContentTemplate="{DataTemplate local:QuranPage}"
+            Route="CategoryPage"/>
         <ShellContent
-        Title="المساهمين"
-        Icon="tasbih.png"
-        ContentTemplate="{DataTemplate local:QuranReaderPage}"
-        Route="QuranReaderPage" />
-
+            Title="المساهمين"
+            Icon="tasbih.png"
+            ContentTemplate="{DataTemplate local:QuranReaderPage}"
+            Route="QuranReaderPage"/>
     </TabBar>
 
 

@@ -41,6 +41,7 @@ namespace CoranWarshSynchroniser.ViewModels
         public ICommand PlayCommand { get; }
         public ICommand PauseCommand { get; }
         public ICommand NextSurahCommand { get; }
+        public ICommand GotoPageListeCommand { get; }
         public ICommand PreviousSurahCommand { get; }
         public ICommand TapCommand { get; }
 
@@ -120,6 +121,7 @@ namespace CoranWarshSynchroniser.ViewModels
             PlayCommand = new Command(async () => await PlayCommandHandler());
             PauseCommand = new Command(() => PauseCommandHandler());
             NextSurahCommand = new Command(async () => await NextSurahCommandHandler());
+            GotoPageListeCommand = new Command(async () => await GotoList());
             PreviousSurahCommand = new Command(async () => await PreviousSurahCommandHandler());
             TapCommand = new Command((arg) => TapCommandHandler(arg));
             _syncTimer = Application.Current.Dispatcher.CreateTimer(); 
@@ -331,6 +333,15 @@ namespace CoranWarshSynchroniser.ViewModels
                 IsPauseVisible = false;
             });
         }
+
+        private async Task GotoList()
+        {
+            if (_audioService.IsPlaying())
+                _audioService.Stop();
+            await Shell.Current.GoToAsync("///SouratesPage");
+
+        }
+
         private async void TapCommandHandler(object arg)
         {
             if (arg == null)

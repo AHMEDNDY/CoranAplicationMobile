@@ -20,7 +20,7 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid RowDefinitions="Auto, *, Auto" Padding="20" >
+    <Grid RowDefinitions="Auto, *, Auto" Padding="0" >
 
         <!-- ══════════════════════════════════════════ -->
         <!--  HEADER FIXE (Row 0) – ne défile pas      -->
@@ -166,15 +166,6 @@
                                             FlowDirection="RightToLeft"
                                             LineHeight="1"
                                             Margin="0,10,0,0" />
-                                    <!--<Label
-                                    Text="{Binding AyaText}"
-                                    FontFamily="UthmanicWarsh"
-                                    FontSize="30"
-                                    TextColor="{Binding TextColor}"
-                                    HorizontalTextAlignment="Start"
-                                    FlowDirection="RightToLeft"
-                                    LineHeight="1" />-->
-
                                 </Frame>
 
                                 <!-- NUMERO -->
@@ -199,15 +190,6 @@
                                         LineHeight="1.4"
                                         Margin="0,5,0,0"
                                         IsVisible="{Binding ShowTranslation}" />
-                                <!--<Label
-                        Text="{Binding Translation}"
-                        FontSize="18"
-                        FontAttributes="Bold"
-                        TextColor="{Binding TranslationColor}"
-                        HorizontalTextAlignment="End"
-                        LineHeight="1.3"
-                        IsVisible="{Binding ShowTranslation}" />-->
-
                             </VerticalStackLayout>
 
                         </Frame>
@@ -263,24 +245,15 @@
                 ImageSource="next.png"
                 BackgroundColor="Transparent"
                 IsEnabled="{Binding CanGoNext}"
-                Opacity="{Binding CanGoNext, Converter={StaticResource BoolToOpacityConverter}}" /> 
+                Opacity="{Binding CanGoNext, Converter={StaticResource BoolToOpacityConverter}}" />
             <Button
               Grid.Column="0"
-              Command="{Binding NextSurahCommand}"
-              ImageSource="liste.png"
+              Command="{Binding GotoPageListeCommand}"
+              ImageSource="icon_liste.png"
               BackgroundColor="Transparent" />
-           
+
 
         </Grid>
-
-        <!-- Écran de chargement plein écran -->
-        <!--<Grid BackgroundColor="White"
-          IsVisible="{Binding IsLoading}">
-            <Image
-            Source="telechargement.gif"
-            HorizontalOptions="Center"
-            VerticalOptions="Center" />
-        </Grid>-->
         <Grid BackgroundColor="Transparent"
       IsVisible="{Binding IsLoading}"
       InputTransparent="False">

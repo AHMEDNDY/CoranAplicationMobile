@@ -21,6 +21,8 @@ public partial class QuranReaderPage : ContentPage
         BindingContext = _vm;
 
         _vm.ScrollToSpanRequested += ScrollToAyah;
+        Shell.SetNavBarIsVisible(this, false);
+        Shell.SetTabBarIsVisible(this, false);
     }
     private void ScrollToAyah(int index)
     {
