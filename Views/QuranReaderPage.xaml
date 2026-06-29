@@ -189,6 +189,7 @@
                                         HorizontalTextAlignment="Start"
                                         LineHeight="1.4"
                                         Margin="0,5,0,0"
+                                     FlowDirection="LeftToRight"
                                         IsVisible="{Binding ShowTranslation}" />
                             </VerticalStackLayout>
 

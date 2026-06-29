@@ -217,7 +217,7 @@
                                                VerticalOptions="Center">
                                             <Label.FormattedText>
                                                 <FormattedString>
-                                                    <Span Text=" عدد آياتها"/>
+                                                    <Span Text=" عدد آياتها "/>
                                                     <Span Text="{Binding TotalVerses}"/>
                                                     
                                                 </FormattedString>
