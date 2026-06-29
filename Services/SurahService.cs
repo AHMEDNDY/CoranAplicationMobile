@@ -102,7 +102,7 @@ namespace CoranWarshSynchroniser.Services
             new Sourate { Id = 88, Name = "سورة الغاشية", TotalVerses = 26, IsMecca = true },
             new Sourate { Id = 89, Name = "سورة الفجر", TotalVerses = 30, IsMecca = true },
             new Sourate { Id = 90, Name = "سورة البلد", TotalVerses = 20, IsMecca = true },
-            new Sourate { Id = 91, Name = "سورة الشمس", TotalVerses = 15, IsMecca = false },
+            new Sourate { Id = 91, Name = "سورة الشمس", TotalVerses = 15, IsMecca = true },
             new Sourate { Id = 92, Name = "سورة الليل", TotalVerses = 21, IsMecca = true },
             new Sourate { Id = 93, Name = "سورة الضحى", TotalVerses = 11, IsMecca = true },
             new Sourate { Id = 94, Name = "سُورَةُ اُ۬لشَّرْحِ", TotalVerses = 8, IsMecca = true },
@@ -167,6 +167,11 @@ namespace CoranWarshSynchroniser.Services
                 RemoveDiacritics(s.Name.ToLowerInvariant()).Contains(normalizedQuery)
                 || s.Id.ToString().Contains(normalizedQuery)
             ).ToList();
+        }
+
+        public List<Sourate> Mecca(bool mecca)
+        {
+            return _surahs.Where(s => s.IsMecca==mecca).ToList();
         }
     }
 }

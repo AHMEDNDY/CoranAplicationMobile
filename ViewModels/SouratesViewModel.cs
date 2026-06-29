@@ -2,6 +2,7 @@
 using CoranWarshSynchroniser.Services;
 using MvvmHelpers;
 using Newtonsoft.Json;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Input;
@@ -15,7 +16,10 @@ namespace CoranWarshSynchroniser.ViewModels
         private readonly SurahService _service;
         private ObservableCollection<Sourate> _surahs;
 
+        public ICommand MeccaCommand { get; }
+        public ICommand MedinaCommand { get; }
 
+        //public ObservableCollection<Sourate> Surahs { get; } = new();
 
         public string SearchText
         {
@@ -77,7 +81,29 @@ namespace CoranWarshSynchroniser.ViewModels
         //        OnPropertyChanged();
         ////    }
         //}
+        private Color _medinaButtonColor = Color.FromArgb("#4A90E2");
+        public Color MedinaButtonColor
+        {
+            get => _medinaButtonColor;
+            set
+            {
+                _medinaButtonColor = value;
+                OnPropertyChanged();
+            }
+        }
 
+        private Color _meccaButtonColor = Color.FromArgb("#4A90E2");
+        public Color MeccaButtonColor
+        {
+            get => _meccaButtonColor;
+            set
+            {
+                _meccaButtonColor = value;
+                OnPropertyChanged();
+            }
+        }
+
+        void OnPropertyChanged(string name) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         public SouratesViewModel() : this(new SurahService())
         {
         }
@@ -85,21 +111,39 @@ namespace CoranWarshSynchroniser.ViewModels
        
         public SouratesViewModel(SurahService service)
         {
-            
-
             _service = service;
             _surahs = new ObservableCollection<Sourate>(_service.GetAll());
             SurahTappedCommand = new Command<Sourate>(OnSurahTapped);
+            MedinaCommand = new Command(() =>
+            {
+                MedinaButtonColor = Colors.Red;
+                MeccaButtonColor = Color.FromArgb("#4A90E2");
+
+                GotoList(false);
+            });
+
+            MeccaCommand = new Command(() =>
+            {
+                MeccaButtonColor = Colors.Red;
+                MedinaButtonColor = Color.FromArgb("#4A90E2");
+
+                GotoList(true);
+            });
         }
 
-       
+        private void GotoList(bool mecca)
+        {
+            var list = _service.Mecca(mecca);
+
+            Surahs.Clear();
+
+            foreach (var item in list)
+                Surahs.Add(item);
+        }
         public ICommand SelectSourateCommand { get; }
 
         public event PropertyChangedEventHandler? PropertyChanged;
-        protected virtual void OnPropertyChanged([System.Runtime.CompilerServices.CallerMemberName] string? propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+        
 
         public ObservableCollection<Sourate> Surahs
         {
@@ -125,8 +169,13 @@ namespace CoranWarshSynchroniser.ViewModels
         }
         private void FilterSurahs()
         {
+            MeccaButtonColor = Color.FromArgb("#4A90E2");
+            MedinaButtonColor = Color.FromArgb("#4A90E2");
             var results = _service.Search(_searchText);
-            Surahs = new ObservableCollection<Sourate>(results);
+            Surahs.Clear();
+
+            foreach (var item in results)
+                Surahs.Add(item);
         }
         
         #endregion

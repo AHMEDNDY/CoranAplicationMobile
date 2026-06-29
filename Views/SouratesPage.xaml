@@ -26,23 +26,34 @@
               Padding="0,0,0,24">
             <Grid.Background>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#099ffc" Offset="0.0"/>
-                    <GradientStop Color="#099ffd" Offset="0.6"/>
-                    <GradientStop Color="#099ffa" Offset="1.0"/>
+                    <GradientStop Color="#0D2B4E" Offset="0.0"/>
+                    <GradientStop Color="CornflowerBlue" Offset="0.5"/>
+                    <GradientStop Color="#1E5590" Offset="1.0"/>
                 </LinearGradientBrush>
             </Grid.Background>
 
             <!-- Lune + titres -->
+                <!-- Arche blanche -->
+    <Border WidthRequest="350"
+            HeightRequest="180"
+            BackgroundColor="White"
+            HorizontalOptions="Center"
+            VerticalOptions="Start"
+            Margin="0,4,0,0"
+            StrokeThickness="0"
+            StrokeShape="RoundRectangle 140,140,0,0">
             <VerticalStackLayout Grid.Row="0"
                                  HorizontalOptions="Center"
                                  Padding="0,44,0,0"
                                  Spacing="4">
-                <Image Source="corantete.png"
-                       MaximumHeightRequest="100"
-                       />
-               
-            </VerticalStackLayout>
+                    <Image Source="logoapp.png"
+                   HeightRequest="130"
+                   WidthRequest="130"
+                   HorizontalOptions="Center"
+                   Aspect="AspectFit"/>
 
+            </VerticalStackLayout>
+</Border>
             <!-- Barre de recherche -->
             <Border Grid.Row="1"
                     Margin="20,18,20,0"
@@ -52,7 +63,7 @@
                 <Grid ColumnDefinitions="*,Auto" Padding="16,0">
                     <Entry Grid.Column="0"
                            Placeholder="Rechercher une sourate..."
-                           PlaceholderColor="#FFFFFFA0"
+                           PlaceholderColor="White"
                            TextColor="White"
                            BackgroundColor="Transparent"
                            Text="{Binding SearchText}"
@@ -63,24 +74,65 @@
                            Text="🔍"
                            FontSize="16"
                            VerticalOptions="Center"
-                           TextColor="#FFFFFFA0"/>
+                           TextColor="#0D2B4E"/>
                 </Grid>
             </Border>
 
             <!-- Compteur de résultats -->
-            <Label Grid.Row="2"
-                   Margin="24,10,0,0"
-                   TextColor="#FFFFFFB2"
-                   FontSize="12">
-                <Label.FormattedText>
-                    <FormattedString>
-                        <Span Text="{Binding Surahs.Count}"
-                              FontAttributes="Bold"
-                              TextColor="White"/>
-                        <Span Text=" sourates"/>
-                    </FormattedString>
-                </Label.FormattedText>
-            </Label>
+            <Grid Grid.Row="2"
+      Margin="20,10,20,0"
+      ColumnDefinitions="Auto,*,Auto"
+      VerticalOptions="Center">
+
+                <!-- Bouton gauche -->
+                <Button Grid.Column="0"
+        Text="مدنية"
+        ImageSource="medina.png"
+        Command="{Binding MedinaCommand}"
+        BackgroundColor="{Binding MedinaButtonColor}"
+        FontSize="18"
+        FontAttributes="Bold" 
+        TextColor="White"
+        CornerRadius="8"
+        WidthRequest="100"
+        HeightRequest="34"/>
+
+                <Button Grid.Column="1"
+        Text="مكية"
+        ImageSource="mecca.png"
+        Command="{Binding MeccaCommand}"
+        BackgroundColor="{Binding MeccaButtonColor}"
+        FontSize="20"
+        FontAttributes="Bold"                
+        TextColor="White"
+        CornerRadius="8"
+        WidthRequest="100"
+        HeightRequest="34"
+        HorizontalOptions="Center"/>
+          
+
+                <!-- Nombre de sourates -->
+                <Label Grid.Column="2"
+           VerticalOptions="Center"
+           FontSize="12"
+           TextColor="#FFFFFFB2">
+
+                    <Label.FormattedText>
+                        <FormattedString>      
+                            <Span Text="{Binding Surahs.Count}"
+                      FontAttributes="Bold"
+                                  FontSize="20"
+                      TextColor="White"/>
+                            <Span Text=" سورة" FontSize="20"  FontAttributes="Bold" TextColor="White"/>
+                      
+                         
+                        </FormattedString>
+                    </Label.FormattedText>
+
+                </Label>
+
+            </Grid>
+       
         </Grid>
 
         <!-- ══════════════ LISTE ══════════════ -->
@@ -174,15 +226,7 @@
                                     </HorizontalStackLayout>
                                 </VerticalStackLayout>
 
-                                <!-- Nom arabe -->
-                                <!--<Label Grid.Column="3"
-                                       Text="{Binding Name}"
-                                       FontSize="22"
-                                       FontAttributes="Bold"
-                                       TextColor="#5B21B6"
-                                       VerticalOptions="Center"
-                                       HorizontalTextAlignment="End"
-                                       FlowDirection="RightToLeft"/>-->
+                             
                                 <Image Grid.Column="3"
                                HeightRequest="40"
                                WidthRequest="40"

@@ -11,8 +11,8 @@
             <!-- Couleur des titres de la TabBar -->
             <Style TargetType="ShellContent">
                 <Setter Property="Shell.TabBarTitleColor" Value="White"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="red"/>
-                <Setter Property="Shell.TabBarBackgroundColor" Value="#099ffc"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="White"/>
+                <Setter Property="Shell.TabBarBackgroundColor" Value="CornflowerBlue"/>
             </Style>
         </ResourceDictionary>
     </Shell.Resources>
