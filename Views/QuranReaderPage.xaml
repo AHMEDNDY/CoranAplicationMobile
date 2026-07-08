@@ -20,96 +20,91 @@
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid RowDefinitions="Auto, *, Auto" Padding="0" >
+    <Grid RowDefinitions="Auto, *, Auto" Padding="0">
 
-        <!-- ══════════════════════════════════════════ -->
-        <!--  HEADER FIXE (Row 0) – ne défile pas      -->
-        <!-- ══════════════════════════════════════════ -->
-        <Grid Grid.Row="0" BackgroundColor="#099ffc" IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}">
-
-            <!-- Contenu du header -->
+        <!-- HEADER : Row 0 (inchangé) -->
+        <Grid Grid.Row="0" BackgroundColor="#099ffc"
+          IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}">
             <Grid ColumnDefinitions="*,Auto,*"
-                  VerticalOptions="End"
-                 >
+        VerticalOptions="End"
+       >
 
                 <!-- Gauche : icône Mecque / Médine -->
                 <VerticalStackLayout Grid.Column="0"
-                                     VerticalOptions="Center"
-                                     HorizontalOptions="Start"
-                                     Spacing="2">
+                           VerticalOptions="Center"
+                           HorizontalOptions="Start"
+                           Spacing="2">
                     <Image
-                        HeightRequest="40"
-                        WidthRequest="40"
-                        Source="{Binding IsMecca, Converter={StaticResource IconConverter}}" />
+              HeightRequest="40"
+              WidthRequest="40"
+              Source="{Binding IsMecca, Converter={StaticResource IconConverter}}" />
                 </VerticalStackLayout>
 
                 <!-- Centre : Nom de la sourate -->
                 <Label
-                    Grid.Column="1"
-                    Text="{Binding Name}"
-                    FontFamily="UthmanicWarsh"
-                    FontSize="30"
-                    HorizontalOptions="Center"
-                    VerticalOptions="Center"
-                    FontAttributes="Bold"
-                    TextColor="White" />
+          Grid.Column="1"
+          Text="{Binding Name}"
+          FontFamily="UthmanicWarsh"
+          FontSize="30"
+          HorizontalOptions="Center"
+          VerticalOptions="Center"
+          FontAttributes="Bold"
+          TextColor="White" />
 
                 <!-- Droite : Nombre de versets -->
                 <VerticalStackLayout Grid.Column="2"
-                                     VerticalOptions="Center"
-                                     HorizontalOptions="End"
-                                     Spacing="2">
+                           VerticalOptions="Center"
+                           HorizontalOptions="End"
+                           Spacing="2">
                     <Label
-                        Text="عدد آياتها"
-                        FontFamily="UthmanicWarsh"
-                        FontAttributes="Bold"
-                        FontSize="16"
-                        TextColor="White"
-                        HorizontalOptions="Center"
-                        Opacity="0.85" />
+              Text="عدد آياتها"
+              FontFamily="UthmanicWarsh"
+              FontAttributes="Bold"
+              FontSize="16"
+              TextColor="White"
+              HorizontalOptions="Center"
+              Opacity="0.85" />
                     <Label
-                        Text="{Binding Totalverse}"
-                        FontSize="16"
-                        FontAttributes="Bold"
-                        TextColor="White"
-                        HorizontalOptions="Center" />
+              Text="{Binding Totalverse}"
+              FontSize="16"
+              FontAttributes="Bold"
+              TextColor="White"
+              HorizontalOptions="Center" />
                 </VerticalStackLayout>
 
             </Grid>
         </Grid>
 
-        <!-- ══════════════════════════════════════════ -->
-        <!--  CONTENU DÉFILABLE (Row 1)                -->
-        <!-- ══════════════════════════════════════════ -->
+        <!-- CONTENU DÉFILABLE : Row 1 (inchangé) -->
         <Grid Grid.Row="1" IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}">
 
             <CollectionView
-                    x:Name="QuranCollection"
-                    ItemsSource="{Binding SurahJsonData}"
-                    SelectionMode="None"
-                    Margin="5"
-                    VerticalOptions="FillAndExpand">
+             x:Name="QuranCollection"
+             ItemsSource="{Binding SurahJsonData}"
+             SelectionMode="None"
+             Margin="5"
+             VerticalOptions="FillAndExpand">
 
                 <!-- ESPACE ENTRE LES ITEMS -->
-                    <CollectionView.ItemsLayout>
-                        <LinearItemsLayout
-                Orientation="Vertical"
-                ItemSpacing="10" />
-                    </CollectionView.ItemsLayout>
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout
+         Orientation="Vertical"
+         ItemSpacing="10" />
+                </CollectionView.ItemsLayout>
 
-                    <CollectionView.Header>
+                <CollectionView.Header>
 
-                        <VerticalStackLayout>
+                    <VerticalStackLayout>
 
-                            <!-- BASMALA -->
+                        <!-- BASMALA -->
                         <Label
-                                Text="بِسْمِ اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِ"
-                                HorizontalOptions="Center"
-                                FontFamily="UthmanicWarsh"
-                                FontSize="28"
-                                Margin="0,10,0,25"
-                                FontAttributes="Bold"
-                                TextColor="Black" />
+                         Text="بِسْمِ اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِ"
+                         HorizontalOptions="Center"
+                         FontFamily="UthmanicWarsh"
+                         FontSize="28"
+                         Margin="0,10,0,25"
+                         FontAttributes="Bold"
+                         TextColor="Black" />
 
                     </VerticalStackLayout>
 
@@ -120,18 +115,18 @@
                     <DataTemplate>
 
                         <Frame
-                            Margin="0,8"
-                            Padding="5"
-                            CornerRadius="25"
-                            HasShadow="False"
-                            BackgroundColor="{Binding BackgroundColor}"
-                            BorderColor="#EEEEEE">
+                     Margin="0,8"
+                     Padding="5"
+                     CornerRadius="25"
+                     HasShadow="False"
+                     BackgroundColor="{Binding BackgroundColor}"
+                     BorderColor="#EEEEEE">
 
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer
-                                    Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapCommand}"
-                                    CommandParameter="{Binding AyaNo}" />
-                                    </Frame.GestureRecognizers> 
+                             Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapCommand}"
+                             CommandParameter="{Binding AyaNo}" />
+                            </Frame.GestureRecognizers>
 
                             <VerticalStackLayout Spacing="5">
 
@@ -139,58 +134,58 @@
                                 <Grid ColumnDefinitions="Auto,*,Auto">
 
                                     <Label
-                            Grid.Column="0"
-                            Text="•••"
-                            FontSize="20"
-                            FontAttributes="Bold"
-                            TextColor="{Binding TextColor}" />
+                     Grid.Column="0"
+                     Text="•••"
+                     FontSize="20"
+                     FontAttributes="Bold"
+                     TextColor="{Binding TextColor}" />
 
                                 </Grid>
 
                                 <!-- TEXTE ARABE -->
                                 <Frame
-                                BackgroundColor="{Binding AyahBackgroundColor}"
-                                Padding="1"
-                                CornerRadius="15"
-                                HasShadow="False"
-                                BorderColor="Transparent">
+                         BackgroundColor="{Binding AyahBackgroundColor}"
+                         Padding="1"
+                         CornerRadius="15"
+                         HasShadow="False"
+                         BorderColor="Transparent">
                                     <Label
-                                            Grid.Row="1"
-                                            Grid.Column="0"
-                                            Grid.ColumnSpan="3"
-                                            Text="{Binding AyaText}"
-                                            FontFamily="UthmanicWarsh"
-                                            FontSize="28"
-                                            TextColor="{Binding TextColor}"
-                                            
-                                            FlowDirection="RightToLeft"
-                                            LineHeight="1"
-                                            Margin="0,10,0,0" />
+                                     Grid.Row="1"
+                                     Grid.Column="0"
+                                     Grid.ColumnSpan="3"
+                                     Text="{Binding AyaText}"
+                                     FontFamily="UthmanicWarsh"
+                                     FontSize="28"
+                                     TextColor="{Binding TextColor}"
+                                     
+                                     FlowDirection="RightToLeft"
+                                     LineHeight="1"
+                                     Margin="0,10,0,0" />
                                 </Frame>
 
                                 <!-- NUMERO -->
                                 <Label
-                                        Grid.Column="2"
-                                        Text="{Binding AyaNo}"
-                                        FontSize="15"
-                                        FontAttributes="Bold"
-                                        TextColor="#1B0B47"
-                                        HorizontalOptions="End" />
+                                 Grid.Column="2"
+                                 Text="{Binding AyaNo}"
+                                 FontSize="15"
+                                 FontAttributes="Bold"
+                                 TextColor="#1B0B47"
+                                 HorizontalOptions="End" />
 
                                 <!-- TRADUCTION -->
                                 <!-- TRADUCTION en bas à gauche -->
                                 <Label
-                                        Grid.Row="2"
-                                        Grid.Column="0"
-                                        Grid.ColumnSpan="3"
-                                        Text="{Binding Translation}"
-                                        FontSize="18"
-                                        TextColor="#555555"
-                                        HorizontalTextAlignment="Start"
-                                        LineHeight="1.4"
-                                        Margin="0,5,0,0"
-                                     FlowDirection="LeftToRight"
-                                        IsVisible="{Binding ShowTranslation}" />
+                                 Grid.Row="2"
+                                 Grid.Column="0"
+                                 Grid.ColumnSpan="3"
+                                 Text="{Binding Translation}"
+                                 FontSize="18"
+                                 TextColor="#555555"
+                                 HorizontalTextAlignment="Start"
+                                 LineHeight="1.4"
+                                 Margin="0,5,0,0"
+                              FlowDirection="LeftToRight"
+                                 IsVisible="{Binding ShowTranslation}" />
                             </VerticalStackLayout>
 
                         </Frame>
@@ -201,71 +196,93 @@
 
             </CollectionView>
         </Grid>
-        <Grid
-            Grid.Row="2"
-            Padding="10" IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}"
-            ColumnDefinitions="*,*,*,*,80">
-            <Label 
-                  Grid.Column="4"
-                  Text="{Binding NameEnglish}"
-                  FontFamily="UthmanicWarsh"
-                  FontSize="14"
-                  HorizontalOptions="Center"
-                  VerticalOptions="Center"
-                  FontAttributes="Bold"
-                  TextColor="Black" />
+        <!-- BARRE BASSE : Slider + Contrôles, Row 2 -->
+        <VerticalStackLayout Grid.Row="2"
+                         IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}">
 
+            <!-- Slider de progression -->
+            <Grid ColumnDefinitions="70,*,70" Padding="10,0">
+                <Label
+                Grid.Column="0"
+                Text="{Binding CurrentTime}"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"/>
 
-            <!-- Précédent → colonne 2 (gauche visuelle en RTL) -->
-            <Button
+                <Slider
+                Grid.Column="1"
+                Minimum="0"
+                Maximum="{Binding Duration}"
+                Value="{Binding CurrentPosition}"/>
+
+                <Label
+                Grid.Column="2"
+                Text="{Binding TotalTime}"
+                HorizontalOptions="End"
+                VerticalOptions="Center"/>
+            </Grid>
+
+            <!-- Barre de contrôle (lecture, navigation) -->
+            <Grid Padding="10" ColumnDefinitions="*,*,*,*,80">
+                <Label
+                Grid.Column="4"
+                Text="{Binding NameEnglish}"
+                FontFamily="UthmanicWarsh"
+                FontSize="14"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                FontAttributes="Bold"
+                TextColor="Black" />
+
+                <Button
                 Grid.Column="3"
                 Command="{Binding PreviousSurahCommand}"
                 ImageSource="previos.png"
                 BackgroundColor="Transparent" />
 
-            <!-- Play → colonne 1 (centre) -->
-            <Button
+                <Button
                 Grid.Column="2"
                 Command="{Binding PlayCommand}"
                 ImageSource="playee.png"
                 BackgroundColor="Transparent"
                 IsVisible="{Binding IsPlayVisible}" />
 
-            <!-- Pause → colonne 1 (centre, masqué si lecture arrêtée) -->
-            <Button
+                <Button
                 Grid.Column="2"
                 Command="{Binding PauseCommand}"
                 ImageSource="pausee.png"
                 BackgroundColor="Transparent"
                 IsVisible="{Binding IsPauseVisible}" />
 
-            <!-- Suivant → colonne 0 (droite visuelle en RTL) -->
-            <Button
+                <Button
                 Grid.Column="1"
                 Command="{Binding NextSurahCommand}"
                 ImageSource="next.png"
                 BackgroundColor="Transparent"
                 IsEnabled="{Binding CanGoNext}"
                 Opacity="{Binding CanGoNext, Converter={StaticResource BoolToOpacityConverter}}" />
-            <Button
-              Grid.Column="0"
-              Command="{Binding GotoPageListeCommand}"
-              ImageSource="icon_liste.png"
-              BackgroundColor="Transparent" />
 
+                <Button
+                Grid.Column="0"
+                Command="{Binding GotoPageListeCommand}"
+                ImageSource="icon_liste.png"
+                BackgroundColor="Transparent" />
+            </Grid>
 
-        </Grid>
-        <Grid BackgroundColor="Transparent"
-      IsVisible="{Binding IsLoading}"
-      InputTransparent="False">
+        </VerticalStackLayout>
+
+        <!-- OVERLAY DE CHARGEMENT : doit couvrir toutes les lignes -->
+        <Grid Grid.RowSpan="3"
+          BackgroundColor="Transparent"
+          IsVisible="{Binding IsLoading}"
+          InputTransparent="False">
             <ActivityIndicator
-        IsRunning="{Binding IsLoading}"
-        Color="#099ffc"
-        WidthRequest="80"
-        HeightRequest="80"
-        HorizontalOptions="Center"
-        VerticalOptions="Center" />
+            IsRunning="{Binding IsLoading}"
+            Color="#099ffc"
+            WidthRequest="80"
+            HeightRequest="80"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
         </Grid>
-    </Grid>
 
+    </Grid>
 </ContentPage>

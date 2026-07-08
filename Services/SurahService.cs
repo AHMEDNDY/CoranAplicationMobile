@@ -13,7 +13,7 @@ namespace CoranWarshSynchroniser.Services
         private static readonly List<Sourate> _surahs = new()
         {
             new Sourate { Id = 1, Name = "سُورَةُ اُ۬لْفَاتِحَةِ", TotalVerses = 7, IsMecca = true },
-            new Sourate { Id = 2, Name = "سُورَةُ اُ۬لْبَقَرَةِ", TotalVerses = 286, IsMecca = false },
+            new Sourate { Id = 2, Name = "سُورَةُ اُ۬لْبَقَرَةِ", TotalVerses = 285, IsMecca = false },
             new Sourate { Id = 3, Name = "سُورَةُ آلِ عِمْرَانَ", TotalVerses = 200, IsMecca = false },
             new Sourate { Id = 4, Name = "سُورَةُ النِّسَاءِ", TotalVerses = 176, IsMecca = false },
             new Sourate { Id = 5, Name = "سُورَةُ الْمَائِدَةِ", TotalVerses = 120, IsMecca = false },
