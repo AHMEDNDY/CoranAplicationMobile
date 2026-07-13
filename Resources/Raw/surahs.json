@@ -55918,11 +55918,13 @@
     "page": "518",
     "sura_no": 50,
     "sura_name_en": "Qāf",
-    "sura_name_ar": "قٓ ",
+    "sura_name_ar": "سُورَةُ قٓ",
     "total_verses": 3,
-    "is_mecca": 3,
+    "is_mecca": true,
     "aya_no": 1,
-    "aya_text": "قَٓۖ وَالْقُرْءَانِ اِ۬لْمَجِيدِ ﰀ"
+    "aya_text": "قَٓۖ وَالْقُرْءَانِ اِ۬لْمَجِيدِ ﰀ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 13
   },
   {
     "id": 4612,
@@ -55934,7 +55936,9 @@
     "total_verses": 3,
     "is_mecca": 4,
     "aya_no": 2,
-    "aya_text": "بَلْ عَجِبُوٓاْ أَن جَآءَهُم مُّنذِرٞ مِّنْهُمْ فَقَالَ اَ۬لْكَٰفِرُونَ هَٰذَا شَےْءٌ عَجِيبٌ ﰁ"
+    "aya_text": "بَلْ عَجِبُوٓاْ أَن جَآءَهُم مُّنذِرٞ مِّنْهُمْ فَقَالَ اَ۬لْكَٰفِرُونَ هَٰذَا شَےْءٌ عَجِيبٌ ﰁ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 31
   },
   {
     "id": 4613,

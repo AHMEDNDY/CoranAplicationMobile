@@ -141,7 +141,7 @@ namespace CoranWarshSynchroniser.ViewModels
         public void LoadSourate(int id)
         {
             CurrentSurahNumber = id;
-            LoadSurahAsync(CurrentSurahNumber);
+            //LoadSurahAsync(CurrentSurahNumber);
         }
       
         private void SyncTick(object sender, EventArgs e)
@@ -255,6 +255,7 @@ namespace CoranWarshSynchroniser.ViewModels
 
         private async Task PlayCommandHandler()
         {
+            LoadSurahAsync(CurrentSurahNumber);
             if (_audioService.IsPlaying())
                 return;
 
@@ -303,7 +304,7 @@ namespace CoranWarshSynchroniser.ViewModels
                 _currentSurahNumber--;
 
             await LoadSurah();
-            LoadSurahAsync(CurrentSurahNumber);
+            //LoadSurahAsync(CurrentSurahNumber);
 
             MainThread.BeginInvokeOnMainThread(() =>
             {
@@ -322,7 +323,7 @@ namespace CoranWarshSynchroniser.ViewModels
             _currentSurahNumber++;
 
             await LoadSurah();
-            LoadSurahAsync(CurrentSurahNumber);
+            //LoadSurahAsync(CurrentSurahNumber);
 
             // Notifier le changement des boutons
             OnPropertyChanged(nameof(CanGoNext));
