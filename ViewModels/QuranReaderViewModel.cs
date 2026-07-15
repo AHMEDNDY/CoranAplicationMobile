@@ -210,7 +210,6 @@ namespace CoranWarshSynchroniser.ViewModels
         {
 
             string audioFile = $"Audio/{surahNumber:D3}.mp3";
-
             await _audioService.LoadSurahAudioAsync(audioFile);
         }
 

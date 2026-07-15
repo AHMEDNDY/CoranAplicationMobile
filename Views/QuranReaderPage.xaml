@@ -92,11 +92,11 @@
          ItemSpacing="10" />
                 </CollectionView.ItemsLayout>
 
-                <CollectionView.Header>
+                <!--<CollectionView.Header>
 
                     <VerticalStackLayout>
 
-                        <!-- BASMALA -->
+                        --><!-- BASMALA --><!--
                         <Label
                          Text="بِسْمِ اِ۬للَّهِ اِ۬لرَّحْمَٰنِ اِ۬لرَّحِيمِ"
                          HorizontalOptions="Center"
@@ -108,7 +108,7 @@
 
                     </VerticalStackLayout>
 
-                </CollectionView.Header>
+                </CollectionView.Header>-->
 
                 <CollectionView.ItemTemplate>
 
