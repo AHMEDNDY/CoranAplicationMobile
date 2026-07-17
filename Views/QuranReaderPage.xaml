@@ -133,12 +133,14 @@
                                 <!-- HEADER -->
                                 <Grid ColumnDefinitions="Auto,*,Auto">
 
-                                    <Label
+                                    <!--<Label
                      Grid.Column="0"
-                     Text="•••"
+                      Text="{Binding AyaNo}"
+                                        HorizontalOptions="Start"
+                                         TextColor="#1B0B47"
                      FontSize="20"
                      FontAttributes="Bold"
-                     TextColor="{Binding TextColor}" />
+                     />-->
 
                                 </Grid>
 
@@ -155,9 +157,9 @@
                                      Grid.ColumnSpan="3"
                                      Text="{Binding AyaText}"
                                      FontFamily="UthmanicWarsh"
-                                     FontSize="28"
+                                     FontSize="32"
                                      TextColor="{Binding TextColor}"
-                                     
+                                        FontAttributes="Bold"
                                      FlowDirection="RightToLeft"
                                      LineHeight="1"
                                      Margin="0,10,0,0" />
@@ -165,12 +167,13 @@
 
                                 <!-- NUMERO -->
                                 <Label
-                                 Grid.Column="2"
+                                 Grid.Column="0"
                                  Text="{Binding AyaNo}"
                                  FontSize="15"
                                  FontAttributes="Bold"
                                  TextColor="#1B0B47"
-                                 HorizontalOptions="End" />
+                                 HorizontalOptions="End"
+                                     />
 
                                 <!-- TRADUCTION -->
                                 <!-- TRADUCTION en bas à gauche -->
@@ -180,8 +183,9 @@
                                  Grid.ColumnSpan="3"
                                  Text="{Binding Translation}"
                                  FontSize="18"
-                                 TextColor="#555555"
+                                 TextColor="#1B0B47"
                                  HorizontalTextAlignment="Start"
+                                  
                                  LineHeight="1.4"
                                  Margin="0,5,0,0"
                               FlowDirection="LeftToRight"
