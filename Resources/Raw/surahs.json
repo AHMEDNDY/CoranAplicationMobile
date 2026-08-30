@@ -3639,7 +3639,7 @@
     "is_mecca": 4,
     "aya_no": 256,
     "aya_text": "اِ۬للَّهُ وَلِيُّ اُ۬لذِينَ ءَامَنُواْ يُخْرِجُهُم مِّنَ اَ۬لظُّلُمَٰتِ إِلَى اَ۬لنُّورِۖ وَالذِينَ كَفَرُوٓاْ أَوْلِيَآؤُهُمُ اُ۬لطَّٰغُوتُ يُخْرِجُونَهُم مِّنَ اَ۬لنُّورِ إِلَى اَ۬لظُّلُمَٰتِۖ أُوْلَٰٓئِكَ أَصْحَٰبُ اُ۬لنّ۪ارِ هُمْ فِيهَا خَٰلِدُونَۖ ﳿ",
-    "end":7001
+    "end": 7001
   },
   {
     "id": 264,
@@ -72764,8 +72764,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 1,
-    "aya_text": "لَآ أُقْسِمُ بِهَٰذَا اَ۬لْبَلَدِ ﰀ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "لَآ أُقْسِمُ بِهَٰذَا اَ۬لْبَلَدِ ﰀ",
+    "translation": "I swear by this city, Makkah -",
     "end": 11
   },
   {
@@ -72778,8 +72778,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 2,
-    "aya_text": "وَأَنتَ حِلُّۢ بِهَٰذَا اَ۬لْبَلَدِ ﰁ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "وَأَنتَ حِلُّۢ بِهَٰذَا اَ۬لْبَلَدِ ﰁ",
+    "translation": "And you, [O Muhammad], are free of restriction in this city -",
     "end": 15
   },
   {
@@ -72792,8 +72792,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 3,
-    "aya_text": "وَوَالِدٖ وَمَا وَلَدَ ﰂ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "وَوَالِدٖ وَمَا وَلَدَ ﰂ",
+    "translation": "And [by] the father and that which was born [of him],",
     "end": 18
   },
   {
@@ -72806,8 +72806,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 4,
-    "aya_text": "لَقَدْ خَلَقْنَا اَ۬لِانسَٰنَ فِے كَبَدٍۖ ﰃ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "لَقَدْ خَلَقْنَا اَ۬لِانسَٰنَ فِے كَبَدٍۖ ﰃ",
+    "translation": "We have certainly created man into hardship.",
     "end": 23
   },
   {
@@ -72820,8 +72820,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 5,
-    "aya_text": "اَيَحْسِبُ أَن لَّنْ يَّقْدِرَ عَلَيْهِ أَحَدٞ ﰄ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "اَيَحْسِبُ أَن لَّنْ يَّقْدِرَ عَلَيْهِ أَحَدٞ ﰄ",
+    "translation": "Does he think that never will anyone overcome him?",
     "end": 29
   },
   {
@@ -72834,8 +72834,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 6,
-    "aya_text": "يَقُولُ أَهْلَكْتُ مَالاٗ لُّبَداًۖ ﰅ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "يَقُولُ أَهْلَكْتُ مَالاٗ لُّبَداًۖ ﰅ",
+    "translation": "He says, \"I have spent wealth in abundance.\"",
     "end": 33
   },
   {
@@ -72848,8 +72848,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 7,
-    "aya_text": "اَيَحْسِبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌۖ ﰆ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "اَيَحْسِبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌۖ ﰆ",
+    "translation": "Does he think that no one has seen him?",
     "end": 38
   },
   {
@@ -72862,8 +72862,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 8,
-    "aya_text": "اَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ ﰇ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "اَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ ﰇ",
+    "translation": "Have We not made for him two eyes?",
     "end": 40
   },
   {
@@ -72876,8 +72876,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 9,
-    "aya_text": "وَلِسَاناٗ وَشَفَتَيْنِ ﰈ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "وَلِسَاناٗ وَشَفَتَيْنِ ﰈ",
+    "translation": "And a tongue and two lips?",
     "end": 44
   },
   {
@@ -72890,8 +72890,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 10,
-    "aya_text": "وَهَدَيْنَٰهُ اُ۬لنَّجْدَيْنِۖ ﰉ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "وَهَدَيْنَٰهُ اُ۬لنَّجْدَيْنِۖ ﰉ",
+    "translation": "And have shown him the two ways?",
     "end": 47
   },
   {
@@ -72904,8 +72904,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 11,
-    "aya_text": "فَلَا اَ۪قْتَحَمَ اَ۬لْعَقَبَةَۖ ﰊ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "فَلَا اَ۪قْتَحَمَ اَ۬لْعَقَبَةَۖ ﰊ",
+    "translation": "But he has not broken through the difficult pass.",
     "end": 51
   },
   {
@@ -72918,8 +72918,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 12,
-    "aya_text": "وَمَآ أَدْر۪يٰكَ مَا اَ۬لْعَقَبَةُۖ ﰋ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "وَمَآ أَدْر۪يٰكَ مَا اَ۬لْعَقَبَةُۖ ﰋ",
+    "translation": "And what can make you know what is [breaking through] the difficult pass?",
     "end": 54
   },
   {
@@ -72932,8 +72932,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 13,
-    "aya_text": "فَكُّ رَقَبَةٍ ﰌ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "فَكُّ رَقَبَةٍ ﰌ",
+    "translation": "It is the freeing of a slave",
     "end": 56
   },
   {
@@ -72946,8 +72946,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 14,
-    "aya_text": "اَوِ اِطْعَامٞ فِے يَوْمٖ ذِے مَسْغَبَةٖ ﰍ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "اَوِ اِطْعَامٞ فِے يَوْمٖ ذِے مَسْغَبَةٖ ﰍ",
+    "translation": "Or feeding on a day of severe hunger",
     "end": 61
   },
   {
@@ -72960,8 +72960,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 15,
-    "aya_text": "يَتِيماٗ ذَا مَقْرَبَةٍ ﰎ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "يَتِيماٗ ذَا مَقْرَبَةٍ ﰎ",
+    "translation": "An orphan of near relationship",
     "end": 65
   },
   {
@@ -72974,8 +72974,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 16,
-    "aya_text": "اَوْ مِسْكِيناٗ ذَا مَتْرَبَةٖۖ ﰏ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "اَوْ مِسْكِيناٗ ذَا مَتْرَبَةٖۖ ﰏ",
+    "translation": "Or a needy person in misery",
     "end": 69
   },
   {
@@ -72988,8 +72988,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 17,
-    "aya_text": "ثُمَّ كَانَ مِنَ اَ۬لذِينَ ءَامَنُواْ وَتَوَاصَوْاْ بِالصَّبْرِ وَتَوَاصَوْاْ بِالْمَرْحَمَةِۖ ﰐ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "ثُمَّ كَانَ مِنَ اَ۬لذِينَ ءَامَنُواْ وَتَوَاصَوْاْ بِالصَّبْرِ وَتَوَاصَوْاْ بِالْمَرْحَمَةِۖ ﰐ",
+    "translation": "And then being among those who believed and advised one another to patience and advised one another to compassion.",
     "end": 79
   },
   {
@@ -73002,8 +73002,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 18,
-    "aya_text": "أُوْلَٰٓئِكَ أَصْحَٰبُ اُ۬لْمَيْمَنَةِۖ ﰑ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "أُوْلَٰٓئِكَ أَصْحَٰبُ اُ۬لْمَيْمَنَةِۖ ﰑ",
+    "translation": "Those are the companions of the right.",
     "end": 84
   },
   {
@@ -73016,8 +73016,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 19,
-    "aya_text": "وَالذِينَ كَفَرُواْ بِـَٔايَٰتِنَا هُمُۥٓ أَصْحَٰبُ اُ۬لْمَشْـَٔمَةِۖ ﰒ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "وَالذِينَ كَفَرُواْ بِـَٔايَٰتِنَا هُمُۥٓ أَصْحَٰبُ اُ۬لْمَشْـَٔمَةِۖ ﰒ",
+    "translation": "But they who disbelieved in Our signs - those are the companions of the left.",
     "end": 93
   },
   {
@@ -73030,8 +73030,8 @@
     "total_verses": 20,
     "is_mecca": true,
     "aya_no": 20,
-    "aya_text": "عَلَيْهِمْ نَارٞ مُّوصَدَةٞۖ ﰓ",
-    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "aya_text": "عَلَيْهِمْ نَارٞ مُّوصَدَةٞۖ ﰓ",
+    "translation": "Over them will be fire closed in.",
     "end": 97
   },
   {
