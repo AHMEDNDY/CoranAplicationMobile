@@ -239,10 +239,10 @@ namespace CoranWarshSynchroniser.ViewModels
                 if (current != null)
                 {
                     // background seulement texte arabe
-                    current.AyahBackgroundColor = Color.FromArgb("#099ffc");
+                    current.AyahBackgroundColor = Color.FromArgb("#C8A951");
 
                     // texte arabe blanc
-                    current.TextColor = Colors.White;
+                    current.TextColor = Colors.Blue;
 
                     // traduction normale
                     current.TranslationColor = Color.FromArgb("#6E6E6E");
@@ -262,7 +262,7 @@ namespace CoranWarshSynchroniser.ViewModels
                 await LoadSurah();
 
             _currentAyah ??= SurahJsonData.First(a => a.AyaNo == 1);
-
+            
             _audioService.PlayAyah(_currentAyah);
             await MainThread.InvokeOnMainThreadAsync(() =>
             {
@@ -399,12 +399,17 @@ namespace CoranWarshSynchroniser.ViewModels
 
                 _currentAyah = ayah;
 
-                // coloration
-                HighlightAyah(index);
+             
 
                 // 🔊 IMPORTANT : ne recharge pas l'audio
                 _audioService.PlayAyah(ayah);
+                if(index == 1)
+                { 
+                    await Task.Delay(6000);
 
+                }
+                // coloration
+                HighlightAyah(index);
                 ScrollToSpanRequested?.Invoke(index - 1);
             });
         }

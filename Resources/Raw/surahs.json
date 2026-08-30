@@ -72760,11 +72760,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 8,
-    "is_mecca": 8,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 1,
-    "aya_text": "لَآ أُقْسِمُ بِهَٰذَا اَ۬لْبَلَدِ ﰀ"
+    "aya_text": "لَآ أُقْسِمُ بِهَٰذَا اَ۬لْبَلَدِ ﰀ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 11
   },
   {
     "id": 6002,
@@ -72772,11 +72774,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 8,
-    "is_mecca": 8,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 2,
-    "aya_text": "وَأَنتَ حِلُّۢ بِهَٰذَا اَ۬لْبَلَدِ ﰁ"
+    "aya_text": "وَأَنتَ حِلُّۢ بِهَٰذَا اَ۬لْبَلَدِ ﰁ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 15
   },
   {
     "id": 6003,
@@ -72784,11 +72788,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 8,
-    "is_mecca": 8,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 3,
-    "aya_text": "وَوَالِدٖ وَمَا وَلَدَ ﰂ"
+    "aya_text": "وَوَالِدٖ وَمَا وَلَدَ ﰂ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 18
   },
   {
     "id": 6004,
@@ -72796,11 +72802,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 9,
-    "is_mecca": 9,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 4,
-    "aya_text": "لَقَدْ خَلَقْنَا اَ۬لِانسَٰنَ فِے كَبَدٍۖ ﰃ"
+    "aya_text": "لَقَدْ خَلَقْنَا اَ۬لِانسَٰنَ فِے كَبَدٍۖ ﰃ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 23
   },
   {
     "id": 6005,
@@ -72808,11 +72816,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 9,
-    "is_mecca": 10,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 5,
-    "aya_text": "اَيَحْسِبُ أَن لَّنْ يَّقْدِرَ عَلَيْهِ أَحَدٞ ﰄ"
+    "aya_text": "اَيَحْسِبُ أَن لَّنْ يَّقْدِرَ عَلَيْهِ أَحَدٞ ﰄ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 29
   },
   {
     "id": 6006,
@@ -72820,11 +72830,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 10,
-    "is_mecca": 10,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 6,
-    "aya_text": "يَقُولُ أَهْلَكْتُ مَالاٗ لُّبَداًۖ ﰅ"
+    "aya_text": "يَقُولُ أَهْلَكْتُ مَالاٗ لُّبَداًۖ ﰅ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 33
   },
   {
     "id": 6007,
@@ -72832,11 +72844,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 10,
-    "is_mecca": 10,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 7,
-    "aya_text": "اَيَحْسِبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌۖ ﰆ"
+    "aya_text": "اَيَحْسِبُ أَن لَّمْ يَرَهُۥٓ أَحَدٌۖ ﰆ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 38
   },
   {
     "id": 6008,
@@ -72844,11 +72858,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 11,
-    "is_mecca": 11,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 8,
-    "aya_text": "اَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ ﰇ"
+    "aya_text": "اَلَمْ نَجْعَل لَّهُۥ عَيْنَيْنِ ﰇ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 40
   },
   {
     "id": 6009,
@@ -72856,11 +72872,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 11,
-    "is_mecca": 11,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 9,
-    "aya_text": "وَلِسَاناٗ وَشَفَتَيْنِ ﰈ"
+    "aya_text": "وَلِسَاناٗ وَشَفَتَيْنِ ﰈ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 44
   },
   {
     "id": 6010,
@@ -72868,11 +72886,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 11,
-    "is_mecca": 12,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 10,
-    "aya_text": "وَهَدَيْنَٰهُ اُ۬لنَّجْدَيْنِۖ ﰉ"
+    "aya_text": "وَهَدَيْنَٰهُ اُ۬لنَّجْدَيْنِۖ ﰉ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 47
   },
   {
     "id": 6011,
@@ -72880,11 +72900,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 12,
-    "is_mecca": 12,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 11,
-    "aya_text": "فَلَا اَ۪قْتَحَمَ اَ۬لْعَقَبَةَۖ ﰊ"
+    "aya_text": "فَلَا اَ۪قْتَحَمَ اَ۬لْعَقَبَةَۖ ﰊ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 51
   },
   {
     "id": 6012,
@@ -72892,11 +72914,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 12,
-    "is_mecca": 12,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 12,
-    "aya_text": "وَمَآ أَدْر۪يٰكَ مَا اَ۬لْعَقَبَةُۖ ﰋ"
+    "aya_text": "وَمَآ أَدْر۪يٰكَ مَا اَ۬لْعَقَبَةُۖ ﰋ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 54
   },
   {
     "id": 6013,
@@ -72904,11 +72928,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 13,
-    "is_mecca": 13,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 13,
-    "aya_text": "فَكُّ رَقَبَةٍ ﰌ"
+    "aya_text": "فَكُّ رَقَبَةٍ ﰌ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 56
   },
   {
     "id": 6014,
@@ -72916,11 +72942,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 13,
-    "is_mecca": 13,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 14,
-    "aya_text": "اَوِ اِطْعَامٞ فِے يَوْمٖ ذِے مَسْغَبَةٖ ﰍ"
+    "aya_text": "اَوِ اِطْعَامٞ فِے يَوْمٖ ذِے مَسْغَبَةٖ ﰍ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 61
   },
   {
     "id": 6015,
@@ -72928,11 +72956,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 13,
-    "is_mecca": 13,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 15,
-    "aya_text": "يَتِيماٗ ذَا مَقْرَبَةٍ ﰎ"
+    "aya_text": "يَتِيماٗ ذَا مَقْرَبَةٍ ﰎ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 65
   },
   {
     "id": 6016,
@@ -72940,11 +72970,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 14,
-    "is_mecca": 14,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 16,
-    "aya_text": "اَوْ مِسْكِيناٗ ذَا مَتْرَبَةٖۖ ﰏ"
+    "aya_text": "اَوْ مِسْكِيناٗ ذَا مَتْرَبَةٖۖ ﰏ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 69
   },
   {
     "id": 6017,
@@ -72952,11 +72984,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 14,
-    "is_mecca": 15,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 17,
-    "aya_text": "ثُمَّ كَانَ مِنَ اَ۬لذِينَ ءَامَنُواْ وَتَوَاصَوْاْ بِالصَّبْرِ وَتَوَاصَوْاْ بِالْمَرْحَمَةِۖ ﰐ"
+    "aya_text": "ثُمَّ كَانَ مِنَ اَ۬لذِينَ ءَامَنُواْ وَتَوَاصَوْاْ بِالصَّبْرِ وَتَوَاصَوْاْ بِالْمَرْحَمَةِۖ ﰐ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 79
   },
   {
     "id": 6018,
@@ -72964,11 +72998,13 @@
     "page": "594",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 15,
-    "is_mecca": 15,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 18,
-    "aya_text": "أُوْلَٰٓئِكَ أَصْحَٰبُ اُ۬لْمَيْمَنَةِۖ ﰑ"
+    "aya_text": "أُوْلَٰٓئِكَ أَصْحَٰبُ اُ۬لْمَيْمَنَةِۖ ﰑ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 84
   },
   {
     "id": 6019,
@@ -72976,11 +73012,13 @@
     "page": "595",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 1,
-    "is_mecca": 1,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 19,
-    "aya_text": "وَالذِينَ كَفَرُواْ بِـَٔايَٰتِنَا هُمُۥٓ أَصْحَٰبُ اُ۬لْمَشْـَٔمَةِۖ ﰒ"
+    "aya_text": "وَالذِينَ كَفَرُواْ بِـَٔايَٰتِنَا هُمُۥٓ أَصْحَٰبُ اُ۬لْمَشْـَٔمَةِۖ ﰒ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 93
   },
   {
     "id": 6020,
@@ -72988,11 +73026,13 @@
     "page": "595",
     "sura_no": 90,
     "sura_name_en": "Al-Balad",
-    "sura_name_ar": "البَلَد ",
-    "total_verses": 1,
-    "is_mecca": 1,
+    "sura_name_ar": "سُورَةُ الْبَلَدِ ",
+    "total_verses": 20,
+    "is_mecca": true,
     "aya_no": 20,
-    "aya_text": "عَلَيْهِمْ نَارٞ مُّوصَدَةٞۖ ﰓ"
+    "aya_text": "عَلَيْهِمْ نَارٞ مُّوصَدَةٞۖ ﰓ",
+    "translation": "[All] praise is [due] to Allah, Lord of the worlds -",
+    "end": 97
   },
   {
     "id": 6021,
