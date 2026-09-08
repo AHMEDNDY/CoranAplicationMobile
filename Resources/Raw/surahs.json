@@ -4028,7 +4028,9 @@
     "total_verses": 200,
     "is_mecca": false,
     "aya_no": 1,
-    "aya_text": "أَلَٓمِّٓۖ اَ۬للَّهُ لَآ إِلَٰهَ إِلَّا هُوَۖ اَ۬لْحَيُّ اُ۬لْقَيُّومُ ﰀ"
+    "aya_text": "أَلَٓمِّٓۖ اَ۬للَّهُ لَآ إِلَٰهَ إِلَّا هُوَۖ اَ۬لْحَيُّ اُ۬لْقَيُّومُ ﰀ",
+    "translation": "Alif, Lam, Meem. God — there is no god but Him, the Ever-Living, the Sustainer of all existence.",
+    "end": 20
   },
   {
     "id": 294,
@@ -4037,10 +4039,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 3,
-    "is_mecca": 4,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 2,
-    "aya_text": "نَزَّلَ عَلَيْكَ اَ۬لْكِتَٰبَ بِالْحَقِّ مُصَدِّقاٗ لِّمَا بَيْنَ يَدَيْهِۖ وَأَنزَلَ اَ۬لتَّوْر۪يٰةَ وَالِانجِيلَ ﰁ"
+    "aya_text": "نَزَّلَ عَلَيْكَ اَ۬لْكِتَٰبَ بِالْحَقِّ مُصَدِّقاٗ لِّمَا بَيْنَ يَدَيْهِۖ وَأَنزَلَ اَ۬لتَّوْر۪يٰةَ وَالِانجِيلَ ﰁ",
+    "translation": "He has sent down to you this Book in truth, confirming what came before it, and He sent down the Torah and the Gospel.",
+    "end": 34
   },
   {
     "id": 295,
@@ -4049,10 +4053,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 5,
-    "is_mecca": 5,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 3,
-    "aya_text": "مِن قَبْلُ هُدىٗ لِّلنَّاسِ وَأَنزَلَ اَ۬لْفُرْقَانَۖ ﰂ"
+    "aya_text": "مِن قَبْلُ هُدىٗ لِّلنَّاسِ وَأَنزَلَ اَ۬لْفُرْقَانَۖ ﰂ",
+    "translation": "Earlier, as guidance for humankind, and He sent down the Criterion that distinguishes right from wrong.",
+    "end": 42
   },
   {
     "id": 296,
@@ -4061,10 +4067,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 5,
-    "is_mecca": 6,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 4,
-    "aya_text": "إِنَّ اَ۬لذِينَ كَفَرُواْ بِـَٔايَٰتِ اِ۬للَّهِ لَهُمْ عَذَابٞ شَدِيدٞۖ وَاللَّهُ عَزِيزٞ ذُو اُ۪نتِقَامٍۖ ﰃ"
+    "aya_text": "إِنَّ اَ۬لذِينَ كَفَرُواْ بِـَٔايَٰتِ اِ۬للَّهِ لَهُمْ عَذَابٞ شَدِيدٞۖ وَاللَّهُ عَزِيزٞ ذُو اُ۪نتِقَامٍۖ ﰃ",
+    "translation": "Indeed, those who reject God's signs will face a severe punishment, and God is Mighty, Capable of retribution.",
+    "end": 59
   },
   {
     "id": 297,
@@ -4073,10 +4081,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 6,
-    "is_mecca": 7,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 5,
-    "aya_text": "۞ اِنَّ اَ۬للَّهَ لَا يَخْف۪ىٰ عَلَيْهِ شَےْءٞ فِے اِ۬لَارْضِ وَلَا فِے اِ۬لسَّمَآءِۖ ﰄ"
+    "aya_text": "۞ اِنَّ اَ۬للَّهَ لَا يَخْف۪ىٰ عَلَيْهِ شَےْءٞ فِے اِ۬لَارْضِ وَلَا فِے اِ۬لسَّمَآءِۖ ﰄ",
+    "translation": "Nothing on earth or in the heavens is hidden from God.",
+    "end": 71
   },
   {
     "id": 298,
@@ -4085,10 +4095,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 7,
-    "is_mecca": 8,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 6,
-    "aya_text": "هُوَ اَ۬لذِے يُصَوِّرُكُمْ فِے اِ۬لَارْحَامِ كَيْفَ يَشَآءُۖ لَآ إِلَٰهَ إِلَّا هُوَۖ اَ۬لْعَزِيزُ اُ۬لْحَكِيمُۖ ﰅ"
+    "aya_text": "هُوَ اَ۬لذِے يُصَوِّرُكُمْ فِے اِ۬لَارْحَامِ كَيْفَ يَشَآءُۖ لَآ إِلَٰهَ إِلَّا هُوَۖ اَ۬لْعَزِيزُ اُ۬لْحَكِيمُۖ ﰅ",
+    "translation": "It is He who shapes you in the womb as He wills. There is no god but Him, the Mighty, the Wise.",
+    "end": 84
   },
   {
     "id": 299,
@@ -4097,10 +4109,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 9,
-    "is_mecca": 13,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 7,
-    "aya_text": "هُوَ اَ۬لذِےٓ أَنزَلَ عَلَيْكَ اَ۬لْكِتَٰبَ مِنْهُۖ ءَايَٰتٞ مُّحْكَمَٰتٌ هُنَّ أُمُّ اُ۬لْكِتَٰبِ وَأُخَرُ مُتَشَٰبِهَٰتٞۖ فَأَمَّا اَ۬لذِينَ فِے قُلُوبِهِمْ زَيْغٞ فَيَتَّبِعُونَ مَا تَشَٰبَهَ مِنْهُ اُ۪بْتِغَآءَ اَ۬لْفِتْنَةِ وَابْتِغَآءَ تَاوِيلِهِۦۖ وَمَا يَعْلَمُ تَاوِيلَهُۥٓ إِلَّا اَ۬للَّهُۖ وَالرَّٰسِخُونَ فِے اِ۬لْعِلْمِ يَقُولُونَ ءَامَنَّا بِهِۦ كُلّٞ مِّنْ عِندِ رَبِّنَاۖ وَمَا يَذَّكَّرُ إِلَّآ أُوْلُواْ اُ۬لَالْبَٰبِۖ ﰆ"
+    "aya_text": "هُوَ اَ۬لذِےٓ أَنزَلَ عَلَيْكَ اَ۬لْكِتَٰبَ مِنْهُۖ ءَايَٰتٞ مُّحْكَمَٰتٌ هُنَّ أُمُّ اُ۬لْكِتَٰبِ وَأُخَرُ مُتَشَٰبِهَٰتٞۖ فَأَمَّا اَ۬لذِينَ فِے قُلُوبِهِمْ زَيْغٞ فَيَتَّبِعُونَ مَا تَشَٰبَهَ مِنْهُ اُ۪بْتِغَآءَ اَ۬لْفِتْنَةِ وَابْتِغَآءَ تَاوِيلِهِۦۖ وَمَا يَعْلَمُ تَاوِيلَهُۥٓ إِلَّا اَ۬للَّهُۖ وَالرَّٰسِخُونَ فِے اِ۬لْعِلْمِ يَقُولُونَ ءَامَنَّا بِهِۦ كُلّٞ مِّنْ عِندِ رَبِّنَاۖ وَمَا يَذَّكَّرُ إِلَّآ أُوْلُواْ اُ۬لَالْبَٰبِۖ ﰆ",
+    "translation": "It is He who sent down to you the Book; in it are verses that are clear and foundational, and others that are open to interpretation. Those with deviation in their hearts pursue the ambiguous ones, seeking discord and seeking to interpret them, but only God knows their true interpretation. Those firmly grounded in knowledge say, 'We believe in it; it is all from our Lord.' Only people of understanding truly take heed.",
+    "end": 147
   },
   {
     "id": 300,
@@ -4109,10 +4123,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 13,
-    "is_mecca": 14,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 8,
-    "aya_text": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةًۖ اِنَّكَ أَنتَ اَ۬لْوَهَّابُۖ ﰇ"
+    "aya_text": "رَبَّنَا لَا تُزِغْ قُلُوبَنَا بَعْدَ إِذْ هَدَيْتَنَا وَهَبْ لَنَا مِن لَّدُنكَ رَحْمَةًۖ اِنَّكَ أَنتَ اَ۬لْوَهَّابُۖ ﰇ",
+    "translation": "\"Our Lord, do not let our hearts deviate after You have guided us, and grant us mercy from Yourself; truly You are the Giver of gifts.\"",
+    "end": 162
   },
   {
     "id": 301,
@@ -4121,10 +4137,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 14,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 9,
-    "aya_text": "رَبَّنَآ إِنَّكَ جَامِعُ اُ۬لنَّاسِ لِيَوْمٖ لَّا رَيْبَ فِيهِۖ إِنَّ اَ۬للَّهَ لَا يُخْلِفُ اُ۬لْمِيعَادَۖ ﰈ"
+    "aya_text": "رَبَّنَآ إِنَّكَ جَامِعُ اُ۬لنَّاسِ لِيَوْمٖ لَّا رَيْبَ فِيهِۖ إِنَّ اَ۬للَّهَ لَا يُخْلِفُ اُ۬لْمِيعَادَۖ ﰈ",
+    "translation": "\"Our Lord, You will surely gather humankind for a Day about which there is no doubt; God never fails His promise.\"",
+    "end": 179
   },
   {
     "id": 302,
@@ -4133,10 +4151,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 1,
-    "is_mecca": 2,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 10,
-    "aya_text": "إِنَّ اَ۬لذِينَ كَفَرُواْ لَن تُغْنِيَ عَنْهُمُۥٓ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُم مِّنَ اَ۬للَّهِ شَئْاٗۖ وَأُوْلَٰٓئِكَ هُمْ وَقُودُ اُ۬لنّ۪ارِ ﰉ"
+    "aya_text": "إِنَّ اَ۬لذِينَ كَفَرُواْ لَن تُغْنِيَ عَنْهُمُۥٓ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُم مِّنَ اَ۬للَّهِ شَئْاٗۖ وَأُوْلَٰٓئِكَ هُمْ وَقُودُ اُ۬لنّ۪ارِ ﰉ",
+    "translation": "As for those who deny the truth, neither their wealth nor their children will avail them at all against God; they will be fuel for the Fire.",
+    "end": 201
   },
   {
     "id": 303,
@@ -4145,10 +4165,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 2,
-    "is_mecca": 4,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 11,
-    "aya_text": "كَدَأْبِ ءَالِ فِرْعَوْنَۖ وَالذِينَ مِن قَبْلِهِمْ كَذَّبُواْ بِـَٔايَٰتِنَا فَأَخَذَهُمُ اُ۬للَّهُ بِذُنُوبِهِمْۖ وَاللَّهُ شَدِيدُ اُ۬لْعِقَابِۖ ﰊ"
+    "aya_text": "كَدَأْبِ ءَالِ فِرْعَوْنَۖ وَالذِينَ مِن قَبْلِهِمْ كَذَّبُواْ بِـَٔايَٰتِنَا فَأَخَذَهُمُ اُ۬للَّهُ بِذُنُوبِهِمْۖ وَاللَّهُ شَدِيدُ اُ۬لْعِقَابِۖ ﰊ",
+    "translation": "As was the case with Pharaoh's people and those before them: they denied Our signs, so God seized them for their sins; God is severe in punishment.",
+    "end": 218
   },
   {
     "id": 304,
@@ -4157,10 +4179,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 4,
-    "is_mecca": 5,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 12,
-    "aya_text": "قُل لِّلذِينَ كَفَرُواْ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَۖ وَبِيسَ اَ۬لْمِهَادُۖ ﰋ"
+    "aya_text": "قُل لِّلذِينَ كَفَرُواْ سَتُغْلَبُونَ وَتُحْشَرُونَ إِلَىٰ جَهَنَّمَۖ وَبِيسَ اَ۬لْمِهَادُۖ ﰋ",
+    "translation": "Say to those who deny the truth: \"You will be overcome and gathered into Hell — what a terrible resting place.\"",
+    "end": 229
   },
   {
     "id": 305,
@@ -4169,10 +4193,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 6,
-    "is_mecca": 9,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 13,
-    "aya_text": "قَدْ كَانَ لَكُمُۥٓ ءَايَةٞ فِے فِئَتَيْنِ اِ۪لْتَقَتَاۖ فِئَةٞ تُقَٰتِلُ فِے سَبِيلِ اِ۬للَّهِ وَأُخْر۪ىٰ كَافِرَةٞ تَرَوْنَهُم مِّثْلَيْهِمْ رَأْيَ اَ۬لْعَيْنِۖ وَاللَّهُ يُوَ۬يِّدُ بِنَصْرِهِۦ مَنْ يَّشَآءُۖ اِ۪نَّ فِے ذَٰلِكَ لَعِبْرَةٗ لِّأُوْلِے اِ۬لَابْصٰ۪رِۖ ﰌ"
+    "aya_text": "قَدْ كَانَ لَكُمُۥٓ ءَايَةٞ فِے فِئَتَيْنِ اِ۪لْتَقَتَاۖ فِئَةٞ تُقَٰتِلُ فِے سَبِيلِ اِ۬للَّهِ وَأُخْر۪ىٰ كَافِرَةٞ تَرَوْنَهُم مِّثْلَيْهِمْ رَأْيَ اَ۬لْعَيْنِۖ وَاللَّهُ يُوَ۬يِّدُ بِنَصْرِهِۦ مَنْ يَّشَآءُۖ اِ۪نَّ فِے ذَٰلِكَ لَعِبْرَةٗ لِّأُوْلِے اِ۬لَابْصٰ۪رِۖ ﰌ",
+    "translation": "There was a sign for you in the two armies that met: one fighting in God's cause, the other rejecting faith, seeing the believers as twice their number with their own eyes. God supports with His help whom He wills; in this is truly a lesson for those with insight.",
+    "end": 262
   },
   {
     "id": 306,
@@ -4181,10 +4207,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 9,
-    "is_mecca": 12,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 14,
-    "aya_text": "زُيِّنَ لِلنَّاسِ حُبُّ اُ۬لشَّهَوَٰتِ مِنَ اَ۬لنِّسَآءِ وَالْبَنِينَ وَالْقَنَٰطِيرِ اِ۬لْمُقَنطَرَةِ مِنَ اَ۬لذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ اِ۬لْمُسَوَّمَةِ وَالَانْعَٰمِ وَالْحَرْثِۖ ذَٰلِكَ مَتَٰعُ اُ۬لْحَيَوٰةِ اِ۬لدُّنْي۪اۖ وَاللَّهُ عِندَهُۥ حُسْنُ اُ۬لْمَـَٔابِۖ ﰍ"
+    "aya_text": "زُيِّنَ لِلنَّاسِ حُبُّ اُ۬لشَّهَوَٰتِ مِنَ اَ۬لنِّسَآءِ وَالْبَنِينَ وَالْقَنَٰطِيرِ اِ۬لْمُقَنطَرَةِ مِنَ اَ۬لذَّهَبِ وَالْفِضَّةِ وَالْخَيْلِ اِ۬لْمُسَوَّمَةِ وَالَانْعَٰمِ وَالْحَرْثِۖ ذَٰلِكَ مَتَٰعُ اُ۬لْحَيَوٰةِ اِ۬لدُّنْي۪اۖ وَاللَّهُ عِندَهُۥ حُسْنُ اُ۬لْمَـَٔابِۖ ﰍ",
+    "translation": "The love of desirable things has been made appealing to people: women, children, hoarded treasures of gold and silver, fine horses, livestock, and farmland. These are the comforts of worldly life, but with God is the best return.",
+    "end": 296
   },
   {
     "id": 307,
@@ -4193,10 +4221,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 12,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 15,
-    "aya_text": "۞ قُلَ اَوْ۟نَبِّئُكُم بِخَيْرٖ مِّن ذَٰلِكُمْۖ لِلذِينَ اَ۪تَّقَوْاْ عِندَ رَبِّهِمْ جَنَّٰتٞ تَجْرِے مِن تَحْتِهَا اَ۬لَانْهَٰرُ خَٰلِدِينَ فِيهَا وَأَزْوَٰجٞ مُّطَهَّرَةٞ وَرِضْوَٰنٞ مِّنَ اَ۬للَّهِۖ وَاللَّهُ بَصِيرُۢ بِالْعِبَادِۖ ﰎ"
+    "aya_text": "۞ قُلَ اَوْ۟نَبِّئُكُم بِخَيْرٖ مِّن ذَٰلِكُمْۖ لِلذِينَ اَ۪تَّقَوْاْ عِندَ رَبِّهِمْ جَنَّٰتٞ تَجْرِے مِن تَحْتِهَا اَ۬لَانْهَٰرُ خَٰلِدِينَ فِيهَا وَأَزْوَٰجٞ مُّطَهَّرَةٞ وَرِضْوَٰنٞ مِّنَ اَ۬للَّهِۖ وَاللَّهُ بَصِيرُۢ بِالْعِبَادِۖ ﰎ",
+    "translation": "Say: \"Shall I tell you of something better than these? For those mindful of God, with their Lord, are gardens beneath which rivers flow, where they will remain forever, along with pure spouses and God's good pleasure.\" God is watchful over His servants.",
+    "end": 332
   },
   {
     "id": 308,
@@ -4205,10 +4235,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 1,
-    "is_mecca": 2,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 16,
-    "aya_text": "اِ۬لذِينَ يَقُولُونَ رَبَّنَآ إِنَّنَآ ءَامَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ اَ۬لنّ۪ارِۖ ﰏ"
+    "aya_text": "اِ۬لذِينَ يَقُولُونَ رَبَّنَآ إِنَّنَآ ءَامَنَّا فَاغْفِرْ لَنَا ذُنُوبَنَا وَقِنَا عَذَابَ اَ۬لنّ۪ارِۖ ﰏ",
+    "translation": "Those who say, \"Our Lord, we truly believe, so forgive us our sins and protect us from the punishment of the Fire.\"",
+    "end": 349
   },
   {
     "id": 309,
@@ -4217,10 +4249,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 2,
-    "is_mecca": 3,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 17,
-    "aya_text": "اِ۬لصَّٰبِرِينَ وَالصَّٰدِقِينَ وَالْقَٰنِتِينَ وَالْمُنفِقِينَ وَالْمُسْتَغْفِرِينَ بِالَاسْح۪ارِۖ ﰐ"
+    "aya_text": "اِ۬لصَّٰبِرِينَ وَالصَّٰدِقِينَ وَالْقَٰنِتِينَ وَالْمُنفِقِينَ وَالْمُسْتَغْفِرِينَ بِالَاسْح۪ارِۖ ﰐ",
+    "translation": "The patient, the truthful, the devoted, those who give in charity, and those who seek forgiveness before dawn.",
+    "end": 362
   },
   {
     "id": 310,
@@ -4229,10 +4263,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 3,
-    "is_mecca": 5,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 18,
-    "aya_text": "شَهِدَ اَ۬للَّهُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا هُوَ وَالْمَلَٰٓئِكَةُ وَأُوْلُواْ اُ۬لْعِلْمِ قَآئِماَۢ بِالْقِسْطِۖ لَآ إِلَٰهَ إِلَّا هُوَۖ اَ۬لْعَزِيزُ اُ۬لْحَكِيمُۖ ﰑ"
+    "aya_text": "شَهِدَ اَ۬للَّهُ أَنَّهُۥ لَآ إِلَٰهَ إِلَّا هُوَ وَالْمَلَٰٓئِكَةُ وَأُوْلُواْ اُ۬لْعِلْمِ قَآئِماَۢ بِالْقِسْطِۖ لَآ إِلَٰهَ إِلَّا هُوَۖ اَ۬لْعَزِيزُ اُ۬لْحَكِيمُۖ ﰑ",
+    "translation": "God bears witness that there is no god but Him, as do the angels and those firm in knowledge, upholding justice. There is no god but Him, the Mighty, the Wise.",
+    "end": 387
   },
   {
     "id": 311,
@@ -4241,10 +4277,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 5,
-    "is_mecca": 8,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 19,
-    "aya_text": "إِنَّ اَ۬لدِّينَ عِندَ اَ۬للَّهِ اِ۬لِاسْلَٰمُۖ وَمَا اَ۪خْتَلَفَ اَ۬لذِينَ أُوتُواْ اُ۬لْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ اُ۬لْعِلْمُۖ بَغْياَۢ بَيْنَهُمْۖ وَمَنْ يَّكْفُرْ بِـَٔايَٰتِ اِ۬للَّهِ فَإِنَّ اَ۬للَّهَ سَرِيعُ اُ۬لْحِسَابِۖ ﰒ"
+    "aya_text": "إِنَّ اَ۬لدِّينَ عِندَ اَ۬للَّهِ اِ۬لِاسْلَٰمُۖ وَمَا اَ۪خْتَلَفَ اَ۬لذِينَ أُوتُواْ اُ۬لْكِتَٰبَ إِلَّا مِنۢ بَعْدِ مَا جَآءَهُمُ اُ۬لْعِلْمُۖ بَغْياَۢ بَيْنَهُمْۖ وَمَنْ يَّكْفُرْ بِـَٔايَٰتِ اِ۬للَّهِ فَإِنَّ اَ۬للَّهَ سَرِيعُ اُ۬لْحِسَابِۖ ﰒ",
+    "translation": "Indeed, the true religion in God's sight is submission to Him. Those given the Scripture disagreed only after knowledge came to them, out of mutual rivalry. Whoever denies God's signs will find that God is swift in reckoning.",
+    "end": 418
   },
   {
     "id": 312,
@@ -4253,10 +4291,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 8,
-    "is_mecca": 11,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 20,
-    "aya_text": "فَإِنْ حَآجُّوكَ فَقُلَ اَسْلَمْتُ وَجْهِيَ لِلهِ وَمَنِ اِ۪تَّبَعَنِۦۖ وَقُل لِّلذِينَ أُوتُواْ اُ۬لْكِتَٰبَ وَالُامِّيِّۧنَ ءَآسْلَمْتُمْۖ فَإِنَ اَسْلَمُواْ فَقَدِ اِ۪هْتَدَواْۖ وَّإِن تَوَلَّوْاْ فَإِنَّمَا عَلَيْكَ اَ۬لْبَلَٰغُۖ وَاللَّهُ بَصِيرُۢ بِالْعِبَادِۖ ﰓ"
+    "aya_text": "فَإِنْ حَآجُّوكَ فَقُلَ اَسْلَمْتُ وَجْهِيَ لِلهِ وَمَنِ اِ۪تَّبَعَنِۦۖ وَقُل لِّلذِينَ أُوتُواْ اُ۬لْكِتَٰبَ وَالُامِّيِّۧنَ ءَآسْلَمْتُمْۖ فَإِنَ اَسْلَمُواْ فَقَدِ اِ۪هْتَدَواْۖ وَّإِن تَوَلَّوْاْ فَإِنَّمَا عَلَيْكَ اَ۬لْبَلَٰغُۖ وَاللَّهُ بَصِيرُۢ بِالْعِبَادِۖ ﰓ",
+    "translation": "If they argue with you, say: \"I have submitted myself entirely to God, as have those who follow me.\" Ask those given the Scripture, and the unlettered people, \"Have you submitted?\" If they submit, they are rightly guided; if they turn away, your duty is only to deliver the message. God is watchful over His servants.",
+    "end": 450
   },
   {
     "id": 313,
@@ -4265,10 +4305,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 12,
-    "is_mecca": 14,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 21,
-    "aya_text": "إِنَّ اَ۬لذِينَ يَكْفُرُونَ بِـَٔايَٰتِ اِ۬للَّهِ وَيَقْتُلُونَ اَ۬لنَّبِيٓـِٕۧنَ بِغَيْرِ حَقّٖ وَيَقْتُلُونَ اَ۬لذِينَ يَامُرُونَ بِالْقِسْطِ مِنَ اَ۬لنَّاسِ فَبَشِّرْهُم بِعَذَابٍ اَلِيمٍۖ ﰔ"
+    "aya_text": "إِنَّ اَ۬لذِينَ يَكْفُرُونَ بِـَٔايَٰتِ اِ۬للَّهِ وَيَقْتُلُونَ اَ۬لنَّبِيٓـِٕۧنَ بِغَيْرِ حَقّٖ وَيَقْتُلُونَ اَ۬لذِينَ يَامُرُونَ بِالْقِسْطِ مِنَ اَ۬لنَّاسِ فَبَشِّرْهُم بِعَذَابٍ اَلِيمٍۖ ﰔ",
+    "translation": "Those who deny God's signs, kill the prophets without right, and kill those among the people who call for justice — give them news of a painful punishment.",
+    "end": 483
   },
   {
     "id": 314,
@@ -4277,10 +4319,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 14,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 22,
-    "aya_text": "ا۟وْلَٰٓئِكَ اَ۬لذِينَ حَبِطَتَ اَعْمَٰلُهُمْ فِے اِ۬لدُّنْي۪ا وَالَاخِرَةِۖ وَمَا لَهُم مِّن نَّٰصِرِينَۖ ﰕ"
+    "aya_text": "ا۟وْلَٰٓئِكَ اَ۬لذِينَ حَبِطَتَ اَعْمَٰلُهُمْ فِے اِ۬لدُّنْي۪ا وَالَاخِرَةِۖ وَمَا لَهُم مِّن نَّٰصِرِينَۖ ﰕ",
+    "translation": "These are the ones whose deeds have come to nothing in this world and the next, and they will have no helpers.",
+    "end": 498
   },
   {
     "id": 315,
@@ -4289,10 +4333,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 1,
-    "is_mecca": 2,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 23,
-    "aya_text": "۞ أَلَمْ تَرَ إِلَى اَ۬لذِينَ أُوتُواْ نَصِيباٗ مِّنَ اَ۬لْكِتَٰبِ يُدْعَوْنَ إِلَىٰ كِتَٰبِ اِ۬للَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلّ۪ىٰ فَرِيقٞ مِّنْهُمْ وَهُم مُّعْرِضُونَۖ ﰖ"
+    "aya_text": "۞ أَلَمْ تَرَ إِلَى اَ۬لذِينَ أُوتُواْ نَصِيباٗ مِّنَ اَ۬لْكِتَٰبِ يُدْعَوْنَ إِلَىٰ كِتَٰبِ اِ۬للَّهِ لِيَحْكُمَ بَيْنَهُمْ ثُمَّ يَتَوَلّ۪ىٰ فَرِيقٞ مِّنْهُمْ وَهُم مُّعْرِضُونَۖ ﰖ",
+    "translation": "Have you not seen those given a portion of the Scripture, who are invited to God's Book to judge between them, yet a group of them turns away in refusal?",
+    "end": 519
   },
   {
     "id": 316,
@@ -4301,10 +4347,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 3,
-    "is_mecca": 4,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 24,
-    "aya_text": "ذَٰلِكَ بِأَنَّهُمْ قَالُواْ لَن تَمَسَّنَا اَ۬لنَّارُ إِلَّآ أَيَّاماٗ مَّعْدُودَٰتٖ وَغَرَّهُمْ فِے دِينِهِم مَّا كَانُواْ يَفْتَرُونَۖ ﰗ"
+    "aya_text": "ذَٰلِكَ بِأَنَّهُمْ قَالُواْ لَن تَمَسَّنَا اَ۬لنَّارُ إِلَّآ أَيَّاماٗ مَّعْدُودَٰتٖ وَغَرَّهُمْ فِے دِينِهِم مَّا كَانُواْ يَفْتَرُونَۖ ﰗ",
+    "translation": "That is because they say, \"The Fire will not touch us except for a limited number of days,\" and they have been deceived in their religion by their own fabrications.",
+    "end": 539
   },
   {
     "id": 317,
@@ -4313,10 +4361,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 4,
-    "is_mecca": 6,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 25,
-    "aya_text": "فَكَيْفَ إِذَا جَمَعْنَٰهُمْ لِيَوْمٖ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٖ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَۖ ﰘ"
+    "aya_text": "فَكَيْفَ إِذَا جَمَعْنَٰهُمْ لِيَوْمٖ لَّا رَيْبَ فِيهِ وَوُفِّيَتْ كُلُّ نَفْسٖ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَۖ ﰘ",
+    "translation": "How will it be when We gather them for a Day about which there is no doubt, and every soul is paid in full for what it earned, with no injustice done to anyone?",
+    "end": 552
   },
   {
     "id": 318,
@@ -4325,10 +4375,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 6,
-    "is_mecca": 8,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 26,
-    "aya_text": "قُلِ اِ۬للَّهُمَّ مَٰلِكَ اَ۬لْمُلْكِ تُوتِے اِ۬لْمُلْكَ مَن تَشَآءُ وَتَنزِعُ اُ۬لْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ بِيَدِكَ اَ۬لْخَيْرُۖ إِنَّكَ عَلَىٰ كُلِّ شَےْءٖ قَدِيرٞۖ ﰙ"
+    "aya_text": "قُلِ اِ۬للَّهُمَّ مَٰلِكَ اَ۬لْمُلْكِ تُوتِے اِ۬لْمُلْكَ مَن تَشَآءُ وَتَنزِعُ اُ۬لْمُلْكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُ بِيَدِكَ اَ۬لْخَيْرُۖ إِنَّكَ عَلَىٰ كُلِّ شَےْءٖ قَدِيرٞۖ ﰙ",
+    "translation": "Say: \"O God, Owner of all sovereignty, You give sovereignty to whom You will and take it from whom You will; You honor whom You will and humble whom You will. All good is in Your hand; You have power over everything.\"",
+    "end": 591
   },
   {
     "id": 319,
@@ -4337,10 +4389,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 8,
-    "is_mecca": 10,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 27,
-    "aya_text": "تُولِجُ اُ۬ليْلَ فِے اِ۬لنَّه۪ارِ وَتُولِجُ اُ۬لنَّهَارَ فِے اِ۬ليْلِ وَتُخْرِجُ اُ۬لْحَيَّ مِنَ اَ۬لْمَيِّتِ وَتُخْرِجُ اُ۬لْمَيِّتَ مِنَ اَ۬لْحَيِّ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٖۖ ﰚ"
+    "aya_text": "تُولِجُ اُ۬ليْلَ فِے اِ۬لنَّه۪ارِ وَتُولِجُ اُ۬لنَّهَارَ فِے اِ۬ليْلِ وَتُخْرِجُ اُ۬لْحَيَّ مِنَ اَ۬لْمَيِّتِ وَتُخْرِجُ اُ۬لْمَيِّتَ مِنَ اَ۬لْحَيِّ وَتَرْزُقُ مَن تَشَآءُ بِغَيْرِ حِسَابٖۖ ﰚ",
+    "translation": "\"You cause the night to enter into the day and the day into the night; You bring the living out of the dead and the dead out of the living; and You provide for whom You will without limit.\"",
+    "end": 616
   },
   {
     "id": 320,
@@ -4349,10 +4403,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 11,
-    "is_mecca": 13,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 28,
-    "aya_text": "لَّا يَتَّخِذِ اِ۬لْمُومِنُونَ اَ۬لْكٰ۪فِرِينَ أَوْلِيَآءَ مِن دُونِ اِ۬لْمُومِنِينَۖ وَمَنْ يَّفْعَلْ ذَٰلِكَ فَلَيْسَ مِنَ اَ۬للَّهِ فِے شَےْءٍ اِلَّآ أَن تَتَّقُواْ مِنْهُمْ تُق۪يٰةٗۖ وَيُحَذِّرُكُمُ اُ۬للَّهُ نَفْسَهُۥۖ وَإِلَى اَ۬للَّهِ اِ۬لْمَصِيرُۖ ﰛ"
+    "aya_text": "لَّا يَتَّخِذِ اِ۬لْمُومِنُونَ اَ۬لْكٰ۪فِرِينَ أَوْلِيَآءَ مِن دُونِ اِ۬لْمُومِنِينَۖ وَمَنْ يَّفْعَلْ ذَٰلِكَ فَلَيْسَ مِنَ اَ۬للَّهِ فِے شَےْءٍ اِلَّآ أَن تَتَّقُواْ مِنْهُمْ تُق۪يٰةٗۖ وَيُحَذِّرُكُمُ اُ۬للَّهُ نَفْسَهُۥۖ وَإِلَى اَ۬للَّهِ اِ۬لْمَصِيرُۖ ﰛ",
+    "translation": "Believers should not take disbelievers as allies instead of other believers — whoever does so has nothing to do with God — except when guarding yourselves cautiously against them. God warns you to be mindful of Himself, and to God is the final return.",
+    "end": 648
   },
   {
     "id": 321,
@@ -4361,10 +4417,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 13,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 29,
-    "aya_text": "قُلِ اِن تُخْفُواْ مَا فِے صُدُورِكُمُۥٓ أَوْ تُبْدُوهُ يَعْلَمْهُ اُ۬للَّهُۖ وَيَعْلَمُ مَا فِے اِ۬لسَّمَٰوَٰتِ وَمَا فِے اِ۬لَارْضِۖ وَاللَّهُ عَلَىٰ كُلِّ شَےْءٖ قَدِيرٞۖ ﰜ"
+    "aya_text": "قُلِ اِن تُخْفُواْ مَا فِے صُدُورِكُمُۥٓ أَوْ تُبْدُوهُ يَعْلَمْهُ اُ۬للَّهُۖ وَيَعْلَمُ مَا فِے اِ۬لسَّمَٰوَٰتِ وَمَا فِے اِ۬لَارْضِۖ وَاللَّهُ عَلَىٰ كُلِّ شَےْءٖ قَدِيرٞۖ ﰜ",
+    "translation": "Say: \"Whether you hide what is in your hearts or reveal it, God knows it. He knows all that is in the heavens and on earth, and God has power over everything.\"",
+    "end": 669
   },
   {
     "id": 322,
@@ -4373,10 +4431,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 1,
-    "is_mecca": 3,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 30,
-    "aya_text": "يَوْمَ تَجِدُ كُلُّ نَفْسٖ مَّا عَمِلَتْ مِنْ خَيْرٖ مُّحْضَراٗۖ وَمَا عَمِلَتْ مِن سُوٓءٖ تَوَدُّ لَوَ اَنَّ بَيْنَهَا وَبَيْنَهُۥٓ أَمَداَۢ بَعِيداٗۖ وَيُحَذِّرُكُمُ اُ۬للَّهُ نَفْسَهُۥۖ وَاللَّهُ رَءُوفُۢ بِالْعِبَادِۖ ﰝ"
+    "aya_text": "يَوْمَ تَجِدُ كُلُّ نَفْسٖ مَّا عَمِلَتْ مِنْ خَيْرٖ مُّحْضَراٗۖ وَمَا عَمِلَتْ مِن سُوٓءٖ تَوَدُّ لَوَ اَنَّ بَيْنَهَا وَبَيْنَهُۥٓ أَمَداَۢ بَعِيداٗۖ وَيُحَذِّرُكُمُ اُ۬للَّهُ نَفْسَهُۥۖ وَاللَّهُ رَءُوفُۢ بِالْعِبَادِۖ ﰝ",
+    "translation": "On the Day every soul will find the good it has done brought before it, and the evil it has done — it will wish there were a great distance between itself and that evil. God warns you to be mindful of Himself, and God is compassionate toward His servants.",
+    "end": 698
   },
   {
     "id": 323,
@@ -4385,10 +4445,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 3,
-    "is_mecca": 5,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 31,
-    "aya_text": "قُلِ اِن كُنتُمْ تُحِبُّونَ اَ۬للَّهَ فَاتَّبِعُونِے يُحْبِبْكُمُ اُ۬للَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْۖ وَاللَّهُ غَفُورٞ رَّحِيمٞۖ ﰞ"
+    "aya_text": "قُلِ اِن كُنتُمْ تُحِبُّونَ اَ۬للَّهَ فَاتَّبِعُونِے يُحْبِبْكُمُ اُ۬للَّهُ وَيَغْفِرْ لَكُمْ ذُنُوبَكُمْۖ وَاللَّهُ غَفُورٞ رَّحِيمٞۖ ﰞ",
+    "translation": "Say: \"If you love God, follow me; God will love you and forgive your sins. God is forgiving and merciful.\"",
+    "end": 714
   },
   {
     "id": 324,
@@ -4397,10 +4459,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 5,
-    "is_mecca": 6,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 32,
-    "aya_text": "قُلَ اَطِيعُواْ اُ۬للَّهَ وَالرَّسُولَۖ فَإِن تَوَلَّوْاْ فَإِنَّ اَ۬للَّهَ لَا يُحِبُّ اُ۬لْكٰ۪فِرِينَۖ ﰟ"
+    "aya_text": "قُلَ اَطِيعُواْ اُ۬للَّهَ وَالرَّسُولَۖ فَإِن تَوَلَّوْاْ فَإِنَّ اَ۬للَّهَ لَا يُحِبُّ اُ۬لْكٰ۪فِرِينَۖ ﰟ",
+    "translation": "Say: \"Obey God and the Messenger.\" If they turn away, then indeed God does not love the disbelievers.",
+    "end": 725
   },
   {
     "id": 325,
@@ -4409,10 +4473,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 6,
-    "is_mecca": 7,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 33,
-    "aya_text": "۞ إِنَّ اَ۬للَّهَ اَ۪صْطَف۪ىٰٓ ءَادَمَ وَنُوحاٗ وَءَالَ إِبْرَٰهِيمَ وَءَالَ عِمْرَٰنَ عَلَى اَ۬لْعَٰلَمِينَ ﰠ"
+    "aya_text": "۞ إِنَّ اَ۬للَّهَ اَ۪صْطَف۪ىٰٓ ءَادَمَ وَنُوحاٗ وَءَالَ إِبْرَٰهِيمَ وَءَالَ عِمْرَٰنَ عَلَى اَ۬لْعَٰلَمِينَ ﰠ",
+    "translation": "Indeed, God chose Adam, Noah, the family of Abraham, and the family of Imran above all peoples.",
+    "end": 741
   },
   {
     "id": 326,
@@ -4421,10 +4487,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 7,
-    "is_mecca": 8,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 34,
-    "aya_text": "ذُرِّيَّةَۢ بَعْضُهَا مِنۢ بَعْضٖۖ وَاللَّهُ سَمِيعٌ عَلِيمٌۖ ﰡ"
+    "aya_text": "ذُرِّيَّةَۢ بَعْضُهَا مِنۢ بَعْضٖۖ وَاللَّهُ سَمِيعٌ عَلِيمٌۖ ﰡ",
+    "translation": "One lineage descending from another, and God hears and knows all.",
+    "end": 751
   },
   {
     "id": 327,
@@ -4433,10 +4501,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 8,
-    "is_mecca": 9,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 35,
-    "aya_text": "اِذْ قَالَتِ اِ۪مْرَأَتُ عِمْرَٰنَ رَبِّ إِنِّے نَذَرْتُ لَكَ مَا فِے بَطْنِے مُحَرَّراٗ فَتَقَبَّلْ مِنِّيَۖ إِنَّكَ أَنتَ اَ۬لسَّمِيعُ اُ۬لْعَلِيمُۖ ﰢ"
+    "aya_text": "اِذْ قَالَتِ اِ۪مْرَأَتُ عِمْرَٰنَ رَبِّ إِنِّے نَذَرْتُ لَكَ مَا فِے بَطْنِے مُحَرَّراٗ فَتَقَبَّلْ مِنِّيَۖ إِنَّكَ أَنتَ اَ۬لسَّمِيعُ اُ۬لْعَلِيمُۖ ﰢ",
+    "translation": "When the wife of Imran said, \"My Lord, I dedicate to You what is in my womb, set apart for Your service, so accept this from me; You are the Hearing, the Knowing.\"",
+    "end": 768
   },
   {
     "id": 328,
@@ -4445,10 +4515,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 10,
-    "is_mecca": 12,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 36,
-    "aya_text": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّے وَضَعْتُهَآ أُنث۪ىٰ وَاللَّهُ أَعْلَمُ بِمَا وَضَعَتْۖ وَلَيْسَ اَ۬لذَّكَرُ كَالُانث۪ىٰۖ وَإِنِّے سَمَّيْتُهَا مَرْيَمَۖ وَإِنِّيَ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ اَ۬لشَّيْطَٰنِ اِ۬لرَّجِيمِۖ ﰣ"
+    "aya_text": "فَلَمَّا وَضَعَتْهَا قَالَتْ رَبِّ إِنِّے وَضَعْتُهَآ أُنث۪ىٰ وَاللَّهُ أَعْلَمُ بِمَا وَضَعَتْۖ وَلَيْسَ اَ۬لذَّكَرُ كَالُانث۪ىٰۖ وَإِنِّے سَمَّيْتُهَا مَرْيَمَۖ وَإِنِّيَ أُعِيذُهَا بِكَ وَذُرِّيَّتَهَا مِنَ اَ۬لشَّيْطَٰنِ اِ۬لرَّجِيمِۖ ﰣ",
+    "translation": "When she gave birth, she said, \"My Lord, I have given birth to a girl\" — though God knew best what she had given birth to, and the male is not like the female — \"and I have named her Mary, and I place her and her offspring in Your protection from the accursed devil.\"",
+    "end": 799
   },
   {
     "id": 329,
@@ -4457,10 +4529,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 12,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 37,
-    "aya_text": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٖ وَأَنۢبَتَهَا نَبَاتاً حَسَناٗۖ وَكَفَلَهَا زَكَرِيَّآءُۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّآءُ اُ۬لْمِحْرَابَ وَجَدَ عِندَهَا رِزْقاٗۖ قَالَ يَٰمَرْيَمُ أَنّ۪ىٰ لَكِ هَٰذَاۖ قَالَتْ هُوَ مِنْ عِندِ اِ۬للَّهِۖ إِنَّ اَ۬للَّهَ يَرْزُقُ مَنْ يَّشَآءُ بِغَيْرِ حِسَابٍۖ ﰤ"
+    "aya_text": "فَتَقَبَّلَهَا رَبُّهَا بِقَبُولٍ حَسَنٖ وَأَنۢبَتَهَا نَبَاتاً حَسَناٗۖ وَكَفَلَهَا زَكَرِيَّآءُۖ كُلَّمَا دَخَلَ عَلَيْهَا زَكَرِيَّآءُ اُ۬لْمِحْرَابَ وَجَدَ عِندَهَا رِزْقاٗۖ قَالَ يَٰمَرْيَمُ أَنّ۪ىٰ لَكِ هَٰذَاۖ قَالَتْ هُوَ مِنْ عِندِ اِ۬للَّهِۖ إِنَّ اَ۬للَّهَ يَرْزُقُ مَنْ يَّشَآءُ بِغَيْرِ حِسَابٍۖ ﰤ",
+    "translation": "So her Lord accepted her graciously and made her grow up in goodness, and placed her in the care of Zechariah. Whenever Zechariah entered her sanctuary, he found provisions with her. He said, \"Mary, where does this come from?\" She said, \"It is from God; God provides for whom He wills without limit.\"",
+    "end": 844
   },
   {
     "id": 330,
@@ -4469,10 +4543,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 1,
-    "is_mecca": 2,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 38,
-    "aya_text": "هُنَالِكَ دَعَا زَكَرِيَّآءُ رَبَّهُۥۖ قَالَ رَبِّ هَبْ لِے مِن لَّدُنكَ ذُرِّيَّةٗ طَيِّبَةً اِنَّكَ سَمِيعُ اُ۬لدُّعَآءِۖ ﰥ"
+    "aya_text": "هُنَالِكَ دَعَا زَكَرِيَّآءُ رَبَّهُۥۖ قَالَ رَبِّ هَبْ لِے مِن لَّدُنكَ ذُرِّيَّةٗ طَيِّبَةً اِنَّكَ سَمِيعُ اُ۬لدُّعَآءِۖ ﰥ",
+    "translation": "There Zechariah called upon his Lord, saying, \"My Lord, grant me from Yourself righteous offspring; You are the Hearer of prayer.\"",
+    "end": 863
   },
   {
     "id": 331,
@@ -4481,10 +4557,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 2,
-    "is_mecca": 4,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 39,
-    "aya_text": "فَنَادَتْهُ اُ۬لْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٞ يُصَلِّے فِے اِ۬لْمِحْرَابِ أَنَّ اَ۬للَّهَ يُبَشِّرُكَ بِيَحْي۪ىٰ مُصَدِّقاَۢ بِكَلِمَةٖ مِّنَ اَ۬للَّهِ وَسَيِّداٗ وَحَصُوراٗ وَنَبِيٓـٔاٗ مِّنَ اَ۬لصَّٰلِحِينَۖ ﰦ"
+    "aya_text": "فَنَادَتْهُ اُ۬لْمَلَٰٓئِكَةُ وَهُوَ قَآئِمٞ يُصَلِّے فِے اِ۬لْمِحْرَابِ أَنَّ اَ۬للَّهَ يُبَشِّرُكَ بِيَحْي۪ىٰ مُصَدِّقاَۢ بِكَلِمَةٖ مِّنَ اَ۬للَّهِ وَسَيِّداٗ وَحَصُوراٗ وَنَبِيٓـٔاٗ مِّنَ اَ۬لصَّٰلِحِينَۖ ﰦ",
+    "translation": "The angels called out to him as he stood praying in the sanctuary: \"God gives you the good news of John, confirming a word from God, distinguished, self-restrained, and a prophet among the righteous.\"",
+    "end": 899
   },
   {
     "id": 332,
@@ -4493,10 +4571,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 4,
-    "is_mecca": 6,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 40,
-    "aya_text": "قَالَ رَبِّ أَنّ۪ىٰ يَكُونُ لِے غُلَٰمٞ وَقَدْ بَلَغَنِيَ اَ۬لْكِبَرُ وَامْرَأَتِے عَاقِرٞۖ قَالَ كَذَٰلِكَۖ اَ۬للَّهُ يَفْعَلُ مَا يَشَآءُۖ ﰧ"
+    "aya_text": "قَالَ رَبِّ أَنّ۪ىٰ يَكُونُ لِے غُلَٰمٞ وَقَدْ بَلَغَنِيَ اَ۬لْكِبَرُ وَامْرَأَتِے عَاقِرٞۖ قَالَ كَذَٰلِكَۖ اَ۬للَّهُ يَفْعَلُ مَا يَشَآءُۖ ﰧ",
+    "translation": "He said, \"My Lord, how can I have a son when old age has overtaken me and my wife is barren?\" He said, \"So it will be; God does what He wills.\"",
+    "end": 918
   },
   {
     "id": 333,
@@ -4505,10 +4585,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 6,
-    "is_mecca": 8,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 41,
-    "aya_text": "قَالَ رَبِّ اِ۪جْعَل لِّيَ ءَايَةٗۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ اَ۬لنَّاسَ ثَلَٰثَةَ أَيَّامٍ اِلَّا رَمْزاٗۖ وَاذْكُر رَّبَّكَ كَثِيراٗ وَسَبِّحْ بِالْعَشِيِّ وَالِابْكٰ۪رِۖ ﰨ"
+    "aya_text": "قَالَ رَبِّ اِ۪جْعَل لِّيَ ءَايَةٗۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ اَ۬لنَّاسَ ثَلَٰثَةَ أَيَّامٍ اِلَّا رَمْزاٗۖ وَاذْكُر رَّبَّكَ كَثِيراٗ وَسَبِّحْ بِالْعَشِيِّ وَالِابْكٰ۪رِۖ ﰨ",
+    "translation": "He said, \"My Lord, give me a sign.\" He said, \"Your sign is that you will not speak to people for three days except by gesture. Remember your Lord often and glorify Him in the evening and at dawn.\"",
+    "end": 940
   },
   {
     "id": 334,
@@ -4517,10 +4599,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 8,
-    "is_mecca": 10,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 42,
-    "aya_text": "۞ وَإِذْ قَالَتِ اِ۬لْمَلَٰٓئِكَةُ يَٰمَرْيَمُ إِنَّ اَ۬للَّهَ اَ۪صْطَف۪يٰكِ وَطَهَّرَكِ وَاصْطَف۪يٰكِ عَلَىٰ نِسَآءِ اِ۬لْعَٰلَمِينَۖ ﰩ"
+    "aya_text": "۞ وَإِذْ قَالَتِ اِ۬لْمَلَٰٓئِكَةُ يَٰمَرْيَمُ إِنَّ اَ۬للَّهَ اَ۪صْطَف۪يٰكِ وَطَهَّرَكِ وَاصْطَف۪يٰكِ عَلَىٰ نِسَآءِ اِ۬لْعَٰلَمِينَۖ ﰩ",
+    "translation": "And when the angels said, \"Mary, God has chosen you and purified you, and chosen you above the women of all peoples.\"",
+    "end": 958
   },
   {
     "id": 335,
@@ -4529,10 +4613,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 10,
-    "is_mecca": 11,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 43,
-    "aya_text": "يَٰمَرْيَمُ اُ۟قْنُتِے لِرَبِّكِ وَاسْجُدِے وَارْكَعِے مَعَ اَ۬لرَّٰكِعِينَۖ ﰪ"
+    "aya_text": "يَٰمَرْيَمُ اُ۟قْنُتِے لِرَبِّكِ وَاسْجُدِے وَارْكَعِے مَعَ اَ۬لرَّٰكِعِينَۖ ﰪ",
+    "translation": "\"Mary, be devoutly obedient to your Lord, prostrate, and bow with those who bow.\"",
+    "end": 966
   },
   {
     "id": 336,
@@ -4541,10 +4627,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 11,
-    "is_mecca": 13,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 44,
-    "aya_text": "ذَٰلِكَ مِنَ اَنۢبَآءِ اِ۬لْغَيْبِ نُوحِيهِ إِلَيْكَۖ وَمَا كُنتَ لَدَيْهِمُۥٓ إِذْ يُلْقُونَ أَقْلَٰمَهُمُۥٓ أَيُّهُمْ يَكْفُلُ مَرْيَمَۖ وَمَا كُنتَ لَدَيْهِمُۥٓ إِذْ يَخْتَصِمُونَ ﰫ"
+    "aya_text": "ذَٰلِكَ مِنَ اَنۢبَآءِ اِ۬لْغَيْبِ نُوحِيهِ إِلَيْكَۖ وَمَا كُنتَ لَدَيْهِمُۥٓ إِذْ يُلْقُونَ أَقْلَٰمَهُمُۥٓ أَيُّهُمْ يَكْفُلُ مَرْيَمَۖ وَمَا كُنتَ لَدَيْهِمُۥٓ إِذْ يَخْتَصِمُونَ ﰫ",
+    "translation": "This is from the accounts of the unseen which We reveal to you; you were not present with them when they cast their pens to decide who would care for Mary, nor were you present when they disputed about it.",
+    "end": 994
   },
   {
     "id": 337,
@@ -4553,10 +4641,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 13,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 45,
-    "aya_text": "إِذْ قَالَتِ اِ۬لْمَلَٰٓئِكَةُ يَٰمَرْيَمُ إِنَّ اَ۬للَّهَ يُبَشِّرُكِ بِكَلِمَةٖ مِّنْهُۖ اُ۪سْمُهُ اُ۬لْمَسِيحُ عِيسَى اَ۪بْنُ مَرْيَمَ وَجِيهاٗ فِے اِ۬لدُّنْي۪ا وَالَاخِرَةِ وَمِنَ اَ۬لْمُقَرَّبِينَۖ ﰬ"
+    "aya_text": "إِذْ قَالَتِ اِ۬لْمَلَٰٓئِكَةُ يَٰمَرْيَمُ إِنَّ اَ۬للَّهَ يُبَشِّرُكِ بِكَلِمَةٖ مِّنْهُۖ اُ۪سْمُهُ اُ۬لْمَسِيحُ عِيسَى اَ۪بْنُ مَرْيَمَ وَجِيهاٗ فِے اِ۬لدُّنْي۪ا وَالَاخِرَةِ وَمِنَ اَ۬لْمُقَرَّبِينَۖ ﰬ",
+    "translation": "When the angels said, \"Mary, God gives you good news of a word from Him, whose name is the Messiah, Jesus son of Mary, honored in this world and the next, and among those brought near to God.\"",
+    "end": 1018
   },
   {
     "id": 338,
@@ -4565,10 +4655,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 1,
-    "is_mecca": 1,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 46,
-    "aya_text": "وَيُكَلِّمُ اُ۬لنَّاسَ فِے اِ۬لْمَهْدِ وَكَهْلاٗۖ وَمِنَ اَ۬لصَّٰلِحِينَۖ ﰭ"
+    "aya_text": "وَيُكَلِّمُ اُ۬لنَّاسَ فِے اِ۬لْمَهْدِ وَكَهْلاٗۖ وَمِنَ اَ۬لصَّٰلِحِينَۖ ﰭ",
+    "translation": "\"He will speak to people in the cradle and in maturity, and will be among the righteous.\"",
+    "end": 1026
   },
   {
     "id": 339,
@@ -4577,10 +4669,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 2,
-    "is_mecca": 3,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 47,
-    "aya_text": "قَالَتْ رَبِّ أَنّ۪ىٰ يَكُونُ لِے وَلَدٞ وَلَمْ يَمْسَسْنِے بَشَرٞۖ قَالَ كَذَٰلِكِۖ اِ۬للَّهُ يَخْلُقُ مَا يَشَآءُۖ اِ۪ذَا قَض۪ىٰٓ أَمْراٗ فَإِنَّمَا يَقُولُ لَهُۥ كُنۖ فَيَكُونُۖ ﰮ"
+    "aya_text": "قَالَتْ رَبِّ أَنّ۪ىٰ يَكُونُ لِے وَلَدٞ وَلَمْ يَمْسَسْنِے بَشَرٞۖ قَالَ كَذَٰلِكِۖ اِ۬للَّهُ يَخْلُقُ مَا يَشَآءُۖ اِ۪ذَا قَض۪ىٰٓ أَمْراٗ فَإِنَّمَا يَقُولُ لَهُۥ كُنۖ فَيَكُونُۖ ﰮ",
+    "translation": "She said, \"My Lord, how can I have a child when no man has touched me?\" He said, \"So it will be; God creates what He wills. When He decrees something, He only says to it, 'Be,' and it is.\"",
+    "end": 1053
   },
   {
     "id": 340,
@@ -4589,10 +4683,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 4,
-    "is_mecca": 9,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 48,
-    "aya_text": "وَيُعَلِّمُهُ اُ۬لْكِتَٰبَ وَالْحِكْمَةَ وَالتَّوْر۪يٰةَ وَالِانجِيلَ وَرَسُولاً اِلَىٰ بَنِےٓ إِسْرَآءِيلَ أَنِّے قَدْ جِئْتُكُم بِـَٔايَةٖ مِّن رَّبِّكُمُۥٓۖ إِنِّيَ أَخْلُقُ لَكُم مِّنَ اَ۬لطِّينِ كَهَيْـَٔةِ اِ۬لطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَٰٓئِراَۢ بِإِذْنِ اِ۬للَّهِۖ وَأُبْرِۓُ اُ۬لَاكْمَهَ وَالَابْرَصَ وَأُحْيِ اِ۬لْمَوْت۪ىٰ بِإِذْنِ اِ۬للَّهِۖ وَأُنَبِّئُكُم بِمَا تَاكُلُونَ وَمَا تَدَّخِرُونَ فِے بُيُوتِكُمُۥٓۖ إِنَّ فِے ذَٰلِكَ لَأٓيَةٗ لَّكُمُۥٓ إِن كُنتُم مُّومِنِينَۖ ﰯ"
+    "aya_text": "وَيُعَلِّمُهُ اُ۬لْكِتَٰبَ وَالْحِكْمَةَ وَالتَّوْر۪يٰةَ وَالِانجِيلَ وَرَسُولاً اِلَىٰ بَنِےٓ إِسْرَآءِيلَ أَنِّے قَدْ جِئْتُكُم بِـَٔايَةٖ مِّن رَّبِّكُمُۥٓۖ إِنِّيَ أَخْلُقُ لَكُم مِّنَ اَ۬لطِّينِ كَهَيْـَٔةِ اِ۬لطَّيْرِ فَأَنفُخُ فِيهِ فَيَكُونُ طَٰٓئِراَۢ بِإِذْنِ اِ۬للَّهِۖ وَأُبْرِۓُ اُ۬لَاكْمَهَ وَالَابْرَصَ وَأُحْيِ اِ۬لْمَوْت۪ىٰ بِإِذْنِ اِ۬للَّهِۖ وَأُنَبِّئُكُم بِمَا تَاكُلُونَ وَمَا تَدَّخِرُونَ فِے بُيُوتِكُمُۥٓۖ إِنَّ فِے ذَٰلِكَ لَأٓيَةٗ لَّكُمُۥٓ إِن كُنتُم مُّومِنِينَۖ ﰯ",
+    "translation": "\"And He will teach him the Scripture, wisdom, the Torah, and the Gospel, and will send him as a messenger to the Children of Israel, saying: 'I have come to you with a sign from your Lord — I will fashion for you from clay the shape of a bird, breathe into it, and it will become a bird by God's permission. I will heal the blind and the leper, and give life to the dead by God's permission. I will tell you what you eat and what you store in your houses. In this is truly a sign for you, if you are believers.'\"",
+    "end": 1117
   },
   {
     "id": 341,
@@ -4601,10 +4697,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 10,
-    "is_mecca": 12,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 49,
-    "aya_text": "وَمُصَدِّقاٗ لِّمَا بَيْنَ يَدَيَّ مِنَ اَ۬لتَّوْر۪يٰةِ وَلِأُحِلَّ لَكُم بَعْضَ اَ۬لذِے حُرِّمَ عَلَيْكُمْۖ وَجِئْتُكُم بِـَٔايَةٖ مِّن رَّبِّكُمْۖ فَاتَّقُواْ اُ۬للَّهَ وَأَطِيعُونِۖ ﰰ"
+    "aya_text": "وَمُصَدِّقاٗ لِّمَا بَيْنَ يَدَيَّ مِنَ اَ۬لتَّوْر۪يٰةِ وَلِأُحِلَّ لَكُم بَعْضَ اَ۬لذِے حُرِّمَ عَلَيْكُمْۖ وَجِئْتُكُم بِـَٔايَةٖ مِّن رَّبِّكُمْۖ فَاتَّقُواْ اُ۬للَّهَ وَأَطِيعُونِۖ ﰰ",
+    "translation": "\"And confirming what came before me of the Torah, and to make lawful for you some of what was forbidden to you. I have brought you a sign from your Lord, so be mindful of God and obey me.\"",
+    "end": 1138
   },
   {
     "id": 342,
@@ -4613,10 +4711,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 12,
-    "is_mecca": 13,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 50,
-    "aya_text": "إِنَّ اَ۬للَّهَ رَبِّے وَرَبُّكُمْ فَاعْبُدُوهُۖ هَٰذَا صِرَٰطٞ مُّسْتَقِيمٞۖ ﰱ"
+    "aya_text": "إِنَّ اَ۬للَّهَ رَبِّے وَرَبُّكُمْ فَاعْبُدُوهُۖ هَٰذَا صِرَٰطٞ مُّسْتَقِيمٞۖ ﰱ",
+    "translation": "\"God is my Lord and your Lord, so worship Him — this is a straight path.\"",
+    "end": 1149
   },
   {
     "id": 343,
@@ -4625,10 +4725,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 13,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 51,
-    "aya_text": "۞ فَلَمَّآ أَحَسَّ عِيس۪ىٰ مِنْهُمُ اُ۬لْكُفْرَ قَالَ مَنَ اَنصَارِيَ إِلَى اَ۬للَّهِۖ قَالَ اَ۬لْحَوَارِيُّونَ نَحْنُ أَنصَارُ اُ۬للَّهِۖ ءَامَنَّا بِاللَّهِ وَاشْهَدْ بِأَنَّا مُسْلِمُونَۖ ﰲ"
+    "aya_text": "۞ فَلَمَّآ أَحَسَّ عِيس۪ىٰ مِنْهُمُ اُ۬لْكُفْرَ قَالَ مَنَ اَنصَارِيَ إِلَى اَ۬للَّهِۖ قَالَ اَ۬لْحَوَارِيُّونَ نَحْنُ أَنصَارُ اُ۬للَّهِۖ ءَامَنَّا بِاللَّهِ وَاشْهَدْ بِأَنَّا مُسْلِمُونَۖ ﰲ",
+    "translation": "When Jesus sensed disbelief from them, he said, \"Who are my helpers for God?\" The disciples said, \"We are God's helpers. We believe in God, and bear witness that we submit to Him.\"",
+    "end": 1176
   },
   {
     "id": 344,
@@ -4637,10 +4739,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 1,
-    "is_mecca": 2,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 52,
-    "aya_text": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَاتَّبَعْنَا اَ۬لرَّسُولَ فَاكْتُبْنَا مَعَ اَ۬لشَّٰهِدِينَۖ ﰳ"
+    "aya_text": "رَبَّنَآ ءَامَنَّا بِمَآ أَنزَلْتَ وَاتَّبَعْنَا اَ۬لرَّسُولَ فَاكْتُبْنَا مَعَ اَ۬لشَّٰهِدِينَۖ ﰳ",
+    "translation": "\"Our Lord, we believe in what You have sent down and we follow the messenger, so count us among the witnesses.\"",
+    "end": 1191
   },
   {
     "id": 345,
@@ -4649,10 +4753,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 2,
-    "is_mecca": 2,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 53,
-    "aya_text": "وَمَكَرُواْ وَمَكَرَ اَ۬للَّهُۖ وَاللَّهُ خَيْرُ اُ۬لْمَٰكِرِينَۖ ﰴ"
+    "aya_text": "وَمَكَرُواْ وَمَكَرَ اَ۬للَّهُۖ وَاللَّهُ خَيْرُ اُ۬لْمَٰكِرِينَۖ ﰴ",
+    "translation": "They schemed, and God schemed against them; and God is the best of planners.",
+    "end": 1200
   },
   {
     "id": 346,
@@ -4661,10 +4767,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 3,
-    "is_mecca": 6,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 54,
-    "aya_text": "إِذْ قَالَ اَ۬للَّهُ يَٰعِيس۪ىٰٓ إِنِّے مُتَوَفِّيكَ وَرَافِعُكَ إِلَيَّ وَمُطَهِّرُكَ مِنَ اَ۬لذِينَ كَفَرُواْۖ وَجَاعِلُ اُ۬لذِينَ اَ۪تَّبَعُوكَ فَوْقَ اَ۬لذِينَ كَفَرُوٓاْ إِلَىٰ يَوْمِ اِ۬لْقِيَٰمَةِۖ ثُمَّ إِلَيَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَۖ ﰵ"
+    "aya_text": "إِذْ قَالَ اَ۬للَّهُ يَٰعِيس۪ىٰٓ إِنِّے مُتَوَفِّيكَ وَرَافِعُكَ إِلَيَّ وَمُطَهِّرُكَ مِنَ اَ۬لذِينَ كَفَرُواْۖ وَجَاعِلُ اُ۬لذِينَ اَ۪تَّبَعُوكَ فَوْقَ اَ۬لذِينَ كَفَرُوٓاْ إِلَىٰ يَوْمِ اِ۬لْقِيَٰمَةِۖ ثُمَّ إِلَيَّ مَرْجِعُكُمْ فَأَحْكُمُ بَيْنَكُمْ فِيمَا كُنتُمْ فِيهِ تَخْتَلِفُونَۖ ﰵ",
+    "translation": "When God said, \"Jesus, I will take you and raise you to Myself, and purify you of those who disbelieve, and place those who follow you above those who disbelieve until the Day of Resurrection. Then to Me is your return, and I will judge between you concerning what you used to differ about.\"",
+    "end": 1236
   },
   {
     "id": 347,
@@ -4673,10 +4781,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 6,
-    "is_mecca": 8,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 55,
-    "aya_text": "فَأَمَّا اَ۬لذِينَ كَفَرُواْ فَأُعَذِّبُهُمْ عَذَاباٗ شَدِيداٗ فِے اِ۬لدُّنْي۪ا وَالَاخِرَةِۖ وَمَا لَهُم مِّن نَّٰصِرِينَۖ ﰶ"
+    "aya_text": "فَأَمَّا اَ۬لذِينَ كَفَرُواْ فَأُعَذِّبُهُمْ عَذَاباٗ شَدِيداٗ فِے اِ۬لدُّنْي۪ا وَالَاخِرَةِۖ وَمَا لَهُم مِّن نَّٰصِرِينَۖ ﰶ",
+    "translation": "\"As for those who disbelieved, I will punish them severely in this world and the next, and they will have no helpers.\"",
+    "end": 1253
   },
   {
     "id": 348,
@@ -4685,10 +4795,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 8,
-    "is_mecca": 9,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 56,
-    "aya_text": "وَأَمَّا اَ۬لذِينَ ءَامَنُواْ وَعَمِلُواْ اُ۬لصَّٰلِحَٰتِ فَنُوَفِّيهِمُۥٓ أُجُورَهُمْۖ وَاللَّهُ لَا يُحِبُّ اُ۬لظَّٰلِمِينَۖ ﰷ"
+    "aya_text": "وَأَمَّا اَ۬لذِينَ ءَامَنُواْ وَعَمِلُواْ اُ۬لصَّٰلِحَٰتِ فَنُوَفِّيهِمُۥٓ أُجُورَهُمْۖ وَاللَّهُ لَا يُحِبُّ اُ۬لظَّٰلِمِينَۖ ﰷ",
+    "translation": "\"But as for those who believed and did righteous deeds, He will pay them their reward in full; God does not love the wrongdoers.\"",
+    "end": 1269
   },
   {
     "id": 349,
@@ -4697,10 +4809,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 9,
-    "is_mecca": 10,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 57,
-    "aya_text": "ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ اَ۬لَايَٰتِ وَالذِّكْرِ اِ۬لْحَكِيمِۖ ﰸ"
+    "aya_text": "ذَٰلِكَ نَتْلُوهُ عَلَيْكَ مِنَ اَ۬لَايَٰتِ وَالذِّكْرِ اِ۬لْحَكِيمِۖ ﰸ",
+    "translation": "This is what We recite to you of the verses and the wise reminder.",
+    "end": 1277
   },
   {
     "id": 350,
@@ -4709,10 +4823,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 10,
-    "is_mecca": 12,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 58,
-    "aya_text": "إِنَّ مَثَلَ عِيس۪ىٰ عِندَ اَ۬للَّهِ كَمَثَلِ ءَادَمَۖ خَلَقَهُۥ مِن تُرَابٖ ثُمَّ قَالَ لَهُۥ كُنۖ فَيَكُونُۖ ﰹ"
+    "aya_text": "إِنَّ مَثَلَ عِيس۪ىٰ عِندَ اَ۬للَّهِ كَمَثَلِ ءَادَمَۖ خَلَقَهُۥ مِن تُرَابٖ ثُمَّ قَالَ لَهُۥ كُنۖ فَيَكُونُۖ ﰹ",
+    "translation": "Indeed, the case of Jesus with God is like that of Adam: He created him from dust, then said to him, \"Be,\" and he was.",
+    "end": 1294
   },
   {
     "id": 351,
@@ -4721,10 +4837,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 12,
-    "is_mecca": 12,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 59,
-    "aya_text": "اُ۬لْحَقُّ مِن رَّبِّكَۖ فَلَا تَكُن مِّنَ اَ۬لْمُمْتَرِينَۖ ﰺ"
+    "aya_text": "اُ۬لْحَقُّ مِن رَّبِّكَۖ فَلَا تَكُن مِّنَ اَ۬لْمُمْتَرِينَۖ ﰺ",
+    "translation": "This is the truth from your Lord, so do not be among the doubters.",
+    "end": 1301
   },
   {
     "id": 352,
@@ -4733,10 +4851,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 13,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 60,
-    "aya_text": "فَمَنْ حَآجَّكَ فِيهِ مِنۢ بَعْدِ مَا جَآءَكَ مِنَ اَ۬لْعِلْمِ فَقُلْ تَعَالَوْاْ نَدْعُ أَبْنَآءَنَا وَأَبْنَآءَكُمْ وَنِسَآءَنَا وَنِسَآءَكُمْ وَأَنفُسَنَا وَأَنفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ اَ۬للَّهِ عَلَى اَ۬لْكَٰذِبِينَۖ ﰻ"
+    "aya_text": "فَمَنْ حَآجَّكَ فِيهِ مِنۢ بَعْدِ مَا جَآءَكَ مِنَ اَ۬لْعِلْمِ فَقُلْ تَعَالَوْاْ نَدْعُ أَبْنَآءَنَا وَأَبْنَآءَكُمْ وَنِسَآءَنَا وَنِسَآءَكُمْ وَأَنفُسَنَا وَأَنفُسَكُمْ ثُمَّ نَبْتَهِلْ فَنَجْعَل لَّعْنَتَ اَ۬للَّهِ عَلَى اَ۬لْكَٰذِبِينَۖ ﰻ",
+    "translation": "Whoever argues with you about this after the knowledge that has come to you, say: \"Come, let us call our sons and your sons, our women and your women, ourselves and yourselves, then let us earnestly pray and place God's curse upon the liars.\"",
+    "end": 1346
   },
   {
     "id": 353,
@@ -4745,10 +4865,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 1,
-    "is_mecca": 2,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 61,
-    "aya_text": "إِنَّ هَٰذَا لَهُوَ اَ۬لْقَصَصُ اُ۬لْحَقُّۖ وَمَا مِنِ اِلَٰهٍ اِلَّا اَ۬للَّهُۖ وَإِنَّ اَ۬للَّهَ لَهُوَ اَ۬لْعَزِيزُ اُ۬لْحَكِيمُۖ ﰼ"
+    "aya_text": "إِنَّ هَٰذَا لَهُوَ اَ۬لْقَصَصُ اُ۬لْحَقُّۖ وَمَا مِنِ اِلَٰهٍ اِلَّا اَ۬للَّهُۖ وَإِنَّ اَ۬للَّهَ لَهُوَ اَ۬لْعَزِيزُ اُ۬لْحَكِيمُۖ ﰼ",
+    "translation": "This is truly the true account, and there is no god but God; and God is indeed the Mighty, the Wise.",
+    "end": 1361
   },
   {
     "id": 354,
@@ -4757,10 +4879,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 2,
-    "is_mecca": 2,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 62,
-    "aya_text": "فَإِن تَوَلَّوْاْ فَإِنَّ اَ۬للَّهَ عَلِيمُۢ بِالْمُفْسِدِينَۖ ﰽ"
+    "aya_text": "فَإِن تَوَلَّوْاْ فَإِنَّ اَ۬للَّهَ عَلِيمُۢ بِالْمُفْسِدِينَۖ ﰽ",
+    "translation": "If they turn away, God knows well those who cause corruption.",
+    "end": 1369
   },
   {
     "id": 355,
@@ -4769,10 +4893,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 3,
-    "is_mecca": 6,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 63,
-    "aya_text": "۞ قُلْ يَٰٓأَهْلَ اَ۬لْكِتَٰبِ تَعَالَوِاْ اِلَىٰ كَلِمَةٖ سَوَآءِۢ بَيْنَنَا وَبَيْنَكُمُۥٓ أَلَّا نَعْبُدَ إِلَّا اَ۬للَّهَ وَلَا نُشْرِكَ بِهِۦ شَئْاٗ وَلَا يَتَّخِذَ بَعْضُنَا بَعْضاً اَرْبَاباٗ مِّن دُونِ اِ۬للَّهِۖ فَإِن تَوَلَّوْاْ فَقُولُواْ اُ۪شْهَدُواْ بِأَنَّا مُسْلِمُونَۖ ﰾ"
+    "aya_text": "۞ قُلْ يَٰٓأَهْلَ اَ۬لْكِتَٰبِ تَعَالَوِاْ اِلَىٰ كَلِمَةٖ سَوَآءِۢ بَيْنَنَا وَبَيْنَكُمُۥٓ أَلَّا نَعْبُدَ إِلَّا اَ۬للَّهَ وَلَا نُشْرِكَ بِهِۦ شَئْاٗ وَلَا يَتَّخِذَ بَعْضُنَا بَعْضاً اَرْبَاباٗ مِّن دُونِ اِ۬للَّهِۖ فَإِن تَوَلَّوْاْ فَقُولُواْ اُ۪شْهَدُواْ بِأَنَّا مُسْلِمُونَۖ ﰾ",
+    "translation": "Say: \"People of the Scripture, come to a common word between us and you: that we worship none but God, associate nothing with Him, and that none of us take others as lords besides God.\" If they turn away, say, \"Bear witness that we submit to Him.\"",
+    "end": 1410
   },
   {
     "id": 356,
@@ -4781,10 +4907,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 6,
-    "is_mecca": 7,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 64,
-    "aya_text": "يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تُحَآجُّونَ فِےٓ إِبْرَٰهِيمَۖ وَمَآ أُنزِلَتِ اِ۬لتَّوْر۪يٰةُ وَالِانجِيلُ إِلَّا مِنۢ بَعْدِهِۦٓۖ أَفَلَا تَعْقِلُونَۖ ﰿ"
+    "aya_text": "يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تُحَآجُّونَ فِےٓ إِبْرَٰهِيمَۖ وَمَآ أُنزِلَتِ اِ۬لتَّوْر۪يٰةُ وَالِانجِيلُ إِلَّا مِنۢ بَعْدِهِۦٓۖ أَفَلَا تَعْقِلُونَۖ ﰿ",
+    "translation": "People of the Scripture, why do you argue about Abraham, when the Torah and the Gospel were not sent down until after him? Do you not reason?",
+    "end": 1434
   },
   {
     "id": 357,
@@ -4793,10 +4921,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 8,
-    "is_mecca": 10,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 65,
-    "aya_text": "هَآنتُمْ هَٰٓؤُلَآءِ حَٰجَجْتُمْ فِيمَا لَكُم بِهِۦ عِلْمٞ فَلِمَ تُحَآجُّونَ فِيمَا لَيْسَ لَكُم بِهِۦ عِلْمٞۖ وَاللَّهُ يَعْلَمُۖ وَأَنتُمْ لَا تَعْلَمُونَۖ ﱀ"
+    "aya_text": "هَآنتُمْ هَٰٓؤُلَآءِ حَٰجَجْتُمْ فِيمَا لَكُم بِهِۦ عِلْمٞ فَلِمَ تُحَآجُّونَ فِيمَا لَيْسَ لَكُم بِهِۦ عِلْمٞۖ وَاللَّهُ يَعْلَمُۖ وَأَنتُمْ لَا تَعْلَمُونَۖ ﱀ",
+    "translation": "Here you are, arguing about matters you have some knowledge of; why then do you argue about what you have no knowledge of? God knows, and you do not know.",
+    "end": 1465
   },
   {
     "id": 358,
@@ -4805,10 +4935,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 10,
-    "is_mecca": 11,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 66,
-    "aya_text": "مَا كَانَ إِبْرَٰهِيمُ يَهُودِيّاٗ وَلَا نَصْرَانِيّاٗ وَلَٰكِن كَانَ حَنِيفاٗ مُّسْلِماٗۖ وَمَا كَانَ مِنَ اَ۬لْمُشْرِكِينَۖ ﱁ"
+    "aya_text": "مَا كَانَ إِبْرَٰهِيمُ يَهُودِيّاٗ وَلَا نَصْرَانِيّاٗ وَلَٰكِن كَانَ حَنِيفاٗ مُّسْلِماٗۖ وَمَا كَانَ مِنَ اَ۬لْمُشْرِكِينَۖ ﱁ",
+    "translation": "Abraham was neither a Jew nor a Christian, but he was upright, submitted to God, and was not among those who associate partners with God.",
+    "end": 1481
   },
   {
     "id": 359,
@@ -4817,10 +4949,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 12,
-    "is_mecca": 13,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 67,
-    "aya_text": "إِنَّ أَوْلَى اَ۬لنَّاسِ بِإِبْرَٰهِيمَ لَلذِينَ اَ۪تَّبَعُوهُ وَهَٰذَا اَ۬لنَّبِےٓءُ وَالذِينَ ءَامَنُواْۖ وَاللَّهُ وَلِيُّ اُ۬لْمُومِنِينَۖ ﱂ"
+    "aya_text": "إِنَّ أَوْلَى اَ۬لنَّاسِ بِإِبْرَٰهِيمَ لَلذِينَ اَ۪تَّبَعُوهُ وَهَٰذَا اَ۬لنَّبِےٓءُ وَالذِينَ ءَامَنُواْۖ وَاللَّهُ وَلِيُّ اُ۬لْمُومِنِينَۖ ﱂ",
+    "translation": "The people closest to Abraham are those who followed him, along with this Prophet and those who believe; God is the protector of the believers.",
+    "end": 1501
   },
   {
     "id": 360,
@@ -4829,10 +4963,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 13,
-    "is_mecca": 14,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 68,
-    "aya_text": "وَدَّت طَّآئِفَةٞ مِّنَ اَهْلِ اِ۬لْكِتَٰبِ لَوْ يُضِلُّونَكُمْۖ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَۖ ﱃ"
+    "aya_text": "وَدَّت طَّآئِفَةٞ مِّنَ اَهْلِ اِ۬لْكِتَٰبِ لَوْ يُضِلُّونَكُمْۖ وَمَا يُضِلُّونَ إِلَّآ أَنفُسَهُمْ وَمَا يَشْعُرُونَۖ ﱃ",
+    "translation": "A group among the People of the Scripture wishes it could mislead you, but they mislead only themselves without realizing it.",
+    "end": 1520
   },
   {
     "id": 361,
@@ -4841,10 +4977,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 14,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 69,
-    "aya_text": "يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تَكْفُرُونَ بِـَٔايَٰتِ اِ۬للَّهِ وَأَنتُمْ تَشْهَدُونَۖ ﱄ"
+    "aya_text": "يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تَكْفُرُونَ بِـَٔايَٰتِ اِ۬للَّهِ وَأَنتُمْ تَشْهَدُونَۖ ﱄ",
+    "translation": "People of the Scripture, why do you deny God's signs while you yourselves witness them?",
+    "end": 1534
   },
   {
     "id": 362,
@@ -4853,10 +4991,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 1,
-    "is_mecca": 2,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 70,
-    "aya_text": "يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تَلْبِسُونَ اَ۬لْحَقَّ بِالْبَٰطِلِ وَتَكْتُمُونَ اَ۬لْحَقَّ وَأَنتُمْ تَعْلَمُونَۖ ﱅ"
+    "aya_text": "يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تَلْبِسُونَ اَ۬لْحَقَّ بِالْبَٰطِلِ وَتَكْتُمُونَ اَ۬لْحَقَّ وَأَنتُمْ تَعْلَمُونَۖ ﱅ",
+    "translation": "People of the Scripture, why do you mix truth with falsehood and conceal the truth while you know it?",
+    "end": 1547
   },
   {
     "id": 363,
@@ -4865,10 +5005,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 2,
-    "is_mecca": 4,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 71,
-    "aya_text": "وَقَالَت طَّآئِفَةٞ مِّنَ اَهْلِ اِ۬لْكِتَٰبِ ءَامِنُواْ بِالذِےٓ أُنزِلَ عَلَى اَ۬لذِينَ ءَامَنُواْ وَجْهَ اَ۬لنَّه۪ارِ وَاكْفُرُوٓاْ ءَاخِرَهُۥ لَعَلَّهُمْ يَرْجِعُونَۖ ﱆ"
+    "aya_text": "وَقَالَت طَّآئِفَةٞ مِّنَ اَهْلِ اِ۬لْكِتَٰبِ ءَامِنُواْ بِالذِےٓ أُنزِلَ عَلَى اَ۬لذِينَ ءَامَنُواْ وَجْهَ اَ۬لنَّه۪ارِ وَاكْفُرُوٓاْ ءَاخِرَهُۥ لَعَلَّهُمْ يَرْجِعُونَۖ ﱆ",
+    "translation": "A group among the People of the Scripture said, \"Believe in what was revealed to the believers at the start of the day, and disbelieve at its end, so that perhaps they will turn back.\"",
+    "end": 1578
   },
   {
     "id": 364,
@@ -4877,10 +5019,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 4,
-    "is_mecca": 7,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 72,
-    "aya_text": "وَلَا تُومِنُوٓاْ إِلَّا لِمَن تَبِعَ دِينَكُمْۖ قُلِ اِنَّ اَ۬لْهُد۪ىٰ هُدَى اَ۬للَّهِ أَنْ يُّوت۪ىٰٓ أَحَدٞ مِّثْلَ مَآ أُوتِيتُمُۥٓ أَوْ يُحَآجُّوكُمْ عِندَ رَبِّكُمْۖ قُلِ اِنَّ اَ۬لْفَضْلَ بِيَدِ اِ۬للَّهِۖ يُوتِيهِ مَنْ يَّشَآءُۖ وَاللَّهُ وَٰسِعٌ عَلِيمٞۖ ﱇ"
+    "aya_text": "وَلَا تُومِنُوٓاْ إِلَّا لِمَن تَبِعَ دِينَكُمْۖ قُلِ اِنَّ اَ۬لْهُد۪ىٰ هُدَى اَ۬للَّهِ أَنْ يُّوت۪ىٰٓ أَحَدٞ مِّثْلَ مَآ أُوتِيتُمُۥٓ أَوْ يُحَآجُّوكُمْ عِندَ رَبِّكُمْۖ قُلِ اِنَّ اَ۬لْفَضْلَ بِيَدِ اِ۬للَّهِۖ يُوتِيهِ مَنْ يَّشَآءُۖ وَاللَّهُ وَٰسِعٌ عَلِيمٞۖ ﱇ",
+    "translation": "\"And do not trust anyone except those who follow your own religion.\" Say: \"True guidance is God's guidance — that anyone should be given the like of what you were given, or that they should argue with you before your Lord.\" Say: \"All grace is in God's hand; He gives it to whom He wills. God is All-Encompassing, All-Knowing.\"",
+    "end": 1626
   },
   {
     "id": 365,
@@ -4889,10 +5033,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 7,
-    "is_mecca": 8,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 73,
-    "aya_text": "يَخْتَصُّ بِرَحْمَتِهِۦ مَنْ يَّشَآءُۖ وَاللَّهُ ذُو اُ۬لْفَضْلِ اِ۬لْعَظِيمِۖ ﱈ"
+    "aya_text": "يَخْتَصُّ بِرَحْمَتِهِۦ مَنْ يَّشَآءُۖ وَاللَّهُ ذُو اُ۬لْفَضْلِ اِ۬لْعَظِيمِۖ ﱈ",
+    "translation": "He singles out for His mercy whom He wills; God is Possessor of great grace.",
+    "end": 1637
   },
   {
     "id": 366,
@@ -4901,10 +5047,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 8,
-    "is_mecca": 11,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 74,
-    "aya_text": "۞ وَمِنَ اَهْلِ اِ۬لْكِتَٰبِ مَنِ اِن تَامَنْهُ بِقِنط۪ارٖ يُوَ۬دِّهِۦٓ إِلَيْكَۖ وَمِنْهُم مَّنِ اِن تَامَنْهُ بِدِين۪ارٖ لَّا يُوَ۬دِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِماٗۖ ذَٰلِكَ بِأَنَّهُمْ قَالُواْ لَيْسَ عَلَيْنَا فِے اِ۬لُامِّيِّۧنَ سَبِيلٞۖ وَيَقُولُونَ عَلَى اَ۬للَّهِ اِ۬لْكَذِبَ وَهُمْ يَعْلَمُونَۖ ﱉ"
+    "aya_text": "۞ وَمِنَ اَهْلِ اِ۬لْكِتَٰبِ مَنِ اِن تَامَنْهُ بِقِنط۪ارٖ يُوَ۬دِّهِۦٓ إِلَيْكَۖ وَمِنْهُم مَّنِ اِن تَامَنْهُ بِدِين۪ارٖ لَّا يُوَ۬دِّهِۦٓ إِلَيْكَ إِلَّا مَا دُمْتَ عَلَيْهِ قَآئِماٗۖ ذَٰلِكَ بِأَنَّهُمْ قَالُواْ لَيْسَ عَلَيْنَا فِے اِ۬لُامِّيِّۧنَ سَبِيلٞۖ وَيَقُولُونَ عَلَى اَ۬للَّهِ اِ۬لْكَذِبَ وَهُمْ يَعْلَمُونَۖ ﱉ",
+    "translation": "Among the People of the Scripture is one who, if entrusted with a great sum, will return it to you, and among them is one who, if entrusted with a single coin, will not return it unless you keep demanding it. That is because they say, \"We are under no obligation regarding the unlettered people,\" and they knowingly tell lies about God.",
+    "end": 1681
   },
   {
     "id": 367,
@@ -4913,10 +5061,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 12,
-    "is_mecca": 12,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 75,
-    "aya_text": "بَل۪ىٰ مَنَ اَوْف۪ىٰ بِعَهْدِهِۦ وَاتَّق۪ىٰ فَإِنَّ اَ۬للَّهَ يُحِبُّ اُ۬لْمُتَّقِينَۖ ﱊ"
+    "aya_text": "بَل۪ىٰ مَنَ اَوْف۪ىٰ بِعَهْدِهِۦ وَاتَّق۪ىٰ فَإِنَّ اَ۬للَّهَ يُحِبُّ اُ۬لْمُتَّقِينَۖ ﱊ",
+    "translation": "Rather, whoever fulfills his pledge and is mindful of God — God loves those who are mindful of Him.",
+    "end": 1691
   },
   {
     "id": 368,
@@ -4925,10 +5075,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 13,
-    "is_mecca": 15,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 76,
-    "aya_text": "إِنَّ اَ۬لذِينَ يَشْتَرُونَ بِعَهْدِ اِ۬للَّهِ وَأَيْمَٰنِهِمْ ثَمَناٗ قَلِيلاً ا۟وْلَٰٓئِكَ لَا خَلَٰقَ لَهُمْ فِے اِ۬لَاخِرَةِ وَلَا يُكَلِّمُهُمُ اُ۬للَّهُ وَلَا يَنظُرُ إِلَيْهِمْ يَوْمَ اَ۬لْقِيَٰمَةِ وَلَا يُزَكِّيهِمْۖ وَلَهُمْ عَذَابٌ اَلِيمٞۖ ﱋ"
+    "aya_text": "إِنَّ اَ۬لذِينَ يَشْتَرُونَ بِعَهْدِ اِ۬للَّهِ وَأَيْمَٰنِهِمْ ثَمَناٗ قَلِيلاً ا۟وْلَٰٓئِكَ لَا خَلَٰقَ لَهُمْ فِے اِ۬لَاخِرَةِ وَلَا يُكَلِّمُهُمُ اُ۬للَّهُ وَلَا يَنظُرُ إِلَيْهِمْ يَوْمَ اَ۬لْقِيَٰمَةِ وَلَا يُزَكِّيهِمْۖ وَلَهُمْ عَذَابٌ اَلِيمٞۖ ﱋ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 1730
   },
   {
     "id": 369,
@@ -4940,7 +5092,9 @@
     "total_verses": 1,
     "is_mecca": 4,
     "aya_no": 77,
-    "aya_text": "وَإِنَّ مِنْهُمْ لَفَرِيقاٗ يَلْوُۥنَ أَلْسِنَتَهُم بِالْكِتَٰبِ لِتَحْسِبُوهُ مِنَ اَ۬لْكِتَٰبِ وَمَا هُوَ مِنَ اَ۬لْكِتَٰبِۖ وَيَقُولُونَ هُوَ مِنْ عِندِ اِ۬للَّهِۖ وَمَا هُوَ مِنْ عِندِ اِ۬للَّهِۖ وَيَقُولُونَ عَلَى اَ۬للَّهِ اِ۬لْكَذِبَ وَهُمْ يَعْلَمُونَۖ ﱌ"
+    "aya_text": "وَإِنَّ مِنْهُمْ لَفَرِيقاٗ يَلْوُۥنَ أَلْسِنَتَهُم بِالْكِتَٰبِ لِتَحْسِبُوهُ مِنَ اَ۬لْكِتَٰبِ وَمَا هُوَ مِنَ اَ۬لْكِتَٰبِۖ وَيَقُولُونَ هُوَ مِنْ عِندِ اِ۬للَّهِۖ وَمَا هُوَ مِنْ عِندِ اِ۬للَّهِۖ وَيَقُولُونَ عَلَى اَ۬للَّهِ اِ۬لْكَذِبَ وَهُمْ يَعْلَمُونَۖ ﱌ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 1763
   },
   {
     "id": 370,
@@ -4952,7 +5106,9 @@
     "total_verses": 4,
     "is_mecca": 7,
     "aya_no": 78,
-    "aya_text": "مَا كَانَ لِبَشَرٍ اَنْ يُّوتِيَهُ اُ۬للَّهُ اُ۬لْكِتَٰبَ وَالْحُكْمَ وَالنُّبُوٓءَةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُواْ عِبَاداٗ لِّے مِن دُونِ اِ۬للَّهِ وَلَٰكِن كُونُواْ رَبَّٰنِيِّۧنَ بِمَا كُنتُمْ تَعْلَمُونَ اَ۬لْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَۖ ﱍ"
+    "aya_text": "مَا كَانَ لِبَشَرٍ اَنْ يُّوتِيَهُ اُ۬للَّهُ اُ۬لْكِتَٰبَ وَالْحُكْمَ وَالنُّبُوٓءَةَ ثُمَّ يَقُولَ لِلنَّاسِ كُونُواْ عِبَاداٗ لِّے مِن دُونِ اِ۬للَّهِ وَلَٰكِن كُونُواْ رَبَّٰنِيِّۧنَ بِمَا كُنتُمْ تَعْلَمُونَ اَ۬لْكِتَٰبَ وَبِمَا كُنتُمْ تَدْرُسُونَۖ ﱍ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 1817
   },
   {
     "id": 371,
@@ -4964,7 +5120,9 @@
     "total_verses": 7,
     "is_mecca": 9,
     "aya_no": 79,
-    "aya_text": "وَلَا يَامُرُكُمُۥٓ أَن تَتَّخِذُواْ اُ۬لْمَلَٰٓئِكَةَ وَالنَّبِيٓـِٕۧنَ أَرْبَاباًۖ اَيَامُرُكُم بِالْكُفْرِ بَعْدَ إِذَ اَنتُم مُّسْلِمُونَۖ ﱎ"
+    "aya_text": "وَلَا يَامُرُكُمُۥٓ أَن تَتَّخِذُواْ اُ۬لْمَلَٰٓئِكَةَ وَالنَّبِيٓـِٕۧنَ أَرْبَاباًۖ اَيَامُرُكُم بِالْكُفْرِ بَعْدَ إِذَ اَنتُم مُّسْلِمُونَۖ ﱎ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 1840
   },
   {
     "id": 372,
@@ -4976,7 +5134,9 @@
     "total_verses": 9,
     "is_mecca": 13,
     "aya_no": 80,
-    "aya_text": "وَإِذَ اَخَذَ اَ۬للَّهُ مِيثَٰقَ اَ۬لنَّبِيٓـِٕۧنَ لَمَآ ءَاتَيْنَٰكُم مِّن كِتَٰبٖ وَحِكْمَةٖ ثُمَّ جَآءَكُمْ رَسُولٞ مُّصَدِّقٞ لِّمَا مَعَكُمْ لَتُومِنُنَّ بِهِۦ وَلَتَنصُرُنَّهُۥۖ ۞ قَالَ ءَآقْرَرْتُمْ وَأَخَذتُّمْ عَلَىٰ ذَٰلِكُمُۥٓ إِصْرِےۖ قَالُوٓاْ أَقْرَرْنَاۖ قَالَ فَاشْهَدُواْ وَأَنَا مَعَكُم مِّنَ اَ۬لشَّٰهِدِينَۖ ﱏ"
+    "aya_text": "وَإِذَ اَخَذَ اَ۬للَّهُ مِيثَٰقَ اَ۬لنَّبِيٓـِٕۧنَ لَمَآ ءَاتَيْنَٰكُم مِّن كِتَٰبٖ وَحِكْمَةٖ ثُمَّ جَآءَكُمْ رَسُولٞ مُّصَدِّقٞ لِّمَا مَعَكُمْ لَتُومِنُنَّ بِهِۦ وَلَتَنصُرُنَّهُۥۖ ۞ قَالَ ءَآقْرَرْتُمْ وَأَخَذتُّمْ عَلَىٰ ذَٰلِكُمُۥٓ إِصْرِےۖ قَالُوٓاْ أَقْرَرْنَاۖ قَالَ فَاشْهَدُواْ وَأَنَا مَعَكُم مِّنَ اَ۬لشَّٰهِدِينَۖ ﱏ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 1897
   },
   {
     "id": 373,
@@ -4988,7 +5148,9 @@
     "total_verses": 13,
     "is_mecca": 14,
     "aya_no": 81,
-    "aya_text": "فَمَن تَوَلّ۪ىٰ بَعْدَ ذَٰلِكَ فَأُوْلَٰٓئِكَ هُمُ اُ۬لْفَٰسِقُونَۖ ﱐ"
+    "aya_text": "فَمَن تَوَلّ۪ىٰ بَعْدَ ذَٰلِكَ فَأُوْلَٰٓئِكَ هُمُ اُ۬لْفَٰسِقُونَۖ ﱐ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 1909
   },
   {
     "id": 374,
@@ -5000,7 +5162,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 82,
-    "aya_text": "أَفَغَيْرَ دِينِ اِ۬للَّهِ تَبْغُونَ وَلَهُۥٓ أَسْلَمَ مَن فِے اِ۬لسَّمَٰوَٰتِ وَالَارْضِ طَوْعاٗ وَكَرْهاٗۖ وَإِلَيْهِ تُرْجَعُونَۖ ﱑ"
+    "aya_text": "أَفَغَيْرَ دِينِ اِ۬للَّهِ تَبْغُونَ وَلَهُۥٓ أَسْلَمَ مَن فِے اِ۬لسَّمَٰوَٰتِ وَالَارْضِ طَوْعاٗ وَكَرْهاٗۖ وَإِلَيْهِ تُرْجَعُونَۖ ﱑ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 1925
   },
   {
     "id": 375,
@@ -5012,7 +5176,9 @@
     "total_verses": 1,
     "is_mecca": 4,
     "aya_no": 83,
-    "aya_text": "قُلَ اٰمَنَّا بِاللَّهِ وَمَآ أُنزِلَ عَلَيْنَا وَمَآ أُنزِلَ عَلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَالَاسْبَاطِ وَمَآ أُوتِيَ مُوس۪ىٰ وَعِيس۪ىٰ وَالنَّبِيٓـُٔونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٖ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَۖ ﱒ"
+    "aya_text": "قُلَ اٰمَنَّا بِاللَّهِ وَمَآ أُنزِلَ عَلَيْنَا وَمَآ أُنزِلَ عَلَىٰٓ إِبْرَٰهِيمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَالَاسْبَاطِ وَمَآ أُوتِيَ مُوس۪ىٰ وَعِيس۪ىٰ وَالنَّبِيٓـُٔونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٖ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَۖ ﱒ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 1976
   },
   {
     "id": 376,
@@ -5024,7 +5190,9 @@
     "total_verses": 4,
     "is_mecca": 5,
     "aya_no": 84,
-    "aya_text": "وَمَنْ يَّبْتَغِ غَيْرَ اَ۬لِاسْلَٰمِ دِيناٗ فَلَنْ يُّقْبَلَ مِنْهُۖ وَهُوَ فِے اِ۬لَاخِرَةِ مِنَ اَ۬لْخَٰسِرِينَۖ ﱓ"
+    "aya_text": "وَمَنْ يَّبْتَغِ غَيْرَ اَ۬لِاسْلَٰمِ دِيناٗ فَلَنْ يُّقْبَلَ مِنْهُۖ وَهُوَ فِے اِ۬لَاخِرَةِ مِنَ اَ۬لْخَٰسِرِينَۖ ﱓ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 1990
   },
   {
     "id": 377,
@@ -5036,7 +5204,9 @@
     "total_verses": 5,
     "is_mecca": 8,
     "aya_no": 85,
-    "aya_text": "كَيْفَ يَهْدِے اِ۬للَّهُ قَوْماٗ كَفَرُواْ بَعْدَ إِيمَٰنِهِمْ وَشَهِدُوٓاْ أَنَّ اَ۬لرَّسُولَ حَقّٞ وَجَآءَهُمُ اُ۬لْبَيِّنَٰتُۖ وَاللَّهُ لَا يَهْدِے اِ۬لْقَوْمَ اَ۬لظَّٰلِمِينَۖ ﱔ"
+    "aya_text": "كَيْفَ يَهْدِے اِ۬للَّهُ قَوْماٗ كَفَرُواْ بَعْدَ إِيمَٰنِهِمْ وَشَهِدُوٓاْ أَنَّ اَ۬لرَّسُولَ حَقّٞ وَجَآءَهُمُ اُ۬لْبَيِّنَٰتُۖ وَاللَّهُ لَا يَهْدِے اِ۬لْقَوْمَ اَ۬لظَّٰلِمِينَۖ ﱔ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2015
   },
   {
     "id": 378,
@@ -5048,7 +5218,9 @@
     "total_verses": 8,
     "is_mecca": 9,
     "aya_no": 86,
-    "aya_text": "أُوْلَٰٓئِكَ جَزَآؤُهُمُۥٓ أَنَّ عَلَيْهِمْ لَعْنَةَ اَ۬للَّهِ وَالْمَلَٰٓئِكَةِ وَالنَّاسِ أَجْمَعِينَ ﱕ"
+    "aya_text": "أُوْلَٰٓئِكَ جَزَآؤُهُمُۥٓ أَنَّ عَلَيْهِمْ لَعْنَةَ اَ۬للَّهِ وَالْمَلَٰٓئِكَةِ وَالنَّاسِ أَجْمَعِينَ ﱕ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2034
   },
   {
     "id": 379,
@@ -5060,7 +5232,9 @@
     "total_verses": 9,
     "is_mecca": 10,
     "aya_no": 87,
-    "aya_text": "خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ اُ۬لْعَذَابُ وَلَا هُمْ يُنظَرُونَ ﱖ"
+    "aya_text": "خَٰلِدِينَ فِيهَا لَا يُخَفَّفُ عَنْهُمُ اُ۬لْعَذَابُ وَلَا هُمْ يُنظَرُونَ ﱖ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2044
   },
   {
     "id": 380,
@@ -5072,7 +5246,9 @@
     "total_verses": 10,
     "is_mecca": 11,
     "aya_no": 88,
-    "aya_text": "إِلَّا اَ۬لذِينَ تَابُواْ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُواْ فَإِنَّ اَ۬للَّهَ غَفُورٞ رَّحِيمٌۖ ﱗ"
+    "aya_text": "إِلَّا اَ۬لذِينَ تَابُواْ مِنۢ بَعْدِ ذَٰلِكَ وَأَصْلَحُواْ فَإِنَّ اَ۬للَّهَ غَفُورٞ رَّحِيمٌۖ ﱗ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2055
   },
   {
     "id": 381,
@@ -5084,7 +5260,9 @@
     "total_verses": 11,
     "is_mecca": 13,
     "aya_no": 89,
-    "aya_text": "اِنَّ اَ۬لذِينَ كَفَرُواْ بَعْدَ إِيمَٰنِهِمْ ثُمَّ اَ۪زْدَادُواْ كُفْراٗ لَّن تُقْبَلَ تَوْبَتُهُمْۖ وَأُوْلَٰٓئِكَ هُمُ اُ۬لضَّآلُّونَۖ ﱘ"
+    "aya_text": "اِنَّ اَ۬لذِينَ كَفَرُواْ بَعْدَ إِيمَٰنِهِمْ ثُمَّ اَ۪زْدَادُواْ كُفْراٗ لَّن تُقْبَلَ تَوْبَتُهُمْۖ وَأُوْلَٰٓئِكَ هُمُ اُ۬لضَّآلُّونَۖ ﱘ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2075
   },
   {
     "id": 382,
@@ -5096,7 +5274,9 @@
     "total_verses": 13,
     "is_mecca": 15,
     "aya_no": 90,
-    "aya_text": "إِنَّ اَ۬لذِينَ كَفَرُواْ وَمَاتُواْ وَهُمْ كُفَّارٞ فَلَنْ يُّقْبَلَ مِنَ اَحَدِهِم مِّلْءُ اُ۬لَارْضِ ذَهَباٗ وَلَوِ اِ۪فْتَد۪ىٰ بِهِۦٓۖ أُوْلَٰٓئِكَ لَهُمْ عَذَابٌ اَلِيمٞۖ وَمَا لَهُم مِّن نَّٰصِرِينَۖ ﱙ"
+    "aya_text": "إِنَّ اَ۬لذِينَ كَفَرُواْ وَمَاتُواْ وَهُمْ كُفَّارٞ فَلَنْ يُّقْبَلَ مِنَ اَحَدِهِم مِّلْءُ اُ۬لَارْضِ ذَهَباٗ وَلَوِ اِ۪فْتَد۪ىٰ بِهِۦٓۖ أُوْلَٰٓئِكَ لَهُمْ عَذَابٌ اَلِيمٞۖ وَمَا لَهُم مِّن نَّٰصِرِينَۖ ﱙ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2101
   },
   {
     "id": 383,
@@ -5108,7 +5288,9 @@
     "total_verses": 1,
     "is_mecca": 1,
     "aya_no": 91,
-    "aya_text": "۞ لَن تَنَالُواْ اُ۬لْبِرَّ حَتَّىٰ تُنفِقُواْ مِمَّا تُحِبُّونَۖ ﱚ"
+    "aya_text": "۞ لَن تَنَالُواْ اُ۬لْبِرَّ حَتَّىٰ تُنفِقُواْ مِمَّا تُحِبُّونَۖ ﱚ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2108
   },
   {
     "id": 384,
@@ -5120,7 +5302,9 @@
     "total_verses": 1,
     "is_mecca": 2,
     "aya_no": 92,
-    "aya_text": "وَمَا تُنفِقُواْ مِن شَےْءٖ فَإِنَّ اَ۬للَّهَ بِهِۦ عَلِيمٞۖ ﱛ"
+    "aya_text": "وَمَا تُنفِقُواْ مِن شَےْءٖ فَإِنَّ اَ۬للَّهَ بِهِۦ عَلِيمٞۖ ﱛ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2119
   },
   {
     "id": 385,
@@ -5132,7 +5316,9 @@
     "total_verses": 2,
     "is_mecca": 4,
     "aya_no": 93,
-    "aya_text": "كُلُّ اُ۬لطَّعَامِ كَانَ حِلّاٗ لِّبَنِےٓ إِسْرَآءِيلَ إِلَّا مَا حَرَّمَ إِسْرَآءِيلُ عَلَىٰ نَفْسِهِۦ مِن قَبْلِ أَن تُنَزَّلَ اَ۬لتَّوْر۪يٰةُۖ قُلْ فَاتُواْ بِالتَّوْر۪يٰةِ فَاتْلُوهَآ إِن كُنتُمْ صَٰدِقِينَۖ ﱜ"
+    "aya_text": "كُلُّ اُ۬لطَّعَامِ كَانَ حِلّاٗ لِّبَنِےٓ إِسْرَآءِيلَ إِلَّا مَا حَرَّمَ إِسْرَآءِيلُ عَلَىٰ نَفْسِهِۦ مِن قَبْلِ أَن تُنَزَّلَ اَ۬لتَّوْر۪يٰةُۖ قُلْ فَاتُواْ بِالتَّوْر۪يٰةِ فَاتْلُوهَآ إِن كُنتُمْ صَٰدِقِينَۖ ﱜ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2151
   },
   {
     "id": 386,
@@ -5144,7 +5330,9 @@
     "total_verses": 5,
     "is_mecca": 6,
     "aya_no": 94,
-    "aya_text": "فَمَنِ اِ۪فْتَر۪ىٰ عَلَى اَ۬للَّهِ اِ۬لْكَذِبَ مِنۢ بَعْدِ ذَٰلِكَ فَأُوْلَٰٓئِكَ هُمُ اُ۬لظَّٰلِمُونَۖ ﱝ"
+    "aya_text": "فَمَنِ اِ۪فْتَر۪ىٰ عَلَى اَ۬للَّهِ اِ۬لْكَذِبَ مِنۢ بَعْدِ ذَٰلِكَ فَأُوْلَٰٓئِكَ هُمُ اُ۬لظَّٰلِمُونَۖ ﱝ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2163
   },
   {
     "id": 387,
@@ -5156,7 +5344,9 @@
     "total_verses": 6,
     "is_mecca": 7,
     "aya_no": 95,
-    "aya_text": "قُلْ صَدَقَ اَ۬للَّهُۖ فَاتَّبِعُواْ مِلَّةَ إِبْرَٰهِيمَ حَنِيفاٗۖ وَمَا كَانَ مِنَ اَ۬لْمُشْرِكِينَۖ ﱞ"
+    "aya_text": "قُلْ صَدَقَ اَ۬للَّهُۖ فَاتَّبِعُواْ مِلَّةَ إِبْرَٰهِيمَ حَنِيفاٗۖ وَمَا كَانَ مِنَ اَ۬لْمُشْرِكِينَۖ ﱞ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2175
   },
   {
     "id": 388,
@@ -5168,7 +5358,9 @@
     "total_verses": 7,
     "is_mecca": 8,
     "aya_no": 96,
-    "aya_text": "إِنَّ أَوَّلَ بَيْتٖ وُضِعَ لِلنَّاسِ لَلذِے بِبَكَّةَ مُبَٰرَكاٗ وَهُدىٗ لِّلْعَٰلَمِينَ ﱟ"
+    "aya_text": "إِنَّ أَوَّلَ بَيْتٖ وُضِعَ لِلنَّاسِ لَلذِے بِبَكَّةَ مُبَٰرَكاٗ وَهُدىٗ لِّلْعَٰلَمِينَ ﱟ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2187
   },
   {
     "id": 389,
@@ -5180,7 +5372,9 @@
     "total_verses": 8,
     "is_mecca": 10,
     "aya_no": 97,
-    "aya_text": "فِيهِ ءَايَٰتُۢ بَيِّنَٰتٞۖ مَّقَامُ إِبْرَٰهِيمَۖ وَمَن دَخَلَهُۥ كَانَ ءَامِناٗۖ وَلِلهِ عَلَى اَ۬لنَّاسِ حَجُّ اُ۬لْبَيْتِ مَنِ اِ۪سْتَطَاعَ إِلَيْهِ سَبِيلاٗۖ وَمَن كَفَرَ فَإِنَّ اَ۬للَّهَ غَنِيٌّ عَنِ اِ۬لْعَٰلَمِينَۖ ﱠ"
+    "aya_text": "فِيهِ ءَايَٰتُۢ بَيِّنَٰتٞۖ مَّقَامُ إِبْرَٰهِيمَۖ وَمَن دَخَلَهُۥ كَانَ ءَامِناٗۖ وَلِلهِ عَلَى اَ۬لنَّاسِ حَجُّ اُ۬لْبَيْتِ مَنِ اِ۪سْتَطَاعَ إِلَيْهِ سَبِيلاٗۖ وَمَن كَفَرَ فَإِنَّ اَ۬للَّهَ غَنِيٌّ عَنِ اِ۬لْعَٰلَمِينَۖ ﱠ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2217
   },
   {
     "id": 390,
@@ -5192,7 +5386,9 @@
     "total_verses": 11,
     "is_mecca": 12,
     "aya_no": 98,
-    "aya_text": "قُلْ يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تَكْفُرُونَ بِـَٔايَٰتِ اِ۬للَّهِ وَاللَّهُ شَهِيدٌ عَلَىٰ مَا تَعْمَلُونَۖ ﱡ"
+    "aya_text": "قُلْ يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تَكْفُرُونَ بِـَٔايَٰتِ اِ۬للَّهِ وَاللَّهُ شَهِيدٌ عَلَىٰ مَا تَعْمَلُونَۖ ﱡ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2232
   },
   {
     "id": 391,
@@ -5204,7 +5400,9 @@
     "total_verses": 12,
     "is_mecca": 14,
     "aya_no": 99,
-    "aya_text": "قُلْ يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ اِ۬للَّهِ مَنَ اٰمَنَ تَبْغُونَهَا عِوَجاٗ وَأَنتُمْ شُهَدَآءُۖ وَمَا اَ۬للَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَۖ ﱢ"
+    "aya_text": "قُلْ يَٰٓأَهْلَ اَ۬لْكِتَٰبِ لِمَ تَصُدُّونَ عَن سَبِيلِ اِ۬للَّهِ مَنَ اٰمَنَ تَبْغُونَهَا عِوَجاٗ وَأَنتُمْ شُهَدَآءُۖ وَمَا اَ۬للَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَۖ ﱢ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2257
   },
   {
     "id": 392,
@@ -5216,7 +5414,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 100,
-    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُوٓاْ إِن تُطِيعُواْ فَرِيقاٗ مِّنَ اَ۬لذِينَ أُوتُواْ اُ۬لْكِتَٰبَ يَرُدُّوكُم بَعْدَ إِيمَٰنِكُمْ كٰ۪فِرِينَۖ ﱣ"
+    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُوٓاْ إِن تُطِيعُواْ فَرِيقاٗ مِّنَ اَ۬لذِينَ أُوتُواْ اُ۬لْكِتَٰبَ يَرُدُّوكُم بَعْدَ إِيمَٰنِكُمْ كٰ۪فِرِينَۖ ﱣ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2278
   },
   {
     "id": 393,
@@ -5228,7 +5428,9 @@
     "total_verses": 1,
     "is_mecca": 2,
     "aya_no": 101,
-    "aya_text": "وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْل۪ىٰ عَلَيْكُمُۥٓ ءَايَٰتُ اُ۬للَّهِ وَفِيكُمْ رَسُولُهُۥۖ وَمَنْ يَّعْتَصِم بِاللَّهِ فَقَدْ هُدِيَ إِلَىٰ صِرَٰطٖ مُّسْتَقِيمٖۖ ﱤ"
+    "aya_text": "وَكَيْفَ تَكْفُرُونَ وَأَنتُمْ تُتْل۪ىٰ عَلَيْكُمُۥٓ ءَايَٰتُ اُ۬للَّهِ وَفِيكُمْ رَسُولُهُۥۖ وَمَنْ يَّعْتَصِم بِاللَّهِ فَقَدْ هُدِيَ إِلَىٰ صِرَٰطٖ مُّسْتَقِيمٖۖ ﱤ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2299
   },
   {
     "id": 394,
@@ -5240,7 +5442,9 @@
     "total_verses": 3,
     "is_mecca": 4,
     "aya_no": 102,
-    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ اُ۪تَّقُواْ اُ۬للَّهَ حَقَّ تُق۪اتِهِۦۖ وَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَۖ ﱥ"
+    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ اُ۪تَّقُواْ اُ۬للَّهَ حَقَّ تُق۪اتِهِۦۖ وَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَۖ ﱥ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2316
   },
   {
     "id": 395,
@@ -5252,7 +5456,9 @@
     "total_verses": 4,
     "is_mecca": 8,
     "aya_no": 103,
-    "aya_text": "۞ وَاعْتَصِمُواْ بِحَبْلِ اِ۬للَّهِ جَمِيعاٗۖ وَلَا تَفَرَّقُواْۖ وَاذْكُرُواْ نِعْمَتَ اَ۬للَّهِ عَلَيْكُمُۥٓ إِذْ كُنتُمُۥٓ أَعْدَآءٗ فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰناٗۖ وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٖ مِّنَ اَ۬لنّ۪ارِ فَأَنقَذَكُم مِّنْهَاۖ كَذَٰلِكَ يُبَيِّنُ اُ۬للَّهُ لَكُمُۥٓ ءَايَٰتِهِۦ لَعَلَّكُمْ تَهْتَدُونَۖ ﱦ"
+    "aya_text": "۞ وَاعْتَصِمُواْ بِحَبْلِ اِ۬للَّهِ جَمِيعاٗۖ وَلَا تَفَرَّقُواْۖ وَاذْكُرُواْ نِعْمَتَ اَ۬للَّهِ عَلَيْكُمُۥٓ إِذْ كُنتُمُۥٓ أَعْدَآءٗ فَأَلَّفَ بَيْنَ قُلُوبِكُمْ فَأَصْبَحْتُم بِنِعْمَتِهِۦٓ إِخْوَٰناٗۖ وَكُنتُمْ عَلَىٰ شَفَا حُفْرَةٖ مِّنَ اَ۬لنّ۪ارِ فَأَنقَذَكُم مِّنْهَاۖ كَذَٰلِكَ يُبَيِّنُ اُ۬للَّهُ لَكُمُۥٓ ءَايَٰتِهِۦ لَعَلَّكُمْ تَهْتَدُونَۖ ﱦ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2364
   },
   {
     "id": 396,
@@ -5264,7 +5470,9 @@
     "total_verses": 8,
     "is_mecca": 9,
     "aya_no": 104,
-    "aya_text": "وَلْتَكُن مِّنكُمُۥٓ أُمَّةٞ يَدْعُونَ إِلَى اَ۬لْخَيْرِ وَيَامُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ اِ۬لْمُنكَرِۖ وَأُوْلَٰٓئِكَ هُمُ اُ۬لْمُفْلِحُونَۖ ﱧ"
+    "aya_text": "وَلْتَكُن مِّنكُمُۥٓ أُمَّةٞ يَدْعُونَ إِلَى اَ۬لْخَيْرِ وَيَامُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ اِ۬لْمُنكَرِۖ وَأُوْلَٰٓئِكَ هُمُ اُ۬لْمُفْلِحُونَۖ ﱧ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2384
   },
   {
     "id": 397,
@@ -5276,7 +5484,9 @@
     "total_verses": 10,
     "is_mecca": 11,
     "aya_no": 105,
-    "aya_text": "وَلَا تَكُونُواْ كَالذِينَ تَفَرَّقُواْ وَاخْتَلَفُواْ مِنۢ بَعْدِ مَا جَآءَهُمُ اُ۬لْبَيِّنَٰتُۖ وَأُوْلَٰٓئِكَ لَهُمْ عَذَابٌ عَظِيمٞ ﱨ"
+    "aya_text": "وَلَا تَكُونُواْ كَالذِينَ تَفَرَّقُواْ وَاخْتَلَفُواْ مِنۢ بَعْدِ مَا جَآءَهُمُ اُ۬لْبَيِّنَٰتُۖ وَأُوْلَٰٓئِكَ لَهُمْ عَذَابٌ عَظِيمٞ ﱨ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2406
   },
   {
     "id": 398,
@@ -5288,7 +5498,9 @@
     "total_verses": 11,
     "is_mecca": 13,
     "aya_no": 106,
-    "aya_text": "يَوْمَ تَبْيَضُّ وُجُوهٞ وَتَسْوَدُّ وُجُوهٞۖ فَأَمَّا اَ۬لذِينَ اَ۪سْوَدَّتْ وُجُوهُهُمُۥٓ أَكَفَرْتُم بَعْدَ إِيمَٰنِكُمْ فَذُوقُواْ اُ۬لْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَۖ ﱩ"
+    "aya_text": "يَوْمَ تَبْيَضُّ وُجُوهٞ وَتَسْوَدُّ وُجُوهٞۖ فَأَمَّا اَ۬لذِينَ اَ۪سْوَدَّتْ وُجُوهُهُمُۥٓ أَكَفَرْتُم بَعْدَ إِيمَٰنِكُمْ فَذُوقُواْ اُ۬لْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَۖ ﱩ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2429
   },
   {
     "id": 399,
@@ -5300,7 +5512,9 @@
     "total_verses": 13,
     "is_mecca": 14,
     "aya_no": 107,
-    "aya_text": "وَأَمَّا اَ۬لذِينَ اَ۪بْيَضَّتْ وُجُوهُهُمْ فَفِے رَحْمَةِ اِ۬للَّهِۖ هُمْ فِيهَا خَٰلِدُونَۖ ﱪ"
+    "aya_text": "وَأَمَّا اَ۬لذِينَ اَ۪بْيَضَّتْ وُجُوهُهُمْ فَفِے رَحْمَةِ اِ۬للَّهِۖ هُمْ فِيهَا خَٰلِدُونَۖ ﱪ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2441
   },
   {
     "id": 400,
@@ -5312,7 +5526,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 108,
-    "aya_text": "تِلْكَ ءَايَٰتُ اُ۬للَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّۖ وَمَا اَ۬للَّهُ يُرِيدُ ظُلْماٗ لِّلْعَٰلَمِينَۖ ﱫ"
+    "aya_text": "تِلْكَ ءَايَٰتُ اُ۬للَّهِ نَتْلُوهَا عَلَيْكَ بِالْحَقِّۖ وَمَا اَ۬للَّهُ يُرِيدُ ظُلْماٗ لِّلْعَٰلَمِينَۖ ﱫ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2453
   },
   {
     "id": 401,
@@ -5324,7 +5540,9 @@
     "total_verses": 1,
     "is_mecca": 1,
     "aya_no": 109,
-    "aya_text": "وَلِلهِ مَا فِے اِ۬لسَّمَٰوَٰتِ وَمَا فِے اِ۬لَارْضِۖ وَإِلَى اَ۬للَّهِ تُرْجَعُ اُ۬لُامُورُۖ ﱬ"
+    "aya_text": "وَلِلهِ مَا فِے اِ۬لسَّمَٰوَٰتِ وَمَا فِے اِ۬لَارْضِۖ وَإِلَى اَ۬للَّهِ تُرْجَعُ اُ۬لُامُورُۖ ﱬ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2464
   },
   {
     "id": 402,
@@ -5336,7 +5554,9 @@
     "total_verses": 2,
     "is_mecca": 5,
     "aya_no": 110,
-    "aya_text": "كُنتُمْ خَيْرَ أُمَّةٍ ا۟خْرِجَتْ لِلنَّاسِ تَامُرُونَ بِالْمَعْرُوفِ وَتَنْهَوْنَ عَنِ اِ۬لْمُنكَرِ وَتُومِنُونَ بِاللَّهِۖ وَلَوَ اٰمَنَ أَهْلُ اُ۬لْكِتَٰبِ لَكَانَ خَيْراٗ لَّهُمۖ مِّنْهُمُ اُ۬لْمُومِنُونَۖ وَأَكْثَرُهُمُ اُ۬لْفَٰسِقُونَۖ ﱭ"
+    "aya_text": "كُنتُمْ خَيْرَ أُمَّةٍ ا۟خْرِجَتْ لِلنَّاسِ تَامُرُونَ بِالْمَعْرُوفِ وَتَنْهَوْنَ عَنِ اِ۬لْمُنكَرِ وَتُومِنُونَ بِاللَّهِۖ وَلَوَ اٰمَنَ أَهْلُ اُ۬لْكِتَٰبِ لَكَانَ خَيْراٗ لَّهُمۖ مِّنْهُمُ اُ۬لْمُومِنُونَۖ وَأَكْثَرُهُمُ اُ۬لْفَٰسِقُونَۖ ﱭ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2492
   },
   {
     "id": 403,
@@ -5348,7 +5568,9 @@
     "total_verses": 5,
     "is_mecca": 6,
     "aya_no": 111,
-    "aya_text": "لَنْ يَّضُرُّوكُمُۥٓۖ إِلَّآ أَذىٗۖ وَإِنْ يُّقَٰتِلُوكُمْ يُوَلُّوكُمُ اُ۬لَادْبَٰرَۖ ثُمَّ لَا يُنصَرُونَۖ ﱮ"
+    "aya_text": "لَنْ يَّضُرُّوكُمُۥٓۖ إِلَّآ أَذىٗۖ وَإِنْ يُّقَٰتِلُوكُمْ يُوَلُّوكُمُ اُ۬لَادْبَٰرَۖ ثُمَّ لَا يُنصَرُونَۖ ﱮ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2510
   },
   {
     "id": 404,
@@ -5360,7 +5582,9 @@
     "total_verses": 6,
     "is_mecca": 10,
     "aya_no": 112,
-    "aya_text": "ضُرِبَتْ عَلَيْهِمُ اُ۬لذِّلَّةُ أَيْنَ مَا ثُقِفُوٓاْۖ إِلَّا بِحَبْلٖ مِّنَ اَ۬للَّهِ وَحَبْلٖ مِّنَ اَ۬لنَّاسِ وَبَآءُو بِغَضَبٖ مِّنَ اَ۬للَّهِۖ وَضُرِبَتْ عَلَيْهِمُ اُ۬لْمَسْكَنَةُۖ ذَٰلِكَ بِأَنَّهُمْ كَانُواْ يَكْفُرُونَ بِـَٔايَٰتِ اِ۬للَّهِ وَيَقْتُلُونَ اَ۬لَانۢبِئَآءَ بِغَيْرِ حَقّٖۖ ذَٰلِكَ بِمَا عَصَواْ وَّكَانُواْ يَعْتَدُونَۖ ﱯ"
+    "aya_text": "ضُرِبَتْ عَلَيْهِمُ اُ۬لذِّلَّةُ أَيْنَ مَا ثُقِفُوٓاْۖ إِلَّا بِحَبْلٖ مِّنَ اَ۬للَّهِ وَحَبْلٖ مِّنَ اَ۬لنَّاسِ وَبَآءُو بِغَضَبٖ مِّنَ اَ۬للَّهِۖ وَضُرِبَتْ عَلَيْهِمُ اُ۬لْمَسْكَنَةُۖ ذَٰلِكَ بِأَنَّهُمْ كَانُواْ يَكْفُرُونَ بِـَٔايَٰتِ اِ۬للَّهِ وَيَقْتُلُونَ اَ۬لَانۢبِئَآءَ بِغَيْرِ حَقّٖۖ ذَٰلِكَ بِمَا عَصَواْ وَّكَانُواْ يَعْتَدُونَۖ ﱯ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2553
   },
   {
     "id": 405,
@@ -5372,7 +5596,9 @@
     "total_verses": 11,
     "is_mecca": 12,
     "aya_no": 113,
-    "aya_text": "۞ لَيْسُواْ سَوَآءٗۖ مِّنَ اَهْلِ اِ۬لْكِتَٰبِ أُمَّةٞ قَآئِمَةٞ يَتْلُونَ ءَايَٰتِ اِ۬للَّهِ ءَانَآءَ اَ۬ليْلِ وَهُمْ يَسْجُدُونَۖ ﱰ"
+    "aya_text": "۞ لَيْسُواْ سَوَآءٗۖ مِّنَ اَهْلِ اِ۬لْكِتَٰبِ أُمَّةٞ قَآئِمَةٞ يَتْلُونَ ءَايَٰتِ اِ۬للَّهِ ءَانَآءَ اَ۬ليْلِ وَهُمْ يَسْجُدُونَۖ ﱰ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2573
   },
   {
     "id": 406,
@@ -5384,7 +5610,9 @@
     "total_verses": 12,
     "is_mecca": 14,
     "aya_no": 114,
-    "aya_text": "يُومِنُونَ بِاللَّهِ وَالْيَوْمِ اِ۬لَاخِرِ وَيَامُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ اِ۬لْمُنكَرِ وَيُسَٰرِعُونَ فِے اِ۬لْخَيْرَٰتِۖ وَأُوْلَٰٓئِكَ مِنَ اَ۬لصَّٰلِحِينَۖ ﱱ"
+    "aya_text": "يُومِنُونَ بِاللَّهِ وَالْيَوْمِ اِ۬لَاخِرِ وَيَامُرُونَ بِالْمَعْرُوفِ وَيَنْهَوْنَ عَنِ اِ۬لْمُنكَرِ وَيُسَٰرِعُونَ فِے اِ۬لْخَيْرَٰتِۖ وَأُوْلَٰٓئِكَ مِنَ اَ۬لصَّٰلِحِينَۖ ﱱ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2595
   },
   {
     "id": 407,
@@ -5396,7 +5624,9 @@
     "total_verses": 15,
     "is_mecca": 15,
     "aya_no": 115,
-    "aya_text": "وَمَا تَفْعَلُواْ مِنْ خَيْرٖ فَلَن تُكْفَرُوهُۖ وَاللَّهُ عَلِيمُۢ بِالْمُتَّقِينَۖ ﱲ"
+    "aya_text": "وَمَا تَفْعَلُواْ مِنْ خَيْرٖ فَلَن تُكْفَرُوهُۖ وَاللَّهُ عَلِيمُۢ بِالْمُتَّقِينَۖ ﱲ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2608
   },
   {
     "id": 408,
@@ -5408,7 +5638,9 @@
     "total_verses": 1,
     "is_mecca": 2,
     "aya_no": 116,
-    "aya_text": "إِنَّ اَ۬لذِينَ كَفَرُواْ لَن تُغْنِيَ عَنْهُمُۥٓ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُم مِّنَ اَ۬للَّهِ شَئْاٗۖ وَأُوْلَٰٓئِكَ أَصْحَٰبُ اُ۬لنّ۪ارِ هُمْ فِيهَا خَٰلِدُونَۖ ﱳ"
+    "aya_text": "إِنَّ اَ۬لذِينَ كَفَرُواْ لَن تُغْنِيَ عَنْهُمُۥٓ أَمْوَٰلُهُمْ وَلَآ أَوْلَٰدُهُم مِّنَ اَ۬للَّهِ شَئْاٗۖ وَأُوْلَٰٓئِكَ أَصْحَٰبُ اُ۬لنّ۪ارِ هُمْ فِيهَا خَٰلِدُونَۖ ﱳ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2632
   },
   {
     "id": 409,
@@ -5420,7 +5652,9 @@
     "total_verses": 3,
     "is_mecca": 5,
     "aya_no": 117,
-    "aya_text": "مَثَلُ مَا يُنفِقُونَ فِے هَٰذِهِ اِ۬لْحَيَوٰةِ اِ۬لدُّنْي۪ا كَمَثَلِ رِيحٖ فِيهَا صِرٌّ اَصَابَتْ حَرْثَ قَوْمٖ ظَلَمُوٓاْ أَنفُسَهُمْ فَأَهْلَكَتْهُۖ وَمَا ظَلَمَهُمُ اُ۬للَّهُۖ وَلَٰكِنَ اَنفُسَهُمْ يَظْلِمُونَۖ ﱴ"
+    "aya_text": "مَثَلُ مَا يُنفِقُونَ فِے هَٰذِهِ اِ۬لْحَيَوٰةِ اِ۬لدُّنْي۪ا كَمَثَلِ رِيحٖ فِيهَا صِرٌّ اَصَابَتْ حَرْثَ قَوْمٖ ظَلَمُوٓاْ أَنفُسَهُمْ فَأَهْلَكَتْهُۖ وَمَا ظَلَمَهُمُ اُ۬للَّهُۖ وَلَٰكِنَ اَنفُسَهُمْ يَظْلِمُونَۖ ﱴ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2661
   },
   {
     "id": 410,
@@ -5432,7 +5666,9 @@
     "total_verses": 5,
     "is_mecca": 8,
     "aya_no": 118,
-    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ لَا تَتَّخِذُواْ بِطَانَةٗ مِّن دُونِكُمْ لَا يَالُونَكُمْ خَبَالاٗ وَدُّواْ مَا عَنِتُّمْۖ قَدْ بَدَتِ اِ۬لْبَغْضَآءُ مِنَ اَفْوَٰهِهِمْ وَمَا تُخْفِے صُدُورُهُمُۥٓ أَكْبَرُۖ قَدْ بَيَّنَّا لَكُمُ اُ۬لَايَٰتِ إِن كُنتُمْ تَعْقِلُونَۖ ﱵ"
+    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ لَا تَتَّخِذُواْ بِطَانَةٗ مِّن دُونِكُمْ لَا يَالُونَكُمْ خَبَالاٗ وَدُّواْ مَا عَنِتُّمْۖ قَدْ بَدَتِ اِ۬لْبَغْضَآءُ مِنَ اَفْوَٰهِهِمْ وَمَا تُخْفِے صُدُورُهُمُۥٓ أَكْبَرُۖ قَدْ بَيَّنَّا لَكُمُ اُ۬لَايَٰتِ إِن كُنتُمْ تَعْقِلُونَۖ ﱵ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2703
   },
   {
     "id": 411,
@@ -5444,7 +5680,9 @@
     "total_verses": 9,
     "is_mecca": 12,
     "aya_no": 119,
-    "aya_text": "هَآنتُمُۥٓ أُوْلَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُومِنُونَ بِالْكِتَٰبِ كُلِّهِۦۖ وَإِذَا لَقُوكُمْ قَالُوٓاْ ءَامَنَّاۖ وَإِذَا خَلَوْاْ عَضُّواْ عَلَيْكُمُ اُ۬لَانَامِلَ مِنَ اَ۬لْغَيْظِۖ قُلْ مُوتُواْ بِغَيْظِكُمُۥٓۖ إِنَّ اَ۬للَّهَ عَلِيمُۢ بِذَاتِ اِ۬لصُّدُورِۖ ﱶ"
+    "aya_text": "هَآنتُمُۥٓ أُوْلَآءِ تُحِبُّونَهُمْ وَلَا يُحِبُّونَكُمْ وَتُومِنُونَ بِالْكِتَٰبِ كُلِّهِۦۖ وَإِذَا لَقُوكُمْ قَالُوٓاْ ءَامَنَّاۖ وَإِذَا خَلَوْاْ عَضُّواْ عَلَيْكُمُ اُ۬لَانَامِلَ مِنَ اَ۬لْغَيْظِۖ قُلْ مُوتُواْ بِغَيْظِكُمُۥٓۖ إِنَّ اَ۬للَّهَ عَلِيمُۢ بِذَاتِ اِ۬لصُّدُورِۖ ﱶ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2747
   },
   {
     "id": 412,
@@ -5456,7 +5694,9 @@
     "total_verses": 12,
     "is_mecca": 14,
     "aya_no": 120,
-    "aya_text": "إِن تَمْسَسْكُمْ حَسَنَةٞ تَسُؤْهُمْۖ وَإِن تُصِبْكُمْ سَيِّئَةٞ يَفْرَحُواْ بِهَاۖ وَإِن تَصْبِرُواْ وَتَتَّقُواْ لَا يَضِرْكُمْ كَيْدُهُمْ شَئْاًۖ اِنَّ اَ۬للَّهَ بِمَا يَعْمَلُونَ مُحِيطٞۖ ﱷ"
+    "aya_text": "إِن تَمْسَسْكُمْ حَسَنَةٞ تَسُؤْهُمْۖ وَإِن تُصِبْكُمْ سَيِّئَةٞ يَفْرَحُواْ بِهَاۖ وَإِن تَصْبِرُواْ وَتَتَّقُواْ لَا يَضِرْكُمْ كَيْدُهُمْ شَئْاًۖ اِنَّ اَ۬للَّهَ بِمَا يَعْمَلُونَ مُحِيطٞۖ ﱷ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2774
   },
   {
     "id": 413,
@@ -5468,7 +5708,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 121,
-    "aya_text": "۞ وَإِذْ غَدَوْتَ مِنَ اَهْلِكَ تُبَوِّۓُ اُ۬لْمُومِنِينَ مَقَٰعِدَ لِلْقِتَالِۖ وَاللَّهُ سَمِيعٌ عَلِيمٌۖ ﱸ"
+    "aya_text": "۞ وَإِذْ غَدَوْتَ مِنَ اَهْلِكَ تُبَوِّۓُ اُ۬لْمُومِنِينَ مَقَٰعِدَ لِلْقِتَالِۖ وَاللَّهُ سَمِيعٌ عَلِيمٌۖ ﱸ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2786
   },
   {
     "id": 414,
@@ -5480,7 +5722,9 @@
     "total_verses": 1,
     "is_mecca": 2,
     "aya_no": 122,
-    "aya_text": "اِذْ هَمَّت طَّآئِفَتَٰنِ مِنكُمُۥٓ أَن تَفْشَلَا وَاللَّهُ وَلِيُّهُمَاۖ وَعَلَى اَ۬للَّهِ فَلْيَتَوَكَّلِ اِ۬لْمُومِنُونَۖ ﱹ"
+    "aya_text": "اِذْ هَمَّت طَّآئِفَتَٰنِ مِنكُمُۥٓ أَن تَفْشَلَا وَاللَّهُ وَلِيُّهُمَاۖ وَعَلَى اَ۬للَّهِ فَلْيَتَوَكَّلِ اِ۬لْمُومِنُونَۖ ﱹ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2806
   },
   {
     "id": 415,
@@ -5492,7 +5736,9 @@
     "total_verses": 2,
     "is_mecca": 3,
     "aya_no": 123,
-    "aya_text": "وَلَقَدْ نَصَرَكُمُ اُ۬للَّهُ بِبَدْرٖ وَأَنتُمُۥٓ أَذِلَّةٞۖ فَاتَّقُواْ اُ۬للَّهَ لَعَلَّكُمْ تَشْكُرُونَۖ ﱺ"
+    "aya_text": "وَلَقَدْ نَصَرَكُمُ اُ۬للَّهُ بِبَدْرٖ وَأَنتُمُۥٓ أَذِلَّةٞۖ فَاتَّقُواْ اُ۬للَّهَ لَعَلَّكُمْ تَشْكُرُونَۖ ﱺ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2821
   },
   {
     "id": 416,
@@ -5504,7 +5750,9 @@
     "total_verses": 3,
     "is_mecca": 5,
     "aya_no": 124,
-    "aya_text": "إِذْ تَقُولُ لِلْمُومِنِينَ أَلَنْ يَّكْفِيَكُمُۥٓ أَنْ يُّمِدَّكُمْ رَبُّكُم بِثَلَٰثَةِ ءَالَٰفٖ مِّنَ اَ۬لْمَلَٰٓئِكَةِ مُنزَلِينَۖ ﱻ"
+    "aya_text": "إِذْ تَقُولُ لِلْمُومِنِينَ أَلَنْ يَّكْفِيَكُمُۥٓ أَنْ يُّمِدَّكُمْ رَبُّكُم بِثَلَٰثَةِ ءَالَٰفٖ مِّنَ اَ۬لْمَلَٰٓئِكَةِ مُنزَلِينَۖ ﱻ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2842
   },
   {
     "id": 417,
@@ -5516,7 +5764,9 @@
     "total_verses": 5,
     "is_mecca": 6,
     "aya_no": 125,
-    "aya_text": "بَل۪ىٰٓ إِن تَصْبِرُواْ وَتَتَّقُواْ وَيَاتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ ءَالَٰفٖ مِّنَ اَ۬لْمَلَٰٓئِكَةِ مُسَوَّمِينَۖ ﱼ"
+    "aya_text": "بَل۪ىٰٓ إِن تَصْبِرُواْ وَتَتَّقُواْ وَيَاتُوكُم مِّن فَوْرِهِمْ هَٰذَا يُمْدِدْكُمْ رَبُّكُم بِخَمْسَةِ ءَالَٰفٖ مِّنَ اَ۬لْمَلَٰٓئِكَةِ مُسَوَّمِينَۖ ﱼ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2875
   },
   {
     "id": 418,
@@ -5525,10 +5775,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 7,
-    "is_mecca": 8,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 126,
-    "aya_text": "وَمَا جَعَلَهُ اُ۬للَّهُ إِلَّا بُشْر۪ىٰ لَكُمْ وَلِتَطْمَئِنَّ قُلُوبُكُم بِهِۦۖ وَمَا اَ۬لنَّصْرُ إِلَّا مِنْ عِندِ اِ۬للَّهِ اِ۬لْعَزِيزِ اِ۬لْحَكِيمِ ﱽ"
+    "aya_text": "وَمَا جَعَلَهُ اُ۬للَّهُ إِلَّا بُشْر۪ىٰ لَكُمْ وَلِتَطْمَئِنَّ قُلُوبُكُم بِهِۦۖ وَمَا اَ۬لنَّصْرُ إِلَّا مِنْ عِندِ اِ۬للَّهِ اِ۬لْعَزِيزِ اِ۬لْحَكِيمِ ﱽ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2896
   },
   {
     "id": 419,
@@ -5540,7 +5792,9 @@
     "total_verses": 8,
     "is_mecca": 9,
     "aya_no": 127,
-    "aya_text": "لِيَقْطَعَ طَرَفاٗ مِّنَ اَ۬لذِينَ كَفَرُوٓاْ أَوْ يَكْبِتَهُمْ فَيَنقَلِبُواْ خَآئِبِينَ ﱾ"
+    "aya_text": "لِيَقْطَعَ طَرَفاٗ مِّنَ اَ۬لذِينَ كَفَرُوٓاْ أَوْ يَكْبِتَهُمْ فَيَنقَلِبُواْ خَآئِبِينَ ﱾ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2911
   },
   {
     "id": 420,
@@ -5552,7 +5806,9 @@
     "total_verses": 10,
     "is_mecca": 11,
     "aya_no": 128,
-    "aya_text": "لَيْسَ لَكَ مِنَ اَ۬لَامْرِ شَےْءٌ اَوْ يَتُوبَ عَلَيْهِمُۥٓ أَوْ يُعَذِّبَهُمْ فَإِنَّهُمْ ظَٰلِمُونَۖ ﱿ"
+    "aya_text": "لَيْسَ لَكَ مِنَ اَ۬لَامْرِ شَےْءٌ اَوْ يَتُوبَ عَلَيْهِمُۥٓ أَوْ يُعَذِّبَهُمْ فَإِنَّهُمْ ظَٰلِمُونَۖ ﱿ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2924
   },
   {
     "id": 421,
@@ -5564,7 +5820,9 @@
     "total_verses": 11,
     "is_mecca": 12,
     "aya_no": 129,
-    "aya_text": "وَلِلهِ مَا فِے اِ۬لسَّمَٰوَٰتِ وَمَا فِے اِ۬لَارْضِۖ يَغْفِرُ لِمَنْ يَّشَآءُ وَيُعَذِّبُ مَنْ يَّشَآءُۖ وَاللَّهُ غَفُورٞ رَّحِيمٞۖ ﲀ"
+    "aya_text": "وَلِلهِ مَا فِے اِ۬لسَّمَٰوَٰتِ وَمَا فِے اِ۬لَارْضِۖ يَغْفِرُ لِمَنْ يَّشَآءُ وَيُعَذِّبُ مَنْ يَّشَآءُۖ وَاللَّهُ غَفُورٞ رَّحِيمٞۖ ﲀ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2945
   },
   {
     "id": 422,
@@ -5576,7 +5834,9 @@
     "total_verses": 13,
     "is_mecca": 14,
     "aya_no": 130,
-    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ لَا تَاكُلُواْ اُ۬لرِّبَوٰٓاْ أَضْعَٰفاٗ مُّضَٰعَفَةٗۖ وَاتَّقُواْ اُ۬للَّهَ لَعَلَّكُمْ تُفْلِحُونَۖ ﲁ"
+    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ لَا تَاكُلُواْ اُ۬لرِّبَوٰٓاْ أَضْعَٰفاٗ مُّضَٰعَفَةٗۖ وَاتَّقُواْ اُ۬للَّهَ لَعَلَّكُمْ تُفْلِحُونَۖ ﲁ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2942
   },
   {
     "id": 423,
@@ -5588,7 +5848,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 131,
-    "aya_text": "وَاتَّقُواْ اُ۬لنَّارَ اَ۬لتِےٓ أُعِدَّتْ لِلْكٰ۪فِرِينَۖ ﲂ"
+    "aya_text": "وَاتَّقُواْ اُ۬لنَّارَ اَ۬لتِےٓ أُعِدَّتْ لِلْكٰ۪فِرِينَۖ ﲂ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2976
   },
   {
     "id": 424,
@@ -5600,7 +5862,9 @@
     "total_verses": 15,
     "is_mecca": 15,
     "aya_no": 132,
-    "aya_text": "وَأَطِيعُواْ اُ۬للَّهَ وَالرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَۖ ﲃ"
+    "aya_text": "وَأَطِيعُواْ اُ۬للَّهَ وَالرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَۖ ﲃ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2983
   },
   {
     "id": 425,
@@ -5612,7 +5876,9 @@
     "total_verses": 1,
     "is_mecca": 2,
     "aya_no": 133,
-    "aya_text": "۞ سَارِعُوٓاْ إِلَىٰ مَغْفِرَةٖ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا اَ۬لسَّمَٰوَٰتُ وَالَارْضُ أُعِدَّتْ لِلْمُتَّقِينَ ﲄ"
+    "aya_text": "۞ سَارِعُوٓاْ إِلَىٰ مَغْفِرَةٖ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا اَ۬لسَّمَٰوَٰتُ وَالَارْضُ أُعِدَّتْ لِلْمُتَّقِينَ ﲄ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 2999
   },
   {
     "id": 426,
@@ -5624,7 +5890,9 @@
     "total_verses": 2,
     "is_mecca": 4,
     "aya_no": 134,
-    "aya_text": "اَ۬لذِينَ يُنفِقُونَ فِے اِ۬لسَّرَّآءِ وَالضَّرَّآءِ وَالْكَٰظِمِينَ اَ۬لْغَيْظَ وَالْعَافِينَ عَنِ اِ۬لنَّاسِۖ وَاللَّهُ يُحِبُّ اُ۬لْمُحْسِنِينَۖ ﲅ"
+    "aya_text": "اَ۬لذِينَ يُنفِقُونَ فِے اِ۬لسَّرَّآءِ وَالضَّرَّآءِ وَالْكَٰظِمِينَ اَ۬لْغَيْظَ وَالْعَافِينَ عَنِ اِ۬لنَّاسِۖ وَاللَّهُ يُحِبُّ اُ۬لْمُحْسِنِينَۖ ﲅ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3022
   },
   {
     "id": 427,
@@ -5636,7 +5904,9 @@
     "total_verses": 4,
     "is_mecca": 7,
     "aya_no": 135,
-    "aya_text": "وَالذِينَ إِذَا فَعَلُواْ فَٰحِشَةً اَوْ ظَلَمُوٓاْ أَنفُسَهُمْ ذَكَرُواْ اُ۬للَّهَ فَاسْتَغْفَرُواْ لِذُنُوبِهِمْۖ وَمَنْ يَّغْفِرُ اُ۬لذُّنُوبَ إِلَّا اَ۬للَّهُۖ وَلَمْ يُصِرُّواْ عَلَىٰ مَا فَعَلُواْ وَهُمْ يَعْلَمُونَۖ ﲆ"
+    "aya_text": "وَالذِينَ إِذَا فَعَلُواْ فَٰحِشَةً اَوْ ظَلَمُوٓاْ أَنفُسَهُمْ ذَكَرُواْ اُ۬للَّهَ فَاسْتَغْفَرُواْ لِذُنُوبِهِمْۖ وَمَنْ يَّغْفِرُ اُ۬لذُّنُوبَ إِلَّا اَ۬للَّهُۖ وَلَمْ يُصِرُّواْ عَلَىٰ مَا فَعَلُواْ وَهُمْ يَعْلَمُونَۖ ﲆ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3048
   },
   {
     "id": 428,
@@ -5648,7 +5918,9 @@
     "total_verses": 7,
     "is_mecca": 9,
     "aya_no": 136,
-    "aya_text": "أُوْلَٰٓئِكَ جَزَآؤُهُم مَّغْفِرَةٞ مِّن رَّبِّهِمْ وَجَنَّٰتٞ تَجْرِے مِن تَحْتِهَا اَ۬لَانْهَٰرُ خَٰلِدِينَ فِيهَاۖ وَنِعْمَ أَجْرُ اُ۬لْعَٰمِلِينَۖ ﲇ"
+    "aya_text": "أُوْلَٰٓئِكَ جَزَآؤُهُم مَّغْفِرَةٞ مِّن رَّبِّهِمْ وَجَنَّٰتٞ تَجْرِے مِن تَحْتِهَا اَ۬لَانْهَٰرُ خَٰلِدِينَ فِيهَاۖ وَنِعْمَ أَجْرُ اُ۬لْعَٰمِلِينَۖ ﲇ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3072
   },
   {
     "id": 429,
@@ -5660,7 +5932,9 @@
     "total_verses": 9,
     "is_mecca": 10,
     "aya_no": 137,
-    "aya_text": "قَدْ خَلَتْ مِن قَبْلِكُمْ سُنَنٞۖ فَسِيرُواْ فِے اِ۬لَارْضِ فَانظُرُواْ كَيْفَ كَانَ عَٰقِبَةُ اُ۬لْمُكَذِّبِينَۖ ﲈ"
+    "aya_text": "قَدْ خَلَتْ مِن قَبْلِكُمْ سُنَنٞۖ فَسِيرُواْ فِے اِ۬لَارْضِ فَانظُرُواْ كَيْفَ كَانَ عَٰقِبَةُ اُ۬لْمُكَذِّبِينَۖ ﲈ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3085
   },
   {
     "id": 430,
@@ -5672,7 +5946,9 @@
     "total_verses": 11,
     "is_mecca": 11,
     "aya_no": 138,
-    "aya_text": "هَٰذَا بَيَانٞ لِّلنَّاسِ وَهُدىٗ وَمَوْعِظَةٞ لِّلْمُتَّقِينَۖ ﲉ"
+    "aya_text": "هَٰذَا بَيَانٞ لِّلنَّاسِ وَهُدىٗ وَمَوْعِظَةٞ لِّلْمُتَّقِينَۖ ﲉ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3096
   },
   {
     "id": 431,
@@ -5684,7 +5960,9 @@
     "total_verses": 12,
     "is_mecca": 12,
     "aya_no": 139,
-    "aya_text": "وَلَا تَهِنُواْ وَلَا تَحْزَنُواْ وَأَنتُمُ اُ۬لَاعْلَوْنَ إِن كُنتُم مُّومِنِينَۖ ﲊ"
+    "aya_text": "وَلَا تَهِنُواْ وَلَا تَحْزَنُواْ وَأَنتُمُ اُ۬لَاعْلَوْنَ إِن كُنتُم مُّومِنِينَۖ ﲊ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3108
   },
   {
     "id": 432,
@@ -5696,7 +5974,9 @@
     "total_verses": 13,
     "is_mecca": 15,
     "aya_no": 140,
-    "aya_text": "إِنْ يَّمْسَسْكُمْ قَرْحٞ فَقَدْ مَسَّ اَ۬لْقَوْمَ قَرْحٞ مِّثْلُهُۥۖ وَتِلْكَ اَ۬لَايَّامُ نُدَاوِلُهَا بَيْنَ اَ۬لنَّاسِۖ وَلِيَعْلَمَ اَ۬للَّهُ اُ۬لذِينَ ءَامَنُواْ وَيَتَّخِذَ مِنكُمْ شُهَدَآءَۖ وَاللَّهُ لَا يُحِبُّ اُ۬لظَّٰلِمِينَۖ ﲋ"
+    "aya_text": "إِنْ يَّمْسَسْكُمْ قَرْحٞ فَقَدْ مَسَّ اَ۬لْقَوْمَ قَرْحٞ مِّثْلُهُۥۖ وَتِلْكَ اَ۬لَايَّامُ نُدَاوِلُهَا بَيْنَ اَ۬لنَّاسِۖ وَلِيَعْلَمَ اَ۬للَّهُ اُ۬لذِينَ ءَامَنُواْ وَيَتَّخِذَ مِنكُمْ شُهَدَآءَۖ وَاللَّهُ لَا يُحِبُّ اُ۬لظَّٰلِمِينَۖ ﲋ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3139
   },
   {
     "id": 433,
@@ -5708,7 +5988,9 @@
     "total_verses": 1,
     "is_mecca": 1,
     "aya_no": 141,
-    "aya_text": "وَلِيُمَحِّصَ اَ۬للَّهُ اُ۬لذِينَ ءَامَنُواْ وَيَمْحَقَ اَ۬لْكٰ۪فِرِينَۖ ﲌ"
+    "aya_text": "وَلِيُمَحِّصَ اَ۬للَّهُ اُ۬لذِينَ ءَامَنُواْ وَيَمْحَقَ اَ۬لْكٰ۪فِرِينَۖ ﲌ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3148
   },
   {
     "id": 434,
@@ -5720,7 +6002,9 @@
     "total_verses": 1,
     "is_mecca": 3,
     "aya_no": 142,
-    "aya_text": "أَمْ حَسِبْتُمُۥٓ أَن تَدْخُلُواْ اُ۬لْجَنَّةَ وَلَمَّا يَعْلَمِ اِ۬للَّهُ اُ۬لذِينَ جَٰهَدُواْ مِنكُمْ وَيَعْلَمَ اَ۬لصَّٰبِرِينَۖ ﲍ"
+    "aya_text": "أَمْ حَسِبْتُمُۥٓ أَن تَدْخُلُواْ اُ۬لْجَنَّةَ وَلَمَّا يَعْلَمِ اِ۬للَّهُ اُ۬لذِينَ جَٰهَدُواْ مِنكُمْ وَيَعْلَمَ اَ۬لصَّٰبِرِينَۖ ﲍ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3165
   },
   {
     "id": 435,
@@ -5732,7 +6016,9 @@
     "total_verses": 3,
     "is_mecca": 4,
     "aya_no": 143,
-    "aya_text": "وَلَقَدْ كُنتُمْ تَمَنَّوْنَ اَ۬لْمَوْتَ مِن قَبْلِ أَن تَلْقَوْهُ فَقَدْ رَأَيْتُمُوهُ وَأَنتُمْ تَنظُرُونَۖ ﲎ"
+    "aya_text": "وَلَقَدْ كُنتُمْ تَمَنَّوْنَ اَ۬لْمَوْتَ مِن قَبْلِ أَن تَلْقَوْهُ فَقَدْ رَأَيْتُمُوهُ وَأَنتُمْ تَنظُرُونَۖ ﲎ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3179
   },
   {
     "id": 436,
@@ -5744,7 +6030,9 @@
     "total_verses": 4,
     "is_mecca": 7,
     "aya_no": 144,
-    "aya_text": "۞ وَمَا مُحَمَّدٌ اِلَّا رَسُولٞ قَدْ خَلَتْ مِن قَبْلِهِ اِ۬لرُّسُلُۖ أَفَإِيْن مَّاتَ أَوْ قُتِلَ اَ۪نقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْۖ وَمَنْ يَّنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَنْ يَّضُرَّ اَ۬للَّهَ شَئْاٗۖ وَسَيَجْزِے اِ۬للَّهُ اُ۬لشَّٰكِرِينَۖ ﲏ"
+    "aya_text": "۞ وَمَا مُحَمَّدٌ اِلَّا رَسُولٞ قَدْ خَلَتْ مِن قَبْلِهِ اِ۬لرُّسُلُۖ أَفَإِيْن مَّاتَ أَوْ قُتِلَ اَ۪نقَلَبْتُمْ عَلَىٰٓ أَعْقَٰبِكُمْۖ وَمَنْ يَّنقَلِبْ عَلَىٰ عَقِبَيْهِ فَلَنْ يَّضُرَّ اَ۬للَّهَ شَئْاٗۖ وَسَيَجْزِے اِ۬للَّهُ اُ۬لشَّٰكِرِينَۖ ﲏ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3213
   },
   {
     "id": 437,
@@ -5756,7 +6044,9 @@
     "total_verses": 7,
     "is_mecca": 10,
     "aya_no": 145,
-    "aya_text": "وَمَا كَانَ لِنَفْسٍ اَن تَمُوتَ إِلَّا بِإِذْنِ اِ۬للَّهِۖ كِتَٰباٗ مُّوَ۬جَّلاٗۖ وَمَنْ يُّرِدْ ثَوَابَ اَ۬لدُّنْي۪ا نُوتِهِۦ مِنْهَاۖ وَمَنْ يُّرِدْ ثَوَابَ اَ۬لَاخِرَةِ نُوتِهِۦ مِنْهَاۖ وَسَنَجْزِے اِ۬لشَّٰكِرِينَۖ ﲐ"
+    "aya_text": "وَمَا كَانَ لِنَفْسٍ اَن تَمُوتَ إِلَّا بِإِذْنِ اِ۬للَّهِۖ كِتَٰباٗ مُّوَ۬جَّلاٗۖ وَمَنْ يُّرِدْ ثَوَابَ اَ۬لدُّنْي۪ا نُوتِهِۦ مِنْهَاۖ وَمَنْ يُّرِدْ ثَوَابَ اَ۬لَاخِرَةِ نُوتِهِۦ مِنْهَاۖ وَسَنَجْزِے اِ۬لشَّٰكِرِينَۖ ﲐ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3241
   },
   {
     "id": 438,
@@ -5768,7 +6058,9 @@
     "total_verses": 10,
     "is_mecca": 12,
     "aya_no": 146,
-    "aya_text": "وَكَأَيِّن مِّن نَّبِےٓءٖ قُتِلَۖ مَعَهُۥ رِبِّيُّونَ كَثِيرٞۖ فَمَا وَهَنُواْ لِمَآ أَصَابَهُمْ فِے سَبِيلِ اِ۬للَّهِ وَمَا ضَعُفُواْ وَمَا اَ۪سْتَكَانُواْۖ وَاللَّهُ يُحِبُّ اُ۬لصَّٰبِرِينَۖ ﲑ"
+    "aya_text": "وَكَأَيِّن مِّن نَّبِےٓءٖ قُتِلَۖ مَعَهُۥ رِبِّيُّونَ كَثِيرٞۖ فَمَا وَهَنُواْ لِمَآ أَصَابَهُمْ فِے سَبِيلِ اِ۬للَّهِ وَمَا ضَعُفُواْ وَمَا اَ۪سْتَكَانُواْۖ وَاللَّهُ يُحِبُّ اُ۬لصَّٰبِرِينَۖ ﲑ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3269
   },
   {
     "id": 439,
@@ -5780,7 +6072,9 @@
     "total_verses": 12,
     "is_mecca": 14,
     "aya_no": 147,
-    "aya_text": "وَمَا كَانَ قَوْلَهُمُۥٓ إِلَّآ أَن قَالُواْ رَبَّنَا اَ۪غْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِےٓ أَمْرِنَا وَثَبِّتَ اَقْدَامَنَا وَانصُرْنَا عَلَى اَ۬لْقَوْمِ اِ۬لْكٰ۪فِرِينَۖ ﲒ"
+    "aya_text": "وَمَا كَانَ قَوْلَهُمُۥٓ إِلَّآ أَن قَالُواْ رَبَّنَا اَ۪غْفِرْ لَنَا ذُنُوبَنَا وَإِسْرَافَنَا فِےٓ أَمْرِنَا وَثَبِّتَ اَقْدَامَنَا وَانصُرْنَا عَلَى اَ۬لْقَوْمِ اِ۬لْكٰ۪فِرِينَۖ ﲒ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3296
   },
   {
     "id": 440,
@@ -5792,7 +6086,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 148,
-    "aya_text": "فَـَٔات۪يٰهُمُ اُ۬للَّهُ ثَوَابَ اَ۬لدُّنْي۪ا وَحُسْنَ ثَوَابِ اِ۬لَاخِرَةِۖ وَاللَّهُ يُحِبُّ اُ۬لْمُحْسِنِينَۖ ﲓ"
+    "aya_text": "فَـَٔات۪يٰهُمُ اُ۬للَّهُ ثَوَابَ اَ۬لدُّنْي۪ا وَحُسْنَ ثَوَابِ اِ۬لَاخِرَةِۖ وَاللَّهُ يُحِبُّ اُ۬لْمُحْسِنِينَۖ ﲓ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3311
   },
   {
     "id": 441,
@@ -5804,7 +6100,9 @@
     "total_verses": 1,
     "is_mecca": 2,
     "aya_no": 149,
-    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُوٓاْ إِن تُطِيعُواْ اُ۬لذِينَ كَفَرُواْ يَرُدُّوكُمْ عَلَىٰٓ أَعْقَٰبِكُمْ فَتَنقَلِبُواْ خَٰسِرِينَۖ ﲔ"
+    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُوٓاْ إِن تُطِيعُواْ اُ۬لذِينَ كَفَرُواْ يَرُدُّوكُمْ عَلَىٰٓ أَعْقَٰبِكُمْ فَتَنقَلِبُواْ خَٰسِرِينَۖ ﲔ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3331
   },
   {
     "id": 442,
@@ -5816,7 +6114,9 @@
     "total_verses": 3,
     "is_mecca": 3,
     "aya_no": 150,
-    "aya_text": "بَلِ اِ۬للَّهُ مَوْل۪يٰكُمْۖ وَهُوَ خَيْرُ اُ۬لنَّٰصِرِينَۖ ﲕ"
+    "aya_text": "بَلِ اِ۬للَّهُ مَوْل۪يٰكُمْۖ وَهُوَ خَيْرُ اُ۬لنَّٰصِرِينَۖ ﲕ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3339
   },
   {
     "id": 443,
@@ -5828,7 +6128,9 @@
     "total_verses": 3,
     "is_mecca": 6,
     "aya_no": 151,
-    "aya_text": "سَنُلْقِے فِے قُلُوبِ اِ۬لذِينَ كَفَرُواْ اُ۬لرُّعْبَ بِمَآ أَشْرَكُواْ بِاللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَٰناٗۖ وَمَأْو۪يٰهُمُ اُ۬لنَّارُۖ وَبِيسَ مَثْوَى اَ۬لظَّٰلِمِينَۖ ﲖ"
+    "aya_text": "سَنُلْقِے فِے قُلُوبِ اِ۬لذِينَ كَفَرُواْ اُ۬لرُّعْبَ بِمَآ أَشْرَكُواْ بِاللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَٰناٗۖ وَمَأْو۪يٰهُمُ اُ۬لنَّارُۖ وَبِيسَ مَثْوَى اَ۬لظَّٰلِمِينَۖ ﲖ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3361
   },
   {
     "id": 444,
@@ -5840,7 +6142,9 @@
     "total_verses": 6,
     "is_mecca": 11,
     "aya_no": 152,
-    "aya_text": "وَلَقَدْ صَدَقَكُمُ اُ۬للَّهُ وَعْدَهُۥٓ إِذْ تَحُسُّونَهُم بِإِذْنِهِۦۖ حَتَّىٰٓ إِذَا فَشِلْتُمْ وَتَنَٰزَعْتُمْ فِے اِ۬لَامْرِ وَعَصَيْتُم مِّنۢ بَعْدِ مَآ أَر۪يٰكُم مَّا تُحِبُّونَۖ مِنكُم مَّنْ يُّرِيدُ اُ۬لدُّنْي۪ا وَمِنكُم مَّنْ يُّرِيدُ اُ۬لَاخِرَةَۖ ثُمَّ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْۖ وَلَقَدْ عَفَا عَنكُمْۖ وَاللَّهُ ذُو فَضْلٍ عَلَى اَ۬لْمُومِنِينَۖ ﲗ"
+    "aya_text": "وَلَقَدْ صَدَقَكُمُ اُ۬للَّهُ وَعْدَهُۥٓ إِذْ تَحُسُّونَهُم بِإِذْنِهِۦۖ حَتَّىٰٓ إِذَا فَشِلْتُمْ وَتَنَٰزَعْتُمْ فِے اِ۬لَامْرِ وَعَصَيْتُم مِّنۢ بَعْدِ مَآ أَر۪يٰكُم مَّا تُحِبُّونَۖ مِنكُم مَّنْ يُّرِيدُ اُ۬لدُّنْي۪ا وَمِنكُم مَّنْ يُّرِيدُ اُ۬لَاخِرَةَۖ ثُمَّ صَرَفَكُمْ عَنْهُمْ لِيَبْتَلِيَكُمْۖ وَلَقَدْ عَفَا عَنكُمْۖ وَاللَّهُ ذُو فَضْلٍ عَلَى اَ۬لْمُومِنِينَۖ ﲗ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3411
   },
   {
     "id": 445,
@@ -5852,7 +6156,9 @@
     "total_verses": 12,
     "is_mecca": 15,
     "aya_no": 153,
-    "aya_text": "۞ إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ عَلَىٰٓ أَحَدٖ وَالرَّسُولُ يَدْعُوكُمْ فِےٓ أُخْر۪يٰكُمْ فَأَثَٰبَكُمْ غَمّاَۢ بِغَمّٖ لِّكَيْلَا تَحْزَنُواْ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَٰبَكُمْۖ وَاللَّهُ خَبِيرُۢ بِمَا تَعْمَلُونَۖ ﲘ"
+    "aya_text": "۞ إِذْ تُصْعِدُونَ وَلَا تَلْوُۥنَ عَلَىٰٓ أَحَدٖ وَالرَّسُولُ يَدْعُوكُمْ فِےٓ أُخْر۪يٰكُمْ فَأَثَٰبَكُمْ غَمّاَۢ بِغَمّٖ لِّكَيْلَا تَحْزَنُواْ عَلَىٰ مَا فَاتَكُمْ وَلَا مَآ أَصَٰبَكُمْۖ وَاللَّهُ خَبِيرُۢ بِمَا تَعْمَلُونَۖ ﲘ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3449
   },
   {
     "id": 446,
@@ -5864,7 +6170,9 @@
     "total_verses": 1,
     "is_mecca": 8,
     "aya_no": 154,
-    "aya_text": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ اِ۬لْغَمِّ أَمَنَةٗ نُّعَاساٗ يَغْش۪ىٰ طَآئِفَةٗ مِّنكُمْۖ وَطَآئِفَةٞ قَدَ اَهَمَّتْهُمُۥٓ أَنفُسُهُمْ يَظُنُّونَ بِاللَّهِ غَيْرَ اَ۬لْحَقِّ ظَنَّ اَ۬لْجَٰهِلِيَّةِۖ يَقُولُونَ هَل لَّنَا مِنَ اَ۬لَامْرِ مِن شَےْءٖۖ قُلِ اِنَّ اَ۬لَامْرَ كُلَّهُۥ لِلهِۖ يُخْفُونَ فِےٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ اَ۬لَامْرِ شَےْءٞ مَّا قُتِلْنَا هَٰهُنَاۖ قُل لَّوْ كُنتُمْ فِے بُيُوتِكُمْ لَبَرَزَ اَ۬لذِينَ كُتِبَ عَلَيْهِمُ اُ۬لْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ وَلِيَبْتَلِيَ اَ۬للَّهُ مَا فِے صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِے قُلُوبِكُمْۖ وَاللَّهُ عَلِيمُۢ بِذَاتِ اِ۬لصُّدُورِۖ ﲙ"
+    "aya_text": "ثُمَّ أَنزَلَ عَلَيْكُم مِّنۢ بَعْدِ اِ۬لْغَمِّ أَمَنَةٗ نُّعَاساٗ يَغْش۪ىٰ طَآئِفَةٗ مِّنكُمْۖ وَطَآئِفَةٞ قَدَ اَهَمَّتْهُمُۥٓ أَنفُسُهُمْ يَظُنُّونَ بِاللَّهِ غَيْرَ اَ۬لْحَقِّ ظَنَّ اَ۬لْجَٰهِلِيَّةِۖ يَقُولُونَ هَل لَّنَا مِنَ اَ۬لَامْرِ مِن شَےْءٖۖ قُلِ اِنَّ اَ۬لَامْرَ كُلَّهُۥ لِلهِۖ يُخْفُونَ فِےٓ أَنفُسِهِم مَّا لَا يُبْدُونَ لَكَۖ يَقُولُونَ لَوْ كَانَ لَنَا مِنَ اَ۬لَامْرِ شَےْءٞ مَّا قُتِلْنَا هَٰهُنَاۖ قُل لَّوْ كُنتُمْ فِے بُيُوتِكُمْ لَبَرَزَ اَ۬لذِينَ كُتِبَ عَلَيْهِمُ اُ۬لْقَتْلُ إِلَىٰ مَضَاجِعِهِمْ وَلِيَبْتَلِيَ اَ۬للَّهُ مَا فِے صُدُورِكُمْ وَلِيُمَحِّصَ مَا فِے قُلُوبِكُمْۖ وَاللَّهُ عَلِيمُۢ بِذَاتِ اِ۬لصُّدُورِۖ ﲙ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3543
   },
   {
     "id": 447,
@@ -5876,7 +6184,9 @@
     "total_verses": 8,
     "is_mecca": 10,
     "aya_no": 155,
-    "aya_text": "إِنَّ اَ۬لذِينَ تَوَلَّوْاْ مِنكُمْ يَوْمَ اَ۪لْتَقَى اَ۬لْجَمْعَٰنِ إِنَّمَا اَ۪سْتَزَلَّهُمُ اُ۬لشَّيْطَٰنُ بِبَعْضِ مَا كَسَبُواْۖ وَلَقَدْ عَفَا اَ۬للَّهُ عَنْهُمُۥٓۖ إِنَّ اَ۬للَّهَ غَفُورٌ حَلِيمٞۖ ﲚ"
+    "aya_text": "إِنَّ اَ۬لذِينَ تَوَلَّوْاْ مِنكُمْ يَوْمَ اَ۪لْتَقَى اَ۬لْجَمْعَٰنِ إِنَّمَا اَ۪سْتَزَلَّهُمُ اُ۬لشَّيْطَٰنُ بِبَعْضِ مَا كَسَبُواْۖ وَلَقَدْ عَفَا اَ۬للَّهُ عَنْهُمُۥٓۖ إِنَّ اَ۬للَّهَ غَفُورٌ حَلِيمٞۖ ﲚ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3567
   },
   {
     "id": 448,
@@ -5888,7 +6198,9 @@
     "total_verses": 10,
     "is_mecca": 14,
     "aya_no": 156,
-    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ لَا تَكُونُواْ كَالذِينَ كَفَرُواْ وَقَالُواْ لِإِخْوَٰنِهِمُۥٓ إِذَا ضَرَبُواْ فِے اِ۬لَارْضِ أَوْ كَانُواْ غُزّىٗ لَّوْ كَانُواْ عِندَنَا مَا مَاتُواْ وَمَا قُتِلُواْ لِيَجْعَلَ اَ۬للَّهُ ذَٰلِكَ حَسْرَةٗ فِے قُلُوبِهِمْۖ وَاللَّهُ يُحْيِۦ وَيُمِيتُۖ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٞۖ ﲛ"
+    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ لَا تَكُونُواْ كَالذِينَ كَفَرُواْ وَقَالُواْ لِإِخْوَٰنِهِمُۥٓ إِذَا ضَرَبُواْ فِے اِ۬لَارْضِ أَوْ كَانُواْ غُزّىٗ لَّوْ كَانُواْ عِندَنَا مَا مَاتُواْ وَمَا قُتِلُواْ لِيَجْعَلَ اَ۬للَّهُ ذَٰلِكَ حَسْرَةٗ فِے قُلُوبِهِمْۖ وَاللَّهُ يُحْيِۦ وَيُمِيتُۖ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٞۖ ﲛ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3614
   },
   {
     "id": 449,
@@ -5900,7 +6212,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 157,
-    "aya_text": "وَلَئِن قُتِلْتُمْ فِے سَبِيلِ اِ۬للَّهِ أَوْ مِتُّمْ لَمَغْفِرَةٞ مِّنَ اَ۬للَّهِ وَرَحْمَةٌ خَيْرٞ مِّمَّا تَجْمَعُونَۖ ﲜ"
+    "aya_text": "وَلَئِن قُتِلْتُمْ فِے سَبِيلِ اِ۬للَّهِ أَوْ مِتُّمْ لَمَغْفِرَةٞ مِّنَ اَ۬للَّهِ وَرَحْمَةٌ خَيْرٞ مِّمَّا تَجْمَعُونَۖ ﲜ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3629
   },
   {
     "id": 450,
@@ -5912,7 +6226,9 @@
     "total_verses": 1,
     "is_mecca": 1,
     "aya_no": 158,
-    "aya_text": "وَلَئِن مِّتُّمُۥٓ أَوْ قُتِلْتُمْ لَإِلَى اَ۬للَّهِ تُحْشَرُونَۖ ﲝ"
+    "aya_text": "وَلَئِن مِّتُّمُۥٓ أَوْ قُتِلْتُمْ لَإِلَى اَ۬للَّهِ تُحْشَرُونَۖ ﲝ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3638
   },
   {
     "id": 451,
@@ -5924,7 +6240,9 @@
     "total_verses": 1,
     "is_mecca": 4,
     "aya_no": 159,
-    "aya_text": "فَبِمَا رَحْمَةٖ مِّنَ اَ۬للَّهِ لِنتَ لَهُمْۖ وَلَوْ كُنتَ فَظّاً غَلِيظَ اَ۬لْقَلْبِ لَانفَضُّواْ مِنْ حَوْلِكَۖ فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِے اِ۬لَامْرِۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اَ۬للَّهِۖ إِنَّ اَ۬للَّهَ يُحِبُّ اُ۬لْمُتَوَكِّلِينَۖ ﲞ"
+    "aya_text": "فَبِمَا رَحْمَةٖ مِّنَ اَ۬للَّهِ لِنتَ لَهُمْۖ وَلَوْ كُنتَ فَظّاً غَلِيظَ اَ۬لْقَلْبِ لَانفَضُّواْ مِنْ حَوْلِكَۖ فَاعْفُ عَنْهُمْ وَاسْتَغْفِرْ لَهُمْ وَشَاوِرْهُمْ فِے اِ۬لَامْرِۖ فَإِذَا عَزَمْتَ فَتَوَكَّلْ عَلَى اَ۬للَّهِۖ إِنَّ اَ۬للَّهَ يُحِبُّ اُ۬لْمُتَوَكِّلِينَۖ ﲞ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3669
   },
   {
     "id": 452,
@@ -5936,7 +6254,9 @@
     "total_verses": 4,
     "is_mecca": 6,
     "aya_no": 160,
-    "aya_text": "۞ إِنْ يَّنصُرْكُمُ اُ۬للَّهُ فَلَا غَالِبَ لَكُمْۖ وَإِنْ يَّخْذُلْكُمْ فَمَن ذَا اَ۬لذِے يَنصُرُكُم مِّنۢ بَعْدِهِۦۖ وَعَلَى اَ۬للَّهِ فَلْيَتَوَكَّلِ اِ۬لْمُومِنُونَۖ ﲟ"
+    "aya_text": "۞ إِنْ يَّنصُرْكُمُ اُ۬للَّهُ فَلَا غَالِبَ لَكُمْۖ وَإِنْ يَّخْذُلْكُمْ فَمَن ذَا اَ۬لذِے يَنصُرُكُم مِّنۢ بَعْدِهِۦۖ وَعَلَى اَ۬للَّهِ فَلْيَتَوَكَّلِ اِ۬لْمُومِنُونَۖ ﲟ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3690
   },
   {
     "id": 453,
@@ -5948,7 +6268,9 @@
     "total_verses": 6,
     "is_mecca": 8,
     "aya_no": 161,
-    "aya_text": "وَمَا كَانَ لِنَبِےٓءٍ اَنْ يُّغَلَّۖ وَمَنْ يَّغْلُلْ يَاتِ بِمَا غَلَّ يَوْمَ اَ۬لْقِيَٰمَةِۖ ثُمَّ تُوَفّ۪ىٰ كُلُّ نَفْسٖ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَۖ ﲠ"
+    "aya_text": "وَمَا كَانَ لِنَبِےٓءٍ اَنْ يُّغَلَّۖ وَمَنْ يَّغْلُلْ يَاتِ بِمَا غَلَّ يَوْمَ اَ۬لْقِيَٰمَةِۖ ثُمَّ تُوَفّ۪ىٰ كُلُّ نَفْسٖ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَۖ ﲠ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3712
   },
   {
     "id": 454,
@@ -5960,7 +6282,9 @@
     "total_verses": 8,
     "is_mecca": 10,
     "aya_no": 162,
-    "aya_text": "أَفَمَنِ اِ۪تَّبَعَ رِضْوَٰنَ اَ۬للَّهِ كَمَنۢ بَآءَ بِسَخَطٖ مِّنَ اَ۬للَّهِ وَمَأْو۪يٰهُ جَهَنَّمُۖ وَبِيسَ اَ۬لْمَصِيرُۖ ﲡ"
+    "aya_text": "أَفَمَنِ اِ۪تَّبَعَ رِضْوَٰنَ اَ۬للَّهِ كَمَنۢ بَآءَ بِسَخَطٖ مِّنَ اَ۬للَّهِ وَمَأْو۪يٰهُ جَهَنَّمُۖ وَبِيسَ اَ۬لْمَصِيرُۖ ﲡ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3729
   },
   {
     "id": 455,
@@ -5972,7 +6296,9 @@
     "total_verses": 10,
     "is_mecca": 10,
     "aya_no": 163,
-    "aya_text": "هُمْ دَرَجَٰتٌ عِندَ اَ۬للَّهِۖ وَاللَّهُ بَصِيرُۢ بِمَا يَعْمَلُونَۖ ﲢ"
+    "aya_text": "هُمْ دَرَجَٰتٌ عِندَ اَ۬للَّهِۖ وَاللَّهُ بَصِيرُۢ بِمَا يَعْمَلُونَۖ ﲢ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3739
   },
   {
     "id": 456,
@@ -5984,7 +6310,9 @@
     "total_verses": 11,
     "is_mecca": 13,
     "aya_no": 164,
-    "aya_text": "لَقَدْ مَنَّ اَ۬للَّهُ عَلَى اَ۬لْمُومِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولاٗ مِّنَ اَنفُسِهِمْ يَتْلُواْ عَلَيْهِمُۥٓ ءَايَٰتِهِۦ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ اُ۬لْكِتَٰبَ وَالْحِكْمَةَ وَإِن كَانُواْ مِن قَبْلُ لَفِے ضَلَٰلٖ مُّبِينٍۖ ﲣ"
+    "aya_text": "لَقَدْ مَنَّ اَ۬للَّهُ عَلَى اَ۬لْمُومِنِينَ إِذْ بَعَثَ فِيهِمْ رَسُولاٗ مِّنَ اَنفُسِهِمْ يَتْلُواْ عَلَيْهِمُۥٓ ءَايَٰتِهِۦ وَيُزَكِّيهِمْ وَيُعَلِّمُهُمُ اُ۬لْكِتَٰبَ وَالْحِكْمَةَ وَإِن كَانُواْ مِن قَبْلُ لَفِے ضَلَٰلٖ مُّبِينٍۖ ﲣ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3779
   },
   {
     "id": 457,
@@ -5996,7 +6324,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 165,
-    "aya_text": "اَوَلَمَّآ أَصَٰبَتْكُم مُّصِيبَةٞ قَدَ اَصَبْتُم مِّثْلَيْهَا قُلْتُمُۥٓ أَنّ۪ىٰ هَٰذَاۖ قُلْ هُوَ مِنْ عِندِ أَنفُسِكُمُۥٓۖ إِنَّ اَ۬للَّهَ عَلَىٰ كُلِّ شَےْءٖ قَدِيرٞۖ ﲤ"
+    "aya_text": "اَوَلَمَّآ أَصَٰبَتْكُم مُّصِيبَةٞ قَدَ اَصَبْتُم مِّثْلَيْهَا قُلْتُمُۥٓ أَنّ۪ىٰ هَٰذَاۖ قُلْ هُوَ مِنْ عِندِ أَنفُسِكُمُۥٓۖ إِنَّ اَ۬للَّهَ عَلَىٰ كُلِّ شَےْءٖ قَدِيرٞۖ ﲤ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3809
   },
   {
     "id": 458,
@@ -6008,7 +6338,9 @@
     "total_verses": 1,
     "is_mecca": 2,
     "aya_no": 166,
-    "aya_text": "وَمَآ أَصَٰبَكُمْ يَوْمَ اَ۪لْتَقَى اَ۬لْجَمْعَٰنِ فَبِإِذْنِ اِ۬للَّهِ وَلِيَعْلَمَ اَ۬لْمُومِنِينَ ﲥ"
+    "aya_text": "وَمَآ أَصَٰبَكُمْ يَوْمَ اَ۪لْتَقَى اَ۬لْجَمْعَٰنِ فَبِإِذْنِ اِ۬للَّهِ وَلِيَعْلَمَ اَ۬لْمُومِنِينَ ﲥ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3822
   },
   {
     "id": 459,
@@ -6020,7 +6352,9 @@
     "total_verses": 2,
     "is_mecca": 5,
     "aya_no": 167,
-    "aya_text": "وَلِيَعْلَمَ اَ۬لذِينَ نَافَقُواْۖ وَقِيلَ لَهُمْ تَعَالَوْاْ قَٰتِلُواْ فِے سَبِيلِ اِ۬للَّهِ أَوِ اِ۪دْفَعُواْۖ قَالُواْ لَوْ نَعْلَمُ قِتَالاٗ لَّاتَّبَعْنَٰكُمْۖ هُمْ لِلْكُفْرِ يَوْمَئِذٍ اَقْرَبُ مِنْهُمْ لِلِايمَٰنِۖ يَقُولُونَ بِأَفْوَٰهِهِم مَّا لَيْسَ فِے قُلُوبِهِمْۖ وَاللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَۖ ﲦ"
+    "aya_text": "وَلِيَعْلَمَ اَ۬لذِينَ نَافَقُواْۖ وَقِيلَ لَهُمْ تَعَالَوْاْ قَٰتِلُواْ فِے سَبِيلِ اِ۬للَّهِ أَوِ اِ۪دْفَعُواْۖ قَالُواْ لَوْ نَعْلَمُ قِتَالاٗ لَّاتَّبَعْنَٰكُمْۖ هُمْ لِلْكُفْرِ يَوْمَئِذٍ اَقْرَبُ مِنْهُمْ لِلِايمَٰنِۖ يَقُولُونَ بِأَفْوَٰهِهِم مَّا لَيْسَ فِے قُلُوبِهِمْۖ وَاللَّهُ أَعْلَمُ بِمَا يَكْتُمُونَۖ ﲦ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3858
   },
   {
     "id": 460,
@@ -6032,7 +6366,9 @@
     "total_verses": 5,
     "is_mecca": 7,
     "aya_no": 168,
-    "aya_text": "اَ۬لذِينَ قَالُواْ لِإِخْوَٰنِهِمْ وَقَعَدُواْ لَوَ اَطَاعُونَا مَا قُتِلُواْۖ قُلْ فَادْرَءُواْ عَنَ اَنفُسِكُمُ اُ۬لْمَوْتَ إِن كُنتُمْ صَٰدِقِينَۖ ﲧ"
+    "aya_text": "اَ۬لذِينَ قَالُواْ لِإِخْوَٰنِهِمْ وَقَعَدُواْ لَوَ اَطَاعُونَا مَا قُتِلُواْۖ قُلْ فَادْرَءُواْ عَنَ اَنفُسِكُمُ اُ۬لْمَوْتَ إِن كُنتُمْ صَٰدِقِينَۖ ﲧ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3879
   },
   {
     "id": 461,
@@ -6044,7 +6380,9 @@
     "total_verses": 7,
     "is_mecca": 8,
     "aya_no": 169,
-    "aya_text": "وَلَا تَحْسِبَنَّ اَ۬لذِينَ قُتِلُواْ فِے سَبِيلِ اِ۬للَّهِ أَمْوَٰتاَۢۖ بَلَ اَحْيَآءٌۖ عِندَ رَبِّهِمْ يُرْزَقُونَ ﲨ"
+    "aya_text": "وَلَا تَحْسِبَنَّ اَ۬لذِينَ قُتِلُواْ فِے سَبِيلِ اِ۬للَّهِ أَمْوَٰتاَۢۖ بَلَ اَحْيَآءٌۖ عِندَ رَبِّهِمْ يُرْزَقُونَ ﲨ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3897
   },
   {
     "id": 462,
@@ -6056,7 +6394,9 @@
     "total_verses": 8,
     "is_mecca": 10,
     "aya_no": 170,
-    "aya_text": "فَرِحِينَ بِمَآ ءَات۪يٰهُمُ اُ۬للَّهُ مِن فَضْلِهِۦ وَيَسْتَبْشِرُونَ بِالذِينَ لَمْ يَلْحَقُواْ بِهِم مِّنْ خَلْفِهِمُۥٓ أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَۖ ﲩ"
+    "aya_text": "فَرِحِينَ بِمَآ ءَات۪يٰهُمُ اُ۬للَّهُ مِن فَضْلِهِۦ وَيَسْتَبْشِرُونَ بِالذِينَ لَمْ يَلْحَقُواْ بِهِم مِّنْ خَلْفِهِمُۥٓ أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَۖ ﲩ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3928
   },
   {
     "id": 463,
@@ -6068,7 +6408,9 @@
     "total_verses": 10,
     "is_mecca": 12,
     "aya_no": 171,
-    "aya_text": "۞ يَسْتَبْشِرُونَ بِنِعْمَةٖ مِّنَ اَ۬للَّهِ وَفَضْلٖ وَأَنَّ اَ۬للَّهَ لَا يُضِيعُ أَجْرَ اَ۬لْمُومِنِينَ ﲪ"
+    "aya_text": "۞ يَسْتَبْشِرُونَ بِنِعْمَةٖ مِّنَ اَ۬للَّهِ وَفَضْلٖ وَأَنَّ اَ۬للَّهَ لَا يُضِيعُ أَجْرَ اَ۬لْمُومِنِينَ ﲪ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3941
   },
   {
     "id": 464,
@@ -6080,7 +6422,9 @@
     "total_verses": 12,
     "is_mecca": 13,
     "aya_no": 172,
-    "aya_text": "اَ۬لذِينَ اَ۪سْتَجَابُواْ لِلهِ وَالرَّسُولِ مِنۢ بَعْدِ مَآ أَصَابَهُمُ اُ۬لْقَرْحُۖ لِلذِينَ أَحْسَنُواْ مِنْهُمْ وَاتَّقَوَاْ اَجْرٌ عَظِيمٌۖ ﲫ"
+    "aya_text": "اَ۬لذِينَ اَ۪سْتَجَابُواْ لِلهِ وَالرَّسُولِ مِنۢ بَعْدِ مَآ أَصَابَهُمُ اُ۬لْقَرْحُۖ لِلذِينَ أَحْسَنُواْ مِنْهُمْ وَاتَّقَوَاْ اَجْرٌ عَظِيمٌۖ ﲫ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3959
   },
   {
     "id": 465,
@@ -6092,7 +6436,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 173,
-    "aya_text": "اِ۬لذِينَ قَالَ لَهُمُ اُ۬لنَّاسُ إِنَّ اَ۬لنَّاسَ قَدْ جَمَعُواْ لَكُمْ فَاخْشَوْهُمْ فَزَادَهُمُۥٓ إِيمَٰناٗۖ وَقَالُواْ حَسْبُنَا اَ۬للَّهُ وَنِعْمَ اَ۬لْوَكِيلُۖ ﲬ"
+    "aya_text": "اِ۬لذِينَ قَالَ لَهُمُ اُ۬لنَّاسُ إِنَّ اَ۬لنَّاسَ قَدْ جَمَعُواْ لَكُمْ فَاخْشَوْهُمْ فَزَادَهُمُۥٓ إِيمَٰناٗۖ وَقَالُواْ حَسْبُنَا اَ۬للَّهُ وَنِعْمَ اَ۬لْوَكِيلُۖ ﲬ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 3981
   },
   {
     "id": 466,
@@ -6104,7 +6450,9 @@
     "total_verses": 1,
     "is_mecca": 2,
     "aya_no": 174,
-    "aya_text": "فَانقَلَبُواْ بِنِعْمَةٖ مِّنَ اَ۬للَّهِ وَفَضْلٖ لَّمْ يَمْسَسْهُمْ سُوٓءٞ وَاتَّبَعُواْ رِضْوَٰنَ اَ۬للَّهِۖ وَاللَّهُ ذُو فَضْلٍ عَظِيمٍۖ ﲭ"
+    "aya_text": "فَانقَلَبُواْ بِنِعْمَةٖ مِّنَ اَ۬للَّهِ وَفَضْلٖ لَّمْ يَمْسَسْهُمْ سُوٓءٞ وَاتَّبَعُواْ رِضْوَٰنَ اَ۬للَّهِۖ وَاللَّهُ ذُو فَضْلٍ عَظِيمٍۖ ﲭ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4000
   },
   {
     "id": 467,
@@ -6116,7 +6464,9 @@
     "total_verses": 2,
     "is_mecca": 3,
     "aya_no": 175,
-    "aya_text": "اِنَّمَا ذَٰلِكُمُ اُ۬لشَّيْطَٰنُ يُخَوِّفُ أَوْلِيَآءَهُۥ فَلَا تَخَافُوهُمْۖ وَخَافُونِ إِن كُنتُم مُّومِنِينَۖ ﲮ"
+    "aya_text": "اِنَّمَا ذَٰلِكُمُ اُ۬لشَّيْطَٰنُ يُخَوِّفُ أَوْلِيَآءَهُۥ فَلَا تَخَافُوهُمْۖ وَخَافُونِ إِن كُنتُم مُّومِنِينَۖ ﲮ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4019
   },
   {
     "id": 468,
@@ -6128,7 +6478,9 @@
     "total_verses": 4,
     "is_mecca": 6,
     "aya_no": 176,
-    "aya_text": "وَلَا يُحْزِنكَ اَ۬لذِينَ يُسَٰرِعُونَ فِے اِ۬لْكُفْرِۖ إِنَّهُمْ لَنْ يَّضُرُّواْ اُ۬للَّهَ شَئْاٗۖ يُرِيدُ اُ۬للَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظّاٗ فِے اِ۬لَاخِرَةِۖ وَلَهُمْ عَذَابٌ عَظِيمٌۖ ﲯ"
+    "aya_text": "وَلَا يُحْزِنكَ اَ۬لذِينَ يُسَٰرِعُونَ فِے اِ۬لْكُفْرِۖ إِنَّهُمْ لَنْ يَّضُرُّواْ اُ۬للَّهَ شَئْاٗۖ يُرِيدُ اُ۬للَّهُ أَلَّا يَجْعَلَ لَهُمْ حَظّاٗ فِے اِ۬لَاخِرَةِۖ وَلَهُمْ عَذَابٌ عَظِيمٌۖ ﲯ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4043
   },
   {
     "id": 469,
@@ -6140,7 +6492,9 @@
     "total_verses": 6,
     "is_mecca": 7,
     "aya_no": 177,
-    "aya_text": "اِنَّ اَ۬لذِينَ اَ۪شْتَرَوُاْ اُ۬لْكُفْرَ بِالِايمَٰنِ لَنْ يَّضُرُّواْ اُ۬للَّهَ شَئْاٗۖ وَلَهُمْ عَذَابٌ اَلِيمٞۖ ﲰ"
+    "aya_text": "اِنَّ اَ۬لذِينَ اَ۪شْتَرَوُاْ اُ۬لْكُفْرَ بِالِايمَٰنِ لَنْ يَّضُرُّواْ اُ۬للَّهَ شَئْاٗۖ وَلَهُمْ عَذَابٌ اَلِيمٞۖ ﲰ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4058
   },
   {
     "id": 470,
@@ -6152,7 +6506,9 @@
     "total_verses": 7,
     "is_mecca": 9,
     "aya_no": 178,
-    "aya_text": "وَلَا يَحْسِبَنَّ اَ۬لذِينَ كَفَرُوٓاْ أَنَّمَا نُمْلِے لَهُمْ خَيْرٞ لِّأَنفُسِهِمُۥٓۖ إِنَّمَا نُمْلِے لَهُمْ لِيَزْدَادُوٓاْ إِثْماٗۖ وَلَهُمْ عَذَابٞ مُّهِينٞۖ ﲱ"
+    "aya_text": "وَلَا يَحْسِبَنَّ اَ۬لذِينَ كَفَرُوٓاْ أَنَّمَا نُمْلِے لَهُمْ خَيْرٞ لِّأَنفُسِهِمُۥٓۖ إِنَّمَا نُمْلِے لَهُمْ لِيَزْدَادُوٓاْ إِثْماٗۖ وَلَهُمْ عَذَابٞ مُّهِينٞۖ ﲱ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4082
   },
   {
     "id": 471,
@@ -6164,7 +6520,9 @@
     "total_verses": 9,
     "is_mecca": 12,
     "aya_no": 179,
-    "aya_text": "مَّا كَانَ اَ۬للَّهُ لِيَذَرَ اَ۬لْمُومِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ اَ۬لْخَبِيثَ مِنَ اَ۬لطَّيِّبِۖ وَمَا كَانَ اَ۬للَّهُ لِيُطْلِعَكُمْ عَلَى اَ۬لْغَيْبِۖ وَلَٰكِنَّ اَ۬للَّهَ يَجْتَبِے مِن رُّسُلِهِۦ مَنْ يَّشَآءُۖ فَـَٔامِنُواْ بِاللَّهِ وَرُسُلِهِۦۖ وَإِن تُومِنُواْ وَتَتَّقُواْ فَلَكُمُۥٓ أَجْرٌ عَظِيمٞۖ ﲲ"
+    "aya_text": "مَّا كَانَ اَ۬للَّهُ لِيَذَرَ اَ۬لْمُومِنِينَ عَلَىٰ مَآ أَنتُمْ عَلَيْهِ حَتَّىٰ يَمِيزَ اَ۬لْخَبِيثَ مِنَ اَ۬لطَّيِّبِۖ وَمَا كَانَ اَ۬للَّهُ لِيُطْلِعَكُمْ عَلَى اَ۬لْغَيْبِۖ وَلَٰكِنَّ اَ۬للَّهَ يَجْتَبِے مِن رُّسُلِهِۦ مَنْ يَّشَآءُۖ فَـَٔامِنُواْ بِاللَّهِ وَرُسُلِهِۦۖ وَإِن تُومِنُواْ وَتَتَّقُواْ فَلَكُمُۥٓ أَجْرٌ عَظِيمٞۖ ﲲ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4125
   },
   {
     "id": 472,
@@ -6176,7 +6534,9 @@
     "total_verses": 12,
     "is_mecca": 15,
     "aya_no": 180,
-    "aya_text": "وَلَا يَحْسِبَنَّ اَ۬لذِينَ يَبْخَلُونَ بِمَآ ءَات۪يٰهُمُ اُ۬للَّهُ مِن فَضْلِهِۦ هُوَ خَيْراٗ لَّهُمۖ بَلْ هُوَ شَرّٞ لَّهُمْۖ سَيُطَوَّقُونَ مَا بَخِلُواْ بِهِۦ يَوْمَ اَ۬لْقِيَٰمَةِۖ وَلِلهِ مِيرَٰثُ اُ۬لسَّمَٰوَٰتِ وَالَارْضِۖ وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٞۖ ﲳ"
+    "aya_text": "وَلَا يَحْسِبَنَّ اَ۬لذِينَ يَبْخَلُونَ بِمَآ ءَات۪يٰهُمُ اُ۬للَّهُ مِن فَضْلِهِۦ هُوَ خَيْراٗ لَّهُمۖ بَلْ هُوَ شَرّٞ لَّهُمْۖ سَيُطَوَّقُونَ مَا بَخِلُواْ بِهِۦ يَوْمَ اَ۬لْقِيَٰمَةِۖ وَلِلهِ مِيرَٰثُ اُ۬لسَّمَٰوَٰتِ وَالَارْضِۖ وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٞۖ ﲳ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4149
   },
   {
     "id": 473,
@@ -6188,7 +6548,9 @@
     "total_verses": 1,
     "is_mecca": 3,
     "aya_no": 181,
-    "aya_text": "۞ لَّقَدْ سَمِعَ اَ۬للَّهُ قَوْلَ اَ۬لذِينَ قَالُوٓاْ إِنَّ اَ۬للَّهَ فَقِيرٞ وَنَحْنُ أَغْنِيَآءُۖ سَنَكْتُبُ مَا قَالُواْ وَقَتْلَهُمُ اُ۬لَانۢبِئَآءَ بِغَيْرِ حَقّٖ وَنَقُولُ ذُوقُواْ عَذَابَ اَ۬لْحَرِيقِۖ ﲴ"
+    "aya_text": "۞ لَّقَدْ سَمِعَ اَ۬للَّهُ قَوْلَ اَ۬لذِينَ قَالُوٓاْ إِنَّ اَ۬للَّهَ فَقِيرٞ وَنَحْنُ أَغْنِيَآءُۖ سَنَكْتُبُ مَا قَالُواْ وَقَتْلَهُمُ اُ۬لَانۢبِئَآءَ بِغَيْرِ حَقّٖ وَنَقُولُ ذُوقُواْ عَذَابَ اَ۬لْحَرِيقِۖ ﲴ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4189
   },
   {
     "id": 474,
@@ -6200,7 +6562,9 @@
     "total_verses": 3,
     "is_mecca": 4,
     "aya_no": 182,
-    "aya_text": "ذَٰلِكَ بِمَا قَدَّمَتَ اَيْدِيكُمْ وَأَنَّ اَ۬للَّهَ لَيْسَ بِظَلَّٰمٖ لِّلْعَبِيدِۖ ﲵ"
+    "aya_text": "ذَٰلِكَ بِمَا قَدَّمَتَ اَيْدِيكُمْ وَأَنَّ اَ۬للَّهَ لَيْسَ بِظَلَّٰمٖ لِّلْعَبِيدِۖ ﲵ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4200
   },
   {
     "id": 475,
@@ -6212,7 +6576,9 @@
     "total_verses": 4,
     "is_mecca": 7,
     "aya_no": 183,
-    "aya_text": "اِ۬لذِينَ قَالُوٓاْ إِنَّ اَ۬للَّهَ عَهِدَ إِلَيْنَآ أَلَّا نُومِنَ لِرَسُولٍ حَتَّىٰ يَاتِيَنَا بِقُرْبَانٖ تَاكُلُهُ اُ۬لنَّارُۖ قُلْ قَدْ جَآءَكُمْ رُسُلٞ مِّن قَبْلِے بِالْبَيِّنَٰتِ وَبِالذِے قُلْتُمْ فَلِمَ قَتَلْتُمُوهُمُۥٓ إِن كُنتُمْ صَٰدِقِينَۖ ﲶ"
+    "aya_text": "اِ۬لذِينَ قَالُوٓاْ إِنَّ اَ۬للَّهَ عَهِدَ إِلَيْنَآ أَلَّا نُومِنَ لِرَسُولٍ حَتَّىٰ يَاتِيَنَا بِقُرْبَانٖ تَاكُلُهُ اُ۬لنَّارُۖ قُلْ قَدْ جَآءَكُمْ رُسُلٞ مِّن قَبْلِے بِالْبَيِّنَٰتِ وَبِالذِے قُلْتُمْ فَلِمَ قَتَلْتُمُوهُمُۥٓ إِن كُنتُمْ صَٰدِقِينَۖ ﲶ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4241
   },
   {
     "id": 476,
@@ -6224,7 +6590,9 @@
     "total_verses": 8,
     "is_mecca": 9,
     "aya_no": 184,
-    "aya_text": "فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٞ مِّن قَبْلِكَ جَآءُو بِالْبَيِّنَٰتِ وَالزُّبُرِ وَالْكِتَٰبِ اِ۬لْمُنِيرِۖ ﲷ"
+    "aya_text": "فَإِن كَذَّبُوكَ فَقَدْ كُذِّبَ رُسُلٞ مِّن قَبْلِكَ جَآءُو بِالْبَيِّنَٰتِ وَالزُّبُرِ وَالْكِتَٰبِ اِ۬لْمُنِيرِۖ ﲷ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4257
   },
   {
     "id": 477,
@@ -6236,7 +6604,9 @@
     "total_verses": 9,
     "is_mecca": 12,
     "aya_no": 185,
-    "aya_text": "كُلُّ نَفْسٖ ذَآئِقَةُ اُ۬لْمَوْتِۖ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ اَ۬لْقِيَٰمَةِۖ فَمَن زُحْزِحَ عَنِ اِ۬لنّ۪ارِ وَأُدْخِلَ اَ۬لْجَنَّةَ فَقَدْ فَازَۖ وَمَا اَ۬لْحَيَوٰةُ اُ۬لدُّنْي۪آ إِلَّا مَتَٰعُ اُ۬لْغُرُورِۖ ﲸ"
+    "aya_text": "كُلُّ نَفْسٖ ذَآئِقَةُ اُ۬لْمَوْتِۖ وَإِنَّمَا تُوَفَّوْنَ أُجُورَكُمْ يَوْمَ اَ۬لْقِيَٰمَةِۖ فَمَن زُحْزِحَ عَنِ اِ۬لنّ۪ارِ وَأُدْخِلَ اَ۬لْجَنَّةَ فَقَدْ فَازَۖ وَمَا اَ۬لْحَيَوٰةُ اُ۬لدُّنْي۪آ إِلَّا مَتَٰعُ اُ۬لْغُرُورِۖ ﲸ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4290
   },
   {
     "id": 478,
@@ -6248,7 +6618,9 @@
     "total_verses": 12,
     "is_mecca": 15,
     "aya_no": 186,
-    "aya_text": "۞ لَتُبْلَوُنَّ فِےٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ اَ۬لذِينَ أُوتُواْ اُ۬لْكِتَٰبَ مِن قَبْلِكُمْ وَمِنَ اَ۬لذِينَ أَشْرَكُوٓاْ أَذىٗ كَثِيراٗۖ وَإِن تَصْبِرُواْ وَتَتَّقُواْ فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ اِ۬لُامُورِۖ ﲹ"
+    "aya_text": "۞ لَتُبْلَوُنَّ فِےٓ أَمْوَٰلِكُمْ وَأَنفُسِكُمْ وَلَتَسْمَعُنَّ مِنَ اَ۬لذِينَ أُوتُواْ اُ۬لْكِتَٰبَ مِن قَبْلِكُمْ وَمِنَ اَ۬لذِينَ أَشْرَكُوٓاْ أَذىٗ كَثِيراٗۖ وَإِن تَصْبِرُواْ وَتَتَّقُواْ فَإِنَّ ذَٰلِكَ مِنْ عَزْمِ اِ۬لُامُورِۖ ﲹ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4332
   },
   {
     "id": 479,
@@ -6260,7 +6632,9 @@
     "total_verses": 1,
     "is_mecca": 3,
     "aya_no": 187,
-    "aya_text": "وَإِذَ اَخَذَ اَ۬للَّهُ مِيثَٰقَ اَ۬لذِينَ أُوتُواْ اُ۬لْكِتَٰبَ لَتُبَيِّنُنَّهُۥ لِلنَّاسِ وَلَا تَكْتُمُونَهُۥ فَنَبَذُوهُ وَرَآءَ ظُهُورِهِمْ وَاشْتَرَوْاْ بِهِۦ ثَمَناٗ قَلِيلاٗۖ فَبِيسَ مَا يَشْتَرُونَۖ ﲺ"
+    "aya_text": "وَإِذَ اَخَذَ اَ۬للَّهُ مِيثَٰقَ اَ۬لذِينَ أُوتُواْ اُ۬لْكِتَٰبَ لَتُبَيِّنُنَّهُۥ لِلنَّاسِ وَلَا تَكْتُمُونَهُۥ فَنَبَذُوهُ وَرَآءَ ظُهُورِهِمْ وَاشْتَرَوْاْ بِهِۦ ثَمَناٗ قَلِيلاٗۖ فَبِيسَ مَا يَشْتَرُونَۖ ﲺ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4364
   },
   {
     "id": 480,
@@ -6269,10 +6643,12 @@
     "sura_no": 3,
     "sura_name_en": "Āl-‘Imrān",
     "sura_name_ar": "سُورَةُ ءَالِ عِمْرَانَ",
-    "total_verses": 3,
-    "is_mecca": 5,
+    "total_verses": 200,
+    "is_mecca": false,
     "aya_no": 188,
-    "aya_text": "لَا يَحْسِبَنَّ اَ۬لذِينَ يَفْرَحُونَ بِمَآ أَتَواْ وَّيُحِبُّونَ أَنْ يُّحْمَدُواْ بِمَا لَمْ يَفْعَلُواْ فَلَا تَحْسِبَنَّهُم بِمَفَازَةٖ مِّنَ اَ۬لْعَذَابِۖ وَلَهُمْ عَذَابٌ اَلِيمٞۖ ﲻ"
+    "aya_text": "لَا يَحْسِبَنَّ اَ۬لذِينَ يَفْرَحُونَ بِمَآ أَتَواْ وَّيُحِبُّونَ أَنْ يُّحْمَدُواْ بِمَا لَمْ يَفْعَلُواْ فَلَا تَحْسِبَنَّهُم بِمَفَازَةٖ مِّنَ اَ۬لْعَذَابِۖ وَلَهُمْ عَذَابٌ اَلِيمٞۖ ﲻ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4396
   },
   {
     "id": 481,
@@ -6284,7 +6660,9 @@
     "total_verses": 5,
     "is_mecca": 6,
     "aya_no": 189,
-    "aya_text": "وَلِلهِ مُلْكُ اُ۬لسَّمَٰوَٰتِ وَالَارْضِۖ وَاللَّهُ عَلَىٰ كُلِّ شَےْءٖ قَدِيرٌۖ ﲼ"
+    "aya_text": "وَلِلهِ مُلْكُ اُ۬لسَّمَٰوَٰتِ وَالَارْضِۖ وَاللَّهُ عَلَىٰ كُلِّ شَےْءٖ قَدِيرٌۖ ﲼ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4407
   },
   {
     "id": 482,
@@ -6296,7 +6674,9 @@
     "total_verses": 6,
     "is_mecca": 8,
     "aya_no": 190,
-    "aya_text": "اِنَّ فِے خَلْقِ اِ۬لسَّمَٰوَٰتِ وَالَارْضِ وَاخْتِلَٰفِ اِ۬ليْلِ وَالنَّه۪ارِ لَأٓيَٰتٖ لِّأُوْلِے اِ۬لَالْبَٰبِ ﲽ"
+    "aya_text": "اِنَّ فِے خَلْقِ اِ۬لسَّمَٰوَٰتِ وَالَارْضِ وَاخْتِلَٰفِ اِ۬ليْلِ وَالنَّه۪ارِ لَأٓيَٰتٖ لِّأُوْلِے اِ۬لَالْبَٰبِ ﲽ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4422
   },
   {
     "id": 483,
@@ -6308,7 +6688,9 @@
     "total_verses": 8,
     "is_mecca": 10,
     "aya_no": 191,
-    "aya_text": "اِ۬لذِينَ يَذْكُرُونَ اَ۬للَّهَ قِيَٰماٗ وَقُعُوداٗ وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِے خَلْقِ اِ۬لسَّمَٰوَٰتِ وَالَارْضِۖ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلاٗ سُبْحَٰنَكَۖ فَقِنَا عَذَابَ اَ۬لنّ۪ارِۖ ﲾ"
+    "aya_text": "اِ۬لذِينَ يَذْكُرُونَ اَ۬للَّهَ قِيَٰماٗ وَقُعُوداٗ وَعَلَىٰ جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِے خَلْقِ اِ۬لسَّمَٰوَٰتِ وَالَارْضِۖ رَبَّنَا مَا خَلَقْتَ هَٰذَا بَٰطِلاٗ سُبْحَٰنَكَۖ فَقِنَا عَذَابَ اَ۬لنّ۪ارِۖ ﲾ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4450
   },
   {
     "id": 484,
@@ -6320,7 +6702,9 @@
     "total_verses": 11,
     "is_mecca": 12,
     "aya_no": 192,
-    "aya_text": "رَبَّنَآ إِنَّكَ مَن تُدْخِلِ اِ۬لنَّارَ فَقَدَ اَخْزَيْتَهُۥۖ وَمَا لِلظَّٰلِمِينَ مِنَ اَنص۪ارٖۖ ﲿ"
+    "aya_text": "رَبَّنَآ إِنَّكَ مَن تُدْخِلِ اِ۬لنَّارَ فَقَدَ اَخْزَيْتَهُۥۖ وَمَا لِلظَّٰلِمِينَ مِنَ اَنص۪ارٖۖ ﲿ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4467
   },
   {
     "id": 485,
@@ -6332,7 +6716,9 @@
     "total_verses": 12,
     "is_mecca": 14,
     "aya_no": 193,
-    "aya_text": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِياٗ يُنَادِے لِلِايمَٰنِ أَنَ اٰمِنُواْ بِرَبِّكُمْ فَـَٔامَنَّاۖ رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ اَ۬لَابْر۪ارِۖ ﳀ"
+    "aya_text": "رَّبَّنَآ إِنَّنَا سَمِعْنَا مُنَادِياٗ يُنَادِے لِلِايمَٰنِ أَنَ اٰمِنُواْ بِرَبِّكُمْ فَـَٔامَنَّاۖ رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّـَٔاتِنَا وَتَوَفَّنَا مَعَ اَ۬لَابْر۪ارِۖ ﳀ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4497
   },
   {
     "id": 486,
@@ -6344,7 +6730,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 194,
-    "aya_text": "رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ اَ۬لْقِيَٰمَةِۖ إِنَّكَ لَا تُخْلِفُ اُ۬لْمِيعَادَۖ ﳁ"
+    "aya_text": "رَبَّنَا وَءَاتِنَا مَا وَعَدتَّنَا عَلَىٰ رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ اَ۬لْقِيَٰمَةِۖ إِنَّكَ لَا تُخْلِفُ اُ۬لْمِيعَادَۖ ﳁ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4513
   },
   {
     "id": 487,
@@ -6356,7 +6744,9 @@
     "total_verses": 1,
     "is_mecca": 6,
     "aya_no": 195,
-    "aya_text": "فَاسْتَجَابَ لَهُمْ رَبُّهُمُۥٓ أَنِّے لَآ أُضِيعُ عَمَلَ عَٰمِلٖ مِّنكُم مِّن ذَكَرٍ اَوُ ا۟نث۪ىٰۖ بَعْضُكُم مِّنۢ بَعْضٖۖ فَالذِينَ هَاجَرُواْ وَأُخْرِجُواْ مِن دِيٰ۪رِهِمْ وَأُوذُواْ فِے سَبِيلِے وَقَٰتَلُواْ وَقُتِلُواْ لَأُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّٰتٖ تَجْرِے مِن تَحْتِهَا اَ۬لَانْهَٰرُ ثَوَاباٗ مِّنْ عِندِ اِ۬للَّهِۖ وَاللَّهُ عِندَهُۥ حُسْنُ اُ۬لثَّوَابِۖ ﳂ"
+    "aya_text": "فَاسْتَجَابَ لَهُمْ رَبُّهُمُۥٓ أَنِّے لَآ أُضِيعُ عَمَلَ عَٰمِلٖ مِّنكُم مِّن ذَكَرٍ اَوُ ا۟نث۪ىٰۖ بَعْضُكُم مِّنۢ بَعْضٖۖ فَالذِينَ هَاجَرُواْ وَأُخْرِجُواْ مِن دِيٰ۪رِهِمْ وَأُوذُواْ فِے سَبِيلِے وَقَٰتَلُواْ وَقُتِلُواْ لَأُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأُدْخِلَنَّهُمْ جَنَّٰتٖ تَجْرِے مِن تَحْتِهَا اَ۬لَانْهَٰرُ ثَوَاباٗ مِّنْ عِندِ اِ۬للَّهِۖ وَاللَّهُ عِندَهُۥ حُسْنُ اُ۬لثَّوَابِۖ ﳂ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4589
   },
   {
     "id": 488,
@@ -6368,7 +6758,9 @@
     "total_verses": 6,
     "is_mecca": 7,
     "aya_no": 196,
-    "aya_text": "۞ لَا يَغُرَّنَّكَ تَقَلُّبُ اُ۬لذِينَ كَفَرُواْ فِے اِ۬لْبِلَٰدِۖ ﳃ"
+    "aya_text": "۞ لَا يَغُرَّنَّكَ تَقَلُّبُ اُ۬لذِينَ كَفَرُواْ فِے اِ۬لْبِلَٰدِۖ ﳃ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4595
   },
   {
     "id": 489,
@@ -6380,7 +6772,9 @@
     "total_verses": 7,
     "is_mecca": 8,
     "aya_no": 197,
-    "aya_text": "مَتَٰعٞ قَلِيلٞۖ ثُمَّ مَأْو۪يٰهُمْ جَهَنَّمُۖ وَبِيسَ اَ۬لْمِهَادُۖ ﳄ"
+    "aya_text": "مَتَٰعٞ قَلِيلٞۖ ثُمَّ مَأْو۪يٰهُمْ جَهَنَّمُۖ وَبِيسَ اَ۬لْمِهَادُۖ ﳄ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4609
   },
   {
     "id": 490,
@@ -6392,7 +6786,9 @@
     "total_verses": 8,
     "is_mecca": 10,
     "aya_no": 198,
-    "aya_text": "لَٰكِنِ اِ۬لذِينَ اَ۪تَّقَوْاْ رَبَّهُمْ لَهُمْ جَنَّٰتٞ تَجْرِے مِن تَحْتِهَا اَ۬لَانْهَٰرُ خَٰلِدِينَ فِيهَا نُزُلاٗ مِّنْ عِندِ اِ۬للَّهِۖ وَمَا عِندَ اَ۬للَّهِ خَيْرٞ لِّلَابْر۪ارِۖ ﳅ"
+    "aya_text": "لَٰكِنِ اِ۬لذِينَ اَ۪تَّقَوْاْ رَبَّهُمْ لَهُمْ جَنَّٰتٞ تَجْرِے مِن تَحْتِهَا اَ۬لَانْهَٰرُ خَٰلِدِينَ فِيهَا نُزُلاٗ مِّنْ عِندِ اِ۬للَّهِۖ وَمَا عِندَ اَ۬للَّهِ خَيْرٞ لِّلَابْر۪ارِۖ ﳅ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4634
   },
   {
     "id": 491,
@@ -6404,7 +6800,9 @@
     "total_verses": 10,
     "is_mecca": 14,
     "aya_no": 199,
-    "aya_text": "وَإِنَّ مِنَ اَهْلِ اِ۬لْكِتَٰبِ لَمَنْ يُّومِنُ بِاللَّهِ وَمَآ أُنزِلَ إِلَيْكُمْ وَمَآ أُنزِلَ إِلَيْهِمْ خَٰشِعِينَ لِلهِۖ لَا يَشْتَرُونَ بِـَٔايَٰتِ اِ۬للَّهِ ثَمَناٗ قَلِيلاًۖ ا۟وْلَٰٓئِكَ لَهُمُۥٓ أَجْرُهُمْ عِندَ رَبِّهِمُۥٓۖ إِنَّ اَ۬للَّهَ سَرِيعُ اُ۬لْحِسَابِۖ ﳆ"
+    "aya_text": "وَإِنَّ مِنَ اَهْلِ اِ۬لْكِتَٰبِ لَمَنْ يُّومِنُ بِاللَّهِ وَمَآ أُنزِلَ إِلَيْكُمْ وَمَآ أُنزِلَ إِلَيْهِمْ خَٰشِعِينَ لِلهِۖ لَا يَشْتَرُونَ بِـَٔايَٰتِ اِ۬للَّهِ ثَمَناٗ قَلِيلاًۖ ا۟وْلَٰٓئِكَ لَهُمُۥٓ أَجْرُهُمْ عِندَ رَبِّهِمُۥٓۖ إِنَّ اَ۬للَّهَ سَرِيعُ اُ۬لْحِسَابِۖ ﳆ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4677
   },
   {
     "id": 492,
@@ -6416,7 +6814,9 @@
     "total_verses": 14,
     "is_mecca": 15,
     "aya_no": 200,
-    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ اُ۪صْبِرُواْ وَصَابِرُواْ وَرَابِطُواْ وَاتَّقُواْ اُ۬للَّهَ لَعَلَّكُمْ تُفْلِحُونَۖ ﳇ"
+    "aya_text": "يَٰٓأَيُّهَا اَ۬لذِينَ ءَامَنُواْ اُ۪صْبِرُواْ وَصَابِرُواْ وَرَابِطُواْ وَاتَّقُواْ اُ۬للَّهَ لَعَلَّكُمْ تُفْلِحُونَۖ ﳇ",
+    "translation": "Indeed, those who sell God's covenant and their oaths for a small price will have no share in the Hereafter; God will not speak to them, nor look upon them on the Day of Resurrection, nor purify them, and they will have a painful punishment.",
+    "end": 4700
   },
   {
     "id": 493,
