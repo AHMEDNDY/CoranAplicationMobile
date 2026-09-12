@@ -9,8 +9,9 @@ namespace CoranWarshSynchroniser
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute("QuranReaderPage", typeof(QuranReaderPage));
+            Routing.RegisterRoute("TesbihPage", typeof(TesbihPage));
             Routing.RegisterRoute("SouratesPage", typeof(SouratesPage));
+            Routing.RegisterRoute(nameof(QuranReaderPage), typeof(QuranReaderPage));
         }
     }
 }

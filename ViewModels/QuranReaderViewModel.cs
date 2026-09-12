@@ -224,7 +224,7 @@ namespace CoranWarshSynchroniser.ViewModels
             {
                 foreach (var ayah in SurahJsonData)
                 {
-                    ayah.BackgroundColor = Color.FromArgb("#F8F8F8");
+                    //ayah.BackgroundColor = Color.FromArgb("#F8F8F8");
 
                     ayah.TextColor = Colors.Black;
 
@@ -239,13 +239,13 @@ namespace CoranWarshSynchroniser.ViewModels
                 if (current != null)
                 {
                     // background seulement texte arabe
-                    current.AyahBackgroundColor = Color.FromArgb("#C8A951");
+                    //current.AyahBackgroundColor = Color.FromArgb("#C8A951");
 
                     // texte arabe blanc
                     current.TextColor = Colors.Blue;
 
                     // traduction normale
-                    current.TranslationColor = Color.FromArgb("#6E6E6E");
+                    current.TranslationColor = Color.FromArgb("#C8A951");
                 }
 
                 _indexCurrentColoredAyah = index;

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<controls:AnimatedContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:vm="clr-namespace:CoranWarshSynchroniser.ViewModels"
              xmlns:local="clr-namespace:CoranWarshSynchroniser.Converters"
              xmlns:models="clr-namespace:CoranWarshSynchroniser.Models"
+              xmlns:controls="clr-namespace:CoranWarshSynchroniser.Views"
              x:Class="CoranWarshSynchroniser.Views.SouratesPage"
              Shell.NavBarIsVisible="False"
              FlowDirection="RightToLeft"
-             BackgroundColor="#F5F3FF">
+             >
     <ContentPage.BindingContext>
         <vm:SouratesViewModel />
     </ContentPage.BindingContext>
@@ -24,57 +25,41 @@
         <Grid Grid.Row="0"
               RowDefinitions="Auto,Auto,Auto"
               Padding="0,0,0,24">
-            <Grid.Background>
-                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#0D2B4E" Offset="0.0"/>
-                    <GradientStop Color="CornflowerBlue" Offset="0.5"/>
-                    <GradientStop Color="#1E5590" Offset="1.0"/>
-                </LinearGradientBrush>
-            </Grid.Background>
-
-            <!-- Lune + titres -->
-                <!-- Arche blanche -->
-    <Border WidthRequest="350"
-            HeightRequest="180"
-            BackgroundColor="White"
-            HorizontalOptions="Center"
-            VerticalOptions="Start"
-            Margin="0,4,0,0"
-            StrokeThickness="0"
-            StrokeShape="RoundRectangle 140,140,0,0">
             <VerticalStackLayout Grid.Row="0"
-                                 HorizontalOptions="Center"
-                                 Padding="0,44,0,0"
-                                 Spacing="4">
-                    <Image Source="logoapp.png"
-                   HeightRequest="130"
-                   WidthRequest="130"
-                   HorizontalOptions="Center"
-                   Aspect="AspectFit"/>
+                     WidthRequest="350"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Start"
+                     Margin="0,4,0,0"
+                     Spacing="4">
 
+                <Image Source="logoapp.png"
+           HeightRequest="130"
+           WidthRequest="130"
+           HorizontalOptions="Center"
+           Aspect="AspectFit"/>
+                <Label Text="رواية ورش عن نافع"
+           FontSize="18"
+           FontAttributes="Bold"
+           HorizontalOptions="Center"/>
             </VerticalStackLayout>
-</Border>
+            
             <!-- Barre de recherche -->
             <Border Grid.Row="1"
                     Margin="20,18,20,0"
                     StrokeThickness="0"
-                    BackgroundColor="#26FFFFFF"
-                    StrokeShape="RoundRectangle 14">
+                    BackgroundColor="#4A90E2"
+                    StrokeShape="RoundRectangle 120">
                 <Grid ColumnDefinitions="*,Auto" Padding="16,0">
                     <Entry Grid.Column="0"
-                           Placeholder="Rechercher une sourate..."
+                           Placeholder="🔍  البحث"
                            PlaceholderColor="White"
                            TextColor="White"
                            BackgroundColor="Transparent"
                            Text="{Binding SearchText}"
-                           FontSize="14"
+                           FontSize="20"
                            HeightRequest="48"
                            VerticalOptions="Center"/>
-                    <Label Grid.Column="1"
-                           Text="🔍"
-                           FontSize="16"
-                           VerticalOptions="Center"
-                           TextColor="#0D2B4E"/>
+                  
                 </Grid>
             </Border>
 
@@ -115,15 +100,15 @@
                 <Label Grid.Column="2"
            VerticalOptions="Center"
            FontSize="12"
-           TextColor="#FFFFFFB2">
+           >
 
                     <Label.FormattedText>
                         <FormattedString>      
                             <Span Text="{Binding Surahs.Count}"
                       FontAttributes="Bold"
                                   FontSize="20"
-                      TextColor="White"/>
-                            <Span Text=" سورة" FontSize="20"  FontAttributes="Bold" TextColor="White"/>
+                      TextColor="Black"/>
+                            <Span Text=" سورة" FontSize="20"  FontAttributes="Bold" TextColor="Black"/>
                       
                          
                         </FormattedString>
@@ -206,7 +191,7 @@
                                            TextColor="#1E1033"/>
                                     <HorizontalStackLayout Spacing="6">
                                         <!-- Badge Makkah / Madinah -->
-                                        
+
                                         <Label Text="•"
                                                TextColor="#9CA3AF"
                                                FontSize="12"
@@ -219,14 +204,14 @@
                                                 <FormattedString>
                                                     <Span Text=" عدد آياتها "/>
                                                     <Span Text="{Binding TotalVerses}"/>
-                                                    
+
                                                 </FormattedString>
                                             </Label.FormattedText>
                                         </Label>
                                     </HorizontalStackLayout>
                                 </VerticalStackLayout>
 
-                             
+
                                 <Image Grid.Column="3"
                                HeightRequest="40"
                                WidthRequest="40"
@@ -259,5 +244,9 @@
                 </VerticalStackLayout>
             </CollectionView.EmptyView>
         </CollectionView>
+        <!-- ✅ Barre de navigation flottante : span sur toute la hauteur -->
+        <controls:CustomBottomNav Grid.Row="0"
+                               Grid.RowSpan="2"
+                               VerticalOptions="End"/>
     </Grid>
-</ContentPage>
+    </controls:AnimatedContentPage>

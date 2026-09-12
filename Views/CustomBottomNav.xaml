@@ -1,0 +1,100 @@
+<ContentView
+    x:Class="CoranWarshSynchroniser.Views.CustomBottomNav"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Frame CornerRadius="30"
+           Padding="5,2"
+           Margin="4,0,4,4"
+           BackgroundColor="FloralWhite"
+           HasShadow="True"
+           HorizontalOptions="FillAndExpand"
+           VerticalOptions="End">
+
+        <Frame.Shadow>
+            <Shadow Brush="Black"
+                    Offset="0,6"
+                    Radius="20"
+                    Opacity="0.35"/>
+        </Frame.Shadow>
+
+        <Grid ColumnDefinitions="*,*,*" FlowDirection="RightToLeft">
+
+            <!-- Onglet 1 : القرآن -->
+            <Frame Grid.Column="0"
+                   x:Name="TabQuran"
+                   CornerRadius="22"
+                   Padding="14,8"
+                   BackgroundColor="Transparent"
+                   HasShadow="False">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTabQuranTapped"/>
+                </Frame.GestureRecognizers>
+                <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
+                    <Image x:Name="IconQuran"
+                           Source="quranapp.png"
+                           WidthRequest="25" HeightRequest="25"
+                           HorizontalOptions="Center"/>
+                    <Label x:Name="LabelQuran"
+                           Text="القرآن"
+                          
+                           FontSize="22"
+                           TextColor="#1E1033"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Onglet 2 : إ ستمع -->
+            <Frame Grid.Column="1"
+                   x:Name="TabCategory"
+                   CornerRadius="22"
+                   Padding="14,8"
+                   BackgroundColor="Transparent"
+                   HasShadow="False">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTabCategoryTapped"/>
+                </Frame.GestureRecognizers>
+                <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
+                    <Image x:Name="IconCategory"
+                           Source="audio.png"
+                           WidthRequest="25" HeightRequest="25"
+                           HorizontalOptions="Center"/>
+                    <Label x:Name="LabelCategory"
+                           Text="إ ستمع"
+                           FontFamily="UthmanicWarsh"
+                           FontSize="22"
+                          TextColor="#1E1033"
+                            FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Onglet 3 : تسبيح -->
+            <Frame Grid.Column="2"
+                   x:Name="TabContributors"
+                   CornerRadius="22"
+                   Padding="14,8"
+                   BackgroundColor="Transparent"
+                   HasShadow="False">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTabContributorsTapped"/>
+                </Frame.GestureRecognizers>
+                <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
+                    <Image x:Name="IconContributors"
+                           Source="tasbih.png"
+                           WidthRequest="28" HeightRequest="28"
+                           HorizontalOptions="Center"/>
+                    <Label x:Name="LabelContributors"
+                           Text="تسبيح"
+                           FontFamily="UthmanicWarsh"
+                           FontSize="22"
+                           TextColor="#1E1033"
+                            FontAttributes="Bold"
+                           HorizontalOptions="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+
+        </Grid>
+    </Frame>
+</ContentView>

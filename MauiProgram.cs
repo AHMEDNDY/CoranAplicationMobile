@@ -36,9 +36,13 @@ public static class MauiProgram
         builder.Services.AddSingleton<QuranRichTextView>();
         builder.Services.AddSingleton<MyHomePage>();
         builder.Services.AddSingleton<QuranPage>();
+        builder.Services.AddSingleton<CustomBottomNav>();
         builder.Services.AddSingleton<SouratesViewModel>();
         builder.Services.AddSingleton<SouratesPage>();
         builder.Services.AddSingleton<ReaderSourat>();
+        builder.Services.AddSingleton<AnimatedContentPage>();
+        builder.Services.AddSingleton<AudioPage>();
+        builder.Services.AddSingleton<TesbihPage>();
 
 #if DEBUG
         builder.Logging.AddDebug();

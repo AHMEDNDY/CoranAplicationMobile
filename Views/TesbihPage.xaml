@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<controls:AnimatedContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:CoranWarshSynchroniser.Converters"
+             xmlns:models="clr-namespace:CoranWarshSynchroniser.Models"
+              xmlns:controls="clr-namespace:CoranWarshSynchroniser.Views"
+             x:Class="CoranWarshSynchroniser.Views.TesbihPage"
+             Shell.NavBarIsVisible="False"
+             FlowDirection="RightToLeft"
+             >
+    <controls:CustomBottomNav Grid.Row="0"
+                        Grid.RowSpan="2"
+                        VerticalOptions="End"/>
+</controls:AnimatedContentPage>

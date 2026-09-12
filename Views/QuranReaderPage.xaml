@@ -28,7 +28,7 @@
        
         <Border Grid.Row="0"
         BackgroundColor="Transparent"
-        Stroke="#C8A951"
+        Stroke="#4A90E2"
         StrokeThickness="4"
         StrokeShape="RoundRectangle 20"
         Padding="8"
@@ -158,14 +158,14 @@
                                 </Frame>
 
                                 <!-- NUMERO -->
-                                <Label
+                                <!--<Label
                                  Grid.Column="0"
                                  Text="{Binding AyaNo}"
                                  FontSize="15"
                                  FontAttributes="Bold"
                                  TextColor="#1B0B47"
                                  HorizontalOptions="End"
-                                     />
+                                     />-->
 
                                 <!-- TRADUCTION -->
                                 <!-- TRADUCTION en bas à gauche -->
@@ -197,24 +197,16 @@
                          IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}">
 
             <!-- Slider de progression -->
-            <Grid ColumnDefinitions="70,*,70" Padding="10,0">
+            <Grid>
                 <Label
-                Grid.Column="0"
-                Text="{Binding CurrentTime}"
+               
+                Text="القارئ-الشيخ محمد لغظف ولد محمد سيد"
+                     FontFamily="Empty"
+                    FontSize="20"
+                    FontAttributes="Bold"
                 HorizontalOptions="Start"
-                VerticalOptions="Center"/>
-
-                <Slider
-                Grid.Column="1"
-                Minimum="0"
-                Maximum="{Binding Duration}"
-                Value="{Binding CurrentPosition}"/>
-
-                <Label
-                Grid.Column="2"
-                Text="{Binding TotalTime}"
-                HorizontalOptions="End"
-                VerticalOptions="Center"/>
+                VerticalOptions="Center"
+                    TextColor="#4A90E2"/>
             </Grid>
 
             <!-- Barre de contrôle (lecture, navigation) -->

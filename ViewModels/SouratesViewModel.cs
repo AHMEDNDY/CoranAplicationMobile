@@ -1,8 +1,6 @@
 ﻿using CoranWarshSynchroniser.Models;
 using CoranWarshSynchroniser.Services;
 using MvvmHelpers;
-using Newtonsoft.Json;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Input;
