@@ -6,7 +6,7 @@
     <Frame CornerRadius="30"
            Padding="5,2"
            Margin="4,0,4,4"
-           BackgroundColor="FloralWhite"
+           BackgroundColor="#ffffff"
            HasShadow="True"
            HorizontalOptions="FillAndExpand"
            VerticalOptions="End">
@@ -38,7 +38,7 @@
                     <Label x:Name="LabelQuran"
                            Text="القرآن"
                           
-                           FontSize="22"
+                           FontSize="18"
                            TextColor="#1E1033"
                            FontAttributes="Bold"
                            HorizontalOptions="Center"/>
@@ -63,7 +63,7 @@
                     <Label x:Name="LabelCategory"
                            Text="إ ستمع"
                            FontFamily="UthmanicWarsh"
-                           FontSize="22"
+                           FontSize="18"
                           TextColor="#1E1033"
                             FontAttributes="Bold"
                            HorizontalOptions="Center"/>
@@ -88,7 +88,7 @@
                     <Label x:Name="LabelContributors"
                            Text="تسبيح"
                            FontFamily="UthmanicWarsh"
-                           FontSize="22"
+                           FontSize="18"
                            TextColor="#1E1033"
                             FontAttributes="Bold"
                            HorizontalOptions="Center"/>

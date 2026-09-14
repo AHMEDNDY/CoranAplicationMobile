@@ -149,7 +149,7 @@
                                      Grid.ColumnSpan="3"
                                      Text="{Binding AyaText}"
                                      FontFamily="UthmanicWarsh"
-                                     FontSize="32"
+                                     FontSize="30"
                                      TextColor="{Binding TextColor}"
                                         FontAttributes="Bold"
                                      FlowDirection="RightToLeft"

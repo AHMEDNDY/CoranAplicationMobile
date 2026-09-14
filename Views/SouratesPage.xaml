@@ -32,9 +32,9 @@
                      Margin="0,4,0,0"
                      Spacing="4">
 
-                <Image Source="logoapp.png"
-           HeightRequest="130"
-           WidthRequest="130"
+                <Image Source="sorateimagetransparent.png"
+           HeightRequest="180"
+           WidthRequest="180"
            HorizontalOptions="Center"
            Aspect="AspectFit"/>
                 <Label Text="رواية ورش عن نافع"
@@ -47,7 +47,7 @@
             <Border Grid.Row="1"
                     Margin="20,18,20,0"
                     StrokeThickness="0"
-                    BackgroundColor="#4A90E2"
+                    BackgroundColor="#1C3FD0"
                     StrokeShape="RoundRectangle 120">
                 <Grid ColumnDefinitions="*,Auto" Padding="16,0">
                     <Entry Grid.Column="0"
@@ -74,7 +74,7 @@
         Text="مدنية"
         ImageSource="medina.png"
         Command="{Binding MedinaCommand}"
-        BackgroundColor="{Binding MedinaButtonColor}"
+        BackgroundColor="#1C3FD0"
         FontSize="18"
         FontAttributes="Bold" 
         TextColor="White"
@@ -86,7 +86,7 @@
         Text="مكية"
         ImageSource="mecca.png"
         Command="{Binding MeccaCommand}"
-        BackgroundColor="{Binding MeccaButtonColor}"
+        BackgroundColor="#1C3FD0"
         FontSize="20"
         FontAttributes="Bold"                
         TextColor="White"
@@ -185,7 +185,7 @@
                                                      VerticalOptions="Center"
                                                      Spacing="5">
                                     <Label Text="{Binding Name}"
-                                           FontSize="22"
+                                           FontSize="24"
                                            FontAttributes="Bold"
                                            FontFamily="UthmanicWarsh"
                                            TextColor="#1E1033"/>
