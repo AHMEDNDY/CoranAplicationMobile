@@ -15,10 +15,11 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <local:IconConverter x:Key="IconConverter" />
+            <local:MeccaTextConverter x:Key="MeccaTextConverter" />
         </ResourceDictionary>
+      
     </ContentPage.Resources>
-
-
+    
     <Grid RowDefinitions="Auto,*">
 
         <!-- ══════════════ HEADER ══════════════ -->
@@ -51,7 +52,7 @@
                     StrokeShape="RoundRectangle 120">
                 <Grid ColumnDefinitions="*,Auto" Padding="16,0">
                     <Entry Grid.Column="0"
-                           Placeholder="🔍  البحث"
+                           Placeholder="🔍  ابحث عن سورة"
                            PlaceholderColor="White"
                            TextColor="White"
                            BackgroundColor="Transparent"
@@ -74,7 +75,7 @@
         Text="مدنية"
         ImageSource="medina.png"
         Command="{Binding MedinaCommand}"
-        BackgroundColor="#1C3FD0"
+        BackgroundColor="{Binding MedinaButtonColor}"
         FontSize="18"
         FontAttributes="Bold" 
         TextColor="White"
@@ -86,7 +87,7 @@
         Text="مكية"
         ImageSource="mecca.png"
         Command="{Binding MeccaCommand}"
-        BackgroundColor="#1C3FD0"
+         BackgroundColor="{Binding MeccaButtonColor}"
         FontSize="20"
         FontAttributes="Bold"                
         TextColor="White"
@@ -194,7 +195,7 @@
 
                                         <Label Text="•"
                                                TextColor="#9CA3AF"
-                                               FontSize="12"
+                                               FontSize="4"
                                                VerticalOptions="Center"/>
                                         <!-- Nombre de versets -->
                                         <Label FontSize="12"
@@ -202,6 +203,9 @@
                                                VerticalOptions="Center">
                                             <Label.FormattedText>
                                                 <FormattedString>
+                                                    <Span Text="{Binding IsMecca, Converter={StaticResource MeccaTextConverter}}"
+                                                          BackgroundColor="#F4F0FF"
+                                                          TextColor="#7C4DFF"/>
                                                     <Span Text=" عدد آياتها "/>
                                                     <Span Text="{Binding TotalVerses}"/>
 
