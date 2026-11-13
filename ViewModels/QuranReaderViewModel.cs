@@ -45,7 +45,7 @@ namespace CoranWarshSynchroniser.ViewModels
         public ICommand PreviousSurahCommand { get; }
         public ICommand TapCommand { get; }
 
-        #endregion
+        #endregion Commands
 
         #region Actions
 
@@ -123,7 +123,7 @@ namespace CoranWarshSynchroniser.ViewModels
             NextSurahCommand = new Command(async () => await NextSurahCommandHandler());
             GotoPageListeCommand = new Command(async () => await GotoList());
             PreviousSurahCommand = new Command(async () => await PreviousSurahCommandHandler());
-            TapCommand = new Command((arg) => TapCommandHandler(arg));
+            TapCommand = new Command<int>(async ayaNo => await TapCommandHandler(ayaNo));
             _syncTimer = Application.Current.Dispatcher.CreateTimer(); 
             _syncTimer.Interval = TimeSpan.FromMilliseconds(80); 
             
@@ -342,42 +342,66 @@ namespace CoranWarshSynchroniser.ViewModels
 
         }
 
-        private async void TapCommandHandler(object arg)
+
+        private async Task TapCommandHandler(int ayaNo)
         {
-            if (arg == null)
-                return;
-
-            int ayaNo = (int)arg;
-            var ayah = SurahJsonData.FirstOrDefault(a => a.AyaNo == ayaNo);
-            if (ayah == null)
-                return;
-
-            _currentAyah = ayah;
-            double start = ayah.Start;
-            if(ayah.Id == 1)
+            System.Diagnostics.Debug.WriteLine(
+    $"AYAH CLIQUÉE : {ayaNo}");
+            try
             {
-                start = 0.0;
-            }
-            else
-            {
-                ayah = SurahJsonData.FirstOrDefault(a => a.AyaNo == (ayaNo-1));
-                if (ayah == null)
+                var selectedAyah = SurahJsonData
+                    .FirstOrDefault(a => a.AyaNo == ayaNo);
+
+                if (selectedAyah == null)
                     return;
-                start = ayah.End;
-            }
-                // Seek vers le bon timestamp
+
+                // Position de début de l'ayah
+                double start = selectedAyah.Start;
+
+                // Si le début n'est pas renseigné,
+                // utiliser la fin de l'ayah précédente.
+                if (ayaNo > 1 && start <= 0)
+                {
+                    var previousAyah = SurahJsonData
+                        .FirstOrDefault(a => a.AyaNo == ayaNo - 1);
+
+                    if (previousAyah == null || previousAyah.End <= 0)
+                        return;
+
+                    start = previousAyah.End;
+                }
+
+                if (start < 0)
+                    return;
+
+                // Conserver l'ayah sélectionnée
+                _currentAyah = selectedAyah;
+
+                // Déplacer la lecture et reprendre
                 await _audioService.ResumeFromAsync(start);
 
-            // Highlight + scroll
-            HighlightAyah(ayaNo);
-            ScrollToSpanRequested?.Invoke(ayaNo+1);
+                // Surlignage
+                HighlightAyah(ayaNo);
 
-            MainThread.BeginInvokeOnMainThread(() =>
+                // Scroll vers l'ayah exacte
+                ScrollToSpanRequested?.Invoke(ayaNo);
+
+                MainThread.BeginInvokeOnMainThread(() =>
+                {
+                    IsPlayVisible = false;
+                    IsPauseVisible = true;
+                });
+            }
+            catch (Exception ex)
             {
-                IsPlayVisible = false;
-                IsPauseVisible = true;
-            });
+                System.Diagnostics.Debug.WriteLine(
+                    $"Erreur lecture ayah {ayaNo}: {ex}");
+            }
         }
+
+
+
+
 
         private void OnAyahChanged(int index)
         {

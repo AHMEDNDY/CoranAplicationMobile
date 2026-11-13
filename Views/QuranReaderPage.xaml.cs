@@ -24,24 +24,24 @@ public partial class QuranReaderPage : ContentPage
         Shell.SetNavBarIsVisible(this, false);
         Shell.SetTabBarIsVisible(this, false);
     }
-    private void ScrollToAyah(int index)
+    private void ScrollToAyah(int ayaNo)
     {
         MainThread.BeginInvokeOnMainThread(async () =>
         {
             await Task.Delay(100);
 
+            var ayah = _vm.SurahJsonData
+                .FirstOrDefault(a => a.AyaNo == ayaNo);
+
+            if (ayah == null)
+                return;
+
             QuranCollection.ScrollTo(
-                index,
-                position: ScrollToPosition.Start,
+                ayah,
+                position: ScrollToPosition.Center,
                 animate: true);
         });
     }
-
-
-
-
-
-
 
 }
 

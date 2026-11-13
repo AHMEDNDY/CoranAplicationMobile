@@ -4,11 +4,10 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="CoranWarshSynchroniser.Views.QuranReaderPage"
     xmlns:local="clr-namespace:CoranWarshSynchroniser.Converters"
+    x:Name="QuranReaderRoot"
     FlowDirection="RightToLeft"
     Style="{StaticResource MushafPageStyle}"
-   BackgroundColor="Transparent"
-   
- >
+   BackgroundColor="Transparent">
 
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -123,8 +122,10 @@
 
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer
-                             Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.TapCommand}"
-                             CommandParameter="{Binding AyaNo}" />
+                                        NumberOfTapsRequired="1"
+                                        Command="{Binding BindingContext.TapCommand,
+                                                  Source={x:Reference QuranReaderRoot}}"
+                                        CommandParameter="{Binding AyaNo}" />   
                             </Frame.GestureRecognizers>
 
                             <VerticalStackLayout Spacing="5">
