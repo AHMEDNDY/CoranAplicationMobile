@@ -1,256 +1,393 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<controls:AnimatedContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:vm="clr-namespace:CoranWarshSynchroniser.ViewModels"
-             xmlns:local="clr-namespace:CoranWarshSynchroniser.Converters"
-             xmlns:models="clr-namespace:CoranWarshSynchroniser.Models"
-              xmlns:controls="clr-namespace:CoranWarshSynchroniser.Views"
-             x:Class="CoranWarshSynchroniser.Views.SouratesPage"
-             Shell.NavBarIsVisible="False"
-             FlowDirection="RightToLeft"
-             >
+
+<controls:AnimatedContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:CoranWarshSynchroniser.ViewModels"
+    xmlns:local="clr-namespace:CoranWarshSynchroniser.Converters"
+    xmlns:models="clr-namespace:CoranWarshSynchroniser.Models"
+    xmlns:controls="clr-namespace:CoranWarshSynchroniser.Views"
+    x:Class="CoranWarshSynchroniser.Views.SouratesPage"
+    Shell.NavBarIsVisible="False"
+    BackgroundColor="White"
+    FlowDirection="RightToLeft">
+
+    <!-- VIEWMODEL -->
     <ContentPage.BindingContext>
         <vm:SouratesViewModel />
     </ContentPage.BindingContext>
+
+    <!-- RESOURCES -->
     <ContentPage.Resources>
         <ResourceDictionary>
-            <local:IconConverter x:Key="IconConverter" />
-            <local:MeccaTextConverter x:Key="MeccaTextConverter" />
+            <local:IconConverter
+                x:Key="IconConverter" />
+
+            <local:MeccaTextConverter
+                x:Key="MeccaTextConverter" />
         </ResourceDictionary>
-      
     </ContentPage.Resources>
-    
+
     <Grid RowDefinitions="Auto,*">
 
-        <!-- ══════════════ HEADER ══════════════ -->
+        <!-- =========================== -->
+        <!-- HEADER -->
+        <!-- =========================== -->
+
         <Grid Grid.Row="0"
               RowDefinitions="Auto,Auto,Auto"
-              Padding="0,0,0,24">
-            <VerticalStackLayout Grid.Row="0"
-                     WidthRequest="350"
-                     HorizontalOptions="Center"
-                     VerticalOptions="Start"
-                     Margin="0,4,0,0"
-                     Spacing="4">
+              RowSpacing="0"
+              Padding="20,5,20,0">
 
-                <Image Source="sorateimagetransparent.png"
-           HeightRequest="180"
-           WidthRequest="180"
-           HorizontalOptions="Center"
-           Aspect="AspectFit"/>
-                <Label Text="رواية ورش عن نافع"
-           FontSize="18"
-           FontAttributes="Bold"
-           HorizontalOptions="Center"/>
-            </VerticalStackLayout>
-            
-            <!-- Barre de recherche -->
+            <!-- LOGO + TITRE -->
+            <Grid Grid.Row="0"
+                  FlowDirection="LeftToRight"
+                  ColumnDefinitions="*,125"
+                  HeightRequest="110">
+
+                <Label Grid.Column="0"
+                       Text="رواية ورش عن نافع"
+                       FontSize="20"
+                       FontAttributes="Bold"
+                       TextColor="#111111"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Start"
+                       Margin="70,22,0,0"
+                       FlowDirection="RightToLeft"/>
+
+                <Image Grid.Column="1"
+                       Source="sorateimagetransparent.png"
+                       HeightRequest="110"
+                       WidthRequest="120"
+                       Aspect="AspectFit"
+                       HorizontalOptions="End"
+                       VerticalOptions="Start"/>
+
+            </Grid>
+
+            <!-- BARRE DE RECHERCHE -->
             <Border Grid.Row="1"
                     Margin="20,18,20,0"
+                    HeightRequest="50"
+                    BackgroundColor="#2144D8"
                     StrokeThickness="0"
-                    BackgroundColor="#1C3FD0"
-                    StrokeShape="RoundRectangle 120">
-                <Grid ColumnDefinitions="*,Auto" Padding="16,0">
-                    <Entry Grid.Column="0"
-                           Placeholder="🔍  ابحث عن سورة"
+                    StrokeShape="RoundRectangle 30">
+
+                <Grid ColumnDefinitions="Auto,*"
+                      FlowDirection="RightToLeft"
+                      Padding="15,0"
+                      ColumnSpacing="6">
+
+                    <Label Grid.Column="0"
+                           Text="🔍"
+                           FontSize="23"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"/>
+
+                    <Entry Grid.Column="1"
+                           Text="{Binding SearchText}"
+                           Placeholder="ابحث عن سورة"
                            PlaceholderColor="White"
                            TextColor="White"
                            BackgroundColor="Transparent"
-                           Text="{Binding SearchText}"
-                           FontSize="20"
-                           HeightRequest="48"
-                           VerticalOptions="Center"/>
-                  
+                           FontSize="18"
+                           FlowDirection="RightToLeft"
+                           HorizontalTextAlignment="Start"
+                           VerticalOptions="Center"
+                           ClearButtonVisibility="WhileEditing"/>
+
                 </Grid>
+
             </Border>
 
-            <!-- Compteur de résultats -->
+            <!-- FILTRES -->
             <Grid Grid.Row="2"
-      Margin="20,10,20,0"
-      ColumnDefinitions="Auto,*,Auto"
-      VerticalOptions="Center">
+                  Margin="10,35,10,0"
+                  FlowDirection="LeftToRight"
+                  ColumnDefinitions="Auto,*,*"
+                  ColumnSpacing="15"
+                  HeightRequest="47">
 
-                <!-- Bouton gauche -->
-                <Button Grid.Column="0"
-        Text="مدنية"
-        ImageSource="medina.png"
-        Command="{Binding MedinaCommand}"
-        BackgroundColor="{Binding MedinaButtonColor}"
-        FontSize="18"
-        FontAttributes="Bold" 
-        TextColor="White"
-        CornerRadius="8"
-        WidthRequest="100"
-        HeightRequest="34"/>
-
-                <Button Grid.Column="1"
-        Text="مكية"
-        ImageSource="mecca.png"
-        Command="{Binding MeccaCommand}"
-         BackgroundColor="{Binding MeccaButtonColor}"
-        FontSize="20"
-        FontAttributes="Bold"                
-        TextColor="White"
-        CornerRadius="8"
-        WidthRequest="100"
-        HeightRequest="34"
-        HorizontalOptions="Center"/>
-          
-
-                <!-- Nombre de sourates -->
-                <Label Grid.Column="2"
-           VerticalOptions="Center"
-           FontSize="12"
-           >
+                <!-- NOMBRE SOURATES -->
+                <Label Grid.Column="0"
+                       VerticalOptions="Center"
+                       FlowDirection="RightToLeft">
 
                     <Label.FormattedText>
-                        <FormattedString>      
+                        <FormattedString>
                             <Span Text="{Binding Surahs.Count}"
-                      FontAttributes="Bold"
                                   FontSize="20"
-                      TextColor="Black"/>
-                            <Span Text=" سورة" FontSize="20"  FontAttributes="Bold" TextColor="Black"/>
-                      
-                         
+                                  FontAttributes="Bold"
+                                  TextColor="#111111"/>
+
+                            <Span Text=" سورة"
+                                  FontSize="18"
+                                  FontAttributes="Bold"
+                                  TextColor="#111111"/>
                         </FormattedString>
                     </Label.FormattedText>
 
                 </Label>
 
+                <!-- BOUTON MECQUE -->
+                <Border Grid.Column="1"
+                        HeightRequest="44"
+                        BackgroundColor="{Binding MeccaButtonColor}"
+                        StrokeThickness="0"
+                        StrokeShape="RoundRectangle 9"
+                        HorizontalOptions="Center"
+                        WidthRequest="105">
+
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding MeccaCommand}"/>
+                    </Border.GestureRecognizers>
+
+                    <HorizontalStackLayout
+                        FlowDirection="RightToLeft"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Spacing="7">
+
+                        <Image Source="mecca.png"
+                               WidthRequest="27"
+                               HeightRequest="27"
+                               Aspect="AspectFit"/>
+
+                        <Label Text="مكية"
+                               FontSize="19"
+                               FontAttributes="Bold"
+                               TextColor="White"
+                               VerticalOptions="Center"/>
+
+                    </HorizontalStackLayout>
+
+                </Border>
+
+                <!-- BOUTON MEDINE -->
+                <Border Grid.Column="2"
+                        HeightRequest="44"
+                        WidthRequest="105"
+                        BackgroundColor="{Binding MedinaButtonColor}"
+                        StrokeThickness="0"
+                        StrokeShape="RoundRectangle 9"
+                        HorizontalOptions="Center">
+
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding MedinaCommand}"/>
+                    </Border.GestureRecognizers>
+
+                    <HorizontalStackLayout
+                        FlowDirection="RightToLeft"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        Spacing="7">
+
+                        <Image Source="medina.png"
+                               WidthRequest="27"
+                               HeightRequest="27"
+                               Aspect="AspectFit"/>
+
+                        <Label Text="مدنية"
+                               FontSize="19"
+                               FontAttributes="Bold"
+                               TextColor="White"
+                               VerticalOptions="Center"/>
+
+                    </HorizontalStackLayout>
+
+                </Border>
+
             </Grid>
-       
+
         </Grid>
 
-        <!-- ══════════════ LISTE ══════════════ -->
-        <CollectionView Grid.Row="1"
-                        ItemsSource="{Binding Surahs}"
-                        Margin="0,4,0,0"
-                        SelectionMode="None">
+        <!-- =========================== -->
+        <!-- LISTE DES SOURATES -->
+        <!-- =========================== -->
+
+        <CollectionView
+            Grid.Row="1"
+            ItemsSource="{Binding Surahs}"
+            SelectionMode="None"
+            Margin="0,50,0,0">
 
             <CollectionView.ItemsLayout>
-                <LinearItemsLayout Orientation="Vertical" ItemSpacing="0"/>
+                <LinearItemsLayout
+                    Orientation="Vertical"
+                    ItemSpacing="3"/>
             </CollectionView.ItemsLayout>
 
             <CollectionView.ItemTemplate>
-                <DataTemplate x:DataType="models:Sourate">
-                    <Grid Padding="16,6">
 
-                        <!-- Carte -->
-                        <Border BackgroundColor="White"
-                                StrokeThickness="1.5"
-                                Stroke="#EDE9FE"
-                                StrokeShape="RoundRectangle 16"
-                                Padding="0">
+                <DataTemplate x:DataType="models:Sourate">
+
+                    <Grid Padding="15,5,15,5">
+
+                        <!-- CARTE -->
+                        <Border
+                            BackgroundColor="White"
+                            Stroke="#EAE5FF"
+                            StrokeThickness="1.5"
+                            StrokeShape="RoundRectangle 17"
+                            HeightRequest="96">
+
                             <Border.Shadow>
-                                <Shadow Brush="#5A3CA0"
-                                        Offset="0,3"
-                                        Radius="8"
-                                        Opacity="0.08"/>
+                                <Shadow
+                                    Brush="#6750A4"
+                                    Offset="0,4"
+                                    Radius="5"
+                                    Opacity="0.10"/>
                             </Border.Shadow>
 
-                            <Grid ColumnDefinitions="4,64,*,Auto"
-                                  Padding="0,14,16,14">
+                            <Grid
+                                FlowDirection="RightToLeft"
+                                ColumnDefinitions="4,55,*,52"
+                                ColumnSpacing="5"
+                                Padding="0,8,12,8">
 
-                                <!-- Barre accent gauche -->
-                                <BoxView Grid.Column="0"
-                                         CornerRadius="4,0,0,4">
-                                    <BoxView.Background>
-                                        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
-                                            <GradientStop Color="{Binding NumberBackgroundColor}" Offset="0"/>
-                                            <GradientStop Color="{Binding NumberBackgroundColor}" Offset="1"/>
-                                        </LinearGradientBrush>
-                                    </BoxView.Background>
-                                </BoxView>
+                                <!-- BARRE VERTICALE -->
+                                <BoxView
+                                    Grid.Column="0"
+                                    BackgroundColor="{Binding NumberBackgroundColor}"
+                                    WidthRequest="4"
+                                    VerticalOptions="Fill"
+                                    CornerRadius="3"/>
 
-                                <!-- Badge numéro -->
-                                <Border Grid.Column="1"
-                                        Margin="10,0"
-                                        BackgroundColor="#F5F3FF"
-                                        Stroke="#7C3AED"
-                                        StrokeThickness="2"
-                                        StrokeShape="RoundRectangle 10"
-                                        WidthRequest="46"
-                                        HeightRequest="46"
+                                <!-- NUMERO SOURATE -->
+                                <Border
+                                    Grid.Column="1"
+                                    BackgroundColor="#F5F2FF"
+                                    Stroke="#8244FF"
+                                    StrokeThickness="2"
+                                    StrokeShape="RoundRectangle 11"
+                                    WidthRequest="46"
+                                    HeightRequest="46"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center">
+
+                                    <Label
+                                        Text="{Binding Id}"
+                                        FontSize="16"
+                                        FontAttributes="Bold"
+                                        TextColor="#6129D8"
                                         HorizontalOptions="Center"
-                                        VerticalOptions="Center">
-                                    <Label Text="{Binding Id}"
-                                           FontSize="15"
-                                           FontAttributes="Bold"
-                                           TextColor="#5B21B6"
-                                           HorizontalOptions="Center"
-                                           VerticalOptions="Center"/>
+                                        VerticalOptions="Center"/>
+
                                 </Border>
 
-                                <!-- Nom + badges -->
-                                <VerticalStackLayout Grid.Column="2"
-                                                     VerticalOptions="Center"
-                                                     Spacing="5">
-                                    <Label Text="{Binding Name}"
-                                           FontSize="24"
-                                           FontAttributes="Bold"
-                                           FontFamily="UthmanicWarsh"
-                                           TextColor="#1E1033"/>
-                                    <HorizontalStackLayout Spacing="6">
-                                        <!-- Badge Makkah / Madinah -->
+                                <!-- NOM ET DESCRIPTION -->
+                                <VerticalStackLayout
+                                    Grid.Column="2"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Fill"
+                                    Spacing="6">
 
-                                        <Label Text="•"
-                                               TextColor="#9CA3AF"
-                                               FontSize="4"
-                                               VerticalOptions="Center"/>
-                                        <!-- Nombre de versets -->
-                                        <Label FontSize="12"
-                                               TextColor="#6B7280"
-                                               VerticalOptions="Center">
-                                            <Label.FormattedText>
-                                                <FormattedString>
-                                                    <Span Text="{Binding IsMecca, Converter={StaticResource MeccaTextConverter}}"
-                                                          BackgroundColor="#F4F0FF"
-                                                          TextColor="#7C4DFF"/>
-                                                    <Span Text=" عدد آياتها "/>
-                                                    <Span Text="{Binding TotalVerses}"/>
+                                    <!-- NOM -->
+                                    <Label
+                                        Text="{Binding Name}"
+                                        FontFamily="UthmanicWarsh"
+                                        FontSize="24"
+                                        FontAttributes="Bold"
+                                        TextColor="#20152F"
+                                        HorizontalTextAlignment="Start"
+                                        FlowDirection="RightToLeft"
+                                        LineBreakMode="TailTruncation"
+                                        MaxLines="1"/>
 
-                                                </FormattedString>
-                                            </Label.FormattedText>
-                                        </Label>
-                                    </HorizontalStackLayout>
+                                    <!-- TYPE + VERSETS -->
+                                    <Label
+                                        FontSize="12"
+                                        TextColor="#7B8291"
+                                        HorizontalTextAlignment="Start"
+                                        FlowDirection="RightToLeft">
+
+                                        <Label.FormattedText>
+                                            <FormattedString>
+
+                                                <Span
+                                                    Text="{Binding IsMecca, Converter={StaticResource MeccaTextConverter}}"
+                                                    TextColor="#9961FF"
+                                                    TextDecorations="Underline"/>
+
+                                                <Span Text="  عدد آياتها "/>
+
+                                                <Span Text="{Binding TotalVerses}"/>
+
+                                            </FormattedString>
+                                        </Label.FormattedText>
+
+                                    </Label>
+
                                 </VerticalStackLayout>
 
+                                <!-- ICON MECCA / MEDINA -->
+                                <Image
+                                    Grid.Column="3"
+                                    Source="{Binding IsMecca, Converter={StaticResource IconConverter}}"
+                                    WidthRequest="40"
+                                    HeightRequest="40"
+                                    Aspect="AspectFit"
+                                    VerticalOptions="Center"
+                                    HorizontalOptions="Center"/>
 
-                                <Image Grid.Column="3"
-                               HeightRequest="40"
-                               WidthRequest="40"
-                               Source="{Binding IsMecca, Converter={StaticResource IconConverter}}" />
                             </Grid>
+
                         </Border>
 
-                        <!-- Geste tap sur la carte -->
+                        <!-- CLIC SUR LA SOURATE -->
                         <Grid.GestureRecognizers>
                             <TapGestureRecognizer
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SouratesViewModel}},
-                                                  Path=SurahTappedCommand}"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type vm:SouratesViewModel}}, Path=SurahTappedCommand}"
                                 CommandParameter="{Binding .}"/>
                         </Grid.GestureRecognizers>
+
                     </Grid>
+
                 </DataTemplate>
+
             </CollectionView.ItemTemplate>
 
-            <!-- Vue vide -->
+            <!-- AUCUN RESULTAT -->
             <CollectionView.EmptyView>
-                <VerticalStackLayout HorizontalOptions="Center"
-                                     VerticalOptions="Center"
-                                     Padding="0,60"
-                                     Spacing="12">
-                    <Label Text="🔍" FontSize="40" HorizontalOptions="Center"/>
-                    <Label Text="Aucune sourate trouvée"
-                           FontSize="16"
-                           TextColor="#9CA3AF"
-                           HorizontalOptions="Center"/>
+
+                <VerticalStackLayout
+                    Padding="20,60"
+                    Spacing="12"
+                    HorizontalOptions="Center">
+
+                    <Label
+                        Text="🔍"
+                        FontSize="40"
+                        HorizontalOptions="Center"/>
+
+                    <Label
+                        Text="لا توجد سورة مطابقة للبحث"
+                        FontSize="16"
+                        TextColor="#9CA3AF"
+                        HorizontalOptions="Center"/>
+
                 </VerticalStackLayout>
+
             </CollectionView.EmptyView>
+
+            <!-- ESPACE POUR MENU BAS -->
+            <CollectionView.Footer>
+                <BoxView
+                    HeightRequest="85"
+                    Opacity="0"/>
+            </CollectionView.Footer>
+
         </CollectionView>
-        <!-- ✅ Barre de navigation flottante : span sur toute la hauteur -->
-        <controls:CustomBottomNav Grid.Row="0"
-                               Grid.RowSpan="2"
-                               VerticalOptions="End"/>
+
+        <!-- NAVIGATION BASSE -->
+        <controls:CustomBottomNav
+            Grid.Row="0"
+            Grid.RowSpan="2"
+            VerticalOptions="End"
+            HorizontalOptions="Fill"/>
+
     </Grid>
-    </controls:AnimatedContentPage>
+
+</controls:AnimatedContentPage>
