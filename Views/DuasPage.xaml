@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:CoranWarshSynchroniser.ViewModels"
+    xmlns:models="clr-namespace:CoranWarshSynchroniser.Models"
+    x:Class="CoranWarshSynchroniser.Views.DuasPage"
+    x:Name="DuasRoot"
+    Title="الأدعية"
+    FlowDirection="RightToLeft"
+    BackgroundColor="#EAF1FB"
+    Shell.NavBarIsVisible="False"
+    Shell.TabBarIsVisible="False"
+    ControlTemplate="{StaticResource QuranPageTemplate}">
+
+    <ContentPage.BindingContext>
+        <vm:DuasViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid RowDefinitions="Auto,*"
+          RowSpacing="0">
+
+        <!-- ====================================== -->
+        <!-- HEADER BLEU -->
+        <!-- ====================================== -->
+
+        <Grid Grid.Row="0"
+              BackgroundColor="#003B78"
+              RowDefinitions="75,Auto"
+              Padding="18,6,18,18">
+
+            <!-- TITRE -->
+            <Grid Grid.Row="0"
+                  ColumnDefinitions="45,*,45"
+                  FlowDirection="LeftToRight">
+
+                <!-- RETOUR -->
+                <Label Grid.Column="0"
+                       Text="❮"
+                       FontSize="28"
+                       TextColor="White"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center">
+
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Tapped="OnBackTapped"/>
+                    </Label.GestureRecognizers>
+
+                </Label>
+
+                <!-- NOM DE PAGE -->
+                <Label Grid.Column="1"
+                       Text="الأدعية"
+                       FontSize="30"
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"/>
+
+            </Grid>
+
+            <!-- RECHERCHE -->
+            <Border Grid.Row="1"
+                    BackgroundColor="White"
+                    Stroke="#DCE6F3"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 30"
+                    HeightRequest="58">
+
+                <Grid ColumnDefinitions="55,*"
+                      FlowDirection="RightToLeft"
+                      Padding="12,0">
+
+                    <!-- ICON SEARCH -->
+                    <Label Grid.Column="0"
+                           Text="⌕"
+                           FontSize="34"
+                           TextColor="#082D69"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+
+                    <!-- ENTRY -->
+                    <Entry Grid.Column="1"
+                           Text="{Binding SearchText}"
+                           Placeholder="بحث في الأدعية ..."
+                           PlaceholderColor="#7F8CA3"
+                           TextColor="#12284C"
+                           FontSize="19"
+                           BackgroundColor="Transparent"
+                           HorizontalTextAlignment="Start"
+                           FlowDirection="RightToLeft"
+                           VerticalOptions="Center"
+                           ClearButtonVisibility="WhileEditing"/>
+
+                </Grid>
+
+            </Border>
+
+        </Grid>
+
+        <!-- ====================================== -->
+        <!-- LISTE DES CATEGORIES -->
+        <!-- ====================================== -->
+
+        <Grid Grid.Row="1"
+              Padding="14,17,14,10"
+              BackgroundColor="#DCEAFB">
+
+            <Border BackgroundColor="White"
+                    Stroke="#D8E0EF"
+                    StrokeThickness="1"
+                    StrokeShape="RoundRectangle 25"
+                    Padding="0">
+
+                <Border.Shadow>
+                    <Shadow Brush="#46688D"
+                            Offset="0,4"
+                            Radius="12"
+                            Opacity="0.15"/>
+                </Border.Shadow>
+
+                <CollectionView
+                    ItemsSource="{Binding Categories}"
+                    SelectionMode="None">
+
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout
+                            Orientation="Vertical"
+                            ItemSpacing="0"/>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+
+                        <DataTemplate x:DataType="models:DuaCategory">
+
+                            <Grid RowDefinitions="80,1"
+                                  FlowDirection="RightToLeft"
+                                  BackgroundColor="White">
+
+                                <!-- LIGNE -->
+                                <Grid Grid.Row="0"
+                                      ColumnDefinitions="68,*,34"
+                                      ColumnSpacing="7"
+                                      Padding="14,0">
+
+                                    <!-- ICON -->
+                                    <Label Grid.Column="0"
+                                           Text="{Binding Icon}"
+                                           FontSize="34"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+
+                                    <!-- TITRE -->
+                                    <Label Grid.Column="1"
+                                           Text="{Binding Name}"
+                                           FontSize="21"
+                                           FontAttributes="Bold"
+                                           TextColor="#071B3C"
+                                           VerticalOptions="Center"
+                                           HorizontalTextAlignment="Start"
+                                           LineBreakMode="TailTruncation"
+                                           MaxLines="1"/>
+
+                                    <!-- FLECHE -->
+                                    <Label Grid.Column="2"
+                                           Text="❮"
+                                           FontSize="22"
+                                           TextColor="#09295C"
+                                           HorizontalOptions="Center"
+                                           VerticalOptions="Center"/>
+
+                                    <Grid.GestureRecognizers>
+                                        <TapGestureRecognizer
+                                            Command="{Binding BindingContext.CategoryTappedCommand,
+                                                Source={x:Reference DuasRoot},
+                                                x:DataType={x:Null}}"
+                                            CommandParameter="{Binding .}"/>
+                                    </Grid.GestureRecognizers>
+
+                                </Grid>
+
+                                <!-- SEPARATEUR -->
+                                <BoxView Grid.Row="1"
+                                         BackgroundColor="#E0E6EF"
+                                         Margin="16,0"
+                                         HeightRequest="1"/>
+
+                            </Grid>
+
+                        </DataTemplate>
+
+                    </CollectionView.ItemTemplate>
+
+                    <CollectionView.EmptyView>
+                        <VerticalStackLayout
+                            Padding="20,60"
+                            Spacing="12"
+                            HorizontalOptions="Center">
+
+                            <Label Text="⌕"
+                                   FontSize="45"
+                                   TextColor="#C4A05D"
+                                   HorizontalOptions="Center"/>
+
+                            <Label Text="لا توجد أدعية مطابقة للبحث"
+                                   FontSize="17"
+                                   TextColor="#7D8BA1"
+                                   HorizontalOptions="Center"/>
+
+                        </VerticalStackLayout>
+                    </CollectionView.EmptyView>
+
+                </CollectionView>
+
+            </Border>
+
+        </Grid>
+
+    </Grid>
+
+</ContentPage>

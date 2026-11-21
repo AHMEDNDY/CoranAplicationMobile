@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="CoranWarshSynchroniser.Views.QuranSettingsPage"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="الإعدادات"
+             FlowDirection="RightToLeft"
+             BackgroundColor="#EDF3FC"
+             ControlTemplate="{StaticResource QuranPageTemplate}"
+             Shell.NavBarIsVisible="False"
+             Shell.TabBarIsVisible="False">
+    <ScrollView>
+        <VerticalStackLayout Padding="20,26" Spacing="18">
+            <Border BackgroundColor="#0B3C93" Stroke="#DEB368" StrokeThickness="2" Padding="24">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="26" />
+                </Border.StrokeShape>
+                <Label Text="الإعدادات" FontSize="28" TextColor="White" FontAttributes="Bold" HorizontalTextAlignment="Center" />
+            </Border>
+            <Border BackgroundColor="White" Stroke="#E5BF7E" StrokeThickness="1.5" Padding="22">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="22" />
+                </Border.StrokeShape>
+                <VerticalStackLayout Spacing="22">
+                    <Label Text="حجم الخط" FontSize="18" TextColor="#0D3077" />
+                    <Label Text="المظهر" FontSize="18" TextColor="#0D3077" />
+                    <Label Text="اللغة" FontSize="18" TextColor="#0D3077" />
+                    <Label Text="حول التطبيق" FontSize="18" TextColor="#0D3077" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -8,7 +8,7 @@
              Shell.NavBarIsVisible="False"
              FlowDirection="RightToLeft"
              >
-    <controls:CustomBottomNav Grid.Row="0"
+    <!--<controls:CustomBottomNav Grid.Row="0"
                         Grid.RowSpan="2"
-                        VerticalOptions="End"/>
+                        VerticalOptions="End"/>-->
 </controls:AnimatedContentPage>

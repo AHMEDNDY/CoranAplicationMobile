@@ -2,277 +2,251 @@
 <ContentPage
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:CoranWarshSynchroniser.Converters"
     x:Class="CoranWarshSynchroniser.Views.QuranReaderPage"
-    xmlns:local="clr-namespace:CoranWarshSynchroniser.Converters"
     x:Name="QuranReaderRoot"
+    Title="القرآن الكريم"
     FlowDirection="RightToLeft"
-    Style="{StaticResource MushafPageStyle}"
-   BackgroundColor="Transparent">
+    BackgroundColor="#F0F4FD"
+    Shell.NavBarIsVisible="False"
+    Shell.TabBarIsVisible="False">
 
+    <!-- Aucun footer sur cette page : le ControlTemplate global n’est pas appliqué. -->
     <ContentPage.Resources>
         <ResourceDictionary>
-            <local:BoolToColorConverter x:Key="BoolToColorConverter" />
-            <local:IconConverter x:Key="IconConverter" />
-            <local:BoolToOpacityConverter x:Key="BoolToOpacityConverter" />
-            <local:InvertedBoolConverter x:Key="InvertedBoolConverter" />
+            <Color x:Key="ReaderNavy">#072D71</Color>
+            <Color x:Key="ReaderGold">#E1AE45</Color>
+            <Color x:Key="ReaderInk">#0B2050</Color>
 
+            <converters:ArabicVerseNumberConverter x:Key="ArabicVerseNumberConverter" />
+
+            <Style x:Key="PlayerIcon" TargetType="ImageButton">
+                <Setter Property="BackgroundColor" Value="Transparent" />
+                <Setter Property="WidthRequest" Value="40" />
+                <Setter Property="HeightRequest" Value="40" />
+                <Setter Property="Padding" Value="6" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="Aspect" Value="AspectFit" />
+            </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
 
-    <Grid RowDefinitions="Auto, *, Auto" Padding="0">
+    <!-- Ordre selon les numéros rouges : 1 titre, 2 versets, 3 lecteur audio. -->
+    <Grid RowDefinitions="200,*,123" RowSpacing="0" FlowDirection="LeftToRight">
 
-        <!-- HEADER : Row 0 (inchangé) -->
+        <!-- 1. VOUTE ISLAMIQUE + TITRE -->
+        <Grid Grid.Row="0" HeightRequest="205" FlowDirection="LeftToRight" IsClippedToBounds="True">
+            <Image Source="reader_arch_header.png" Aspect="Fill" InputTransparent="True" />
 
+            <Grid RowDefinitions="86,62,57" Padding="14,0" FlowDirection="LeftToRight">
+                <Image Grid.Row="0" Source="reader_rosette_gold.png"
+                       HeightRequest="49" WidthRequest="49"
+                       HorizontalOptions="Center" VerticalOptions="End"
+                       Margin="0,0,0,4" InputTransparent="True" />
 
-       
-        <Border Grid.Row="0"
-        BackgroundColor="Transparent"
-        Stroke="#4A90E2"
-        StrokeThickness="4"
-        StrokeShape="RoundRectangle 20"
-        Padding="8"
-        IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}">
+                <ImageButton Grid.Row="0" Source="reader_back.png"
+                             Command="{Binding GotoPageListeCommand}"
+                             BackgroundColor="Transparent"
+                             WidthRequest="48" HeightRequest="48"
+                             Padding="7"
+                             HorizontalOptions="Start" VerticalOptions="Center" />
 
-            <Grid ColumnDefinitions="*,Auto,*"
-          VerticalOptions="End">
+                <Border Grid.Row="0" WidthRequest="46" HeightRequest="46"
+                        HorizontalOptions="End" VerticalOptions="Center"
+                        StrokeThickness="0" BackgroundColor="Transparent">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding ToggleFavoriteCommand}" />
+                    </Border.GestureRecognizers>
+                    <Label Text="{Binding FavoriteSymbol}" TextColor="{Binding FavoriteColor}"
+                           FontSize="37" HorizontalOptions="Center" VerticalOptions="Center" />
+                </Border>
 
-                <!-- Gauche : icône Mecque / Médine -->
-                <VerticalStackLayout Grid.Column="0"
-                             VerticalOptions="Center"
-                             HorizontalOptions="Start"
-                             Spacing="2">
+                <!-- Cartouche centrale bleu marine -->
+                <Border Grid.Row="1" Margin="45,0" HeightRequest="54"
+                        BackgroundColor="#072D71"
+                        Stroke="#DB9C31" StrokeThickness="2.5"
+                        StrokeShape="RoundRectangle 16"
+                        VerticalOptions="Center">
+                    <Border.Shadow>
+                        <Shadow Brush="#1C2750" Radius="5" Offset="0,3" Opacity="0.20" />
+                    </Border.Shadow>
+                    <Label Text="{Binding SurahTitle}"
+                           FontFamily="UthmanicWarsh"
+                           FontSize="27" FontAttributes="Bold"
+                           TextColor="White" LineBreakMode="TailTruncation"
+                           HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
+                           FlowDirection="RightToLeft" />
+                </Border>
 
-                    <Image
-                HeightRequest="40"
-                WidthRequest="40"
-                Source="{Binding IsMecca, Converter={StaticResource IconConverter}}" />
-                </VerticalStackLayout>
-
-
-                <!-- Centre : Nom de la sourate -->
-                <Label
-            Grid.Column="1"
-            Text="{Binding Name}"
-            FontFamily="UthmanicWarsh"
-            FontSize="30"
-            HorizontalOptions="Center"
-            VerticalOptions="Center"
-            FontAttributes="Bold"
-            TextColor="Black" />
-
-
-                <!-- Droite : Nombre de versets -->
-                <VerticalStackLayout Grid.Column="2"
-                             VerticalOptions="Center"
-                             HorizontalOptions="End"
-                             Spacing="2">
-
-                    <Label
-                Text="عدد آياتها"
-                FontFamily="UthmanicWarsh"
-                FontAttributes="Bold"
-                FontSize="16"
-                TextColor="Black"
-                HorizontalOptions="Center"
-                Opacity="0.85" />
-
-                    <Label
-                Text="{Binding Totalverse}"
-                FontSize="16"
-                FontAttributes="Bold"
-                TextColor="Black"
-                HorizontalOptions="Center" />
-
-                </VerticalStackLayout>
-
+                <HorizontalStackLayout Grid.Row="2" FlowDirection="RightToLeft"
+                                       VerticalOptions="Center" HorizontalOptions="Center"
+                                       Spacing="19">
+                    <Label Text="{Binding RevelationPlace}"
+                           FontSize="17" FontAttributes="Bold" TextColor="#082653" />
+                    <Label Text="|" FontSize="17" TextColor="#B98526" />
+                    <Label Text="{Binding VerseCountText}"
+                           FontSize="16" FontAttributes="Bold" TextColor="#082653" />
+                </HorizontalStackLayout>
             </Grid>
+        </Grid>
 
-        </Border>
+        <!-- 2. VERSETS : zone défilante entre le titre et le lecteur audio -->
+        <Grid Grid.Row="1" BackgroundColor="#F1F5FD">
+            <Image Source="reader_pale_bg.png" Aspect="AspectFill" InputTransparent="True" />
 
-        <!-- CONTENU DÉFILABLE : Row 1 (inchangé) -->
-        <Grid Grid.Row="1" IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}">
-
-            <CollectionView
-             x:Name="QuranCollection"
-             ItemsSource="{Binding SurahJsonData}"
-             SelectionMode="None"
-             Margin="5"
-             VerticalOptions="FillAndExpand">
-
-                <!-- ESPACE ENTRE LES ITEMS -->
+            <CollectionView x:Name="QuranCollection"
+                            ItemsSource="{Binding SurahJsonData}"
+                            SelectionMode="None" BackgroundColor="Transparent"
+                            FlowDirection="LeftToRight"
+                            VerticalOptions="Fill" Margin="13,1,13,0">
                 <CollectionView.ItemsLayout>
-                    <LinearItemsLayout
-         Orientation="Vertical"
-         ItemSpacing="10" />
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="6" />
                 </CollectionView.ItemsLayout>
 
-              
+                <!-- Basmala séparée uniquement si absente du premier verset JSON -->
+                <!--<CollectionView.Header>
+                    <Grid IsVisible="{Binding ShowBasmalaHeader}"
+                          Padding="10,5,10,10">
+                        <Label Text="بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ"
+                               FontFamily="UthmanicWarsh" FontSize="25"
+                               TextColor="#14213F" FlowDirection="RightToLeft"
+                               HorizontalTextAlignment="Center" />
+                    </Grid>
+                </CollectionView.Header>-->
 
                 <CollectionView.ItemTemplate>
-
                     <DataTemplate>
-
-                        <Frame
-                     Margin="0,8"
-                     Padding="5"
-                     CornerRadius="25"
-                     HasShadow="False"
-                     BackgroundColor="{Binding BackgroundColor}"
-                     BorderColor="#EEEEEE">
-
-                            <Frame.GestureRecognizers>
+                        <Border Stroke="#DDB35F" StrokeThickness="1.1"
+                                BackgroundColor="{Binding AyahBackgroundColor}"
+                                StrokeShape="RoundRectangle 28"
+                                Padding="8,5,6,5"
+                                MinimumHeightRequest="64"
+                                Margin="0,0,0,2">
+                            <Border.Shadow>
+                                <Shadow Brush="#7186AC" Offset="0,2" Radius="4" Opacity="0.10" />
+                            </Border.Shadow>
+                            <Border.GestureRecognizers>
                                 <TapGestureRecognizer
-                                        NumberOfTapsRequired="1"
-                                        Command="{Binding BindingContext.TapCommand,
-                                                  Source={x:Reference QuranReaderRoot}}"
-                                        CommandParameter="{Binding AyaNo}" />   
-                            </Frame.GestureRecognizers>
+                                    Command="{Binding Source={x:Reference QuranReaderRoot}, Path=BindingContext.TapCommand}"
+                                    CommandParameter="{Binding AyaNo}" />
+                            </Border.GestureRecognizers>
 
-                            <VerticalStackLayout Spacing="5">
+                            <Grid ColumnDefinitions="39,*,49" ColumnSpacing="5"
+                                  FlowDirection="LeftToRight">
+                                <Image Grid.Column="0" Source="reader_ayah_motif.png"
+                                       HeightRequest="38" WidthRequest="38" Opacity="0.40"
+                                       VerticalOptions="Center" HorizontalOptions="Center"
+                                       InputTransparent="True" />
 
-                                <!-- HEADER -->
-                                <Grid ColumnDefinitions="Auto,*,Auto">
-
-                               
-
-                                </Grid>
-
-                                <!-- TEXTE ARABE -->
-                                <Frame
-                         BackgroundColor="{Binding AyahBackgroundColor}"
-                         Padding="1"
-                         CornerRadius="15"
-                         HasShadow="False"
-                         BorderColor="Transparent">
-                                    <Label
-                                     Grid.Row="1"
-                                     Grid.Column="0"
-                                     Grid.ColumnSpan="3"
-                                     Text="{Binding AyaText}"
-                                     FontFamily="UthmanicWarsh"
-                                     FontSize="30"
-                                     TextColor="{Binding TextColor}"
-                                        FontAttributes="Bold"
-                                     FlowDirection="RightToLeft"
-                                     LineHeight="1"
-                                     Margin="0,10,0,0" />
-                                </Frame>
-
-                                <!-- NUMERO -->
-                                <!--<Label
-                                 Grid.Column="0"
-                                 Text="{Binding AyaNo}"
-                                 FontSize="15"
-                                 FontAttributes="Bold"
-                                 TextColor="#1B0B47"
-                                 HorizontalOptions="End"
-                                     />-->
-
-                                <!-- TRADUCTION -->
-                                <!-- TRADUCTION en bas à gauche -->
-                                <Label
-                                 Grid.Row="2"
-                                 Grid.Column="0"
-                                 Grid.ColumnSpan="3"
-                                 Text="{Binding Translation}"
-                                 FontSize="18"
-                                 TextColor="#1B0B47"
-                                 HorizontalTextAlignment="Start"
-                                  
-                                 LineHeight="1.4"
-                                 Margin="0,5,0,0"
-                              FlowDirection="LeftToRight"
-                                 IsVisible="{Binding ShowTranslation}" />
-                            </VerticalStackLayout>
-
-                        </Frame>
-
+                                <VerticalStackLayout Grid.Column="1" Spacing="3"
+                                                     VerticalOptions="Center">
+                                    <Label Text="{Binding AyaText}"
+                                           FontFamily="UthmanicWarsh" FontSize="26"
+                                           FontAttributes="Bold" LineHeight="1.12"
+                                           TextColor="{Binding TextColor}"
+                                           HorizontalTextAlignment="Start" VerticalTextAlignment="Center"
+                                           FlowDirection="RightToLeft" />
+                                    <!-- Traduction masquée sur cette maquette, mais binding conservé -->
+                                    <Label Text="{Binding Translation}"
+                                           IsVisible="False" FontSize="13"
+                                           TextColor="#5D6A7D" />
+                                </VerticalStackLayout>
+                            </Grid>
+                        </Border>
                     </DataTemplate>
-
                 </CollectionView.ItemTemplate>
 
+                <CollectionView.EmptyView>
+                    <Label Text="لا توجد آيات لهذه السورة"
+                           FontSize="18" TextColor="#61728C"
+                           HorizontalTextAlignment="Center" Margin="20,40" />
+                </CollectionView.EmptyView>
             </CollectionView>
         </Grid>
-        <!-- BARRE BASSE : Slider + Contrôles, Row 2 -->
-        <VerticalStackLayout Grid.Row="2"
-                         IsVisible="{Binding IsLoading, Converter={StaticResource InvertedBoolConverter}}">
 
-            <!-- Slider de progression -->
-            <Grid>
-                <Label
-               
-                Text="القارئ-الشيخ محمد لغظف ولد محمد سيد"
-                     FontFamily="Empty"
-                    FontSize="20"
-                    FontAttributes="Bold"
-                HorizontalOptions="Start"
-                VerticalOptions="Center"
-                    TextColor="#4A90E2"/>
-            </Grid>
+        <!-- 3. CARTE DU LECTEUR AUDIO FIXE EN BAS -->
+        <Grid Grid.Row="2" Padding="16,0,16,11" BackgroundColor="#EFF3FC">
+            <Border Stroke="#DFAC4D" StrokeThickness="1.5"
+                    BackgroundColor="#FFFFFF" StrokeShape="RoundRectangle 25"
+                    Padding="12,7,12,8">
+                <Border.Shadow>
+                    <Shadow Brush="#7A98CD" Radius="7" Offset="0,3" Opacity="0.15" />
+                </Border.Shadow>
+                <Grid RowDefinitions="70,34" RowSpacing="2" FlowDirection="LeftToRight">
+                    <Grid Grid.Row="0" ColumnDefinitions="*,*,76,*,*"
+                          ColumnSpacing="4" FlowDirection="LeftToRight">
 
-            <!-- Barre de contrôle (lecture, navigation) -->
-            
-            <Grid Padding="10" ColumnDefinitions="*,*,*,*,80">
-                <Label
-                Grid.Column="4"
-                Text="{Binding NameEnglish}"
-                FontFamily="UthmanicWarsh"
-                FontSize="14"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
-                FontAttributes="Bold"
-                TextColor="Black" />
+                        <ImageButton Grid.Column="0" Source="reader_repeat.png"
+                                     Command="{Binding RepeatSurahCommand}"
+                                     Style="{StaticResource PlayerIcon}" />
 
-                <Button
-                Grid.Column="3"
-                Command="{Binding PreviousSurahCommand}"
-                ImageSource="previos.png"
-                BackgroundColor="Transparent" />
+                        <ImageButton Grid.Column="1" Source="reader_previous.png"
+                                     Command="{Binding PreviousSurahCommand}"
+                                     Style="{StaticResource PlayerIcon}" />
 
-                <Button
-                Grid.Column="2"
-                Command="{Binding PlayCommand}"
-                ImageSource="playee.png"
-                BackgroundColor="Transparent"
-                IsVisible="{Binding IsPlayVisible}" />
+                        <Border Grid.Column="2" BackgroundColor="#073475"
+                                Stroke="#E1AC43" StrokeThickness="3"
+                                StrokeShape="RoundRectangle 35"
+                                WidthRequest="65" HeightRequest="65"
+                                HorizontalOptions="Center" VerticalOptions="Center">
+                            <Border.Shadow>
+                                <Shadow Brush="#2A63A2" Radius="4" Offset="0,2" Opacity="0.25" />
+                            </Border.Shadow>
+                            <Grid>
+                                <Button Text="▶" Command="{Binding PlayCommand}"
+                                        IsVisible="{Binding IsPlayVisible}"
+                                        TextColor="#FFD976" FontSize="30"
+                                        BackgroundColor="Transparent" BorderWidth="0"
+                                        Padding="0" HorizontalOptions="Fill" VerticalOptions="Fill" />
+                                <Button Text="Ⅱ" Command="{Binding PauseCommand}"
+                                        IsVisible="{Binding IsPauseVisible}"
+                                        TextColor="#FFD976" FontSize="30"
+                                        BackgroundColor="Transparent" BorderWidth="0"
+                                        Padding="0" HorizontalOptions="Fill" VerticalOptions="Fill" />
+                            </Grid>
+                        </Border>
 
-                <Button
-                Grid.Column="2"
-                Command="{Binding PauseCommand}"
-                ImageSource="pausee.png"
-                BackgroundColor="Transparent"
-                IsVisible="{Binding IsPauseVisible}" />
+                        <ImageButton Grid.Column="3" Source="reader_next.png"
+                                     Command="{Binding NextSurahCommand}"
+                                     IsEnabled="{Binding CanGoNext}"
+                                     Style="{StaticResource PlayerIcon}" />
 
-                <Button
-                Grid.Column="1"
-                Command="{Binding NextSurahCommand}"
-                ImageSource="next.png"
-                BackgroundColor="Transparent"
-                IsEnabled="{Binding CanGoNext}"
-                Opacity="{Binding CanGoNext, Converter={StaticResource BoolToOpacityConverter}}" />
+                        <!-- Icône du volume informative, pas de commande de volume inventée -->
+                        <Image Grid.Column="4" Source="reader_volume.png"
+                               WidthRequest="40" HeightRequest="40" Aspect="AspectFit"
+                               HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Grid>
 
-                <Button
-                Grid.Column="0"
-                Command="{Binding GotoPageListeCommand}"
-                ImageSource="icon_liste.png"
-                BackgroundColor="Transparent" />
-            </Grid>
+                    <Grid Grid.Row="1" ColumnDefinitions="48,*,48"
+                          ColumnSpacing="3" FlowDirection="LeftToRight">
+                        <Label Grid.Column="0" Text="{Binding CurrentTimeText}"
+                               TextColor="#102454" FontSize="12" FontAttributes="Bold"
+                               HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
 
-        </VerticalStackLayout>
+                        <Slider x:Name="ProgressSlider" Grid.Column="1"
+                                Minimum="0" Maximum="{Binding AudioDurationSeconds}"
+                                Value="{Binding AudioPositionSeconds, Mode=OneWay}"
+                                MinimumTrackColor="#DDA736" MaximumTrackColor="#9AA9C0"
+                                ThumbColor="#FFC957" FlowDirection="LeftToRight"
+                                VerticalOptions="Center"
+                                DragStarted="OnProgressDragStarted"
+                                DragCompleted="OnProgressDragCompleted" />
 
-        <!-- OVERLAY DE CHARGEMENT : doit couvrir toutes les lignes -->
-        <Grid Grid.RowSpan="3"
-          BackgroundColor="Transparent"
-          IsVisible="{Binding IsLoading}"
-          InputTransparent="False">
-            <ActivityIndicator
-            IsRunning="{Binding IsLoading}"
-            Color="#099ffc"
-            WidthRequest="80"
-            HeightRequest="80"
-            HorizontalOptions="Center"
-            VerticalOptions="Center" />
+                        <Label Grid.Column="2" Text="{Binding DurationTimeText}"
+                               TextColor="#102454" FontSize="12" FontAttributes="Bold"
+                               HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+                    </Grid>
+                </Grid>
+            </Border>
         </Grid>
 
+        <!-- Indicateur de chargement -->
+        <Grid Grid.RowSpan="3" BackgroundColor="#BBFFFFFF"
+              IsVisible="{Binding IsLoading}" InputTransparent="False">
+            <ActivityIndicator IsRunning="{Binding IsLoading}"
+                               Color="#D8A23C" HeightRequest="55" WidthRequest="55"
+                               HorizontalOptions="Center" VerticalOptions="Center" />
+        </Grid>
     </Grid>
 </ContentPage>

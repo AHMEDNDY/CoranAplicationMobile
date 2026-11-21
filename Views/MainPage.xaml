@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="CoranWarshSynchroniser.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="القرآن الكريم"
+    FlowDirection="RightToLeft"
+    BackgroundColor="#EDF3FC"
+    ControlTemplate="{StaticResource QuranPageTemplate}"
+    Shell.NavBarIsVisible="False"
+    Shell.TabBarIsVisible="False">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="DeepBlue">#071E61</Color>
+            <Color x:Key="RoyalBlue">#0B398B</Color>
+            <Color x:Key="Gold">#D8A740</Color>
+
+            <Style x:Key="FeatureCardStyle" TargetType="Border">
+                <Setter Property="BackgroundColor" Value="#FFFEFC" />
+                <Setter Property="Stroke" Value="#E7C27B" />
+                <Setter Property="StrokeThickness" Value="1.6" />
+                <Setter Property="Padding" Value="10" />
+                <Setter Property="StrokeShape">
+                    <Setter.Value>
+                        <RoundRectangle CornerRadius="27" />
+                    </Setter.Value>
+                </Setter>
+                <Setter Property="Shadow">
+                    <Setter.Value>
+                        <Shadow Brush="#41608C" Offset="0,5" Radius="10" Opacity="0.16" />
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <!-- Le footer est injecté par QuranPageTemplate : ne pas ajouter
+         de deuxième CustomBottomNav dans cette page. -->
+    <ScrollView VerticalScrollBarVisibility="Never"
+                BackgroundColor="#EDF3FC">
+
+        <VerticalStackLayout Spacing="0" Padding="0,0,0,16">
+
+            <!-- En-tête bleu et voûte blanche dorée -->
+            <Grid HeightRequest="360" BackgroundColor="#093A8C"
+                  IsClippedToBounds="True">
+                <Grid.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#061D60" Offset="0" />
+                        <GradientStop Color="#0F55B5" Offset="0.55" />
+                        <GradientStop Color="#063481" Offset="1" />
+                    </LinearGradientBrush>
+                </Grid.Background>
+
+                <Image Source="pattern_islamic_clean.png"
+                       Aspect="AspectFill" Opacity="0.32" />
+
+                <!-- Forme de la voûte : plus proche de la maquette
+                     qu'un simple rectangle aux coins arrondis. -->
+                <Path Aspect="Fill"
+                      Fill="#F7F9FF"
+                      Stroke="#E0B359"
+                      StrokeThickness="3"
+                      StrokeLineJoin="Round"
+                      Data="M 0,360 L 0,185 C 24,151 51,149 79,151 C 103,116 155,130 178,104 C 239,73 310,63 350,31 C 390,63 461,73 522,104 C 545,130 597,116 621,151 C 649,149 676,151 700,185 L 700,360 Z" />
+
+                <!-- Silhouette discrète au pied de l'en-tête -->
+                <Image Source="mosque_silhouette_clean.png"
+                       HeightRequest="62"
+                       VerticalOptions="End"
+                       Aspect="AspectFill"
+                       Opacity="0.30"
+                       Margin="0,0,0,4" />
+
+                <!-- Logo + textes en arabe -->
+                <Grid Padding="12,74,12,0"
+                      RowDefinitions="127,51,22,40"
+                      RowSpacing="0"
+                      VerticalOptions="Start">
+
+                    <Image Grid.Row="0"
+                           Source="sorateimagetransparent.png"
+                           WidthRequest="175"
+                           HeightRequest="127"
+                           Aspect="AspectFit"
+                           HorizontalOptions="Center" />
+
+                    <Label Grid.Row="1"
+                           Text="القرآن الكريم"
+                           FontSize="34"
+                           FontAttributes="Bold"
+                           TextColor="#08236A"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center" />
+
+                    <Label Grid.Row="2"
+                           Text="━━━  ❖  ━━━"
+                           FontSize="17"
+                           TextColor="#D6A13E"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center" />
+
+                    <Label Grid.Row="3"
+                           Text="برواية ورش عن نافع"
+                           FontSize="19"
+                           FontAttributes="Bold"
+                           TextColor="#0A286B"
+                           HorizontalTextAlignment="Center"
+                           VerticalTextAlignment="Center" />
+                </Grid>
+
+                <!-- Lanternes détourées -->
+                <Grid ColumnDefinitions="Auto,*,Auto"
+                      FlowDirection="LeftToRight"
+                      Margin="23,82,23,0"
+                      VerticalOptions="Start"
+                      InputTransparent="True">
+                    <Image Grid.Column="0"
+                           Source="lantern_clean.png"
+                           HeightRequest="94"
+                           WidthRequest="38"
+                           Aspect="AspectFit" />
+                    <Image Grid.Column="2"
+                           Source="lantern_clean.png"
+                           HeightRequest="94"
+                           WidthRequest="38"
+                           Aspect="AspectFit" />
+                </Grid>
+            </Grid>
+
+            <!-- Quatre grandes cartes : lecture, audio, duas, favoris -->
+            <Grid Padding="20,12,20,12"
+                  FlowDirection="RightToLeft"
+                  ColumnDefinitions="*,*"
+                  RowDefinitions="154,154"
+                  ColumnSpacing="14"
+                  RowSpacing="14"
+                  BackgroundColor="#EDF3FC">
+
+                <!-- Lecture - première carte à droite -->
+                <Border Grid.Row="0" Grid.Column="0"
+                        Style="{StaticResource FeatureCardStyle}">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnReadQuranTapped" />
+                    </Border.GestureRecognizers>
+                    <VerticalStackLayout Spacing="12"
+                                         VerticalOptions="Center"
+                                         HorizontalOptions="Center">
+                        <Image Source="coran_ouvert.png"
+                               WidthRequest="54" HeightRequest="54"
+                               Aspect="AspectFit"
+                               HorizontalOptions="Center" />
+                        <Label Text="قراءة القرآن" FontSize="20"
+                               FontAttributes="Bold"
+                               TextColor="{StaticResource DeepBlue}"
+                               HorizontalTextAlignment="Center" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Ecoute - première carte à gauche -->
+                <Border Grid.Row="0" Grid.Column="1"
+                        Style="{StaticResource FeatureCardStyle}">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnListenTapped" />
+                    </Border.GestureRecognizers>
+                    <VerticalStackLayout Spacing="10"
+                                         VerticalOptions="Center"
+                                         HorizontalOptions="Center">
+                        <Image Source="ui_card_audio_gold.png"
+                               WidthRequest="54" HeightRequest="54"
+                               Aspect="AspectFit"
+                               HorizontalOptions="Center" />
+                        <Label Text="الاستماع&#10;إلى القرآن"
+                               FontSize="19" FontAttributes="Bold"
+                               TextColor="{StaticResource DeepBlue}"
+                               HorizontalTextAlignment="Center"
+                               LineHeight="1.05" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Adiyas - deuxième carte à droite -->
+                <Border Grid.Row="1" Grid.Column="0"
+                        Style="{StaticResource FeatureCardStyle}">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnDuaTapped" />
+                    </Border.GestureRecognizers>
+                    <VerticalStackLayout Spacing="12"
+                                         VerticalOptions="Center"
+                                         HorizontalOptions="Center">
+                        <Image Source="mains_ouvertes.png"
+                               WidthRequest="54" HeightRequest="54"
+                               Aspect="AspectFit"
+                               HorizontalOptions="Center" />
+                        <Label Text="الأدعية" FontSize="20"
+                               FontAttributes="Bold"
+                               TextColor="{StaticResource DeepBlue}"
+                               HorizontalTextAlignment="Center" />
+                    </VerticalStackLayout>
+                </Border>
+
+                <!-- Favoris - deuxième carte à gauche -->
+                <Border Grid.Row="1" Grid.Column="1"
+                        Style="{StaticResource FeatureCardStyle}">
+                    <Border.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnFavoriteTapped" />
+                    </Border.GestureRecognizers>
+                    <VerticalStackLayout Spacing="12"
+                                         VerticalOptions="Center"
+                                         HorizontalOptions="Center">
+                        <Image Source="ui_card_bookmark_gold.png"
+                               WidthRequest="54" HeightRequest="54"
+                               Aspect="AspectFit"
+                               HorizontalOptions="Center" />
+                        <Label Text="المفضلة" FontSize="20"
+                               FontAttributes="Bold"
+                               TextColor="{StaticResource DeepBlue}"
+                               HorizontalTextAlignment="Center" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,100 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentView
     x:Class="CoranWarshSynchroniser.Views.CustomBottomNav"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    HeightRequest="108"
+    BackgroundColor="Transparent">
 
-    <Frame CornerRadius="30"
-           Padding="5,2"
-           Margin="4,0,4,4"
-           BackgroundColor="#ffffff"
-           HasShadow="True"
-           HorizontalOptions="FillAndExpand"
-           VerticalOptions="End">
+    <Grid HeightRequest="108" IsClippedToBounds="False">
 
-        <Frame.Shadow>
-            <Shadow Brush="Black"
-                    Offset="0,6"
-                    Radius="20"
-                    Opacity="0.35"/>
-        </Frame.Shadow>
+        <!-- Bord supérieur ondulé inspiré du footer de la maquette -->
+        <Path Aspect="Fill"
+              Fill="#073075"
+              Stroke="#DDB153"
+              StrokeThickness="2.5"
+              StrokeLineJoin="Round"
+              Data="M 0,130 L 0,40 C 110,28 250,25 344,43 C 407,58 448,13 500,0 C 552,13 593,58 656,43 C 750,25 890,28 1000,40 L 1000,130 Z" />
 
-        <Grid ColumnDefinitions="*,*,*" FlowDirection="RightToLeft">
+        <Grid ColumnDefinitions="*,*,*,*,*"
+              FlowDirection="RightToLeft"
+              ColumnSpacing="0"
+              Padding="8,0,8,3">
 
-            <!-- Onglet 1 : القرآن -->
-            <Frame Grid.Column="0"
-                   x:Name="TabQuran"
-                   CornerRadius="22"
-                   Padding="14,8"
-                   BackgroundColor="Transparent"
-                   HasShadow="False">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnTabQuranTapped"/>
-                </Frame.GestureRecognizers>
-                <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
-                    <Image x:Name="IconQuran"
-                           Source="quranapp.png"
-                           WidthRequest="25" HeightRequest="25"
-                           HorizontalOptions="Center"/>
-                    <Label x:Name="LabelQuran"
-                           Text="القرآن"
-                          
-                           FontSize="18"
-                           TextColor="#1E1033"
-                           FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
+            <!-- القرآن (à droite) -->
+            <Border x:Name="TabQuran" Grid.Column="0"
+                    BackgroundColor="Transparent" StrokeThickness="0"
+                    Margin="0,27,0,0" Padding="0,5">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnQuranTapped" />
+                </Border.GestureRecognizers>
+                <VerticalStackLayout Spacing="3"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center">
+                    <Image x:Name="IconQuran" Source="ui_footer_quran_white.png"
+                           WidthRequest="28" HeightRequest="28" />
+                    <Label x:Name="TextQuran" Text="القرآن"
+                           TextColor="White" FontSize="11"
+                           FontAttributes="Bold" HorizontalTextAlignment="Center" />
                 </VerticalStackLayout>
-            </Frame>
+            </Border>
 
-            <!-- Onglet 2 : إ ستمع -->
-            <Frame Grid.Column="1"
-                   x:Name="TabCategory"
-                   CornerRadius="22"
-                   Padding="14,8"
-                   BackgroundColor="Transparent"
-                   HasShadow="False">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnTabCategoryTapped"/>
-                </Frame.GestureRecognizers>
-                <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
-                    <Image x:Name="IconCategory"
-                           Source="audio.png"
-                           WidthRequest="25" HeightRequest="25"
-                           HorizontalOptions="Center"/>
-                    <Label x:Name="LabelCategory"
-                           Text="إ ستمع"
-                           FontFamily="UthmanicWarsh"
-                           FontSize="18"
-                          TextColor="#1E1033"
-                            FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
+            <!-- الأدعية -->
+            <Border x:Name="TabDua" Grid.Column="1"
+                    BackgroundColor="Transparent" StrokeThickness="0"
+                    Margin="0,27,0,0" Padding="0,5">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnDuaTapped" />
+                </Border.GestureRecognizers>
+                <VerticalStackLayout Spacing="3"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center">
+                    <Image x:Name="IconDua" Source="mains_ouvertes_white.png"
+                           WidthRequest="28" HeightRequest="28" />
+                    <Label x:Name="TextDua" Text="الأدعية"
+                           TextColor="White" FontSize="11"
+                           FontAttributes="Bold" HorizontalTextAlignment="Center" />
                 </VerticalStackLayout>
-            </Frame>
+            </Border>
 
-            <!-- Onglet 3 : تسبيح -->
-            <Frame Grid.Column="2"
-                   x:Name="TabContributors"
-                   CornerRadius="22"
-                   Padding="14,8"
-                   BackgroundColor="Transparent"
-                   HasShadow="False">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="OnTabContributorsTapped"/>
-                </Frame.GestureRecognizers>
-                <VerticalStackLayout Spacing="2" HorizontalOptions="Center">
-                    <Image x:Name="IconContributors"
-                           Source="tasbih.png"
-                           WidthRequest="28" HeightRequest="28"
-                           HorizontalOptions="Center"/>
-                    <Label x:Name="LabelContributors"
-                           Text="تسبيح"
-                           FontFamily="UthmanicWarsh"
-                           FontSize="18"
-                           TextColor="#1E1033"
-                            FontAttributes="Bold"
-                           HorizontalOptions="Center"/>
+            <!-- الرئيسية : onglet central surélevé -->
+            <Border x:Name="TabHome" Grid.Column="2"
+                    HeightRequest="104"
+                    VerticalOptions="End"
+                    BackgroundColor="#0B398B"
+                    Stroke="#DFB354"
+                    StrokeThickness="2.2"
+                    Padding="4,9,4,7">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="27,27,19,19" />
+                </Border.StrokeShape>
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnHomeTapped" />
+                </Border.GestureRecognizers>
+                <VerticalStackLayout Spacing="4"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center">
+                    <Image x:Name="IconHome" Source="ui_footer_home_gold.png"
+                           WidthRequest="32" HeightRequest="32" />
+                    <Label x:Name="TextHome" Text="الرئيسية"
+                           TextColor="#FFDC76" FontSize="12"
+                           FontAttributes="Bold" HorizontalTextAlignment="Center" />
                 </VerticalStackLayout>
-            </Frame>
+            </Border>
 
+            <!-- المفضلة -->
+            <Border x:Name="TabFavorites" Grid.Column="3"
+                    BackgroundColor="Transparent" StrokeThickness="0"
+                    Margin="0,27,0,0" Padding="0,5">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnFavoritesTapped" />
+                </Border.GestureRecognizers>
+                <VerticalStackLayout Spacing="3"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center">
+                    <Image x:Name="IconFavorites" Source="ui_footer_bookmark_white.png"
+                           WidthRequest="27" HeightRequest="27" />
+                    <Label x:Name="TextFavorites" Text="المفضلة"
+                           TextColor="White" FontSize="11"
+                           FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- الإعدادات (à gauche) -->
+            <Border x:Name="TabSettings" Grid.Column="4"
+                    BackgroundColor="Transparent" StrokeThickness="0"
+                    Margin="0,27,0,0" Padding="0,5">
+                <Border.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnSettingsTapped" />
+                </Border.GestureRecognizers>
+                <VerticalStackLayout Spacing="3"
+                                     HorizontalOptions="Center"
+                                     VerticalOptions="Center">
+                    <Image x:Name="IconSettings" Source="ui_footer_settings_white.png"
+                           WidthRequest="27" HeightRequest="27" />
+                    <Label x:Name="TextSettings" Text="الإعدادات"
+                           TextColor="White" FontSize="11"
+                           FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                </VerticalStackLayout>
+            </Border>
         </Grid>
-    </Frame>
+    </Grid>
 </ContentView>

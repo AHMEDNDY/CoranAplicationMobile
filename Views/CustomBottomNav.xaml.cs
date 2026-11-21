@@ -1,77 +1,98 @@
+using Microsoft.Maui.ApplicationModel;
 namespace CoranWarshSynchroniser.Views;
 
 
 public partial class CustomBottomNav : ContentView
 {
-    private readonly Color ActiveColor = Color.FromArgb("#4A90E2");   // vert actif
-    private readonly Color InactiveColor = Colors.Transparent;
-
     public CustomBottomNav()
     {
         InitializeComponent();
-        Loaded += (s, e) => SyncActiveTabWithCurrentRoute();
+        Loaded += OnLoaded;
+        Unloaded += OnUnloaded;
     }
 
-    private void SyncActiveTabWithCurrentRoute()
+    private void OnLoaded(object? sender, EventArgs e)
     {
-        var route = Shell.Current?.CurrentState?.Location?.OriginalString ?? "";
-
-        if (route.Contains("SouratesPage")) SetActiveTab(TabQuran);
-        else if (route.Contains("AudioPage")) SetActiveTab(TabCategory);
-        else if (route.Contains("TesbihPage")) SetActiveTab(TabContributors);
-    }
-    private async void OnTabQuranTapped(object sender, EventArgs e)
-    {
-        await AnimateAndNavigate(TabQuran, "//SouratesPage");
-    }
-
-    private async void OnTabCategoryTapped(object sender, EventArgs e)
-    {
-        await AnimateAndNavigate(TabCategory, "//AudioPage");
-    }
-
-    private async void OnTabContributorsTapped(object sender, EventArgs e)
-    {
-        await AnimateAndNavigate(TabContributors, "//TesbihPage");
-    }
-
- 
-    [Obsolete]
-    private void SetActiveTab(Frame activeTab)
-    {
-        // Réinitialiser tous les onglets
-        foreach (var tab in new[] { TabQuran, TabCategory, TabContributors })
+        if (Shell.Current is not null)
         {
-            tab.BackgroundColor = InactiveColor;
+            Shell.Current.Navigated -= ShellNavigated;
+            Shell.Current.Navigated += ShellNavigated;
         }
+        RefreshActiveTab();
+    }
 
-        // Appliquer le style "actif" arrondi + ombre au bouton sélectionné
-        activeTab.BackgroundColor = ActiveColor;
-        activeTab.Shadow = new Shadow
+    private void OnUnloaded(object? sender, EventArgs e)
+    {
+        if (Shell.Current is not null)
+            Shell.Current.Navigated -= ShellNavigated;
+    }
+
+    private void ShellNavigated(object? sender, ShellNavigatedEventArgs e)
+        => MainThread.BeginInvokeOnMainThread(RefreshActiveTab);
+
+    private void RefreshActiveTab()
+    {
+        string page = Shell.Current?.CurrentPage?.GetType().Name ?? "MainPage";
+        string key = page switch
         {
-            Brush = Brush.Black,
-            Offset = new Point(0, 3),
-            Radius = 10,
-            Opacity = 0.4f
+            "MainPage" => "home",
+            "DuaHubPage" => "dua",
+            "FavoriteHubPage" => "favorite",
+            "QuranSettingsPage" => "settings",
+            "SouratesPage" or "AudioPage" => "quran",
+            _ when page.Contains("Dua", StringComparison.OrdinalIgnoreCase) => "dua",
+            _ when page.Contains("Favorite", StringComparison.OrdinalIgnoreCase) => "favorite",
+            _ when page.Contains("Settings", StringComparison.OrdinalIgnoreCase) => "settings",
+            _ => "quran"
         };
+
+        (Border tab, Label label, Image image, string imageName, string id)[] items =
+        {
+            (TabQuran, TextQuran, IconQuran, "footer_quran", "quran"),
+            (TabDua, TextDua, IconDua, "footer_dua", "dua"),
+            (TabHome, TextHome, IconHome, "footer_home", "home"),
+            (TabFavorites, TextFavorites, IconFavorites, "footer_favorite", "favorite"),
+            (TabSettings, TextSettings, IconSettings, "footer_settings", "settings")
+        };
+
+        foreach (var item in items)
+        {
+            bool active = item.id == key;
+            item.tab.BackgroundColor = active ? Color.FromArgb("#1557BC") : Colors.Transparent;
+            item.tab.Stroke = new SolidColorBrush(active ? Color.FromArgb("#F1C665") : Colors.Transparent);
+            item.label.TextColor = active ? Color.FromArgb("#FFD971") : Colors.White;
+            item.image.Source = $"{item.imageName}_{(active ? "gold" : "white")}.png";
+        }
     }
 
-    [Obsolete]
-    private async Task AnimateAndNavigate(Frame tappedTab, string route)
+    // La route racine réinitialise l'historique de navigation.
+    private async Task GoAsync(string route)
     {
-        SetActiveTab(tappedTab);
-
-        // Animation du bouton
-        await tappedTab.ScaleTo(0.88, 80, Easing.CubicOut);
-        await tappedTab.ScaleTo(1.0, 120, Easing.SpringOut);
-
-        // Fade-out léger de la page courante avant de naviguer
-        if (Shell.Current?.CurrentPage != null)
+        if (Shell.Current is null) return;
+        if (route == "home")
         {
-            var currentPage = Shell.Current.CurrentPage;
-            await currentPage.FadeTo(0.4, 120, Easing.CubicIn);
+            await Shell.Current.GoToAsync("//home");
+            return;
         }
+        if (Shell.Current.CurrentPage?.GetType().Name == route) return;
 
+        // Evite l'empilement des pages lorsque l'on passe d'un onglet à l'autre.
+        await Shell.Current.GoToAsync("//home");
         await Shell.Current.GoToAsync(route);
     }
+
+    private async void OnQuranTapped(object sender, TappedEventArgs e)
+        => await GoAsync(nameof(SouratesPage));
+
+    private async void OnDuaTapped(object sender, TappedEventArgs e)
+        => await GoAsync(nameof(DuasPage));
+
+    private async void OnHomeTapped(object sender, TappedEventArgs e)
+        => await GoAsync("home");
+
+    private async void OnFavoritesTapped(object sender, TappedEventArgs e)
+        => await GoAsync(nameof(FavoriteHubPage));
+
+    private async void OnSettingsTapped(object sender, TappedEventArgs e)
+        => await GoAsync(nameof(QuranSettingsPage));
 }
