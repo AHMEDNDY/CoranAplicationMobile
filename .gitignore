@@ -3,5 +3,4 @@ bin/
 obj/
 .VS/
 # Gros fichiers audio/PDF
-*.pdf/*.mp3/
 *.apkbin/
