@@ -43,6 +43,12 @@ public static class MauiProgram
         builder.Services.AddSingleton<AnimatedContentPage>();
         builder.Services.AddSingleton<AudioPage>();
         builder.Services.AddSingleton<TesbihPage>();
+        builder.Services.AddSingleton<MainPage>();
+        builder.Services.AddSingleton<DuaHubPage>();
+        builder.Services.AddSingleton<FavoriteHubPage>();
+        builder.Services.AddSingleton<QuranSettingsPage>();
+        builder.Services.AddSingleton<DuasPage>();
+        builder.Services.AddSingleton<DuaDetailPage>();
 
 #if DEBUG
         builder.Logging.AddDebug();

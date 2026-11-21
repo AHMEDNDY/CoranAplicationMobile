@@ -1,15 +1,51 @@
-﻿<?xml version = "1.0" encoding = "UTF-8" ?>
-<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:CoranWarshSynchroniser"
-             x:Class="CoranWarshSynchroniser.App">
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Application
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CoranWarshSynchroniser"
+    xmlns:views="clr-namespace:CoranWarshSynchroniser.Views"
+    x:Class="CoranWarshSynchroniser.App">
+
     <Application.Resources>
+
         <ResourceDictionary>
+
+            <!-- Styles existants -->
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
-                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
-                <ResourceDictionary Source="Resources/Styles/MushafTheme.xaml"/>
+
+                <ResourceDictionary
+                    Source="Resources/Styles/Colors.xaml" />
+
+                <ResourceDictionary
+                    Source="Resources/Styles/Styles.xaml" />
+
+                <ResourceDictionary
+                    Source="Resources/Styles/MushafTheme.xaml" />
+
             </ResourceDictionary.MergedDictionaries>
+
+            <!-- TEMPLATE GLOBAL AVEC FOOTER FIXE -->
+            <ControlTemplate x:Key="QuranPageTemplate">
+
+                <Grid
+                    RowDefinitions="*,Auto"
+                    RowSpacing="0"
+                    BackgroundColor="#EDF3FC">
+
+                    <!-- Contenu principal de la page -->
+                    <ContentPresenter
+                        Grid.Row="0" />
+
+                    <!-- Footer fixe -->
+                    <views:CustomBottomNav
+                        Grid.Row="1" />
+
+                </Grid>
+
+            </ControlTemplate>
+
         </ResourceDictionary>
+
     </Application.Resources>
+
 </Application>
