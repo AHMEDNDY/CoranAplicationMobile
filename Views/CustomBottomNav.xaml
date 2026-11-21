@@ -50,7 +50,7 @@
                                      HorizontalOptions="Center"
                                      VerticalOptions="Center">
                     <Image x:Name="IconDua" Source="mains_ouvertes_white.png"
-                           WidthRequest="28" HeightRequest="28" />
+                           WidthRequest="50" HeightRequest="50" />
                     <Label x:Name="TextDua" Text="الأدعية"
                            TextColor="White" FontSize="11"
                            FontAttributes="Bold" HorizontalTextAlignment="Center" />
