@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:vm="clr-namespace:CoranWarshSynchroniser.ViewModels"
+    xmlns:models="clr-namespace:CoranWarshSynchroniser.Models"
+    x:Class="CoranWarshSynchroniser.Views.QuranDuasPage"
+    x:Name="DuasRoot"
+    FlowDirection="RightToLeft"
+    BackgroundColor="#EAF1FB"
+    Shell.NavBarIsVisible="False"
+    ControlTemplate="{StaticResource QuranPageTemplate}">
+
+    <ContentPage.BindingContext>
+        <vm:QuranDuasViewModel/>
+    </ContentPage.BindingContext>
+
+    <Grid RowDefinitions="75,*">
+
+        <!-- العنوان -->
+        <Grid Grid.Row="0"
+              BackgroundColor="#003B78">
+
+            <Label
+                Text="أدعية من القرآن الكريم"
+                TextColor="White"
+                FontSize="25"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+        </Grid>
+
+        <!-- قائمة الأدعية -->
+        <CollectionView
+            Grid.Row="1"
+            ItemsSource="{Binding Duas}"
+            SelectionMode="None"
+            Margin="12">
+
+            <CollectionView.ItemTemplate>
+
+                <DataTemplate x:DataType="models:QuranDua">
+
+                    <Border
+                        BackgroundColor="White"
+                        Stroke="#D9AB52"
+                        StrokeThickness="1"
+                        StrokeShape="RoundRectangle 20"
+                        Padding="18"
+                        Margin="0,7">
+
+                        <VerticalStackLayout Spacing="12">
+
+                            <!-- عنوان الدعاء -->
+                            <Label
+                                Text="{Binding Title}"
+                                TextColor="#003B78"
+                                FontSize="19"
+                                FontAttributes="Bold"
+                                HorizontalOptions="Center"/>
+
+                            <!-- النص القرآني -->
+                            <Label
+                                Text="{Binding AyaText}"
+                                FontFamily="UthmanicWarsh"
+                                FontSize="27"
+                                TextColor="#102B52"
+                                HorizontalTextAlignment="Center"
+                                LineBreakMode="WordWrap"/>
+
+                            <BoxView
+                                HeightRequest="1"
+                                BackgroundColor="#E8D7AE"/>
+
+                            <!-- رقم السورة والآية -->
+                            <Label
+                                Text="{Binding Reference}"
+                                TextColor="#A67C32"
+                                FontSize="14"
+                                HorizontalOptions="Center"/>
+
+                            <!-- زر فتح الآية -->
+                            <Button
+                                Text="📖 قراءة واستماع"
+                                BackgroundColor="#003B78"
+                                TextColor="White"
+                                CornerRadius="15"
+                                HeightRequest="45"
+                                Command="{Binding BindingContext.OpenDuaCommand,
+                                    Source={x:Reference DuasRoot},
+                                    x:DataType={x:Null}}"
+                                CommandParameter="{Binding .}"/>
+
+                        </VerticalStackLayout>
+
+                    </Border>
+
+                </DataTemplate>
+
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </Grid>
+
+</ContentPage>

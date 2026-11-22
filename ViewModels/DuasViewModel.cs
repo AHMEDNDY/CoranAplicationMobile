@@ -153,12 +153,20 @@ namespace CoranWarshSynchroniser.ViewModels
             if (category == null)
                 return;
 
+            if (category.Id == 1)
+            {
+                await Shell.Current.GoToAsync(
+                    nameof(Views.QuranDuasPage));
+
+                return;
+            }
+
             await Shell.Current.GoToAsync(
                 nameof(Views.DuaDetailPage),
                 new Dictionary<string, object>
                 {
-                    { "CategoryId", category.Id },
-                    { "CategoryName", category.Name }
+                    ["CategoryId"] = category.Id,
+                    ["CategoryName"] = category.Name
                 });
         }
     }

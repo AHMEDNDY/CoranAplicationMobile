@@ -14,7 +14,7 @@ public partial class MainPage : ContentPage
         => await Shell.Current.GoToAsync(nameof(AudioPage));
 
     private async void OnDuaTapped(object sender, TappedEventArgs e)
-        => await Shell.Current.GoToAsync(nameof(DuaHubPage));
+        => await Shell.Current.GoToAsync(nameof(DuasPage));
 
     private async void OnFavoriteTapped(object sender, TappedEventArgs e)
         => await Shell.Current.GoToAsync(nameof(FavoriteHubPage));

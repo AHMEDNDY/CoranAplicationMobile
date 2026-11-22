@@ -28,6 +28,9 @@ namespace CoranWarshSynchroniser
             Routing.RegisterRoute(
                 nameof(DuasPage),
                 typeof(DuasPage));
+            Routing.RegisterRoute(
+    nameof(QuranDuasPage),
+    typeof(QuranDuasPage));
             // Conservez ici vos autres enregistrements de routes existants.
             // Ne doublez pas un RegisterRoute déjà présent dans votre projet.
         }

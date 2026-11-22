@@ -49,6 +49,7 @@ public static class MauiProgram
         builder.Services.AddSingleton<QuranSettingsPage>();
         builder.Services.AddSingleton<DuasPage>();
         builder.Services.AddSingleton<DuaDetailPage>();
+        builder.Services.AddSingleton<DuaDetailPage>();
 
 #if DEBUG
         builder.Logging.AddDebug();

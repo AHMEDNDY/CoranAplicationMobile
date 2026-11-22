@@ -80,6 +80,9 @@
     <MauiXaml Update="Views\MyHomePage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
+    <MauiXaml Update="Views\QuranDuasPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
     <MauiXaml Update="Views\QuranPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </MauiXaml>
