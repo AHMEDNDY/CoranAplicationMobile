@@ -49,11 +49,15 @@
                 <VerticalStackLayout Spacing="3"
                                      HorizontalOptions="Center"
                                      VerticalOptions="Center">
-                    <Image x:Name="IconDua" Source="ui_footer_dua_white.png"
-                           WidthRequest="50" HeightRequest="50" />
+                    <Image x:Name="IconDua"
+                           Source="ui_footer_dua_white.png"
+                           WidthRequest="28"
+                           HeightRequest="28"
+                           Aspect="AspectFit"
+                           HorizontalOptions="Center" />
                     <Label x:Name="TextDua" Text="الأدعية"
-                           TextColor="White" FontSize="11"
-                           FontAttributes="Bold" HorizontalTextAlignment="Center" />
+                       TextColor="White" FontSize="11"
+                       FontAttributes="Bold" HorizontalTextAlignment="Center" />    
                 </VerticalStackLayout>
             </Border>
 

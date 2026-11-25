@@ -9,7 +9,7 @@
     FlowDirection="RightToLeft"
     BackgroundColor="#F0F4FD"
     Shell.NavBarIsVisible="False"
-    Shell.TabBarIsVisible="False">
+    Shell.TabBarIsVisible="False" >
 
     <!-- Aucun footer sur cette page : le ControlTemplate global n’est pas appliqué. -->
     <ContentPage.Resources>
@@ -78,7 +78,20 @@
                            HorizontalTextAlignment="Center" VerticalTextAlignment="Center"
                            FlowDirection="RightToLeft" />
                 </Border>
-
+                <Button Grid.Row="2"
+                        Text="اذهب إلى"
+                        SemanticProperties.Description="اذهب إلى آية"
+                        Clicked="OnGoToAyahClicked"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Center"
+                        FlowDirection="RightToLeft"
+                        BackgroundColor="{StaticResource ReaderNavy}"
+                        TextColor="{StaticResource ReaderGold}"
+                        FontAttributes="Bold"
+                        FontSize="13"
+                        CornerRadius="18"
+                        Padding="10,0"
+                        HeightRequest="38" />
                 <HorizontalStackLayout Grid.Row="2" FlowDirection="RightToLeft"
                                        VerticalOptions="Center" HorizontalOptions="Center"
                                        Spacing="19">
@@ -254,6 +267,88 @@
             <ActivityIndicator IsRunning="{Binding IsLoading}"
                                Color="#D8A23C" HeightRequest="55" WidthRequest="55"
                                HorizontalOptions="Center" VerticalOptions="Center" />
+        </Grid>
+        <Grid x:Name="GoToAyahOverlay"
+      Grid.Row="0"
+      Grid.RowSpan="3"
+      ZIndex="100"
+      IsVisible="False"
+      BackgroundColor="#80000000"
+      Padding="20">
+            <Border BackgroundColor="White"
+        StrokeThickness="0"
+        StrokeShape="RoundRectangle 20"
+        MaximumWidthRequest="420"
+        VerticalOptions="Center">
+
+
+                <Grid RowDefinitions="Auto,Auto">
+
+                    <Label Grid.Row="0"
+                   Text="اذهب إلى الآية"
+                   BackgroundColor="{StaticResource ReaderNavy}"
+                   TextColor="{StaticResource ReaderGold}"
+                   FlowDirection="RightToLeft"
+                   HorizontalTextAlignment="Center"
+                   Padding="18,14"
+                   FontSize="24"
+                   FontAttributes="Bold" />
+
+                    <VerticalStackLayout Grid.Row="1"
+                                 Padding="20,16,20,20"
+                                 Spacing="8"
+                                 FlowDirection="LeftToRight">
+
+                        <Label Text="أدخل رقم الآية"
+                       HorizontalTextAlignment="End"
+                       TextColor="{StaticResource ReaderInk}"
+                       FontAttributes="Bold" />
+
+                        <Entry x:Name="GoToAyahEntry"
+                       Keyboard="Numeric"
+                       FlowDirection="LeftToRight"
+                       HorizontalTextAlignment="End"
+                       TextColor="{StaticResource ReaderInk}"
+                       PlaceholderColor="#646B78"
+                       FontSize="22"
+                       MaxLength="3"
+                       Completed="OnConfirmGoToAyah"
+                       SemanticProperties.Description="أدخل رقم الآية" />
+
+                        <BoxView HeightRequest="2"
+                         Color="{StaticResource ReaderGold}" />
+
+                        <Label x:Name="GoToAyahError"
+                       IsVisible="False"
+                       HorizontalTextAlignment="End"
+                       TextColor="#A32626" />
+
+                        <Grid ColumnDefinitions="*,*"
+                      ColumnSpacing="10"
+                      Margin="0,10,0,0">
+
+                            <Button Grid.Column="0"
+                            Text="اذهب"
+                            Clicked="OnConfirmGoToAyah"
+                            BackgroundColor="{StaticResource ReaderNavy}"
+                            TextColor="{StaticResource ReaderGold}"
+                            CornerRadius="20"
+                            FontAttributes="Bold" />
+
+                            <Button Grid.Column="1"
+                            Text="إلغاء"
+                            Clicked="OnCancelGoToAyah"
+                            BackgroundColor="White"
+                            TextColor="{StaticResource ReaderNavy}"
+                            BorderColor="{StaticResource ReaderGold}"
+                            BorderWidth="1"
+                            CornerRadius="20"
+                            FontAttributes="Bold" />
+                        </Grid>
+
+                    </VerticalStackLayout>
+                </Grid>
+            </Border>
         </Grid>
     </Grid>
 </ContentPage>
