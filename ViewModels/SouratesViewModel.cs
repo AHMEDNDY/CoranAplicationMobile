@@ -20,7 +20,7 @@ public class SourateDisplayItem : BaseViewModel
         ? Sourate.Name
         : $" {Sourate.Name}";
     public string LatinName { get; }
-    public string VerseLabel => $"{Sourate.TotalVerses} آيات";
+    public string VerseLabel => $" عدد آياتها {Sourate.TotalVerses}";
 
     public bool IsFavorite
     {

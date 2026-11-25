@@ -224,14 +224,21 @@
                                TextColor="#102454" FontSize="12" FontAttributes="Bold"
                                HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
 
-                        <Slider x:Name="ProgressSlider" Grid.Column="1"
-                                Minimum="0" Maximum="{Binding AudioDurationSeconds}"
-                                Value="{Binding AudioPositionSeconds, Mode=OneWay}"
-                                MinimumTrackColor="#DDA736" MaximumTrackColor="#9AA9C0"
-                                ThumbColor="#FFC957" FlowDirection="LeftToRight"
-                                VerticalOptions="Center"
-                                DragStarted="OnProgressDragStarted"
-                                DragCompleted="OnProgressDragCompleted" />
+                                <Slider x:Name="ProgressSlider"
+                                        Grid.Column="1"
+                                        Minimum="0"
+                                        Maximum="{Binding AudioDurationSeconds}"
+                                        Value="{Binding AudioPositionSeconds, Mode=TwoWay}"
+                                        MinimumTrackColor="#DDA736"
+                                        MaximumTrackColor="#9AA9C0"
+                                        ThumbColor="#FFC957"
+                                        FlowDirection="LeftToRight"
+                                        HorizontalOptions="Fill"
+                                        VerticalOptions="Center"
+                                        HeightRequest="34"
+                                        DragStarted="OnProgressDragStarted"
+                                        DragCompleted="OnProgressDragCompleted"
+                                        ValueChanged="OnProgressValueChanged" />    
 
                         <Label Grid.Column="2" Text="{Binding DurationTimeText}"
                                TextColor="#102454" FontSize="12" FontAttributes="Bold"

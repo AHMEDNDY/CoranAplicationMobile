@@ -19,6 +19,7 @@ namespace CoranWarshSynchroniser.Services
             _player.PlaybackEnded += OnEnded;
         }
 
+       
 
         public async Task LoadSurahAudioAsync(string audioPath)
         {
@@ -103,6 +104,11 @@ namespace CoranWarshSynchroniser.Services
             if (_player == null) return;
             _player.Pause();
             _player.Seek(0);
+        }
+
+        public double GetDurationSeconds()
+        {
+            return _player?.Duration ?? 0;
         }
     }
 }

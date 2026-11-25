@@ -93,7 +93,7 @@ public class QuranReaderViewModel : BaseViewModel
                 OnPropertyChanged(nameof(VerseCountText));
         }
     }
-    public string VerseCountText => $"{Totalverse} آيات";
+    public string VerseCountText => $"عدد آياتها {Totalverse}";
 
     public int CurrentSurahNumber
     {
@@ -307,33 +307,92 @@ public class QuranReaderViewModel : BaseViewModel
     // API publique conservée pour compatibilité.
     public async Task LoadSurahAsync(int surahNumber)
     {
-        if (surahNumber == _loadedAudioSurah) return;
+        if (surahNumber == _loadedAudioSurah)
+            return;
+
         string audioFile = $"Audio/{surahNumber:D3}.mp3";
+
         await _audioService.LoadSurahAudioAsync(audioFile);
+
         _loadedAudioSurah = surahNumber;
+
         _hasStartedAudio = false;
+
+        double duration = _audioService.GetDurationSeconds();
+
+        if (duration > 0)
+        {
+            AudioDurationSeconds = duration;
+        }
     }
+
 
     private void SyncTick(object? sender, EventArgs e)
     {
-        if (_currentAyah == null || !_hasStartedAudio || _isSeeking) return;
+        if (!_hasStartedAudio || _isSeeking)
+            return;
 
-        double current = _audioService.GetCurrentPosition().TotalSeconds;
-        AudioPositionSeconds = Math.Clamp(current, 0, AudioDurationSeconds);
-        if (!_audioService.IsPlaying()) return;
-
-        if (_currentAyah.End > 0 && current >= _currentAyah.End)
+        try
         {
-            // Le timer met seulement à jour la sélection visuelle :
-            // le MP3 continue sans relancer une lecture à chaque ayah.
-            int nextAya = _currentAyah.AyaNo + 1;
-            if (SurahJsonData.Any(a => a.AyaNo == nextAya))
-                OnAyahChanged(nextAya);
-            else
+            double current = _audioService
+                .GetCurrentPosition()
+                .TotalSeconds;
+
+            AudioPositionSeconds = Math.Clamp(
+                current,
+                0,
+                AudioDurationSeconds);
+
+            if (!_audioService.IsPlaying())
             {
                 IsPlayVisible = true;
                 IsPauseVisible = false;
+
+                return;
             }
+
+            var ayah = SurahJsonData
+                .FirstOrDefault(a =>
+                    a.Start <= current &&
+                    a.End > current);
+
+            if (ayah != null &&
+                _currentAyah?.AyaNo != ayah.AyaNo)
+            {
+                _currentAyah = ayah;
+
+                HighlightAyah(ayah.AyaNo);
+
+                ScrollToSpanRequested?.Invoke(ayah.AyaNo);
+            }
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine(
+                $"SyncTick : {ex.Message}");
+        }
+    }
+
+  
+    public void StopPlayer()
+    {
+        _syncTimer.Stop();
+
+        _audioService.Stop();
+
+        _loadedAudioSurah = -1;
+        _hasStartedAudio = false;
+        _isSeeking = false;
+
+        IsPlayVisible = true;
+        IsPauseVisible = false;
+    }
+
+    public void StartSynchronization()
+    {
+        if (!_syncTimer.IsRunning)
+        {
+            _syncTimer.Start();
         }
     }
 
@@ -463,32 +522,71 @@ public class QuranReaderViewModel : BaseViewModel
         });
     }
 
-    public void BeginSeeking() => _isSeeking = true;
+    public void BeginSeeking()
+    {
+        _isSeeking = true;
+    }
+
+    public void EndSeeking()
+    {
+        _isSeeking = false;
+    }
 
     public async Task SeekAsync(double positionSeconds)
     {
+        if (CurrentSurahNumber < 1 ||
+            SurahJsonData.Count == 0)
+            return;
+
+        _isSeeking = true;
+
         try
         {
             await LoadSurahAsync(CurrentSurahNumber);
-            double pos = Math.Clamp(positionSeconds, 0, AudioDurationSeconds);
-            await _audioService.ResumeFromAsync(pos);
+
+            double position = Math.Clamp(
+                positionSeconds,
+                0,
+                AudioDurationSeconds);
+
+            // Reprendre la lecture à la position choisie
+            await _audioService.ResumeFromAsync(position);
+
             _hasStartedAudio = true;
-            AudioPositionSeconds = pos;
+
+            AudioPositionSeconds = position;
+
             IsPlayVisible = false;
             IsPauseVisible = true;
 
-            // Retrouver l'ayah correspondant au temps ; pas de PlayAyah ici.
-            var ayah = SurahJsonData.LastOrDefault(a => a.Start <= pos);
+            // Rechercher l'ayat correspondant à la position
+            var ayah = SurahJsonData
+                .FirstOrDefault(a =>
+                    a.Start <= position &&
+                    a.End > position);
+
+            // Solution alternative
+            if (ayah == null)
+            {
+                ayah = SurahJsonData
+                    .Where(a => a.Start <= position)
+                    .OrderByDescending(a => a.Start)
+                    .FirstOrDefault();
+            }
+
             if (ayah != null)
             {
                 _currentAyah = ayah;
+
                 HighlightAyah(ayah.AyaNo);
+
                 ScrollToSpanRequested?.Invoke(ayah.AyaNo);
             }
         }
         catch (Exception ex)
         {
-            System.Diagnostics.Debug.WriteLine($"SeekAsync : {ex}");
+            System.Diagnostics.Debug.WriteLine(
+                $"SeekAsync : {ex}");
         }
         finally
         {
@@ -526,11 +624,5 @@ public class QuranReaderViewModel : BaseViewModel
         IsFavorite = ids.Contains(CurrentSurahNumber);
     }
 
-    public void StopPlayer()
-    {
-        _syncTimer.Stop();
-        _syncTimer.Tick -= SyncTick;
-        _audioService.AyahChanged -= OnAyahChanged;
-        _audioService.Stop();
-    }
+    
 }
